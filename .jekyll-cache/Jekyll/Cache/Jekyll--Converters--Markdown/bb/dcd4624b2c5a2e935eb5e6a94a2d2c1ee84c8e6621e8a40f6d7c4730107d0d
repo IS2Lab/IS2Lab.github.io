@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Home | Intelligent System Security (IS2) Lab</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="ZJU">
-<meta name="generator" content="Jekyll v4.2.1">
-<link rel="canonical" href="http://localhost:4000/">
-
-<link rel="stylesheet" href="/assets/css/frame.css">
-
-<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Intelligent System Security (IS2) Lab">
-
-
-
-
-
-
-
-<header>
-  <a href="/" class="title">Intelligent System Security (IS2) Lab</a>
-  <nav><a href="/" class="selected">Home</a><a href="/mem/" >Members</a><a href="/res/" >Research</a><a href="/pubs/" >Publications</a><a href="/msic/" >MISC</a></nav>
-
-</header>
-
-<article>
-  <header><h1><a href="/">Home</a></h1></header>
-  <!-- ## Who are we? -->
+I"e<!-- ## Who are we? -->
 
 <p>The <em>Intelligent System Security (IS2) Lab</em> is a research group led by <a href="wang-jingyi.github.io">Prof. Jingyi Wang</a> affiliated with the College of Control Science and Engineering, Zhejiang University, Hangzhou, China. We mainly conduct research in the interdisciplinary fields of <strong>formal methods, software engineering, system security and machine learning, with a focus on providing reliability or security guarantees for practical large-scale Artificial Intelligence (AI) systems and Cyber-physical systems (CPSs) like autonomous driving cars, industrial control systems, recommendation systems, healthcare, etc.</strong> 
 <!-- Our research studies how to automatically mine and understand software vulnerabilities, often relying on techniques such as deep learning, symbolic execution, and fuzz testing, and we use the insights gained to drive security measurement of large-scale software systems. -->
@@ -126,16 +99,4 @@ Contrast comes preinstalled with a leightweight alternative to MathJax called [K
 ![screenshot](https://user-images.githubusercontent.com/4943215/109431832-b6cac080-7a08-11eb-9c5e-a058680c23a1.png)
 
 ![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png) -->
-
-</article>
-
-
-
-<footer>
-  <div>Intelligent System Security (IS2) Lab</div>
-  <nav><a href="mailto:wangjyee@gmail.com" ><svg aria-label="Mail" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a></nav>
-
-</footer>
-
-
-</html>
+:ET

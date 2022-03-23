@@ -1,64 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Members | Intelligent System Security (IS2) Lab</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="ZJU">
-<meta name="generator" content="Jekyll v4.2.1">
-<link rel="canonical" href="http://localhost:4000/mem/">
+I"Â<p><em>IS2 Lab is actively looking for self-motivated PostDoc/PhD/Master/RA/interns with competative salaries to join us. Feel free to drop an email with CV to Prof. Wang if you are interested.</em></p>
 
-<link rel="stylesheet" href="/assets/css/frame.css">
+<!-- For Posdocs:
 
-<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Intelligent System Security (IS2) Lab">
+- Proficiency in writing...
 
+For PhD students:
 
+- Self-motivated
 
+For Master students:
 
+- Good grade
 
+For Research assistants/interns:
 
+- Handson skill in... -->
 
-<header>
-  <a href="/" class="title">Intelligent System Security (IS2) Lab</a>
-  <nav><a href="/" >Home</a><a href="/mem/" class="selected">Members</a><a href="/res/" >Research</a><a href="/pubs/" >Publications</a><a href="/msic/" >MISC</a></nav>
+<!-- 
+## Who are we?
 
-</header>
+Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
 
-<article>
-  <header><h1><a href="/mem/">Members</a></h1></header>
-  <p><strong><em>Currently, IS2 Lab is actively looking for self-motivated PostDoc/PhD/Master/RA/interns with competative salaries. Feel free to drop an email with CV to Prof. Wang if you are interested.</em></strong></p>
-
-<h3 id="faculty-prof-jingyi-wang">Faculty: <a href="https://wang-jingyi.github.io">Prof. Jingyi Wang</a></h3>
-
-<h3 id="phd-students">PhD students:</h3>
-<ul>
-  <li>Xiangshan Gao, 2018 Fall, B.E., Xidian University, Co-supervision with Prof. Cheng</li>
-  <li>Shunkai Zhu, 2019 Fall, B.E., Xidian University, Co-supervision with Prof. Cheng</li>
-  <li><a href="https://smallkeychen.github.io">Jialuo Chen</a>, 2020 Fall, B.E., Zhejiang University, Co-supervision with Prof. Cheng</li>
-  <li>Huan Sun, 2020 Fall, B.E., Hefei University of Technology, Co-supervision with Prof. Wang</li>
-  <li>Xiangxiang Chen, 2021 Fall, B.E., Xiâ€™an Jiaotong University</li>
-  <li>Xiaoxia Liu, 2022 Fall, B.E., Jilin University</li>
-  <li>Xuran Li, 2022 Fall, B.E., Tongji University</li>
-</ul>
-
-<h3 id="master-students">Master students:</h3>
-<ul>
-  <li>Huizhong Guo, B.E., Zhejiang University, 2021 Fall</li>
-  <li>Fan Zhou, B.E., Shandong University, 2021 Fall</li>
-  <li>Ziyu Mao, B.E., Shandong University, 2022 Fall</li>
-</ul>
-
-<!-- ### Undergraduate students: -->
-
-<h3 id="alumni">Alumni:</h3>
-
-<ul>
-  <li>
-    <p>Tinglan Peng, B.E., ZJU, FYP 2021, <em>3rd author of IEEE S&amp;P 2022</em>, now in industry</p>
-  </li>
-  <li>
-    <p>Zhang Liyi, B.S., Uni. of Waterloo, Research Assistant, now Master in Uni. of Waterloo</p>
-  </li>
-</ul>
 
 <!-- ## Features
 
@@ -149,16 +111,4 @@ Contrast comes preinstalled with a leightweight alternative to MathJax called [K
 ![screenshot](https://user-images.githubusercontent.com/4943215/109431832-b6cac080-7a08-11eb-9c5e-a058680c23a1.png)
 
 ![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png) -->
-
-</article>
-
-
-
-<footer>
-  <div>Intelligent System Security (IS2) Lab</div>
-  <nav><a href="mailto:wangjyee@gmail.com" ><svg aria-label="Mail" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a></nav>
-
-</footer>
-
-
-</html>
+:ET

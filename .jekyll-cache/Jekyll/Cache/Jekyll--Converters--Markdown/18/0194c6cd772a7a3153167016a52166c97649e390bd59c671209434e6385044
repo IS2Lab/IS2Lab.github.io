@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Research | Intelligent System Security (IS2) Lab</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="ZJU">
-<meta name="generator" content="Jekyll v4.2.1">
-<link rel="canonical" href="http://localhost:4000/res/">
-
-<link rel="stylesheet" href="/assets/css/frame.css">
-
-<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Intelligent System Security (IS2) Lab">
-
-
-
-
-
-
-
-<header>
-  <a href="/" class="title">Intelligent System Security (IS2) Lab</a>
-  <nav><a href="/" >Home</a><a href="/mem/" >Members</a><a href="/res/" class="selected">Research</a><a href="/pubs/" >Publications</a><a href="/msic/" >MISC</a></nav>
-
-</header>
-
-<article>
-  <header><h1><a href="/res/">Research</a></h1></header>
-  <p>We seek to do cutting-edge, high-quality, and impactful research combining theory and practice. As such, we are closely collaborating with our industrial partners including Huawei, Alibaba Group, and Ant Group to solve real-world challenging problems in an effective and scalable way.</p>
+I"‘<p>We seek to do cutting-edge, high-quality, and impactful research combining theory and practice. As such, we are closely collaborating with our industrial partners including Huawei, Alibaba Group, and Ant Group to solve real-world challenging problems in an effective and scalable way.</p>
 
 <h1 id="ai-system-analysis">AI System Analysis</h1>
 
@@ -168,16 +141,4 @@ Contrast comes preinstalled with a leightweight alternative to MathJax called [K
 ![screenshot](https://user-images.githubusercontent.com/4943215/109431832-b6cac080-7a08-11eb-9c5e-a058680c23a1.png)
 
 ![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png) -->
-
-</article>
-
-
-
-<footer>
-  <div>Intelligent System Security (IS2) Lab</div>
-  <nav><a href="mailto:wangjyee@gmail.com" ><svg aria-label="Mail" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a></nav>
-
-</footer>
-
-
-</html>
+:ET

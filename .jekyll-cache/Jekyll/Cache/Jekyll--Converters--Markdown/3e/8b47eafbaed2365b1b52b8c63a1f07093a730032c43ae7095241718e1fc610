@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Markdown examples | Intelligent System Security (IS2) Lab</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="ZJU">
-<meta name="generator" content="Jekyll v4.2.1">
-<link rel="canonical" href="http://localhost:4000/2017-02-01-markdown-examples/">
-
-<link rel="stylesheet" href="/assets/css/frame.css">
-
-<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Intelligent System Security (IS2) Lab">
-
-
-
-
-
-
-
-<header>
-  <a href="/" class="title">Intelligent System Security (IS2) Lab</a>
-  <nav><a href="/" >Home</a><a href="/mem/" >Members</a><a href="/res/" >Research</a><a href="/pubs/" >Publications</a><a href="/msic/" >MISC</a></nav>
-
-</header>
-
-<article>
-  <header>
-  <h1><a href="/2017-02-01-markdown-examples/">Markdown examples</a></h1><time datetime=""></time>
-</header>
-
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+I"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit.</p>
 
@@ -148,17 +118,4 @@ function foo () {
     </ol>
   </li>
 </ol>
-
-  
-</article>
-
-
-
-<footer>
-  <div>Intelligent System Security (IS2) Lab</div>
-  <nav><a href="mailto:wangjyee@gmail.com" ><svg aria-label="Mail" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a></nav>
-
-</footer>
-
-
-</html>
+:ET

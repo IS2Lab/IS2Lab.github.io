@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Members | Intelligent System Security (IS2) Lab</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="ZJU">
-<meta name="generator" content="Jekyll v4.2.1">
-<link rel="canonical" href="http://localhost:4000/mem/">
-
-<link rel="stylesheet" href="/assets/css/frame.css">
-
-<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Intelligent System Security (IS2) Lab">
-
-
-
-
-
-
-
-<header>
-  <a href="/" class="title">Intelligent System Security (IS2) Lab</a>
-  <nav><a href="/" >Home</a><a href="/mem/" class="selected">Members</a><a href="/res/" >Research</a><a href="/pubs/" >Publications</a><a href="/msic/" >MISC</a></nav>
-
-</header>
-
-<article>
-  <header><h1><a href="/mem/">Members</a></h1></header>
-  <p><strong><em>Currently, IS2 Lab is actively looking for self-motivated PostDoc/PhD/Master/RA/interns with competative salaries. Feel free to drop an email with CV to Prof. Wang if you are interested.</em></strong></p>
+I"€<p><strong><em>Currently, IS2 Lab is actively looking for self-motivated PostDoc/PhD/Master/RA/interns with competative salaries. Feel free to drop an email with CV to Prof. Wang if you are interested.</em></strong></p>
 
 <h3 id="faculty-prof-jingyi-wang">Faculty: <a href="https://wang-jingyi.github.io">Prof. Jingyi Wang</a></h3>
 
@@ -149,16 +122,4 @@ Contrast comes preinstalled with a leightweight alternative to MathJax called [K
 ![screenshot](https://user-images.githubusercontent.com/4943215/109431832-b6cac080-7a08-11eb-9c5e-a058680c23a1.png)
 
 ![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png) -->
-
-</article>
-
-
-
-<footer>
-  <div>Intelligent System Security (IS2) Lab</div>
-  <nav><a href="mailto:wangjyee@gmail.com" ><svg aria-label="Mail" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a></nav>
-
-</footer>
-
-
-</html>
+:ET
