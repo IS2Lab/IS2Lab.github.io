@@ -10,7 +10,7 @@ permalink: /research/
 
 We seek to do cutting-edge, high-quality, and impactful research combining theory and practice. As such, we are closely collaborating with our industrial partners including Huawei, Alibaba Group, and Ant Group to solve real-world challenging problems in an effective and scalable way.
 
-Here are some themes and techniques that we currently work on:
+<!-- Here are some themes and techniques that we currently work on:
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/copyright_.png){: style="width: 800px; float: center; margin: 0px  10px"}
 <br>
@@ -37,4 +37,4 @@ Here are some themes and techniques that we currently work on:
 **Certifiable Machine Unlearning.** We are building a certifiable machine unlearning framework that aims to guarantee the data to be forgotten and not damage model's performance.
 
 
-### ... and more.
+### ... and more. -->
