@@ -1,10 +1,10 @@
-I"Â<h1 id="group-members">Group Members</h1>
+I"Þ<h1 id="group-members">Group Members</h1>
 
 <p><strong>We are looking for self-motivated PostDoc/PhD/master/research assistants/research interns to join the team !</strong></p>
 
 <!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
-<h2 id="fachulty">Fachulty</h2>
+<h2 id="faculty">Faculty</h2>
 
 <div class="row">
 
@@ -120,6 +120,7 @@
 <div class="row">
 
   <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/images/teampic/Fan_Zhou.jpg" class="img-responsive" width="25%" style="float: left" /></p>
     <h4>Fan Zhou</h4>
     <p><i>Master student, started 2020 <!-- <br>email: <></i> --></i></p>
     <ul style="overflow: hidden">
@@ -136,6 +137,7 @@
   </div>
 
   <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/images/teampic/Huizhong_Guo.jpg" class="img-responsive" width="25%" style="float: left" /></p>
     <h4>HuiZhong Guo</h4>
     <p><i>Master student, started 2021 <!-- <br>email: <></i> --></i></p>
     <ul style="overflow: hidden">
@@ -156,6 +158,7 @@
 <div class="row">
 
   <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/images/teampic/Ziyu_Mao.jpg" class="img-responsive" width="25%" style="float: left" /></p>
     <h4>Ziyu Mao</h4>
     <p><i>Master student, started 2022 <!-- <br>email: <></i> --></i></p>
     <ul style="overflow: hidden">
@@ -175,6 +178,18 @@
 
 <h2 id="alumni">Alumni</h2>
 
+<style>
+table th:first-of-type {
+    width: 33%;
+}
+table th:nth-of-type(2) {
+    width: 33%;
+}
+table th:nth-of-type(3) {
+    width: 33%;
+}
+</style>
+
 <table>
   <thead>
     <tr>
@@ -186,7 +201,7 @@
   <tbody>
     <tr>
       <td style="text-align: left">Tinglan Peng</td>
-      <td style="text-align: left">FYP 2021, 3rd author of IEEE S&amp;P 2022,</td>
+      <td style="text-align: left">FYP 2021, 3rd author of IEEE S&amp;P 2022</td>
       <td style="text-align: left">now in industry</td>
     </tr>
     <tr>
