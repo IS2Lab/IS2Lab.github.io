@@ -8,8 +8,6 @@ permalink: /team/
 
 # Group Members
 
- **We are looking for self-motivated PostDoc/PhD/master/research assistants/research interns to join the team !**
-
 
 <!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
@@ -207,10 +205,10 @@ table th:nth-of-type(3) {
 }
 </style>
 
-| Who are they | What were they here | Where they went |
+| Who are they? | Role here | Where are they? |
 | :------------- |:-------------| :-----------|
-| Tinglan Peng | FYP 2021, 3rd author of IEEE S&P 2022 | now in industry |
-| Zhang Liyi | Research Assistant | now Master in Uni. of Waterloo |
+| Tinglan Peng | FYP student 2021, 3rd author of IEEE S&P 2022 | In industry |
+| Zhang Liyi | Research Intern | Master student in Uni. of Waterloo |
 
 <br>
 

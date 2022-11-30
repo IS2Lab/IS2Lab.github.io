@@ -1,12 +1,12 @@
 ---
-title: "IS2Lab - Home"
+title: "IS2 Lab - Home"
 layout: homelay
-excerpt: "IS2Lab at Zhejiang University."
+excerpt: "IS2 Lab at Zhejiang University."
 sitemap: false
 permalink: /
 ---
 
-The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Jingyi Wang](wang-jingyi.github.io) affiliated with the College of Control Science and Engineering, Zhejiang University, Hangzhou, China. We mainly conduct research in the interdisciplinary fields of formal methods, software engineering, system security and machine learning, with a focus on providing reliability or security guarantees for practical large-scale Artificial Intelligence (AI) systems and Cyber-physical systems (CPSs) like autonomous driving cars, industrial control systems, recommendation systems, healthcare, etc.
+**About** The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, Zhejiang University, Hangzhou, China. The goal of our lab's research is to apply various formal methods or software engineering techniques to *provide certifiable (and ideally provable) reliability or security guarantees for practical intelligent or distributed systems* like autonomous driving car, industrial control system, blockchain system, etc.
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -20,13 +20,13 @@ The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Ji
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/all_people_slide.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/teacherday.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/nnrepair_ slide.png" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/is2lab.png" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ODsystem_ slide.png" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/research-overview.png" alt="Slide 3" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -39,8 +39,12 @@ The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Ji
   </a>
 </div>
 
-We are actively looking for self-motivated PostDoc/PhD/master/research assistants/research interns with competitive packages to join my group at ZJU.
-Feel free to drop me an email with CV if you are interested in any of the above research topics. Preferred PhD candidates should either be good at programming or maths, and more importantly love doing research. For ZJU students, kindly check out my Google Calendar if you wish to have a talk.
+**Collaborations** Our lab has established active collaborations with top universities like ETH, UC Berkeley, UIUC, National University of Singapore, etc. Moreover, we are also working closely with our industrial partners like Huawei, Alibaba and Ant Group to tackle real-world challenges. 
+
+
+**Vacencies** Our lab is always actively looking for self-motivated PostDoc/PhD/master/research assistants/research interns with competitive packages to join our group at ZJU to work on any of the above topics. Feel free to contact Prof. Wang with CV (and transcript for PhD/Master applications) if you are interested. 
+<!-- Preferred PhD candidates should be good at programming or maths, and more importantly love doing research.  -->
+<!-- For ZJU students, kindly check out my Google Calendar if you wish to have a talk. -->
 
 <br>
 
