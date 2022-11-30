@@ -39,7 +39,6 @@ permalink: /publications/
 [IoT] Yangyang Geng, Yuqi Chen, Rongkuan Ma, Qiang Wei, Jie Pan, Jingyi Wang, Peng Cheng and Qingxian Wang. *Defending Cyber-physical Systems through Reverse Engineering Based Memory Sanity Check*. IEEE Internet of Things Journal, 2022.
 
 <br>
-<br>
 
 #### 2021
 
@@ -56,7 +55,6 @@ permalink: /publications/
 [IJCIP] Yifan Jia, Jingyi Wang, Christopher M. Poskitt, Sudipta Chattopadhyay, Jun Sun and Yuqi Chen. *Adversarial Attacks and Mitigation for Anomaly Detectors of Cyber-Physical Systems*, International Journal of Critical Infrastructure Protection. (Accepted)
 
 <br>
-<br>
 
 
 #### 2020
@@ -67,7 +65,6 @@ permalink: /publications/
 
 [ICECCS, CCF C] Yizhen Dong, Peixin Zhang, Jingyi Wang\*, Shuang Liu, Jun Sun, Jianye Hao, Xinyu Wang, Li Wang, Jin Song Dong and Ting Dai. *An Empirical Study on the Correlation between Coverage and Robustness for Deep Neural Networks*. 25th International Conference on Engineering of Complex Computer Systems, October 2020, Singapore (online).
 
-<br>
 <br>
 
 #### Before 2020
