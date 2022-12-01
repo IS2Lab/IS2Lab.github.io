@@ -73,19 +73,19 @@ permalink: /publications/
 
 [ICSE, CCF A] Xinyu Wang, Jun Sun, Zhenbang Chen, Peixin Zhang, Jingyi Wang\* and Yun Lin. *Towards Optimal Concolic Testing*, 40th International Conference on Software Engineering, Gothenburg, Sweden, May 2018. (Acceptance rate：20.9%, <font color="#dd0000">ACM SIGSOFT Distinguished Paper Award</font>)
 
-[FM, CCF B] Jingyi Wang, Jun Sun, Yifan Jia, Shengchao Qin and Zhiwu Xu. *Towards ‘Verifying’ a Water Treatment System*, 22nd International Symposium on Formal Methods, Oxford, UK, July 2018. (Acceptance rate: 28%)
+[FM, CCF A] Jingyi Wang, Jun Sun, Yifan Jia, Shengchao Qin and Zhiwu Xu. *Towards ‘Verifying’ a Water Treatment System*, 22nd International Symposium on Formal Methods, Oxford, UK, July 2018. (Acceptance rate: 28%)
+
+[FM, CCF A] Pingfan Kong, Yi Li, Xiaohong Chen, Jun Sun, Meng Sun, Jingyi Wang. *Towards Concolic Testing for Hybrid Systems*, 21st International Symposium on Formal Methods, Cyprus, Nov 2016.
+
+[ETAPS/FASE, CCF B] Jingyi Wang, Jun Sun, Qixia Yuan, Jun Pang. *Should We Learn Probabilistic Models for Model Checking? A New approach and an Empirical Study*, 20th International Conference on Fundamental Approaches to Software Engineering, Uppsala, Sweden, Apr 2017. (Acceptance rate: 27%)
 
 [DSN, CCF B] Cyrille Jegourel, Jingyi Wang and Jun Sun. *Importance Sampling of Interval Markov Chains*, 48th International Conference on Dependable Systems and Networks, Luxembourg, Nov 2018. (Acceptance rate: 26.7%)
 
 [STTT, CCF C] Jingyi Wang, Jun Sun, Qixia Yuan, and Jun Pang. *Learning Probabilistic Models for Model Checking: An Evolutionary Approach and an Empirical Study*, International Journal on Software Tools for Technology Transfer, 2018.
 
-[ETAPS/FASE, CCF B] Jingyi Wang, Jun Sun, Qixia Yuan, Jun Pang. *Should We Learn Probabilistic Models for Model Checking? A New approach and an Empirical Study*, 20th International Conference on Fundamental Approaches to Software Engineering, Uppsala, Sweden, Apr 2017. (Acceptance rate: 27%)
-
 [ICFEM, CCF C] Jingyi Wang, Xiaohong Chen, Jun Sun, Shengchao Qin. *Improving Probability Estimation through Active Probabilistic Model Learning*, 19th International Conference on Formal Engineering Methods, Xi’an, China, Nov 2017.
 
 [ICECCS, CCF C] Long H. Pham, Jun Sun, Lyly Tran, Jingyi Wang, Xin Peng. *Learning Likely Invariants to Explain Why a Program Fails*, 22nd International Conference on Engineering of Complex Computer Systems, Fukuoka, Japan, Nov 2017. (Acceptance rate: 23.3%)
-
-[FM, CCF B] Pingfan Kong, Yi Li, Xiaohong Chen, Jun Sun, Meng Sun, Jingyi Wang. *Towards Concolic Testing for Hybrid Systems*, 21st International Symposium on Formal Methods, Cyprus, Nov 2016.
 
 [ICFEM, CCF C] Manman Chen, Tian Huat Tan, Jun Sun, Jingyi Wang, Yang Liu, Jing Sun, Jin Song Dong, *Service Adaption with Probabilistic Partial Models*, 18th International Conference on Formal Engineering Methods (ICFEM), Tokyo, Japan, Nov 2016.
 
