@@ -29,7 +29,7 @@ We are building systematic methodologies and toolkits including novel testing me
 <br>
 
 
-##### 😊 **[ICSE 22, TSE 21, ICSE 20]: Testing, Intepreting and Mitigating the Hidden Bias in Deep Learning**
+##### 😊 **[ICSE 22, TSE 21, ICSE 20]: Testing, Interpreting and Mitigating the Hidden Bias in Deep Learning**
 
 We are building systematic fairness testing methodologies and toolkits specially designed for efficiently uncover, inteprete and mitigate various kinds of bias, e.g., individual discrimination and group discrimination, in deep learning models deployed in Alibaba's recommender system serving millions of people.
 
