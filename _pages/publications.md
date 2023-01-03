@@ -23,9 +23,17 @@ permalink: /publications/
 ## REFEREED JOURNAL AND CONFERENCE ARTICLES
 <font color="#dd0000" size=3>* corresponding author</font>
 
+
+<br>
+#### 2023
+
+
+[中文CCF A] 周涛，甘燃，徐东伟，王竟亦，宣琦. *图像对抗样本检测综述*. 软件学报. （已接收）
+
+
 <br>
 #### 2022
-[IEEE S&P, CCF A] Jialuo Chen, Jingyi Wang\*, Tinglan Peng, Youcheng Sun, Peng Cheng, Shouling Ji, Xingjun Ma, Bo Li and Dawn Song. [*Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models*](https://arxiv.org/abs/2112.05588). 43rd IEEE Symposium on Security and Privacy, Oakland, USA, May 2022.
+[S&P, CCF A] Jialuo Chen, Jingyi Wang\*, Tinglan Peng, Youcheng Sun, Peng Cheng, Shouling Ji, Xingjun Ma, Bo Li and Dawn Song. [*Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models*](https://arxiv.org/abs/2112.05588). 43rd IEEE Symposium on Security and Privacy, Oakland, USA, May 2022.
 
 
 [ICSE, CCF A] Haibin Zheng, Zhiqing Chen, Tianyu Du, Xuhong Zhang, Yao Cheng, Shouling Ji, Jingyi Wang, Yue Yu and Jinyin Chen. *NeuronFair: Interpretable White-Box Fairness Testing through Biased Neuron Identification*. 44th International Conference on Software Engineering, Pittsburgh, PA, USA, May, 2022. (197/751, Acceptance rate: 26%)
@@ -39,6 +47,8 @@ permalink: /publications/
 [FITEE] Rongkuan Ma, Hao Zheng, Jingyi Wang, Mufeng Wang, Qiang Wei and Qingxian Wang. *Automatic Protocol Reverse-engineering for Industrial Control Systems with Dynamic Taint Analysis*. Frontiers of Information Technology & Electronic Engineering, 2022. (<font color="#dd0000">Spotlight Paper</font>)
 
 [IoT] Yangyang Geng, Yuqi Chen, Rongkuan Ma, Qiang Wei, Jie Pan, Jingyi Wang, Peng Cheng and Qingxian Wang. *Defending Cyber-physical Systems through Reverse Engineering Based Memory Sanity Check*. IEEE Internet of Things Journal, 2022.
+
+
 
 <br>
 
