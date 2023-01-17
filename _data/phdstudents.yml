@@ -22,31 +22,47 @@
 - name: Huan Sun
   photo: Huan_Sun.jpg
   info: PhD Student, 2020 fall
-  number_educ: 0
-  education1: 
+  number_educ: 1
+  education1: B.E., Hefei University of Technology
   education2: 
   education3: 
 
 - name: Xiangxiang Chen
   photo: Xiangxiang_Chen.jpg
   info: PhD Student, 2021 fall
-  number_educ: 0
-  education1: 
+  number_educ: 1
+  education1: B.E., Xi'an Jiaotong University
   education2: 
   education3: 
 
 - name: Xuran Li
   photo: Xuran_Li.jpg
   info: PhD Student, 2022 fall
-  number_educ: 0
-  education1: 
+  number_educ: 1
+  education1: B.E., Shandong University
   education2: 
   education3: 
 
 - name: Xiaoxia Liu
   photo: Xiaoxia_Liu.jpg
   info: PhD Student, 2022 fall
-  number_educ: 0
-  education1: 
+  number_educ: 1
+  education1: B.E., Jilin University
   education2: 
   education3: 
+
+#   - name: Zihan Liu
+#   photo: Xiaoxia_Liu.jpg
+#   info: PhD Student, 2023 fall
+#   number_educ: 1
+#   education1: B.E., Zhejiang University
+#   education2: 
+#   education3:
+
+# - name: Zhaoming Miao
+#   photo: Xiaoxia_Liu.jpg
+#   info: PhD Student, 2023 fall
+#   number_educ: 2
+#   education1: B.E., Shandong University
+#   education2: Msc, Shandong University
+#   education3:
