@@ -28,7 +28,7 @@ permalink: /publications/
 #### 2023
 
 
-[ISSTA, CCF A] Huizhong Guo, Jinfeng Li, Jingyi Wang, Xiangyu Liu, Dongxia Wang, Zehong Hu, Rong Zhang, and Hui Xue. *FairRec: Fairness Testing for Deep Recommender Systems*, 32nd International Symposium on Software Testing and Analysis (online), July 2021. (First round acceptance 20/159, Acceptance rate: 12.6%)
+[ISSTA, CCF A] Huizhong Guo, Jinfeng Li, Jingyi Wang, Xiangyu Liu, Dongxia Wang, Zehong Hu, Rong Zhang and Hui Xue. *FairRec: Fairness Testing for Deep Recommender Systems*, 32nd International Symposium on Software Testing and Analysis (online), July 2021. (First round acceptance 20/159, acceptance rate: 12.6%)
 
 [中文CCF A] 周涛，甘燃，徐东伟，王竟亦，宣琦. *图像对抗样本检测综述*. 软件学报. （已接收）
 
