@@ -51,18 +51,26 @@
   education2: 
   education3: 
 
-#   - name: Zihan Liu
-#   photo: Xiaoxia_Liu.jpg
-#   info: PhD Student, 2023 fall
-#   number_educ: 1
-#   education1: B.E., Zhejiang University
-#   education2: 
-#   education3:
+- name: Ziyan Zhao
+  photo: ziyan.jpg
+  info: PhD Exchange Student, 2022 fall
+  number_educ: 2
+  education1: B.E., University of Toronto
+  education2: Msc, University of Melbourne
+  education3: 
 
-# - name: Zhaoming Miao
-#   photo: Xiaoxia_Liu.jpg
-#   info: PhD Student, 2023 fall
-#   number_educ: 2
-#   education1: B.E., Shandong University
-#   education2: Msc, Shandong University
-#   education3:
+- name: Zihan Liu
+  photo: zihan.jpg
+  info: PhD Student, 2023 fall
+  number_educ: 1
+  education1: B.E., Zhejiang University
+  education2: 
+  education3:
+
+- name: Zhaoming Miao
+  photo: zhaoming.jpg
+  info: PhD Student, 2023 fall
+  number_educ: 2
+  education1: B.E., Shandong University
+  education2: Msc, Shandong University
+  education3:

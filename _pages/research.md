@@ -20,7 +20,7 @@ permalink: /research/
 <!-- ### ✅ Deep Learning System Security -->
 <br>
 
-##### 😊 **[ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models**
+##### 😊 **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models**
 We are building systematic methodologies and toolkits including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP.
 
 
@@ -29,7 +29,7 @@ We are building systematic methodologies and toolkits including novel testing me
 <br>
 
 
-##### 😊 **[ICSE 22, TSE 21, ICSE 20]: Testing, Interpreting and Mitigating the Hidden Bias in Deep Learning**
+##### 😊 **[ISSTA 23, ICSE 22, TSE 21, ICSE 20]: Testing, Interpreting and Mitigating the Hidden Bias in Deep Learning**
 
 We are building systematic fairness testing methodologies and toolkits specially designed for efficiently uncover, inteprete and mitigate various kinds of bias, e.g., individual discrimination and group discrimination, in deep learning models deployed in Alibaba's recommender system serving millions of people.
 
@@ -37,7 +37,7 @@ We are building systematic fairness testing methodologies and toolkits specially
 <br>
 <br>
 
-##### 😊 **[S&P 22]: Copyright Protection for Deep Learning Models**
+##### 😊 **[ICSE 23, S&P 22]: Copyright Protection for Deep Learning Models**
 We are building a copyright protection framework for deep learning models based on systematic testing, aiming to prove accurate and robust model copyright verification.
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/copyright_.png){: style="width: 700px; float: center; margin: 0px  10px"}
