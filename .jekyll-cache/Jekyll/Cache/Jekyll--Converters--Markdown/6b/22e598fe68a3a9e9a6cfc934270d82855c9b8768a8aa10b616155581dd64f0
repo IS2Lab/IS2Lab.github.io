@@ -1,4 +1,4 @@
-I"x<h1 id="group-members">Group Members</h1>
+I"ô<h1 id="group-members">Group Members</h1>
 
 <!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
@@ -218,29 +218,6 @@
   </div>
 
   <div class="col-sm-6 clearfix">
-    <p><img src="http://localhost:4000/images/teampic/Huizhong_Guo.jpg" class="img-responsive" width="25%" style="float: left" /></p>
-    <h4>HuiZhong Guo</h4>
-    <p><i>Master student, 2021 fall <!-- <br>email: <></i> --></i></p>
-    <ul style="overflow: hidden">
-
-  
-  <li> B.E., Zhejiang University </li>
-  
-
-  
-
-  
-
-  
-
-  </ul>
-  </div>
-
-</div>
-
-<div class="row">
-
-  <div class="col-sm-6 clearfix">
     <p><img src="http://localhost:4000/images/teampic/Ziyu_Mao.jpg" class="img-responsive" width="25%" style="float: left" /></p>
     <h4>Ziyu Mao</h4>
     <p><i>Master student, 2022 fall <!-- <br>email: <></i> --></i></p>
@@ -258,6 +235,10 @@
 
   </ul>
   </div>
+
+</div>
+
+<div class="row">
 
   <div class="col-sm-6 clearfix">
     <p><img src="http://localhost:4000/images/teampic/xiaohan.jpg" class="img-responsive" width="25%" style="float: left" /></p>
@@ -277,10 +258,6 @@
 
   </ul>
   </div>
-
-</div>
-
-<div class="row">
 
   <div class="col-sm-6 clearfix">
     <p><img src="http://localhost:4000/images/teampic/xinyao.jpg" class="img-responsive" width="25%" style="float: left" /></p>
@@ -326,6 +303,16 @@ table th:nth-of-type(3) {
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="text-align: left">Huizhong Guo</td>
+      <td style="text-align: left">Master student, Intern at Alibaba, 1st author of ISSTA 2023 paper</td>
+      <td style="text-align: left">PhD student at ZJU</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Yichun Gao</td>
+      <td style="text-align: left">Research Assistant 2022, Participated in IEEE Standard on Robustness of NLP services</td>
+      <td style="text-align: left">Full scholarship Master student at McMaster University</td>
+    </tr>
     <tr>
       <td style="text-align: left">Tinglan Peng</td>
       <td style="text-align: left">FYP student 2021, 3rd author of IEEE S&amp;P 2022</td>

@@ -27,6 +27,8 @@ permalink: /publications/
 <br>
 #### 2023
 
+[CCS, CCF A] Wenya Wang, Xingwei Lin, Jingyi Wang\*, Wang Gao, Dawu Gu, Wei Lv, and Jiashui Wang. *HODOR: Shrinking Attack Surface on Node.js via System Call Limitation*. 30th ACM Conference on Computer and Communications Security (CCS), Copenhagen, Denmark, Nov 2023.
+
 [ISSTA, CCF A] Huizhong Guo, Jinfeng Li, Jingyi Wang, Xiangyu Liu, Dongxia Wang, Zehong Hu, Rong Zhang and Hui Xue. *FairRec: Fairness Testing for Deep Recommender Systems*, 32nd International Symposium on Software Testing and Analysis, Seattle, USA, July 2023. (First round acceptance 20/159, acceptance rate: 12.6%)
 
 [TOSEM, CCF A] Mengdi Zhang, Jun Sun, Jingyi Wang and Bing Sun. *TestSGD: Interpretable Testing of Neural Networks Against Subtle Group Discrimination*. ACM Transactions on Software Engineering and Methodology. (Accepted)

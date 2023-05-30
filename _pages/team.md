@@ -207,8 +207,10 @@ table th:nth-of-type(3) {
 
 | Who are they? | Role here | Where are they? |
 | :------------- |:-------------| :-----------|
+| Huizhong Guo | Master student 2021-2023, Intern at Alibaba, 1st author of ISSTA 2023 paper | PhD student at ZJU |
+| Yichun Gao | Research Assistant 2022, Participated in IEEE Standard on Robustness of NLP services | Full scholarship Master student at McMaster University |
 | Tinglan Peng | FYP student 2021, 3rd author of IEEE S&P 2022 | In industry |
-| Zhang Liyi | Research Intern | Master student in Uni. of Waterloo |
+| Liyi Zhang | Research Intern 2020-2021 | Master student in Uni. of Waterloo |
 
 <br>
 

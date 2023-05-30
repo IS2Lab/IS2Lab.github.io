@@ -39,7 +39,7 @@ permalink: /
   </a>
 </div>
 
-**Collaborations** Our lab has established active collaborations with top universities like ETH, UC Berkeley, UIUC, National University of Singapore, etc. Moreover, we are also working closely with our industrial partners like Huawei, Alibaba and Ant Group to tackle real-world challenges. 
+**Collaborations** Our lab has established active collaborations with top universities like ETH, UC Berkeley, UIUC, National University of Singapore, etc. Moreover, we are also working closely with our industrial partners like Huawei, Alibaba and Ant Group to tackle real-world reliability and security challenges. 
 
 
 **Vacencies** Our lab is always actively looking for self-motivated PostDoc/PhD/master/research assistants/research interns with competitive packages to join our group at ZJU to work on any of the above topics. Feel free to contact Prof. Wang with CV (and transcript for PhD/Master applications) if you are interested. 

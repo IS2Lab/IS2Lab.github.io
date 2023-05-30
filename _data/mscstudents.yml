@@ -10,17 +10,17 @@
 
 - name: Fan Zhou
   photo: Fan_Zhou.jpg
-  info: Master student, 2021 fall
+  info: Master student, 2021 fall, intern at Meituan
   email: 
   number_educ: 1
   education1: B.E., Shandong University 
 
-- name: HuiZhong Guo
-  photo: Huizhong_Guo.jpg
-  info: Master student, 2021 fall
-  email: 
-  number_educ: 1
-  education1: B.E., Zhejiang University
+# - name: HuiZhong Guo
+#   photo: Huizhong_Guo.jpg
+#   info: Master student, 2021 fall
+#   email: 
+#   number_educ: 1
+#   education1: B.E., Zhejiang University
 
 - name: Ziyu Mao
   photo: Ziyu_Mao.jpg
@@ -39,7 +39,7 @@
 
 - name: Xinyao Xu
   photo: xinyao.jpg
-  info: Master student, 2023 fall
+  info: Master student, 2023 fall, intern at Ant Group
   email: 
   number_educ: 1
   education1: B.E., Zhejiang University of Technology
