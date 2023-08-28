@@ -1,4 +1,4 @@
-I"�*<h1 id="publications">Publications</h1>
+I"v(<h1 id="publications">Publications</h1>
 
 <p><br /></p>
 
@@ -11,22 +11,14 @@
 <h2 id="refereed-journal-and-conference-articles">REFEREED JOURNAL AND CONFERENCE ARTICLES</h2>
 <font color="#dd0000" size="3">* corresponding author</font>
 
-<ul>
-  <li>
-    <p>Big 4 conferences in software engineering: ICSE, FSE, ASE, ISSTA</p>
-  </li>
-  <li>
-    <p>Big 4 conferences in security: S&amp;P, CCS, Usenix Security, NDSS</p>
-  </li>
-  <li>
-    <p>Top conferences in formal methods: CAV, FM</p>
-  </li>
-</ul>
+<h3 id="2024">2024</h3>
+
+<p>[ICSE, CCF A] Jianan Ma, Pengfei Yang, Jingyi Wang*, Youcheng Sun, Chengchao Huang and Zhen Wang. <em>VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks</em>. 46th International Conference on Software Engineering, Lisbon, Portugal, Apr, 2024. (First round accepted)</p>
 
 <p><br /></p>
 <h4 id="2023">2023</h4>
 
-<p>[CCS, CCF A] Wenya Wang, Xingwei Lin, Jingyi Wang*, Wang Gao, Dawu Gu, Wei Lv, and Jiashui Wang. <em>HODOR: Shrinking Attack Surface on Node.js via System Call Limitation</em>. 30th ACM Conference on Computer and Communications Security (CCS), Copenhagen, Denmark, Nov 2023.</p>
+<p>[CCS, CCF A] Wenya Wang, Xingwei Lin, Jingyi Wang*, Wang Gao, Dawu Gu, Wei Lv, and Jiashui Wang. <em>HODOR: Shrinking Attack Surface on Node.js via System Call Limitation</em>. 30th ACM Conference on Computer and Communications Security, Copenhagen, Denmark, Nov 2023.</p>
 
 <p>[ISSTA, CCF A] Huizhong Guo, Jinfeng Li, Jingyi Wang, Xiangyu Liu, Dongxia Wang, Zehong Hu, Rong Zhang and Hui Xue. <em>FairRec: Fairness Testing for Deep Recommender Systems</em>, 32nd International Symposium on Software Testing and Analysis, Seattle, USA, July 2023. (First round acceptance 20/159, acceptance rate: 12.6%)</p>
 
@@ -34,10 +26,11 @@
 
 <p>[ICSE Demo] Jialuo Chen, Youcheng Sun, Jingyi Wang*, Peng Cheng and Xingjun Ma. <em>Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models</em>. 45th International Conference on Software Engineering, Demostractions track, Melbourne, Australia, May, 2023.</p>
 
-<p>[中文CCF A] 周涛，甘燃，徐东伟，王竟亦，宣琦. <em>图像对抗样本检测综述</em>. 软件学报. （已接收）</p>
+<p>[CONFEST/FMICS] Huan Sun, Ziyu Mao, Jingyi Wang*, Ziyan Zhao, Wenhai Wang. <em>Applying Rely-guarantee Reasoning on Concurrent Memory Management and Mailbox in μC/OS-II: A Case Study</em>. 28th International Conference on Formal Methods for Industrial Critical Systems, part of CONFEST 2023, Antwerp, Belgium, Sep, 2023.</p>
 
 <p><br /></p>
 <h4 id="2022">2022</h4>
+
 <p>[S&amp;P, CCF A] Jialuo Chen, Jingyi Wang*, Tinglan Peng, Youcheng Sun, Peng Cheng, Shouling Ji, Xingjun Ma, Bo Li and Dawn Song. <a href="https://arxiv.org/abs/2112.05588"><em>Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models</em></a>. 43rd IEEE Symposium on Security and Privacy, Oakland, USA, May 2022.</p>
 
 <p>[ICSE, CCF A] Haibin Zheng, Zhiqing Chen, Tianyu Du, Xuhong Zhang, Yao Cheng, Shouling Ji, Jingyi Wang, Yue Yu and Jinyin Chen. <em>NeuronFair: Interpretable White-Box Fairness Testing through Biased Neuron Identification</em>. 44th International Conference on Software Engineering, Pittsburgh, PA, USA, May, 2022. (197/751, Acceptance rate: 26%)</p>
@@ -45,8 +38,6 @@
 <p>[TOSEM, CCF A] Jialuo Chen, Jingyi Wang*, Xingjun Ma, Youcheng Sun, Jun Sun, Peixin Zhang and Peng Cheng. <em>QuoTe: Quality-oriented Testing for Deep Learning Systems</em>. ACM Transactions on Software Engineering and Methodology. (Accepted)</p>
 
 <p>[ASE-J, CCF B] Mengdi Zhang, Jun Sun and Jingyi Wang. <em>Which neural network makes more explainable decisions? An approach towards measuring explainability</em>. Automated Software Engineering, 2022.</p>
-
-<p>[TASE, CCF C] Guoliang Dong, Jingyi Wang*, Jun Sun, Sudipta Chattopadhyay, Xinyu Wang, Ting Dai, Jie Shi and Jin Song Dong. <em>Repairing Adversarial Texts through Perturbation</em>. 16th International Symposium on Theoretical Aspects of Software Engineering, Cluj-Napoca, Romania, July, 2022.</p>
 
 <p>[FITEE] Rongkuan Ma, Hao Zheng, Jingyi Wang, Mufeng Wang, Qiang Wei and Qingxian Wang. <em>Automatic Protocol Reverse-engineering for Industrial Control Systems with Dynamic Taint Analysis</em>. Frontiers of Information Technology &amp; Electronic Engineering, 2022. (<font color="#dd0000">Spotlight Paper</font>)</p>
 
@@ -99,10 +90,6 @@
 <p>[STTT, CCF C] Jingyi Wang, Jun Sun, Qixia Yuan, and Jun Pang. <em>Learning Probabilistic Models for Model Checking: An Evolutionary Approach and an Empirical Study</em>, International Journal on Software Tools for Technology Transfer, 2018.</p>
 
 <p>[ICFEM, CCF C] Jingyi Wang, Xiaohong Chen, Jun Sun, Shengchao Qin. <em>Improving Probability Estimation through Active Probabilistic Model Learning</em>, 19th International Conference on Formal Engineering Methods, Xi’an, China, Nov 2017.</p>
-
-<p>[ICECCS, CCF C] Long H. Pham, Jun Sun, Lyly Tran, Jingyi Wang, Xin Peng. <em>Learning Likely Invariants to Explain Why a Program Fails</em>, 22nd International Conference on Engineering of Complex Computer Systems, Fukuoka, Japan, Nov 2017. (Acceptance rate: 23.3%)</p>
-
-<p>[ICFEM, CCF C] Manman Chen, Tian Huat Tan, Jun Sun, Jingyi Wang, Yang Liu, Jing Sun, Jin Song Dong, <em>Service Adaption with Probabilistic Partial Models</em>, 18th International Conference on Formal Engineering Methods (ICFEM), Tokyo, Japan, Nov 2016.</p>
 
 <!-- 
 

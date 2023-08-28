@@ -24,10 +24,15 @@ permalink: /publications/
 <font color="#dd0000" size=3>* corresponding author</font>
 
 
+### 2024
+
+[ICSE, CCF A] Jianan Ma, Pengfei Yang, Jingyi Wang\*, Youcheng Sun, Chengchao Huang and Zhen Wang. *VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks*. 46th International Conference on Software Engineering, Lisbon, Portugal, Apr, 2024. (First round accepted)
+
+
 <br>
 #### 2023
 
-[CCS, CCF A] Wenya Wang, Xingwei Lin, Jingyi Wang\*, Wang Gao, Dawu Gu, Wei Lv, and Jiashui Wang. *HODOR: Shrinking Attack Surface on Node.js via System Call Limitation*. 30th ACM Conference on Computer and Communications Security (CCS), Copenhagen, Denmark, Nov 2023.
+[CCS, CCF A] Wenya Wang, Xingwei Lin, Jingyi Wang\*, Wang Gao, Dawu Gu, Wei Lv, and Jiashui Wang. *HODOR: Shrinking Attack Surface on Node.js via System Call Limitation*. 30th ACM Conference on Computer and Communications Security, Copenhagen, Denmark, Nov 2023.
 
 [ISSTA, CCF A] Huizhong Guo, Jinfeng Li, Jingyi Wang, Xiangyu Liu, Dongxia Wang, Zehong Hu, Rong Zhang and Hui Xue. *FairRec: Fairness Testing for Deep Recommender Systems*, 32nd International Symposium on Software Testing and Analysis, Seattle, USA, July 2023. (First round acceptance 20/159, acceptance rate: 12.6%)
 
@@ -35,11 +40,12 @@ permalink: /publications/
 
 [ICSE Demo] Jialuo Chen, Youcheng Sun, Jingyi Wang\*, Peng Cheng and Xingjun Ma. *Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models*. 45th International Conference on Software Engineering, Demostractions track, Melbourne, Australia, May, 2023.
 
-[中文CCF A] 周涛，甘燃，徐东伟，王竟亦，宣琦. *图像对抗样本检测综述*. 软件学报. （已接收）
+[CONFEST/FMICS] Huan Sun, Ziyu Mao, Jingyi Wang\*, Ziyan Zhao, Wenhai Wang. *Applying Rely-guarantee Reasoning on Concurrent Memory Management and Mailbox in μC/OS-II: A Case Study*. 28th International Conference on Formal Methods for Industrial Critical Systems, part of CONFEST 2023, Antwerp, Belgium, Sep, 2023.
 
 
 <br>
 #### 2022
+
 [S&P, CCF A] Jialuo Chen, Jingyi Wang\*, Tinglan Peng, Youcheng Sun, Peng Cheng, Shouling Ji, Xingjun Ma, Bo Li and Dawn Song. [*Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models*](https://arxiv.org/abs/2112.05588). 43rd IEEE Symposium on Security and Privacy, Oakland, USA, May 2022.
 
 
@@ -48,8 +54,6 @@ permalink: /publications/
 [TOSEM, CCF A] Jialuo Chen, Jingyi Wang\*, Xingjun Ma, Youcheng Sun, Jun Sun, Peixin Zhang and Peng Cheng. *QuoTe: Quality-oriented Testing for Deep Learning Systems*. ACM Transactions on Software Engineering and Methodology. (Accepted)
 
 [ASE-J, CCF B] Mengdi Zhang, Jun Sun and Jingyi Wang. *Which neural network makes more explainable decisions? An approach towards measuring explainability*. Automated Software Engineering, 2022.
-
-[TASE, CCF C] Guoliang Dong, Jingyi Wang\*, Jun Sun, Sudipta Chattopadhyay, Xinyu Wang, Ting Dai, Jie Shi and Jin Song Dong. *Repairing Adversarial Texts through Perturbation*. 16th International Symposium on Theoretical Aspects of Software Engineering, Cluj-Napoca, Romania, July, 2022.
 
 [FITEE] Rongkuan Ma, Hao Zheng, Jingyi Wang, Mufeng Wang, Qiang Wei and Qingxian Wang. *Automatic Protocol Reverse-engineering for Industrial Control Systems with Dynamic Taint Analysis*. Frontiers of Information Technology & Electronic Engineering, 2022. (<font color="#dd0000">Spotlight Paper</font>)
 
@@ -106,9 +110,6 @@ permalink: /publications/
 
 [ICFEM, CCF C] Jingyi Wang, Xiaohong Chen, Jun Sun, Shengchao Qin. *Improving Probability Estimation through Active Probabilistic Model Learning*, 19th International Conference on Formal Engineering Methods, Xi’an, China, Nov 2017.
 
-[ICECCS, CCF C] Long H. Pham, Jun Sun, Lyly Tran, Jingyi Wang, Xin Peng. *Learning Likely Invariants to Explain Why a Program Fails*, 22nd International Conference on Engineering of Complex Computer Systems, Fukuoka, Japan, Nov 2017. (Acceptance rate: 23.3%)
-
-[ICFEM, CCF C] Manman Chen, Tian Huat Tan, Jun Sun, Jingyi Wang, Yang Liu, Jing Sun, Jin Song Dong, *Service Adaption with Probabilistic Partial Models*, 18th International Conference on Formal Engineering Methods (ICFEM), Tokyo, Japan, Nov 2016.
 
 <!-- {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
