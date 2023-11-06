@@ -33,8 +33,9 @@
   photo: xiaohan.jpg
   info: Master student, 2023 fall
   email: 
-  number_educ: 1
+  number_educ: 2
   education1: B.E., Tongji University
+  education2: Intern at Alibaba Group
 
 
 - name: Weifang Zhang
@@ -48,5 +49,6 @@
   photo: xinyao.jpg
   info: Master student, 2023 fall, intern at Ant Group
   email: 
-  number_educ: 1
+  number_educ: 2
   education1: B.E., Zhejiang University of Technology
+  education2: Intern at Ant Group

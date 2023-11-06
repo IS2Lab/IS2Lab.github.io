@@ -28,11 +28,19 @@ permalink: /publications/
 
 [ICSE, CCF A] Jianan Ma, Pengfei Yang, Jingyi Wang\*, Youcheng Sun, Chengchao Huang and Zhen Wang. *VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks*. 46th International Conference on Software Engineering, Lisbon, Portugal, Apr, 2024. (First round accepted)
 
+[TOSEM, CCF A] Zhe Zhao, Guangke Chen, Tong Liu, Taishan Li, Fu Song, Jingyi Wang and Jun Sun. *Attack as Detection: Using Adversarial Attack Methods to Detect Abnormal Examples*, ACM Transactions on Software Engineering and Methodology. (Accepted)
+
+[RA-L] Yifan Jia, Christopher M. Poskitt, Peixin Zhang, Jingyi Wang\*, Jun Sun, Sudipta Chattopadhyay. *Robust and Fast DNN Model Training for Trustworthy Robots.* IEEE Robotics and Automation Letters. (Accepted)
+
+
 
 <br>
 #### 2023
 
 [CCS, CCF A] Wenya Wang, Xingwei Lin, Jingyi Wang\*, Wang Gao, Dawu Gu, Wei Lv, and Jiashui Wang. *HODOR: Shrinking Attack Surface on Node.js via System Call Limitation*. 30th ACM Conference on Computer and Communications Security, Copenhagen, Denmark, Nov 2023.
+
+[TSE, CCF A] Kun Wang, Jingyi Wang\*, Christopher M. Poskitt, Xiangxiang Chen, Jun Sun, and Peng Cheng. *K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs*. IEEE Transactions on Software Engineering. (Accepted)
+
 
 [ISSTA, CCF A] Huizhong Guo, Jinfeng Li, Jingyi Wang, Xiangyu Liu, Dongxia Wang, Zehong Hu, Rong Zhang and Hui Xue. *FairRec: Fairness Testing for Deep Recommender Systems*, 32nd International Symposium on Software Testing and Analysis, Seattle, USA, July 2023. (First round acceptance 20/159, acceptance rate: 12.6%)
 

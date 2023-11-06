@@ -12,7 +12,7 @@ permalink: /research/
 <!-- We are closely collaborating with our industrial partners including Huawei, Alibaba Group, and Ant Group to solve real-world challenging problems in an effective and scalable way. Some of our recent projects are as follows. -->
 
 <br>
-*We are grateful to conduct research supported by NSFC, ZJU and multiple industrial partners including Huawei, Alibaba Group, and Ant Group. Some of our recent projects are as follows.*  
+*We are grateful to conduct research sponsored by NSFC, CCF and multiple industrial partners including Huawei, Alibaba Group, and Ant Group. Recently, we are working on the following exciting research themes.*  
 
 <!-- Here are some themes and techniques that we currently work on: -->
 <!-- <br> -->
@@ -20,28 +20,48 @@ permalink: /research/
 <!-- ### ✅ Deep Learning System Security -->
 <br>
 
-##### 😊 **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models**
-We are building systematic methodologies and toolkits including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP.
+#### ***Theme 1: Testing, Verification and Repair of AI Models or AI-based Systems***
+<!-- **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models** -->
 
+For AI models (e.g., large language models of course or deep learning models in general) or AI-based systems (e.g., autonomous cars), we are working on *a systematic testing>verification>repair loop to comprehensively and automatically evaluate, identify and fix the potential risks hidden in multiple dimensions, e.g., robustness, fairness, safety and copyright.* This line of research is crucial for human being to be aware of, manage and mitigate the risks in the emergence of diverse AI and AI-based systems.  
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/robust.png){: style="width: 700px; float: center; margin: 0px  10px"}
+<!-- including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
+
+*Related selected publications: [RA-L 24, TOSEM 24, ICSE 24, ICSE Demo 23, S&P 22, ICSE 22, TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]*
+
+<!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/robust.png){: style="width: 700px; float: center; margin: 0px  10px"} -->
+<!-- <br> -->
 <br>
+
+#### ***Theme 2: Software Testing or Verification for Safety-critical Systems***
+<!-- **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models** -->
+
+Software is the core driving force for the safe operation of safety-critical systems (industrial control systems, autonomous systems, etc). It is thus crucial to formally verify the correctness of their software foundations (e.g., OS kernel, compilers or control programs) for safety-critical systems. In this line of research, we are working on *developing new logic foundations and specifications to better model and verify the desired safety properties in different levels, e.g., OS kernel, compilers and control programs (especially those commonly used in safety-critical industries).*   
+<!-- We are building systematic methodologies and toolkits including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
+
+*Related publications: [TSE 23, CONFEST/FMICS 23, FITEE 22, IoT 22, TSE 21, ICSE 18, DSN 18, STTT 18, FM 18, FASE 17, FM 16]*
+
+<!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/robust.png){: style="width: 700px; float: center; margin: 0px  10px"} -->
+<!-- <br> -->
 <br>
 
 
-##### 😊 **[ISSTA 23, ICSE 22, TSE 21, ICSE 20]: Testing, Interpreting and Mitigating the Hidden Bias in Deep Learning**
+<!-- #### ***Theme 3: AI-assisted Model Driven Engineering*** -->
+
+
+<!-- ##### 😊 **[ISSTA 23, ICSE 22, TSE 21, ICSE 20]: Testing, Interpreting and Mitigating the Hidden Bias in Deep Learning**
 
 We are building systematic fairness testing methodologies and toolkits specially designed for efficiently uncover, inteprete and mitigate various kinds of bias, e.g., individual discrimination and group discrimination, in deep learning models deployed in Alibaba's recommender system serving millions of people.
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/fairness.png){: style="width: 800px; float: center; margin: 0px  10px"}
 <br>
 <br>
-
-##### 😊 **[ICSE 23, S&P 22]: Copyright Protection for Deep Learning Models**
+ -->
+<!-- ##### 😊 **[ICSE 23, S&P 22]: Copyright Protection for Deep Learning Models**
 We are building a copyright protection framework for deep learning models based on systematic testing, aiming to prove accurate and robust model copyright verification.
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/copyright_.png){: style="width: 700px; float: center; margin: 0px  10px"}
-
+ -->
 
 
 

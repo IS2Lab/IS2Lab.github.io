@@ -22,9 +22,9 @@
 - name: Huan Sun
   photo: Huan_Sun.jpg
   info: PhD Student, 2020 fall
-  number_educ: 1
+  number_educ: 2
   education1: B.E., Hefei University of Technology
-  education2: 
+  education2: First author of CONFEST/FMICS 23
   education3: 
 
 - name: Xiangxiang Chen
@@ -68,6 +68,14 @@
   education3:
 
 
+- name: Xinyuan An
+  photo: anxinyuan.jpg
+  info: PhD Student, 2024 fall
+  number_educ: 1
+  education1: B.E., Zhejiang University
+  education2:
+  education3:
+
 - name: Ziyan Zhao
   photo: ziyan.jpg
   info: PhD Exchange Student, 2022 fall
@@ -79,9 +87,9 @@
 - name: Jianan Ma
   photo: jianan.jpg
   info: PhD Exchange Student, 2023 fall
-  number_educ: 1
+  number_educ: 2
   education1: B.E., Hangdian University
-  education2:
+  education2: First author of ICSE 24
   education3: 
 
 - name: Yao Lu
