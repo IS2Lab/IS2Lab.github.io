@@ -12,7 +12,7 @@ permalink: /research/
 <!-- We are closely collaborating with our industrial partners including Huawei, Alibaba Group, and Ant Group to solve real-world challenging problems in an effective and scalable way. Some of our recent projects are as follows. -->
 
 <br>
-*We are grateful to conduct research sponsored by NSFC, CCF and multiple industrial partners including Huawei, Alibaba Group, and Ant Group. Recently, we are working on the following exciting research themes.*  
+*We are grateful to conduct research sponsored by NSFC, CCF and multiple industrial partners including Huawei, Alibaba Group, and Ant Group. Recently, we are mainly working on the following exciting research themes.*  
 
 <!-- Here are some themes and techniques that we currently work on: -->
 <!-- <br> -->
@@ -27,19 +27,19 @@ For AI models (e.g., large language models of course or deep learning models in 
 
 <!-- including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
 
-*Related selected publications: [RA-L 24, TOSEM 24, ICSE 24, ICSE Demo 23, S&P 22, ICSE 22, TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]*
+*Related selected publications: [RA-L 24, TOSEM 24, ICSE 24, ICSE Demo 23, ISSTA 23, S&P 22, ICSE 22, TOSEM 22, ASE 22, ICSE 21, TSE 21, TACAS 21, ISSTA 21, IJCIP, ICSE 20, ASE 20, ICECCS 20, ICSE 19]*
 
 <!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/robust.png){: style="width: 700px; float: center; margin: 0px  10px"} -->
 <!-- <br> -->
 <br>
 
-#### ***Theme 2: Software Testing or Verification for Safety-critical Systems***
+#### ***Theme 2: Software Testing or Verification for Industrial Safety-critical Systems***
 <!-- **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models** -->
 
-Software is the core driving force for the safe operation of safety-critical systems (industrial control systems, autonomous systems, etc). It is thus crucial to formally verify the correctness of their software foundations (e.g., OS kernel, compilers or control programs) for safety-critical systems. In this line of research, we are working on *developing new logic foundations and specifications to better model and verify the desired safety properties in different levels, e.g., OS kernel, compilers and control programs (especially those commonly used in safety-critical industries).*   
+Software is the core driving force for the safe operation of industrial safety-critical systems (control systems, autonomous systems, etc). It is thus crucial to formally verify the correctness of their software foundations (e.g., OS kernel, compilers, security protocols or control programs) for industrial safety-critical systems. In this line of research, we are working on *developing new logic foundations and specifications to better model, test and verify the desired safety properties in different system levels, e.g., OS kernel, compilers, security protocols and control programs (especially those commonly used in safety-critical industries).*   
 <!-- We are building systematic methodologies and toolkits including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
 
-*Related publications: [TSE 23, CONFEST/FMICS 23, FITEE 22, IoT 22, TSE 21, ICSE 18, DSN 18, STTT 18, FM 18, FASE 17, FM 16]*
+*Related publications: [TSE 23, CCS 23, CONFEST/FMICS 23, FITEE 22, IoT 22, TSE 21, ICSE 18, DSN 18, STTT 18, FM 18, FASE 17, FM 16]*
 
 <!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/robust.png){: style="width: 700px; float: center; margin: 0px  10px"} -->
 <!-- <br> -->
