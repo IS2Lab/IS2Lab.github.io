@@ -76,13 +76,13 @@
   education2:
   education3:
 
-- name: Ziyan Zhao
-  photo: ziyan.jpg
-  info: PhD Exchange Student, 2022 fall
-  number_educ: 2
-  education1: B.E., University of Toronto
-  education2: Msc, University of Melbourne
-  education3: 
+# - name: Ziyan Zhao
+#   photo: ziyan.jpg
+#   info: PhD Exchange Student, 2022 fall
+#   number_educ: 2
+#   education1: B.E., University of Toronto
+#   education2: Msc, University of Melbourne
+#   education3: 
 
 - name: Jianan Ma
   photo: jianan.jpg
