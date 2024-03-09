@@ -28,7 +28,8 @@ permalink: /publications/
 [Arxiv] Xiaoxia Liu, Jingyi Wang, Jun Sun, Xiaohan Yuan, Guoliang Dong, Peng Di, Wenhai Wang, Dongxia Wang. *Prompting Frameworks for Large Language Models: A Survey*. arXiv:2311.12785, 2023. ([Paper link](https://arxiv.org/abs/2311.12785),[Github link](https://github.com/lxx0628/Prompting-Framework-Survey), Media Coverage: [AGI Leap Summit, Best Paper Award](https://superagi.com/agi-leap-summit/))
 
 
-### 2024
+<br>
+#### 2024
 
 [ICSE, CCF A] Jianan Ma, Pengfei Yang, Jingyi Wang\*, Youcheng Sun, Chengchao Huang and Zhen Wang. *VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks*. 46th International Conference on Software Engineering, Lisbon, Portugal, Apr, 2024. (Acceptance rate: 234/1051=22%)
 
