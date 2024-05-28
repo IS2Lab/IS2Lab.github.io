@@ -1,6 +1,6 @@
 
 - date: May 2024
-  headline: We release our safety evaluation benchmark (largest to date) for LLMs powered by automatic and adaptive test generation. See details at [Paper link](https://www.arxiv.org/abs/2405.14191), [Github link](https://github.com/IS2Lab/S-Eval), [HuggingFace Leaderboard Link]().
+  headline: We release our safety evaluation benchmark (largest to date) for LLMs powered by automatic and adaptive test generation. See details at [Paper link](https://www.arxiv.org/abs/2405.14191), [Github link](https://github.com/IS2Lab/S-Eval), [HuggingFace Leaderboard Link](https://huggingface.co/spaces/IS2Lab/S-Eval).
 
 - date: Apr 2024
   headline: Prof. Wang will serve as the PC member of ISSTA 2025, consider submitting your best work!
