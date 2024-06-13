@@ -44,6 +44,7 @@ permalink: /publications/
 
 [RA-L] Yifan Jia, Christopher M. Poskitt, Peixin Zhang, Jingyi Wang\*, Jun Sun, Sudipta Chattopadhyay. *Robust and Fast DNN Model Training for Trustworthy Robots.* IEEE Robotics and Automation Letters. (Accepted)
 
+[AsiaCCS/CPSS] Zichen Wang, Jingyi Wang*, Fu Song, Kun Wang, Hongyi Pu and Peng Cheng. K-RAPID: A Formal Executable Semantics of the RAPID Robot Programming Language, the 10th ACM Cyber-Physical System Security Workshop, held in conjunction with ACM AsiaCCS’24 Singapore, July 2024.
 
 
 <br>

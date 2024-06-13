@@ -6,7 +6,15 @@ sitemap: false
 permalink: /
 ---
 
-**About** The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, Zhejiang University, Hangzhou, China. The goal of our lab's research is to develop various formal methods or software engineering techniques to *provide certifiable (and ideally provable) reliability or security guarantees for practical intelligent or distributed systems* like autonomous driving car, industrial control system, blockchain system, etc.
+**About** The *Intelligent System Security (IS2) Lab* is a research lab led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, [Zhejiang University](https://www.zju.edu.cn/english/), Hangzhou, China. The goal of our lab's research is to develop novel software engineering (mostly from a formal methods perspective) methodologies towards building more trustworthy systems or software, e.g., AI-based systems or safety-cirtical systems/software.
+<!-- *provide certifiable (and ideally provable) reliability or security guarantees for practical intelligent or distributed systems* like autonomous driving car, industrial control system, blockchain system, etc. -->
+Specifically, we are working on the following exiciting research topics:
+
+- Quality assurance/certification (testing, verification and repair, etc) of AI or AI-based systems;
+- Model-based engineering of safety-cirtical systems;
+- Verification of concurrent (reactive) systems, e.g., OS kernels and distributed control systems;
+- Verification of security protocols;
+- Other related topics like fuzzing, symbolic execution, runtime verification, etc.
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
