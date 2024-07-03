@@ -6,15 +6,16 @@ sitemap: false
 permalink: /
 ---
 
-**About** The *Intelligent System Security (IS2) Lab* is a research lab led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, [Zhejiang University](https://www.zju.edu.cn/english/), Hangzhou, China. The goal of our lab's research is to develop novel software engineering (mostly from a formal methods perspective) methodologies towards building more trustworthy systems or software, e.g., AI-based systems or safety-cirtical systems/software.
+**About** The *Intelligent System Security (IS2) Lab* is a research lab led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, [Zhejiang University](https://www.zju.edu.cn/english/), Hangzhou, China. Our lab's work lie in the intersection of formal methods, software engineering, artificial intelligence (AI) and safety/security. Specificaclly, we aim to develop novel software engineering techniques (often from a formal methods perspective) towards building more trustworthy AI-based or safety-critical industrial systems or software.
 <!-- *provide certifiable (and ideally provable) reliability or security guarantees for practical intelligent or distributed systems* like autonomous driving car, industrial control system, blockchain system, etc. -->
-Specifically, we are working on the following exiciting research topics:
+<!-- Specifically, we are working on the following exiciting research topics: -->
+The detailed research topics include:
 
-- Quality assurance/certification (testing, verification and repair, etc) of AI or AI-based systems;
-- Model-based engineering of safety-cirtical systems;
+- Quality assurance/certification (testing, verification and repair, etc) of AI models (especially *large language models*) or AI-based systems/applications;
+- Model-based rigrous engineering of safety-cirtical software;
 - Verification of concurrent (reactive) systems, e.g., OS kernels and distributed control systems;
-- Verification of security protocols;
-- Other related topics like fuzzing, symbolic execution, runtime verification, etc.
+- Verification of security protocols.
+<!-- - Other related topics like fuzzing, symbolic execution, runtime verification, etc. -->
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -47,7 +48,7 @@ Specifically, we are working on the following exiciting research topics:
   </a>
 </div>
 
-**Collaborations** Our lab has established active collaborations with top universities like ETH, UC Berkeley, UIUC, National University of Singapore, etc. Moreover, we are also working closely with our industrial partners like Huawei, Alibaba and Ant Group to tackle real-world reliability and security challenges. 
+**Collaborations** Our lab has established active collaborations with top universities like ETH, UC Berkeley, UIUC, National University of Singapore, etc. Moreover, we are also working closely with our industrial partners like Huawei, Alibaba and Ant Group to tackle real-world security challenges. 
 
 
 **Vacencies** Our lab is always actively looking for self-motivated PostDoc/PhD/master/research assistants/research interns with competitive packages to join our group at ZJU to work on any of the above topics. Feel free to contact Prof. Wang with CV (and transcript for PhD/Master applications) if you are interested. 

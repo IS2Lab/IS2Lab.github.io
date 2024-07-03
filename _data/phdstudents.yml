@@ -30,9 +30,9 @@
 - name: Xiangxiang Chen
   photo: Xiangxiang_Chen.jpg
   info: PhD Student, 2021 fall
-  number_educ: 1
+  number_educ: 2
   education1: B.E., Xi'an Jiaotong University
-  education2: Visiting student of Prof. Dong Jin Song at National University of Singapore
+  education2: Visiting PhD student of Prof. Dong Jin Song at National University of Singapore
   education3: 
 
 - name: Xuran Li
@@ -46,9 +46,9 @@
 - name: Xiaoxia Liu
   photo: Xiaoxia_Liu.jpg
   info: PhD Student, 2022 fall
-  number_educ: 1
+  number_educ: 2
   education1: B.E., Jilin University
-  education2: 
+  education2: Intern at Ant Group
   education3: 
 
 - name: Zihan Liu

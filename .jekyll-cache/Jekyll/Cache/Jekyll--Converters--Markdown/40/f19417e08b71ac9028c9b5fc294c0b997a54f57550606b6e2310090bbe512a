@@ -1,4 +1,4 @@
-I"#2<h1 id="publications">Publications</h1>
+I"S6<h1 id="publications">Publications</h1>
 
 <p><br /></p>
 
@@ -22,13 +22,21 @@
 
 <p>[ICSE, CCF A] Jianan Ma, Pengfei Yang, Jingyi Wang*, Youcheng Sun, Chengchao Huang and Zhen Wang. <em>VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks</em>. 46th International Conference on Software Engineering, Lisbon, Portugal, Apr, 2024. (Acceptance rate: 234/1051=22%)</p>
 
+<p>[ISSTA, CCF A] Xiangshan Gao, Jialuo Chen, Jingyi Wang*, Jie Shi, Peng Cheng and Jiming Chen. <em>TeDA: A Testing Framework for Data Usage Auditing in Deep Learning Model Development</em>. 33rd International Symposium on Software Testing and Analysis, Vienna, Austria, Sep 2024.</p>
+
 <p>[ISSTA, CCF A] Jialuo Chen, Jingyi Wang*, Youcheng Sun, Peng Cheng and Jiming Chen. <em>Isolation-based Debugging for Neural Networks</em>. 33rd International Symposium on Software Testing and Analysis, Vienna, Austria, Sep 2024. (First round accepted 42/471, acceptance rate: 8.9%)</p>
 
+<p>[ISSTA, CCF A] Zuohui Chen, Jun Zhou, Youcheng Sun, Jingyi Wang*, Qi Xuan and Xiaoniu Yang. <em>Interpretability based Neural Network Repair</em>. 33rd International Symposium on Software Testing and Analysis, Vienna, Austria, Sep 2024.</p>
+
 <p>[TSE, CCF A] Shunkai Zhu, Jingyi Wang*, Jun Sun, Jie Yang, Xingwei Lin, Tianyi Wang, Liyi Zhang and Peng Cheng. <em>Better Pay Attention Whilst Fuzzing</em>. IEEE Transactions on Software Engineering. (Accepted)</p>
+
+<p>[TDSC, CCF A] Xiangshan Gao, Xingjun Ma, Jingyi Wang, Youcheng Sun, Bo Li, Shouling Ji, Peng Cheng and Jiming Chen. <em>VERIFI: Towards Verifiable Federated Unlearning</em>, IEEE Transactions on Dependable and Secure Computing. (Accepted)</p>
 
 <p>[TOSEM, CCF A] Zhe Zhao, Guangke Chen, Tong Liu, Taishan Li, Fu Song, Jingyi Wang and Jun Sun. <em>Attack as Detection: Using Adversarial Attack Methods to Detect Abnormal Examples</em>, ACM Transactions on Software Engineering and Methodology. (Accepted)</p>
 
 <p>[RA-L] Yifan Jia, Christopher M. Poskitt, Peixin Zhang, Jingyi Wang*, Jun Sun, Sudipta Chattopadhyay. <em>Robust and Fast DNN Model Training for Trustworthy Robots.</em> IEEE Robotics and Automation Letters. (Accepted)</p>
+
+<p>[AsiaCCS/CPSS] Zichen Wang, Jingyi Wang*, Fu Song, Kun Wang, Hongyi Pu and Peng Cheng. K-RAPID: A Formal Executable Semantics of the RAPID Robot Programming Language, the 10th ACM Cyber-Physical System Security Workshop, held in conjunction with ACM AsiaCCS’24 Singapore, July 2024.</p>
 
 <p><br /></p>
 <h4 id="2023">2023</h4>

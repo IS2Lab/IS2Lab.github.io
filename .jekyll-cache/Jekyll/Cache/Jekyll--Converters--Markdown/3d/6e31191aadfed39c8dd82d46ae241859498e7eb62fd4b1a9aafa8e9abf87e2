@@ -1,4 +1,15 @@
-I"�<p><strong>About</strong> The <em>Intelligent System Security (IS2) Lab</em> is a research group led by <a href="https://wang-jingyi.github.io/">Prof. Jingyi Wang</a> affiliated with the College of Control Science and Engineering, Zhejiang University, Hangzhou, China. The goal of our lab’s research is to develop novel software engineering (or formal methods) techniques to <em>provide certifiable (and ideally provable) reliability or security guarantees for practical intelligent or distributed systems</em> like autonomous driving car, industrial control system, blockchain system, etc.</p>
+I"<p><strong>About</strong> The <em>Intelligent System Security (IS2) Lab</em> is a research lab led by <a href="https://wang-jingyi.github.io/">Prof. Jingyi Wang</a> affiliated with the College of Control Science and Engineering, <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, Hangzhou, China. Our lab’s work lie in the intersection of formal methods, software engineering, artificial intelligence (AI) and safety/security. Specificaclly, we aim to develop novel software engineering techniques (often from a formal methods perspective) towards building more trustworthy AI-based or safety-critical industrial systems or software.
+<!-- *provide certifiable (and ideally provable) reliability or security guarantees for practical intelligent or distributed systems* like autonomous driving car, industrial control system, blockchain system, etc. -->
+<!-- Specifically, we are working on the following exiciting research topics: -->
+The detailed research topics include:</p>
+
+<ul>
+  <li>Quality assurance/certification (testing, verification and repair, etc) of AI models or AI-based systems;</li>
+  <li>Model-based rigrous engineering of safety-cirtical software;</li>
+  <li>Verification of concurrent (reactive) systems, e.g., OS kernels and distributed control systems;</li>
+  <li>Verification of security protocols.
+<!-- - Other related topics like fuzzing, symbolic execution, runtime verification, etc. --></li>
+</ul>
 
 <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
     <!-- Menu -->
@@ -30,7 +41,7 @@
   </a>
 </div>
 
-<p><strong>Collaborations</strong> Our lab has established active collaborations with top universities like ETH, UC Berkeley, UIUC, National University of Singapore, etc. Moreover, we are also working closely with our industrial partners like Huawei, Alibaba and Ant Group to tackle real-world reliability and security challenges.</p>
+<p><strong>Collaborations</strong> Our lab has established active collaborations with top universities like ETH, UC Berkeley, UIUC, National University of Singapore, etc. Moreover, we are also working closely with our industrial partners like Huawei, Alibaba and Ant Group to tackle real-world security challenges.</p>
 
 <p><strong>Vacencies</strong> Our lab is always actively looking for self-motivated PostDoc/PhD/master/research assistants/research interns with competitive packages to join our group at ZJU to work on any of the above topics. Feel free to contact Prof. Wang with CV (and transcript for PhD/Master applications) if you are interested. 
 <!-- Preferred PhD candidates should be good at programming or maths, and more importantly love doing research.  -->
