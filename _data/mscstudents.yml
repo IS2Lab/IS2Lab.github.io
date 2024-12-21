@@ -55,3 +55,28 @@
   number_educ: 2
   education1: B.E., Zhejiang University of Technology
   education2: Intern at Ant Group
+
+
+- name: Songye Ma
+  photo: masongye.jpg
+  info: Master student, 2024 fall
+  email: 
+  number_educ: 1
+  education1: B.E., Harbin University of Technology
+  education2: 
+
+- name: Haiqing Lin
+  photo: linhaiqing.jpg
+  info: Master student, 2024 fall
+  email: 
+  number_educ: 1
+  education1: B.E., Hohai University
+  education2: 
+
+- name: Minghe Wang
+  photo: wangminghe.jpg
+  info: Master student, 2025 fall
+  email: 
+  number_educ: 1
+  education1: B.E., Zhejiang University
+  education2: 

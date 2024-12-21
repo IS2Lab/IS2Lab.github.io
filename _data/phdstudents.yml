@@ -94,18 +94,37 @@
 #   education2: Msc, University of Melbourne
 #   education3: 
 
+
+- name: Xiaolin Ma
+  photo: maxiaolin.jpg
+  info: PhD Student, 2025 fall
+  number_educ: 1
+  education1: B.E., Zhejiang University
+  education2: 
+  education3:
+
+- name: Yuchuan Fu
+  photo: fuyuchuan.jpg
+  info: PhD Student, 2025 fall
+  number_educ: 1
+  education1: B.E., Xi'an Jiaotong University
+  education2: 
+  education3:
+
 - name: Jianan Ma
   photo: jianan.jpg
-  info: PhD Exchange Student, 2023 fall
+  info: PhD Exchange Student from Hangdian University, 2023 fall
   number_educ: 2
   education1: B.E., Hangdian University
   education2: 1st author of ICSE 24
   education3: 
 
-- name: Yao Lu
-  photo: yao.jpg
-  info: PhD Exchange Student, 2021 fall
-  number_educ: 1
-  education1: B.E., Zhejiang University of Technology
-  education2:
-  education3: 
+
+
+# - name: Yao Lu
+#   photo: yao.jpg
+#   info: PhD Exchange Student, 2021 fall
+#   number_educ: 1
+#   education1: B.E., Zhejiang University of Technology
+#   education2:
+#   education3: 

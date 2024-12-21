@@ -1,15 +1,23 @@
+- date: Nov 2024
+  headline: ICFEM 2025 will be in Hangzhou, consider submitting your work! 
+
+- date: Oct 2024
+  headline: Prof. Wang will serve as the PC member of ACM CCS 2025, consider submitting your work!
+
+- date: Oct 2024
+  headline: One paper on TVM fuzzing is accepted by TOSEM, congrats to Xiangxiang!
 
 - date: May 2024
   headline: We release our safety evaluation benchmark (largest to date) for LLMs powered by automatic and adaptive test generation. See details at [Paper link](https://www.arxiv.org/abs/2405.14191), [Github link](https://github.com/IS2Lab/S-Eval), [HuggingFace Leaderboard Link](https://huggingface.co/spaces/IS2Lab/S-Eval).
 
 - date: Apr 2024
-  headline: Prof. Wang will serve as the PC member of ISSTA 2025, consider submitting your best work!
+  headline: Prof. Wang will serve as the PC member of ISSTA 2025, consider submitting your work!
 
 - date: Apr 2024
   headline: Jianan and Prof. Wang attended ICSE 2024 and presented our paper on verification guided synthesis for repairing deep neural networks!
 
 - date: Mar 2024
-  headline: Prof. Wang will serve as the PC member of ISSRE 2024 and ChinaSoft/FMAC 2024, consider submitting your best work!
+  headline: Prof. Wang will serve as the PC member of ISSRE 2024 and ChinaSoft/FMAC 2024, consider submitting your work!
 
 - date: Mar 2024
   headline: Xiaoxia was invited to give a talk on our survey paper on prompting frameworks for LLM at the AGI Leap Summit! Her work also won the Best Paper Award of the summit, congrats!
@@ -18,10 +26,10 @@
   headline: One paper on neural network debugging is accepted by ISSTA 2024, congrats to Jialuo!
 
 - date: Dec 2023
-  headline: Prof. Wang will serve as the PC member of ISSTA 2024, consider submitting your best work!
+  headline: Prof. Wang will serve as the PC member of ISSTA 2024, consider submitting your work!
 
 - date: Nov 2023
-  headline: Prof. Wang will serve as the PC member of ICSE 2025, consider submitting your best work!
+  headline: Prof. Wang will serve as the PC member of ICSE 2025, consider submitting your work!
 
 - date: Oct 2023
   headline: Prof. Wang will serve as the PC member of TASE 2024, ANT 2024 and ACNS/SiMLA 2024. 
