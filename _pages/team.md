@@ -194,7 +194,7 @@ permalink: /team/
 {% endif %}
 
 
-## Research Assistant
+## Research Assistants
 {% assign number_printed = 0 %}
 {% for member in site.data.rassistant %}
 
