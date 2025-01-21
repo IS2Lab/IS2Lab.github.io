@@ -20,7 +20,7 @@ permalink: /research/
 <!-- ### ✅ Deep Learning System Security -->
 <br>
 
-#### ***Theme 1: SE for Trustworthy AI: Testing, Verification and Repair of AI Models or AI-based Systems***
+#### ***Track 1: Software Engineering for Trustworthy AI***
 <!-- **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models** -->
 
 For AI models (e.g., large language models or deep learning models in general) or AI-based systems (e.g., autonomous cars), we are working towards *a systematic testing>verification>repair loop to comprehensively and automatically evaluate, identify and fix the potential risks hidden in multiple dimensions, e.g., robustness, fairness, safety and copyright.* This line of research is crucial for human beings to be aware of, manage and mitigate the risks in the emergence of diverse AI models and AI-based systems.  
@@ -33,7 +33,7 @@ For AI models (e.g., large language models or deep learning models in general) o
 <!-- <br> -->
 <br>
 
-#### ***Theme 2: Testing, Verification and Security of Industrial Safety-critical Systems***
+#### ***Track 2: Formal Design and Analysis of Security Protocols***
 <!-- **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models** -->
 
 Software is the core driving force for the digital operation of industrial safety-critical systems (industrial control systems, autonomous systems, etc). It is thus crucial to formally verify their software foundations (e.g., OS kernel, compilers, security protocols or control programs) for industrial safety-critical systems. In this line of research, we are working on *developing new logical foundations and specifications to better model, test and verify the desired security properties in different system software layers (especially those commonly used in safety-critical industries).*   
@@ -44,6 +44,14 @@ Software is the core driving force for the digital operation of industrial safet
 <!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/robust.png){: style="width: 700px; float: center; margin: 0px  10px"} -->
 <!-- <br> -->
 <br>
+
+
+#### ***Track 3: AI Safety and Fairness***
+
+Software is the core driving force for the digital operation of industrial safety-critical systems (industrial control systems, autonomous systems, etc). It is thus crucial to formally verify their software foundations (e.g., OS kernel, compilers, security protocols or control programs) for industrial safety-critical systems. In this line of research, we are working on *developing new logical foundations and specifications to better model, test and verify the desired security properties in different system software layers (especially those commonly used in safety-critical industries).*   
+<!-- We are building systematic methodologies and toolkits including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
+
+*Related publications: [TSE 24, AsiaCCS/CPSS 24, TSE 23, CCS 23, CONFEST/FMICS 23, FITEE 22, IoT 22, TSE 21, ICSE 18, DSN 18, STTT 18, FM 18, FASE 17, FM 16]*
 
 
 <!-- #### ***Theme 3: AI-assisted Model Driven Engineering*** -->
