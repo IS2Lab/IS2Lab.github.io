@@ -23,35 +23,66 @@ permalink: /research/
 #### ***Track 1: Software Engineering for Trustworthy AI***
 <!-- **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models** -->
 
-For AI models (e.g., large language models or deep learning models in general) or AI-based systems (e.g., autonomous cars), we are working towards *a systematic testing>verification>repair loop to comprehensively and automatically evaluate, identify and fix the potential risks hidden in multiple dimensions, e.g., robustness, fairness, safety and copyright.* This line of research is crucial for human beings to be aware of, manage and mitigate the risks in the emergence of diverse AI models and AI-based systems.  
+*We mean safe like nuclear safety as opposed to safe as in ‘trust and safety,' - Ilya Sutskever*
+
+From a software engineering perspective, we are working towards *a systematic testing, verification and repair framework* to comprehensively and automatically evaluate, identify and fix the risks hidden in the AI models (e.g., deep neural networks) or AI-based systems (e.g., autonomous cars, drones, etc), e.g., robustness, fairness, copyright and safety.* This line of research is crucial for human beings to be aware of, manage and mitigate the risks in the emerging AI era.  
 
 <!-- including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
 
-*Related selected publications: [RA-L 24, TOSEM 24, ICSE 24, ISSTA 24, TDSC 24, ICSE Demo 23, ISSTA 23, S&P 22, ICSE 22, TOSEM 22, ASE 22, ICSE 21, TSE 21, TACAS 21, ISSTA 21, IJCIP, ICSE 20, ASE 20, ICECCS 20, ICSE 19]*
+*Related selected publications: [ICSE 25, RA-L 24, TOSEM 24, ICSE 24, ISSTA 24, TDSC 24, ICSE Demo 23, ISSTA 23, S&P 22, ICSE 22, TOSEM 22, ASE 22, ICSE 21, TSE 21, TACAS 21, ISSTA 21, IJCIP, ICSE 20, ASE 20, ICECCS 20, ICSE 19]*
+
+**Sample Work:**
+
+[ICSE 2024] Jianan Ma, Pengfei Yang, Jingyi Wang\*, Youcheng Sun, Chengchao Huang and Zhen Wang. *VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks*. 46th International Conference on Software Engineering, Lisbon, Portugal, Apr, 2024. 
+
+[TACAS 2021] Pengfei Yang, Renjue Li, Jianlin Li, Cheng-Chao Huang, Jingyi Wang, Jun Sun, Bai Xue and Lijun Zhang. *Improving Neural Network Verification through Spurious Region Guided Refinement*, 27th International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Luxembourg, Luxembourg (online), Apr 2021.
+
+[ICSE 2020] Peixin Zhang, Jingyi Wang\*, Jun Sun, Guoliang Dong, Xinyu Wang, Ting Dai, Xingen Wang and Jin Song Dong. *White-box Fairness Testing through Adversarial Sampling*. 42nd International Conference on Software Engineering, Seoul, South Korea (online), Oct 2020. (<font color="#dd0000">ACM SIGSOFT Distinguished Paper Award, ACM SIGSOFT Research Highlights.</font>)
+
+
 
 <!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/robust.png){: style="width: 700px; float: center; margin: 0px  10px"} -->
 <!-- <br> -->
 <br>
 
-#### ***Track 2: Formal Design and Analysis of Security Protocols***
+<!-- #### ***Track 2: AI-Empowered Formal Design and Analysis of Security Protocols*** -->
 <!-- **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models** -->
 
-Software is the core driving force for the digital operation of industrial safety-critical systems (industrial control systems, autonomous systems, etc). It is thus crucial to formally verify their software foundations (e.g., OS kernel, compilers, security protocols or control programs) for industrial safety-critical systems. In this line of research, we are working on *developing new logical foundations and specifications to better model, test and verify the desired security properties in different system software layers (especially those commonly used in safety-critical industries).*   
+<!-- Software is the core driving force for the digital operation of industrial safety-critical systems (industrial control systems, autonomous systems, etc). It is thus crucial to formally verify their software foundations (e.g., OS kernel, compilers, security protocols or control programs) for industrial safety-critical systems. In this line of research, we are working on *developing new logical foundations and specifications to better model, test and verify the desired security properties in different system software layers (especially those commonly used in safety-critical industries).*    -->
 <!-- We are building systematic methodologies and toolkits including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
 
-*Related publications: [TSE 24, AsiaCCS/CPSS 24, TSE 23, CCS 23, CONFEST/FMICS 23, FITEE 22, IoT 22, TSE 21, ICSE 18, DSN 18, STTT 18, FM 18, FASE 17, FM 16]*
+<!-- *Related publications: [TSE 24, AsiaCCS/CPSS 24, TSE 23, CCS 23, CONFEST/FMICS 23, FITEE 22, IoT 22, TSE 21, ICSE 18, DSN 18, STTT 18, FM 18, FASE 17, FM 16]* -->
+
+<!-- Sample Work: -->
+
 
 <!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/robust.png){: style="width: 700px; float: center; margin: 0px  10px"} -->
 <!-- <br> -->
 <br>
 
 
-#### ***Track 3: AI Safety and Fairness***
+#### ***Track 2: AI-Empowered Formal Analysis of System or Software Security***
 
-Software is the core driving force for the digital operation of industrial safety-critical systems (industrial control systems, autonomous systems, etc). It is thus crucial to formally verify their software foundations (e.g., OS kernel, compilers, security protocols or control programs) for industrial safety-critical systems. In this line of research, we are working on *developing new logical foundations and specifications to better model, test and verify the desired security properties in different system software layers (especially those commonly used in safety-critical industries).*   
+*The job of formal methods is to elucidate the assumptions upon which formal correctness depends' - Tony Hoare*
+
+*Formal methods can be incorporated throughout the development process to reduce the prevalence of multiple categories of vulnerabilities' - Back to the Building Blocks*
+
+Software stack is the core driving force behind the digital operation of industrial safety-critical systems (industrial control systems, autonomous systems, etc). It is thus of paramount importance to formally verify and analyze the correctness and security of their foundational software stack, such as OS kernel, compilers, security protocols and control programs, for industrial safety-critical systems. In this line of research, we are working on *developing new AI-empowered logical foundations and toolkits to better model, test, verify, monitor and enforce the desired properties for different software layers (especially those commonly used in safety-critical industries).*   
 <!-- We are building systematic methodologies and toolkits including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
 
-*Related publications: [TSE 24, AsiaCCS/CPSS 24, TSE 23, CCS 23, CONFEST/FMICS 23, FITEE 22, IoT 22, TSE 21, ICSE 18, DSN 18, STTT 18, FM 18, FASE 17, FM 16]*
+*Related publications: [ICSE 25, WWW 25, TSE 24, AsiaCCS/CPSS 24, TSE 23, CCS 23, CONFEST/FMICS 23, FITEE 22, IoT 22, TSE 18, ICSE 18, DSN 18, STTT 18, FM 18, FASE 17, FM 16]*
+
+**Sample Work:**
+
+[ICSE 2025] Ziyu Mao, Jingyi Wang\*, Jun Sun, Shengchao Qin and Jiawen Xiong. *LLM-aided Automatic Modelling for Security Protocol Verification*. 47th International Conference on Software Engineering, Ottawa, Canada, Apr, 2025.
+
+[WWW 2025] Xinyao Xu, Ziyu Mao, Jianzhong Su, Xingwei Lin, David Basin, Jun Sun and Jingyi Wang\*. *Quantitative Runtime Monitoring of Ethereum Transaction Attacks*. The Web Conference, Sydney, Australia, Apr, 2025.
+
+[TSE 2023] Kun Wang, Jingyi Wang\*, Christopher M. Poskitt, Xiangxiang Chen, Jun Sun, and Peng Cheng. *K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs*. IEEE Transactions on Software Engineering, 2023.
+
+[TSE 2018] Jingyi Wang, Jun Sun, Shengchao Qin and Cyrille Jegourel. *Automatically ‘Verifying’ Discrete-Time Complex Systems through Learning, Abstraction and Refinement*, IEEE Transactions on Software Engineering, 2018.
+
+
 
 
 <!-- #### ***Theme 3: AI-assisted Model Driven Engineering*** -->
