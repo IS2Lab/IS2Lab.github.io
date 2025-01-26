@@ -25,7 +25,7 @@ permalink: /research/
 
 *We mean safe like nuclear safety as opposed to safe as in ‘trust and safety' - Ilya Sutskever*
 
-From a software engineering perspective, we are working towards *a systematic testing, verification and repair framework* to comprehensively and automatically evaluate, identify and fix the risks hidden in the AI models (e.g., deep neural networks) or AI-based systems (e.g., autonomous cars, drones, etc), e.g., robustness, fairness, copyright and safety.* This line of research is crucial for human beings to be aware of, manage and mitigate the risks in the emerging AI era.  
+From a software engineering perspective, we are working towards *a systematic testing, verification and repair framework* to comprehensively and automatically evaluate, identify and fix the risks hidden in the AI models (e.g., deep neural networks) or AI-based systems (e.g., autonomous cars, drones, etc), from different dimensions such as robustness, fairness, copyright and safety.* This line of research is crucial for stakeholders and AI-empowered industries to be aware of, manage and mitigate the safety and ethic risks in the emerging AI era.  
 
 <!-- including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
 
@@ -35,7 +35,11 @@ From a software engineering perspective, we are working towards *a systematic te
 
 [ICSE 2024] Jianan Ma, Pengfei Yang, Jingyi Wang\*, Youcheng Sun, Chengchao Huang and Zhen Wang. *VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks*. 46th International Conference on Software Engineering, Lisbon, Portugal, Apr, 2024. 
 
+[S&P 2022] Jialuo Chen, Jingyi Wang\*, Tinglan Peng, Youcheng Sun, Peng Cheng, Shouling Ji, Xingjun Ma, Bo Li and Dawn Song. [*Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models*](https://arxiv.org/abs/2112.05588). 43rd IEEE Symposium on Security and Privacy, Oakland, USA, May 2022.
+
 [TACAS 2021] Pengfei Yang, Renjue Li, Jianlin Li, Cheng-Chao Huang, Jingyi Wang, Jun Sun, Bai Xue and Lijun Zhang. *Improving Neural Network Verification through Spurious Region Guided Refinement*, 27th International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Luxembourg, Luxembourg (online), Apr 2021.
+
+[ICSE 2021] Jingyi Wang, Jialuo Chen, Youcheng Sun, Xingjun Ma, Dongxia Wang, Jun Sun and Peng Cheng. [*RobOT: Robustness-Oriented Testing for Deep Learning Systems*](https://arxiv.org/abs/2102.05913). 43rd International Conference on Software Engineering, Madrid, Spain, May 2021.
 
 [ICSE 2020] Peixin Zhang, Jingyi Wang\*, Jun Sun, Guoliang Dong, Xinyu Wang, Ting Dai, Xingen Wang and Jin Song Dong. *White-box Fairness Testing through Adversarial Sampling*. 42nd International Conference on Software Engineering, Seoul, South Korea (online), Oct 2020. (<font color="#dd0000">ACM SIGSOFT Distinguished Paper Award, ACM SIGSOFT Research Highlights.</font>)
 
@@ -80,6 +84,9 @@ Software stack is the core driving force behind the digital operation of industr
 [TSE 2023] Kun Wang, Jingyi Wang\*, Christopher M. Poskitt, Xiangxiang Chen, Jun Sun, and Peng Cheng. *K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs*. IEEE Transactions on Software Engineering, 2023.
 
 [TSE 2018] Jingyi Wang, Jun Sun, Shengchao Qin and Cyrille Jegourel. *Automatically ‘Verifying’ Discrete-Time Complex Systems through Learning, Abstraction and Refinement*, IEEE Transactions on Software Engineering, 2018.
+
+[ICSE 2018] Xinyu Wang, Jun Sun, Zhenbang Chen, Peixin Zhang, Jingyi Wang\* and Yun Lin. *Towards Optimal Concolic Testing*, 40th International Conference on Software Engineering, Gothenburg, Sweden, May 2018. (<font color="#dd0000">ACM SIGSOFT Distinguished Paper Award</font>)
+
 
 
 
