@@ -23,7 +23,7 @@ permalink: /research/
 #### ***Track 1: Software Engineering for Trustworthy AI***
 <!-- **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models** -->
 
-<font color="#dd0000">*We mean safe like nuclear safety as opposed to safe as in ‘trust and safety' - Ilya Sutskever*</font>
+*We mean safe like nuclear safety as opposed to safe as in ‘trust and safety' - Ilya Sutskever*
 
 From a software engineering perspective, we are working towards *a systematic testing, verification and repair framework* to comprehensively and automatically evaluate, identify and fix the risks hidden in the AI models (e.g., deep neural networks) or AI-based systems (e.g., autonomous cars, drones, etc), e.g., robustness, fairness, copyright and safety.* This line of research is crucial for human beings to be aware of, manage and mitigate the risks in the emerging AI era.  
 
@@ -57,14 +57,14 @@ From a software engineering perspective, we are working towards *a systematic te
 
 <!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/robust.png){: style="width: 700px; float: center; margin: 0px  10px"} -->
 <!-- <br> -->
-<br>
+<!-- <br> -->
 
 
 #### ***Track 2: AI-Empowered Formal Analysis of System or Software Security***
 
-<font color="#dd0000">*The job of formal methods is to elucidate the assumptions upon which formal correctness depends - Tony Hoare*</font>
+*The job of formal methods is to elucidate the assumptions upon which formal correctness depends - Tony Hoare*
 
-<font color="#dd0000">*Formal methods can be incorporated throughout the development process to reduce the prevalence of multiple categories of vulnerabilities - Back to the Building Blocks*</font>
+*Formal methods can be incorporated throughout the development process to reduce the prevalence of multiple categories of vulnerabilities' - Back to the Building Blocks*
 
 Software stack is the core driving force behind the digital operation of industrial safety-critical systems (industrial control systems, autonomous systems, etc). It is thus of paramount importance to formally verify and analyze the correctness and security of their foundational software stack, such as OS kernel, compilers, security protocols and control programs, for industrial safety-critical systems. In this line of research, we are working on *developing new AI-empowered logical foundations and toolkits to better model, test, verify, monitor and enforce the desired properties for different software layers (especially those commonly used in safety-critical industries).*   
 <!-- We are building systematic methodologies and toolkits including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
