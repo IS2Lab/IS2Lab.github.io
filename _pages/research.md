@@ -25,7 +25,7 @@ permalink: /research/
 
 *We mean safe like nuclear safety as opposed to safe as in ‘trust and safety' - Ilya Sutskever*
 
-From a software engineering perspective, we are working towards *a systematic testing, verification and repair framework* to comprehensively and automatically evaluate, identify and fix the risks hidden in the AI models (e.g., deep neural networks) or AI-based systems (e.g., autonomous cars, drones, etc), from different dimensions such as robustness, fairness, copyright and safety.* This line of research is crucial for stakeholders and AI-empowered industries to be aware of, manage and mitigate the safety and ethic risks in the emerging AI era.  
+From a software engineering perspective, we are working towards *a systematic testing, verification and repair framework* to evaluate, identify and fix the risks hidden in the AI models (e.g., deep neural networks) or AI-based systems (e.g., autonomous cars, drones, etc), from different dimensions such as robustness, fairness, copyright and safety. This line of research is crucial for stakeholders and AI-empowered industries to be aware of, manage and mitigate the safety and ethic risks in the emerging AI era.  
 
 <!-- including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
 
