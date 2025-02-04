@@ -24,16 +24,16 @@
   info: PhD Student, 2020 fall
   number_educ: 3
   education1: B.E., Hefei University of Technology
-  education2: 1st author of CONFEST/FMICS 23
-  education3: Visiting PhD student of Prof. Phillipa Gardner's group at Imperial College London
+  education2: Visiting PhD student of Prof. Phillipa Gardner's group at Imperial College London
+  education3: CONFEST/FMICS 23<sup>1st author</sup>
 
 - name: Xiangxiang Chen
   photo: Xiangxiang_Chen.jpg
   info: PhD Student, 2021 fall
-  number_educ: 2
+  number_educ: 3
   education1: B.E., Xi'an Jiaotong University
   education2: Visiting PhD student of Prof. Dong Jin Song at National University of Singapore
-  education3: 
+  education3: TOSEM 24<sup>1st author</sup>
 
 - name: Xuran Li
   photo: Xuran_Li.jpg
@@ -116,7 +116,7 @@
   info: PhD Exchange Student from Hangdian University, 2023 fall
   number_educ: 2
   education1: B.E., Hangdian University
-  education2: 1st author of ICSE 24
+  education2: ICSE 24<sup>1st author</sup>, ICSE 25<sup>2nd author</sup>
   education3: 
 
 
