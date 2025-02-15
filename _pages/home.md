@@ -14,6 +14,7 @@ permalink: /
 The detailed research topics of our lab include:
 
 - Software engineering for trustworthy AI systems, e.g., testing, verification and repair of AI models or AI-based systems/applications;
+- AI safety, security and fairness;
 - Formal analysis of system or software security;
 - Formal design and analysis of security protocols;
 - Other related topics like fuzzing, symbolic execution, concolic testing and runtime verification.
