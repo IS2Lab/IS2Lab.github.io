@@ -46,10 +46,10 @@
 - name: Xiaoxia Liu
   photo: Xiaoxia_Liu.jpg
   info: PhD Student, 2022 fall
-  number_educ: 2
+  number_educ: 3
   education1: B.E., Jilin University
-  education2: Intern at Ant Group
-  education3: 
+  education2: Intern at Ant Group 
+  education3: ISSTA 25
 
 - name: Zihan Liu
   photo: zihan.jpg

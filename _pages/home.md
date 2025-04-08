@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-**About** The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, [Zhejiang University](https://www.zju.edu.cn/english/), Hangzhou, China. Our lab's research focuses on developing novel software engineering (SE) methodologies towards building more trustworthy systems or software.
+**About** The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, [Zhejiang University](https://www.zju.edu.cn/english/), Hangzhou, China. Our lab's research focuses on developing novel software engineering (SE) methodologies towards building more trustworthy AI models/systems/applications.
 <!-- developing novel software engineering techniques towards building more trustworthy AI or more secure systems and software. -->
 <!-- lie in the intersection of formal methods, software engineering, artificial intelligence (AI) and safety/security. Specifically, we aim to develop novel software engineering techniques (often from a formal methods perspective) towards building more trustworthy AI-based or safety-critical industrial systems or software. -->
 <!-- *provide certifiable (and ideally provable) reliability or security guarantees for practical intelligent or distributed systems* like autonomous driving car, industrial control system, blockchain system, etc. -->
@@ -15,9 +15,7 @@ The detailed research topics of our lab include:
 
 - Software engineering for trustworthy AI systems, e.g., testing, verification and repair of AI models or AI-based systems/applications;
 - AI safety, security and fairness;
-- Formal analysis of system or software security;
-- Formal design and analysis of security protocols;
-- Other related topics like fuzzing, symbolic execution, concolic testing and runtime verification.
+- Formal aspects of system security.
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -36,9 +34,6 @@ The detailed research topics of our lab include:
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/is2lab.png" alt="Slide 2" />
         </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/research-overview.png" alt="Slide 3" />
-        </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -50,7 +45,7 @@ The detailed research topics of our lab include:
   </a>
 </div>
 
-**Collaborations** Our lab aims to conduct research with practical relevance and impact by working closely with our industrial partners like Huawei, Alibaba and Ant Group. We are also actively collaborating with top universities like ETH, UC Berkeley, UIUC, University of Manchester, National University of Singapore, Singapore Management University, etc. 
+**Collaborations** Our lab aims to conduct research with practical relevance and impact by working closely with our industrial partners like Huawei, Alibaba, Ant Group and UWinTech. We are also actively collaborating with top universities like ETH, UC Berkeley, UIUC, University of Manchester, National University of Singapore, Singapore Management University, etc. 
 <!-- Moreover, we are also working closely with our industrial partners like Huawei, Alibaba and Ant Group to tackle real-world challenges.  -->
 
 
