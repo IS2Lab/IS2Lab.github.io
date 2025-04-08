@@ -20,12 +20,12 @@ permalink: /research/
 <!-- ### ✅ Deep Learning System Security -->
 <br>
 
-#### ***Track 1: Software Engineering for Trustworthy AI-based Systems***
+#### ***Track 1: Software Engineering for Trustworthy AI***
 <!-- **[TOSEM 22, ICSE 21, TACAS 21, ISSTA 21, ASE 20, ICECCS 20, ICSE 19]: Testing, Verifying and Enhancing the Robustness of Deep Learning Models** -->
 
 *We mean safe like nuclear safety as opposed to safe as in ‘trust and safety' - Ilya Sutskever*
 
-Modern systems, including emerging AI models (e.g., deep neural networks) and AI-based systems (e.g., autonomous cars, autonomous systems, etc), are mostly built upon software, making it vital to ensure their trustworthiness from a software engineering perspective. In this line of research, we are working towards *a systematic testing, verification and repair framework* to evaluate, identify and fix the risks hidden in the AI models or AI-empowered systems, from different dimensions such as robustness, fairness, copyright and safety. This is crucial for stakeholders and AI-empowered industries to be aware of, manage and mitigate the safety and ethic risks in the new AI era.  
+Modern systems, including emerging AI models (e.g., deep neural networks), AI-based systems (e.g., autonomous cars, robots, etc) and AI-based applications (e.g., AI Chatbots, LLM agents, etc), are mostly built upon software, making it vital to ensure their trustworthiness from a software engineering perspective. In this line of research, we are working towards *a systematic testing, verification and repair framework* to evaluate, identify and fix the risks hidden in the AI models or AI-empowered systems, from different dimensions such as robustness, fairness, copyright and safety. This is crucial for stakeholders and AI-empowered industries to be aware of, manage and mitigate the safety and ethic risks in the new AI era.  
 
 <!-- including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
 

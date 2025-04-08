@@ -13,7 +13,7 @@ permalink: /
 <!-- Specifically, we are working on the following existing research topics: -->
 The detailed research topics of our lab include:
 
-- Software engineering for trustworthy AI systems, e.g., testing, verification and repair of AI models or AI-based systems/applications;
+- Software engineering for trustworthy AI, e.g., testing, verification and repair of AI models or AI-based systems/applications;
 - AI safety, security and fairness;
 - Formal aspects of system security.
 
