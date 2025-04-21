@@ -194,6 +194,8 @@ permalink: /team/
 {% endif %}
 
 
+
+
 ## Research Assistants
 {% assign number_printed = 0 %}
 {% for member in site.data.rassistant %}
@@ -269,8 +271,10 @@ table th:nth-of-type(3) {
 
 | Who are they? | Role here | Where are they? |
 | :------------- |:-------------| :-----------|
+| Xiangshan Gao | Co-supervised PhD student 2019-2024, ISSTA 24<sup>1st author</sup>, TDSC 24<sup>1st author</sup>, etc | In Huawei |
 | Fan Zhou | Master student 2021-2023, intern at Meituan, got multiple offers from various industry | In industry |
-| Huizhong Guo | Master student 2021-2023, intern at Alibaba, 1st author of ISSTA 2023 paper | PhD student at ZJU |
+| Huizhong Guo | Master student 2021-2023, intern at Alibaba, ISSTA 23<sup>1st author</sup> | PhD student at ZJU |
+| Ziyan Zhao | Visiting student 2023| PhD student at ZJU |
 | Yichun Gao | Research Assistant 2022, Participated in IEEE Standard on Robustness of NLP services | Full scholarship Master student at McMaster University |
 | Tinglan Peng | FYP student 2021, 3rd author of IEEE S&P 2022 | In industry |
 | Liyi Zhang | Research Intern 2020-2021 | Master student in Uni. of Waterloo |

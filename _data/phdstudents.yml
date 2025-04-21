@@ -18,14 +18,23 @@
 #   education2: PhD with <a href="https://www.physics.sjtu.edu.cn/en/people/1/jfJia">Jinfeng Jia</a>, Shanghai Jiao Tong University
 #   education3: B.S. East China University of Science and Technology
 
+# - name: Jialuo Chen
+#   photo: chenjialuo.jpg
+#   info: Co-supervised PhD Student, 2020 fall
+#   number_educ: 1
+#   education1: B.E., Zhejiang University
+#   education2: ICSE 21<sup>1st student author</sup>, S&P 22<sup>1st student author</sup>, TOSEM 22<sup>1st author</sup>, ICSE Demo 23<sup>1st author</sup>, ISSTA 24<sup>1st author</sup>, ISSTA 24<sup>2nd author</sup>, ASE 24<sup>1st author</sup>, ISSTA 25, etc   
+#   education3: Visiting PhD student of Prof. Marta Kwiatkowska's group at University of Oxford
+
 
 - name: Huan Sun
   photo: Huan_Sun.jpg
-  info: PhD Student, 2020 fall
+  info: Co-supervised PhD Student, 2020 fall
   number_educ: 3
   education1: B.E., Hefei University of Technology
   education2: Visiting PhD student of Prof. Phillipa Gardner's group at Imperial College London
   education3: CONFEST/FMICS 23<sup>1st author</sup>
+
 
 - name: Xiangxiang Chen
   photo: Xiangxiang_Chen.jpg
@@ -110,6 +119,7 @@
   education1: B.E., Xi'an Jiaotong University
   education2: 
   education3:
+
 
 - name: Jianan Ma
   photo: jianan.jpg

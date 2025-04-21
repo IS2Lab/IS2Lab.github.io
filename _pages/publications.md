@@ -42,6 +42,9 @@ permalink: /publications/
 
 [ICSE, CCF A] Zhiming Chi, Jianan Ma, Pengfei Yang, Cheng-chao Huang, Renjue Li, Jingyi Wang, Xiaowei Huang, and Lijun Zhang. *Patch Synthesis for Property Repair of Deep Neural Networks*. 47th International Conference on Software Engineering, Ottawa, Canada, Apr, 2025. (245/1150, acceptance rate: 21.3%)
 
+[TSE, CCF A] Shunkai Zhu, Jun Sun, Jingyi Wang\*, Xingwei Lin, and Peng Cheng. *OPTSE: Towards Optimal Symbolic Execution*. IEEE Transactions on Software Engineering. (Accepted)
+
+
 
 
 <br>
@@ -54,6 +57,8 @@ permalink: /publications/
 [ISSTA, CCF A] Jialuo Chen, Jingyi Wang\*, Youcheng Sun, Peng Cheng and Jiming Chen. *Isolation-based Debugging for Neural Networks*. 33rd International Symposium on Software Testing and Analysis, Vienna, Austria, Sep 2024. (First round accepted 42/471, acceptance rate: 8.9%)
 
 [ISSTA, CCF A] Zuohui Chen, Jun Zhou, Youcheng Sun, Jingyi Wang\*, Qi Xuan and Xiaoniu Yang. *Interpretability based Neural Network Repair*. 33rd International Symposium on Software Testing and Analysis, Vienna, Austria, Sep 2024. 
+
+[ASE, CCF A] Jialuo Chen, Jingyi Wang\*, Xiyue Zhang, Youcheng Sun, Marta Kwiatkowska, Jiming Chen and Peng Cheng. *FAST: Boosting Uncertainty-based Test Prioritization Methods for Neural Networks via Feature Selection*. 39th IEEE/ACM International Conference on Automated Software Engineering, Sacramento, California, United States, Oct 2024.
 
 [TSE, CCF A] Shunkai Zhu, Jingyi Wang\*, Jun Sun, Jie Yang, Xingwei Lin, Tianyi Wang, Liyi Zhang and Peng Cheng. *Better Pay Attention Whilst Fuzzing*. IEEE Transactions on Software Engineering. (Accepted)
 
