@@ -44,6 +44,8 @@ permalink: /publications/
 
 [TSE, CCF A] Shunkai Zhu, Jun Sun, Jingyi Wang\*, Xingwei Lin, and Peng Cheng. *OPTSE: Towards Optimal Symbolic Execution*. IEEE Transactions on Software Engineering. (Accepted)
 
+[TOSEM, CCF A] Shunkai Zhu, Jun Sun, Jingyi Wang\*, Zhenbang Chen, and Peng Cheng. *Integrating Path Selection for Symbolic Execution and Variable Selection for Constraint Solving*. ACM Transactions on Software Engineering and Methodology. (Accepted)
+
 
 
 
@@ -60,9 +62,12 @@ permalink: /publications/
 
 [ASE, CCF A] Jialuo Chen, Jingyi Wang\*, Xiyue Zhang, Youcheng Sun, Marta Kwiatkowska, Jiming Chen and Peng Cheng. *FAST: Boosting Uncertainty-based Test Prioritization Methods for Neural Networks via Feature Selection*. 39th IEEE/ACM International Conference on Automated Software Engineering, Sacramento, California, United States, Oct 2024.
 
+[TOSEM, CCF A] Xiangxiang Chen, Xingwei Lin, Jingyi Wang\*, Jun Sun, Jiashui Wang and Wenhai Wang. *Scuzer: A Scheduling Optimization Fuzzer for TVM.* ACM Transactions on Software Engineering and Methodology. (Accepted)
+
 [TSE, CCF A] Shunkai Zhu, Jingyi Wang\*, Jun Sun, Jie Yang, Xingwei Lin, Tianyi Wang, Liyi Zhang and Peng Cheng. *Better Pay Attention Whilst Fuzzing*. IEEE Transactions on Software Engineering. (Accepted)
 
 [TDSC, CCF A] Xiangshan Gao, Xingjun Ma, Jingyi Wang, Youcheng Sun, Bo Li, Shouling Ji, Peng Cheng and Jiming Chen. *VERIFI: Towards Verifiable Federated Unlearning*, IEEE Transactions on Dependable and Secure Computing. (Accepted)
+
 
 [TOSEM, CCF A] Zhe Zhao, Guangke Chen, Tong Liu, Taishan Li, Fu Song, Jingyi Wang and Jun Sun. *Attack as Detection: Using Adversarial Attack Methods to Detect Abnormal Examples*, ACM Transactions on Software Engineering and Methodology. (Accepted)
 
