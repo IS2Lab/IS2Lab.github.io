@@ -271,6 +271,8 @@ table th:nth-of-type(3) {
 
 | Who are they? | Role here | Where are they? |
 | :------------- |:-------------| :-----------|
+| Jialuo Chen | Co-supervised PhD student 2020-2025, Exchange PhD student@Oxford, SP 22<sup>1st author</sup>, TOSEM 22, ASE 24<sup>1st author</sup>, ISSTA 24<sup>1st author</sup>, etc | In Industry |
+| Shunkai Zhu | Co-supervised PhD student 2019-2025, TSE 24<sup>1st author</sup>, TSE/TOSEM 25<sup>1st author</sup>, etc | In Industry |
 | Xiangshan Gao | Co-supervised PhD student 2019-2024, ISSTA 24<sup>1st author</sup>, TDSC 24<sup>1st author</sup>, etc | In Huawei |
 | Fan Zhou | Master student 2021-2023, intern at Meituan, got multiple offers from various industry | In industry |
 | Huizhong Guo | Master student 2021-2023, intern at Alibaba, ISSTA 23<sup>1st author</sup> | PhD student at ZJU |
