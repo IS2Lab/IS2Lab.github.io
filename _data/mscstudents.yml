@@ -23,14 +23,14 @@
 #   number_educ: 1
 #   education1: B.E., Zhejiang University
 
-- name: Ziyu Mao
-  photo: Ziyu_Mao.jpg
-  info: Master student, 2022 fall
-  email: 
-  number_educ: 3
-  education1: B.E., Shandong University
-  education2: Intern at Ant Group
-  education3: ICSE 25<sup>1st author</sup>, WWW 25<sup>co-1st author</sup>
+# - name: Ziyu Mao
+#   photo: Ziyu_Mao.jpg
+#   info: Master student, 2022 fall
+#   email: 
+#   number_educ: 3
+#   education1: B.E., Shandong University
+#   education2: Intern at Ant Group
+#   education3: ICSE 25<sup>1st author</sup>, WWW 25<sup>co-1st author</sup>
   
 
 - name: Xiaohan Yuan
