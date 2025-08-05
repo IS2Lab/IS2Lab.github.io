@@ -46,6 +46,9 @@ permalink: /publications/
 
 [TOSEM, CCF A] Shunkai Zhu, Jun Sun, Jingyi Wang\*, Zhenbang Chen, and Peng Cheng. *Integrating Path Selection for Symbolic Execution and Variable Selection for Constraint Solving*. ACM Transactions on Software Engineering and Methodology. (Accepted)
 
+[TDSC, CCF A] Xiangshan Gao, Jingyi Wang, Zhikun Zhang, Jialuo Chen, Peng Cheng and Jiming Chen. *A2E: Black-box Anti-adversarial Example based Watermarking to Verify Federated Unlearning*, IEEE Transactions on Dependable and Secure Computing. (Accepted)
+
+
 [TNNLS] Xiaokun Luan, Xiyue Zhang, Jingyi Wang, and Meng Sun. *Protecting Deep Learning Model Copyrights with Adversarial Example-Free Reuse Detection*. IEEE Transactions on Neural Networks and Learning Systems. (Accepted)
 
 
