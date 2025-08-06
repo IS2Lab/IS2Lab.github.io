@@ -25,15 +25,15 @@ permalink: /research/
 
 *We mean safe like nuclear safety as opposed to safe as in ‘trust and safety' - Ilya Sutskever*
 
-Modern systems, including emerging AI models (e.g., deep neural networks), AI-based systems (e.g., autonomous cars, robots, etc) and AI-based applications (e.g., AI Chatbots, LLM agents, etc), are mostly built upon software, making it vital to ensure their trustworthiness from a software engineering perspective. In this line of research, we are working towards *a systematic testing, verification and repair framework* to evaluate, identify and fix the risks hidden in the AI models or AI-empowered systems, from different dimensions such as robustness, fairness, copyright and safety. This is crucial for stakeholders and AI-empowered industries to be aware of, manage and mitigate the safety and ethic risks in the new AI era.  
+Modern systems, including emerging AI models (e.g., deep neural networks and large language models), AI-based systems (e.g., autonomous cars, robots, etc) and AI-based applications (e.g., AI Chatbots, LLM agents, etc), are mostly built upon software, making it vital to ensure their trustworthiness from a software engineering perspective. In this line of research, we are working towards *a systematic testing, verification and repair framework* to evaluate, identify and fix the risks hidden in the AI models or AI-empowered systems, from different dimensions such as robustness, fairness, copyright and safety. This is crucial for stakeholders and AI-empowered industries to be aware of, manage and mitigate the safety and ethic risks in the new AI era.  
 
 <!-- including novel testing metrics correlated to robustness, test case generation methods, automatic verification and repair techniques to comprehensively test, verify and enhance the robustness of deep learning models deployed in various application scenarios, e.g., image classification, object detection and NLP. -->
 
-*Related selected publications: [ICSE 25, RA-L 24, TOSEM 24, ICSE 24, ISSTA 24, TDSC 24, ICSE Demo 23, ISSTA 23, S&P 22, ICSE 22, TOSEM 22, ASE 22, ICSE 21, TSE 21, TACAS 21, ISSTA 21, IJCIP, ICSE 20, ASE 20, ICECCS 20, ICSE 19]*
+*Related selected publications: [CCS 25, ICSE 25, RA-L 24, TOSEM 24, ICSE 24, ISSTA 24, TDSC 24, ICSE Demo 23, ISSTA 23, S&P 22, ICSE 22, TOSEM 22, ASE 22, ICSE 21, TSE 21, TACAS 21, ISSTA 21, IJCIP, ICSE 20, ASE 20, ICECCS 20, ICSE 19]*
 
 **Sample Work:**
 
-[ICSE 2024] Jianan Ma, Pengfei Yang, Jingyi Wang\*, Youcheng Sun, Chengchao Huang and Zhen Wang. *VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks*. 46th International Conference on Software Engineering, Lisbon, Portugal, Apr, 2024. 
+[CCS 2025] Jianan Ma, Jingyi Wang\*, Qi Xuan and Zhen Wang. *Provable Repair of Deep Neural Network Defects through Pre-image Synthesis and Property Refinement*. The 32nd ACM Conference on Computer and Communications Security, Taipei, China, Oct, 2025.
 
 [S&P 2022] Jialuo Chen, Jingyi Wang\*, Tinglan Peng, Youcheng Sun, Peng Cheng, Shouling Ji, Xingjun Ma, Bo Li and Dawn Song. [*Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models*](https://arxiv.org/abs/2112.05588). 43rd IEEE Symposium on Security and Privacy, Oakland, USA, May 2022.
 

@@ -34,6 +34,8 @@ permalink: /publications/
 <br>
 #### 2025
 
+[CCS, CCF A] Jianan Ma, Jingyi Wang\*, Qi Xuan and Zhen Wang. *Provable Repair of Deep Neural Network Defects through Pre-image Synthesis and Property Refinement*. The 32nd ACM Conference on Computer and Communications Security, Taipei, China, Oct, 2025.
+
 [ICSE, CCF A] Ziyu Mao, Jingyi Wang\*, Jun Sun, Shengchao Qin and Jiawen Xiong. *LLM-aided Automatic Modelling for Security Protocol Verification*. 47th International Conference on Software Engineering, Ottawa, Canada, Apr, 2025. (245/1150, acceptance rate: 21.3%)
 
 [WWW, CCF A] Xinyao Xu, Ziyu Mao, Jianzhong Su, Xingwei Lin, David Basin, Jun Sun and Jingyi Wang\*. *Quantitative Runtime Monitoring of Ethereum Transaction Attacks*. The Web Conference, Sydney, Australia, Apr, 2025. (409/2062, acceptance rate: 19.8%)
@@ -47,7 +49,6 @@ permalink: /publications/
 [TOSEM, CCF A] Shunkai Zhu, Jun Sun, Jingyi Wang\*, Zhenbang Chen, and Peng Cheng. *Integrating Path Selection for Symbolic Execution and Variable Selection for Constraint Solving*. ACM Transactions on Software Engineering and Methodology. (Accepted)
 
 [TDSC, CCF A] Xiangshan Gao, Jingyi Wang, Zhikun Zhang, Jialuo Chen, Peng Cheng and Jiming Chen. *A2E: Black-box Anti-adversarial Example based Watermarking to Verify Federated Unlearning*, IEEE Transactions on Dependable and Secure Computing. (Accepted)
-
 
 [TNNLS] Xiaokun Luan, Xiyue Zhang, Jingyi Wang, and Meng Sun. *Protecting Deep Learning Model Copyrights with Adversarial Example-Free Reuse Detection*. IEEE Transactions on Neural Networks and Learning Systems. (Accepted)
 
