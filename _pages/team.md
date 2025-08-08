@@ -272,7 +272,7 @@ table th:nth-of-type(3) {
 | Who are they? | Role here | Where are they? |
 | :------------- |:-------------| :-----------|
 | Ziyu Mao | Master student 2022-2025, ICSE 25<sup>1st author</sup>, WWW 25<sup>Co-1st author</sup>, etc, intern at Ant Group | In NUS |
-| Jialuo Chen | Co-supervised PhD student 2020-2025, Exchange PhD student@Oxford, SP 22<sup>1st author</sup>, TOSEM 22<sup>1st author</sup>, ASE 24<sup>1st author</sup>, ISSTA 24<sup>1st author</sup>, 阿里星等offer, etc | In Huawei |
+| Jialuo Chen | Co-supervised PhD student 2020-2025, Exchange PhD student@Oxford, SP 22<sup>1st author</sup>, TOSEM 22<sup>1st author</sup>, ASE 24<sup>1st author</sup>, ISSTA 24<sup>1st author</sup>, 蚂蚁星等offer, etc | In Huawei |
 | Shunkai Zhu | Co-supervised PhD student 2019-2025, TSE 24<sup>1st author</sup>, TSE/TOSEM 25<sup>1st author</sup>, etc | In Industry |
 | Xiangshan Gao | Co-supervised PhD student 2019-2024, ISSTA 24<sup>1st author</sup>, TDSC 24/25<sup>1st author</sup>, etc | In Huawei |
 | Fan Zhou | Master student 2021-2023, intern at Meituan, multiple offers from various industry | In industry |
