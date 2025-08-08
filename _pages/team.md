@@ -272,12 +272,12 @@ table th:nth-of-type(3) {
 | Who are they? | Role here | Where are they? |
 | :------------- |:-------------| :-----------|
 | Ziyu Mao | Master student 2022-2025, ICSE 25<sup>1st author</sup>, WWW 25<sup>Co-1st author</sup>, etc, intern at Ant Group | In NUS |
-| Jialuo Chen | Co-supervised PhD student 2020-2025, Exchange PhD student@Oxford, SP 22<sup>1st author</sup>, TOSEM 22<sup>1st author</sup>, ASE 24<sup>1st author</sup>, ISSTA 24<sup>1st author</sup>, etc | In Industry |
+| Jialuo Chen | Co-supervised PhD student 2020-2025, Exchange PhD student@Oxford, SP 22<sup>1st author</sup>, TOSEM 22<sup>1st author</sup>, ASE 24<sup>1st author</sup>, ISSTA 24<sup>1st author</sup>, 阿里星等offer, etc | In Huawei |
 | Shunkai Zhu | Co-supervised PhD student 2019-2025, TSE 24<sup>1st author</sup>, TSE/TOSEM 25<sup>1st author</sup>, etc | In Industry |
-| Xiangshan Gao | Co-supervised PhD student 2019-2024, ISSTA 24<sup>1st author</sup>, TDSC 24<sup>1st author</sup>, etc | In Huawei |
+| Xiangshan Gao | Co-supervised PhD student 2019-2024, ISSTA 24<sup>1st author</sup>, TDSC 24/25<sup>1st author</sup>, etc | In Huawei |
 | Fan Zhou | Master student 2021-2023, intern at Meituan, multiple offers from various industry | In industry |
 | Huizhong Guo | Master student 2021-2023, intern at Alibaba, ISSTA 23<sup>1st author</sup> | PhD student at ZJU |
-| Ziyan Zhao | Visiting student 2023| PhD student at ZJU |
+| Ziyan Zhao | Visiting PhD student 2023| PhD student at ZJU |
 | Yichun Gao | Research Assistant 2022, Participated in IEEE Standard on Robustness of NLP services | Full scholarship Master student at McMaster University |
 | Tinglan Peng | FYP student 2021, 3rd author of IEEE S&P 2022 | In industry |
 | Liyi Zhang | Research Intern 2020-2021 | Master student in Uni. of Waterloo |
