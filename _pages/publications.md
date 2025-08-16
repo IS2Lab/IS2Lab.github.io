@@ -31,8 +31,19 @@ permalink: /publications/
 
 [Arxiv] Zihan Liu, Ruinan Zeng, Dongxia Wang, Gengyun Peng, Jingyi Wang, Qiang Liu, Peiyu Liu, Wenhai Wang. *Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents.* arXiv:2410.14209, 2024. ([Paper link](https://arxiv.org/abs/2410.14209))
 
+
+<br>
+#### 2026
+
+
+[NDSS, CCF A] Xiangxiang Chen, Peixin Zhang, Jun Sun, Wenhai Wang, and Jingyi Wang\*. *Rounding-Guided Backdoor Injection in Deep Learning Model Quantilization*. The Network and Distributed System Security (NDSS) Symposium, San Diego, California, Feb 2026.
+
+
+
 <br>
 #### 2025
+
+[CCS, CCF A] Huan Sun, David Sanan, Jingyi Wang\*, Yongwang Zhao, Jun Sun and Wenhai Wang. *Generalized Security-Preserving Refinement for Concurrent Systems*. The 32nd ACM Conference on Computer and Communications Security, Taipei, China, Oct, 2025.
 
 [CCS, CCF A] Jianan Ma, Jingyi Wang\*, Qi Xuan and Zhen Wang. *Provable Repair of Deep Neural Network Defects through Pre-image Synthesis and Property Refinement*. The 32nd ACM Conference on Computer and Communications Security, Taipei, China, Oct, 2025.
 
