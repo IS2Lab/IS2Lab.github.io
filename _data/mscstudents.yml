@@ -40,7 +40,7 @@
   number_educ: 3
   education1: B.E., Tongji University
   education2: Intern at Alibaba Group
-  education3: ISSTA 25<sup>1st author</sup>
+  education3: ISSTA 25<sup>1st author</sup>, CAC 25<sup>2nd author</sup>, CAC 25<sup>3rd author</sup>
 
 
 - name: Weifang Zhang
@@ -49,6 +49,7 @@
   email: 
   number_educ: 1
   education1: B.E., Nankai University
+  education2: CAC 25<sup>1st author</sup>
 
 - name: Xinyao Xu
   photo: xinyao.jpg
