@@ -35,6 +35,8 @@ AI systems, including emerging AI models (e.g., deep neural networks and large l
 
 [CCS 2025] Jianan Ma, Jingyi Wang\*, Qi Xuan and Zhen Wang. *Provable Repair of Deep Neural Network Defects through Pre-image Synthesis and Property Refinement*. The 32nd ACM Conference on Computer and Communications Security, Taipei, China, Oct, 2025.
 
+[TDSC 2024] Xiangshan Gao, Xingjun Ma, Jingyi Wang, Youcheng Sun, Bo Li, Shouling Ji, Peng Cheng and Jiming Chen. *VERIFI: Towards Verifiable Federated Unlearning*, IEEE Transactions on Dependable and Secure Computing. (<font color="#dd0000">Best Paper Award Runner-Up of IEEE TDSC 2024</font>)
+
 [S&P 2022] Jialuo Chen, Jingyi Wang\*, Tinglan Peng, Youcheng Sun, Peng Cheng, Shouling Ji, Xingjun Ma, Bo Li and Dawn Song. [*Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models*](https://arxiv.org/abs/2112.05588). 43rd IEEE Symposium on Security and Privacy, Oakland, USA, May 2022.
 
 [TACAS 2021] Pengfei Yang, Renjue Li, Jianlin Li, Cheng-Chao Huang, Jingyi Wang, Jun Sun, Bai Xue and Lijun Zhang. *Improving Neural Network Verification through Spurious Region Guided Refinement*, 27th International Conference on Tools and Algorithms for the Construction and Analysis of Systems, Luxembourg, Luxembourg (online), Apr 2021.
@@ -76,6 +78,8 @@ Software stack is the core driving force behind the digital operation of industr
 *Related publications: [ICSE 25, WWW 25, TSE 24, AsiaCCS/CPSS 24, TSE 23, CCS 23, CONFEST/FMICS 23, FITEE 22, IoT 22, TSE 18, ICSE 18, DSN 18, STTT 18, FM 18, FASE 17, FM 16]*
 
 **Sample Work:**
+
+[CCS 2025] Huan Sun, David Sanan, Jingyi Wang\*, Yongwang Zhao, Jun Sun and Wenhai Wang. *Generalized Security-Preserving Refinement for Concurrent Systems*. The 32nd ACM Conference on Computer and Communications Security, Taipei, China, Oct, 2025.
 
 [ICSE 2025] Ziyu Mao, Jingyi Wang\*, Jun Sun, Shengchao Qin and Jiawen Xiong. *LLM-aided Automatic Modelling for Security Protocol Verification*. 47th International Conference on Software Engineering, Ottawa, Canada, Apr, 2025.
 

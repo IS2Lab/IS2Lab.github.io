@@ -61,6 +61,8 @@ permalink: /publications/
 
 [TDSC, CCF A] Xiangshan Gao, Jingyi Wang, Zhikun Zhang, Jialuo Chen, Peng Cheng and Jiming Chen. *A2E: Black-box Anti-adversarial Example based Watermarking to Verify Federated Unlearning*, IEEE Transactions on Dependable and Secure Computing. (Accepted)
 
+[IST, CCF B] Xiaoxia Liu, Jingyi Wang\*, Hsiao-Ying Lin, Chengfang Fang, Jie Shi, Xiaodong Zhang, Wenhai Wang. *Semantic-aware Testing for Object Detection Systems*. Information and Software Technology, 2025. (Accepted)
+
 [TNNLS] Xiaokun Luan, Xiyue Zhang, Jingyi Wang, and Meng Sun. *Protecting Deep Learning Model Copyrights with Adversarial Example-Free Reuse Detection*. IEEE Transactions on Neural Networks and Learning Systems. (Accepted)
 
 [CAC] Xuran Li, Jingyi Wang\*, Xiaohan Yuan and Peixin Zhang. *PRUNE: A Patching Based Repair Framework for Certifiable Unlearning of Neural Networks*. The China Automation Conference, Harbin, China, Sep, 2025.
@@ -72,6 +74,8 @@ permalink: /publications/
 
 <br>
 #### 2024
+
+[TDSC, CCF A] Xiangshan Gao, Xingjun Ma, Jingyi Wang, Youcheng Sun, Bo Li, Shouling Ji, Peng Cheng and Jiming Chen. *VERIFI: Towards Verifiable Federated Unlearning*, IEEE Transactions on Dependable and Secure Computing. (<font color="#dd0000">Best Paper Award Runner-Up of IEEE TDSC 2024</font>)
 
 [ICSE, CCF A] Jianan Ma, Pengfei Yang, Jingyi Wang\*, Youcheng Sun, Chengchao Huang and Zhen Wang. *VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks*. 46th International Conference on Software Engineering, Lisbon, Portugal, Apr, 2024. (Acceptance rate: 234/1051=22%)
 
@@ -86,9 +90,6 @@ permalink: /publications/
 [TOSEM, CCF A] Xiangxiang Chen, Xingwei Lin, Jingyi Wang\*, Jun Sun, Jiashui Wang and Wenhai Wang. *Scuzer: A Scheduling Optimization Fuzzer for TVM.* ACM Transactions on Software Engineering and Methodology. (Accepted)
 
 [TSE, CCF A] Shunkai Zhu, Jingyi Wang\*, Jun Sun, Jie Yang, Xingwei Lin, Tianyi Wang, Liyi Zhang and Peng Cheng. *Better Pay Attention Whilst Fuzzing*. IEEE Transactions on Software Engineering. (Accepted)
-
-[TDSC, CCF A] Xiangshan Gao, Xingjun Ma, Jingyi Wang, Youcheng Sun, Bo Li, Shouling Ji, Peng Cheng and Jiming Chen. *VERIFI: Towards Verifiable Federated Unlearning*, IEEE Transactions on Dependable and Secure Computing. (Accepted)
-
 
 [TOSEM, CCF A] Zhe Zhao, Guangke Chen, Tong Liu, Taishan Li, Fu Song, Jingyi Wang and Jun Sun. *Attack as Detection: Using Adversarial Attack Methods to Detect Abnormal Examples*, ACM Transactions on Software Engineering and Methodology. (Accepted)
 

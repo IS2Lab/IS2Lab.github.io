@@ -33,7 +33,7 @@
   number_educ: 3
   education1: B.E., Hefei University of Technology
   education2: Visiting PhD student of Prof. Phillipa Gardner's group at Imperial College London
-  education3: CCS 25<sup>1st author</sup>, CONFEST/FMICS 23<sup>1st author</sup>
+  education3: CCS 25<sup>1st author</sup>, ICFEM 25<sup>1st author</sup>, CONFEST/FMICS 23<sup>1st author</sup>
 
 
 - name: Xiangxiang Chen
@@ -58,7 +58,7 @@
   number_educ: 3
   education1: B.E., Jilin University
   education2: Intern at Ant Group 
-  education3: ISSTA 25
+  education3: IST 25<sup>1st author</sup>, ISSTA 25
 
 - name: Zihan Liu
   photo: zihan.jpg
