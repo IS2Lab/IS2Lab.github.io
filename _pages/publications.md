@@ -43,19 +43,19 @@ permalink: /publications/
 <br>
 #### 2025
 
-[CCS, CCF A] Huan Sun, David Sanan, Jingyi Wang\*, Yongwang Zhao, Jun Sun and Wenhai Wang. *Generalized Security-Preserving Refinement for Concurrent Systems*. The 32nd ACM Conference on Computer and Communications Security, Taipei, China, Oct, 2025.
+[CCS, CCF A] Huan Sun, David Sanan, Jingyi Wang\*, Yongwang Zhao, Jun Sun and Wenhai Wang. *Generalized Security-Preserving Refinement for Concurrent Systems*. The 32nd ACM Conference on Computer and Communications Security, Taipei, China, Oct 2025.
 
-[CCS, CCF A] Jianan Ma, Jingyi Wang\*, Qi Xuan and Zhen Wang. *Provable Repair of Deep Neural Network Defects through Pre-image Synthesis and Property Refinement*. The 32nd ACM Conference on Computer and Communications Security, Taipei, China, Oct, 2025.
+[CCS, CCF A] Jianan Ma, Jingyi Wang\*, Qi Xuan and Zhen Wang. *Provable Repair of Deep Neural Network Defects through Pre-image Synthesis and Property Refinement*. The 32nd ACM Conference on Computer and Communications Security, Taipei, China, Oct 2025.
 
-[ICSE, CCF A] Ziyu Mao, Jingyi Wang\*, Jun Sun, Shengchao Qin and Jiawen Xiong. *LLM-aided Automatic Modelling for Security Protocol Verification*. 47th International Conference on Software Engineering, Ottawa, Canada, Apr, 2025. (245/1150, acceptance rate: 21.3%)
+[ICSE, CCF A] Ziyu Mao, Jingyi Wang\*, Jun Sun, Shengchao Qin and Jiawen Xiong. *LLM-aided Automatic Modelling for Security Protocol Verification*. 47th International Conference on Software Engineering, Ottawa, Canada, Apr 2025. (245/1150, acceptance rate: 21.3%)
 
-[WWW, CCF A] Xinyao Xu, Ziyu Mao, Jianzhong Su, Xingwei Lin, David Basin, Jun Sun and Jingyi Wang\*. *Quantitative Runtime Monitoring of Ethereum Transaction Attacks*. The Web Conference, Sydney, Australia, Apr, 2025. (409/2062, acceptance rate: 19.8%)
+[WWW, CCF A] Xinyao Xu, Ziyu Mao, Jianzhong Su, Xingwei Lin, David Basin, Jun Sun and Jingyi Wang\*. *Quantitative Runtime Monitoring of Ethereum Transaction Attacks*. The Web Conference, Sydney, Australia, Apr 2025. (409/2062, acceptance rate: 19.8%)
 
 [ASE, CCF A] Ziyu Mao, Xiaolin Ma, Lin Huang, Huan Yang, Wu Zhang, Weichao Sun, Yongtao Wang, Jingling Xue and Jingyi Wang\*. *Securing Millions of Decentralized Identities in Alipay Super App with End-to-End Formal Verification*. Industry Showcase Track of 40th IEEE/ACM International Conference on Automated Software Engineering, Seoul, South Korea, Nov 2025.
 
 [ISSTA, CCF A] Xiaohan Yuan, Jinfeng Li, Dongxia Wang, Yuefeng Chen, Xiaofeng Mao, Longtao Huang, Hui Xue, Wenhai Wang, Kui Ren and Jingyi Wang. *S-Eval: Automatic and Adaptive Test Generation for Benchmarking Safety Evaluation of Large Lanuguage Models.* 34th International Symposium on Software Testing and Analysis, Trondheim, Norway, Jun 2025. (107/550, acceptance rate: 19.4%, [Paper link](https://www.arxiv.org/abs/2405.14191), [Github link](https://github.com/IS2Lab/S-Eval), [HuggingFace Leaderboard Link](https://huggingface.co/spaces/IS2Lab/S-Eval))
 
-[ICSE, CCF A] Zhiming Chi, Jianan Ma, Pengfei Yang, Cheng-chao Huang, Renjue Li, Jingyi Wang, Xiaowei Huang, and Lijun Zhang. *Patch Synthesis for Property Repair of Deep Neural Networks*. 47th International Conference on Software Engineering, Ottawa, Canada, Apr, 2025. (245/1150, acceptance rate: 21.3%)
+[ICSE, CCF A] Zhiming Chi, Jianan Ma, Pengfei Yang, Cheng-chao Huang, Renjue Li, Jingyi Wang, Xiaowei Huang, and Lijun Zhang. *Patch Synthesis for Property Repair of Deep Neural Networks*. 47th International Conference on Software Engineering, Ottawa, Canada, Apr 2025. (245/1150, acceptance rate: 21.3%)
 
 [TSE, CCF A] Shunkai Zhu, Jun Sun, Jingyi Wang\*, Xingwei Lin, and Peng Cheng. *OPTSE: Towards Optimal Symbolic Execution*. IEEE Transactions on Software Engineering. (Accepted)
 
@@ -67,9 +67,9 @@ permalink: /publications/
 
 [TNNLS] Xiaokun Luan, Xiyue Zhang, Jingyi Wang, and Meng Sun. *Protecting Deep Learning Model Copyrights with Adversarial Example-Free Reuse Detection*. IEEE Transactions on Neural Networks and Learning Systems. (Accepted)
 
-[CAC] Xuran Li, Jingyi Wang\*, Xiaohan Yuan and Peixin Zhang. *PRUNE: A Patching Based Repair Framework for Certifiable Unlearning of Neural Networks*. The China Automation Conference, Harbin, China, Sep, 2025.
+[CAC] Xuran Li, Jingyi Wang\*, Xiaohan Yuan and Peixin Zhang. *PRUNE: A Patching Based Repair Framework for Certifiable Unlearning of Neural Networks*. The China Automation Conference, Harbin, China, Oct 2025.
 
-[CAC] Weifang Zhang, Xiaohan Yuan, Xuran Li, and Jingyi Wang\*. *Fault Localization and Repair for Neural Network based Object Detection*. The China Automation Conference, Harbin, China, Sep, 2025.
+[CAC] Weifang Zhang, Xiaohan Yuan, Xuran Li, and Jingyi Wang\*. *Fault Localization and Repair for Neural Network based Object Detection*. The China Automation Conference, Harbin, China, Oct 2025.
 
 [CAC] 马晓霖, 王竟亦\*, 王文海. *面向基于国密算法的工业安全协议形式化验证*. 中国自动化大会, 哈尔滨, 2025.
 
