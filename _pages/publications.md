@@ -9,10 +9,8 @@ permalink: /publications/
 
 # Publications
 
-Please refer to [this page](https://wang-jingyi.github.io/pubs/) for details.
-
 <br>
-<br>
+Please refer to [this page](https://wang-jingyi.github.io/pubs/) for details, thanks.
 <br>
 
 <!-- <br>
