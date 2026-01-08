@@ -9,14 +9,14 @@ permalink: /publications/
 
 # Publications
 
+Please refer to [this page](https://wang-jingyi.github.io/pubs/) for details.
 
-
-<br>
+<!-- <br>
 
 ## BOOKS AND BOOK ARTICLES
+
 <br>
 [B1] Lei Bu, Liqian Chen, Yunwei Dong, Xiaowei Huang, Jianlin Li, Qin Li, Wanwei Liu, Wenjian Ruan, Fu Song, Youcheng Sun, Jingyi Wang, Min Wu, Zhiwu Xu, Bai Xue, Pengfei Yang, Xinping Yi, Lijun Zhang and Min Zhang. *Research Progress and Trends on Formal Verification of Artificial Intelligence Systems.*  CCF 2019-2020 Progress Report on Chinese Computer Science and Technology. China Machine Press, pages 491-539, 2020.
-
 <br>
 
 
@@ -26,7 +26,7 @@ permalink: /publications/
 ### Preprint
 
 
-[Arxiv] Xiaoxia Liu, Jingyi Wang, Jun Sun, Xiaohan Yuan, Guoliang Dong, Peng Di, Wenhai Wang, Dongxia Wang. *Prompting Frameworks for Large Language Models: A Survey*. arXiv:2311.12785, 2023. ([Paper link](https://arxiv.org/abs/2311.12785), [Github link](https://github.com/lxx0628/Prompting-Framework-Survey), Media Coverage: [AGI Leap Summit, Best Paper Award](https://superagi.com/agi-leap-summit/))
+
 
 
 [Arxiv] Zihan Liu, Ruinan Zeng, Dongxia Wang, Gengyun Peng, Jingyi Wang, Qiang Liu, Peiyu Liu, Wenhai Wang. *Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents.* arXiv:2410.14209, 2024. ([Paper link](https://arxiv.org/abs/2410.14209))
@@ -186,7 +186,7 @@ permalink: /publications/
 
 [STTT, CCF C] Jingyi Wang, Jun Sun, Qixia Yuan, and Jun Pang. *Learning Probabilistic Models for Model Checking: An Evolutionary Approach and an Empirical Study*, International Journal on Software Tools for Technology Transfer, 2018.
 
-[ICFEM, CCF C] Jingyi Wang, Xiaohong Chen, Jun Sun, Shengchao Qin. *Improving Probability Estimation through Active Probabilistic Model Learning*, 19th International Conference on Formal Engineering Methods, Xi’an, China, Nov 2017.
+[ICFEM, CCF C] Jingyi Wang, Xiaohong Chen, Jun Sun, Shengchao Qin. *Improving Probability Estimation through Active Probabilistic Model Learning*, 19th International Conference on Formal Engineering Methods, Xi’an, China, Nov 2017. -->
 
 
 <!-- {% assign number_printed = 0 %}

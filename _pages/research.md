@@ -66,7 +66,7 @@ AI systems, including emerging AI models (e.g., deep neural networks and large l
 <!-- <br> -->
 
 
-#### ***Track 2: AI-Empowered Formal Analysis of System or Software Security***
+#### ***Track 2: Formal Analysis of System Safety and Security***
 
 *The job of formal methods is to elucidate the assumptions upon which formal correctness depends - Tony Hoare*
 

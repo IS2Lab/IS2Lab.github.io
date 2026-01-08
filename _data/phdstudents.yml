@@ -33,7 +33,7 @@
   number_educ: 3
   education1: B.E., Hefei University of Technology
   education2: Visiting PhD student of Prof. Phillipa Gardner's group at Imperial College London
-  education3: CCS 25<sup>1st author</sup>, ICFEM 25<sup>1st author</sup>, CONFEST/FMICS 23<sup>1st author</sup>
+  education3: CCS 25<sup>1st author</sup>, 软件学报<sup>1st author</sup>, ICFEM 25<sup>1st author</sup>, CONFEST/FMICS 23<sup>1st author</sup>
 
 
 - name: Xiangxiang Chen
@@ -49,7 +49,7 @@
   info: PhD Student, 2022 fall
   number_educ: 2
   education1: B.E., Tongji University
-  education2: CAC 25<sup>1st author</sup>
+  education2: ESWA<sup>1st author</sup>, CAC 25<sup>1st author</sup>
   education3: 
 
 - name: Xiaoxia Liu
@@ -58,7 +58,7 @@
   number_educ: 3
   education1: B.E., Jilin University
   education2: Intern at Ant Group 
-  education3: IST 25<sup>1st author</sup>, ISSTA 25
+  education3: CSUR 26<sup>1st author</sup>, TSE 25<sup>1st author</sup>, IST 25<sup>1st author</sup>, ISSTA 25
 
 - name: Zihan Liu
   photo: zihan.jpg
