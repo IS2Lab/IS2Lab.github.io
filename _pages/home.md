@@ -6,15 +6,14 @@ sitemap: false
 permalink: /
 ---
 
-**About** The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, [Zhejiang University](https://www.zju.edu.cn/english/), Hangzhou, China. Our lab's research focuses on formal trust assurance of complex intelligent systems integrating software, AI and control.  
+**About** The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, [Zhejiang University](https://www.zju.edu.cn/english/), Hangzhou, China. Our lab's research focuses on formal trust assurance of complex intelligent systems integrating software, AI and control, covering the following detailed research topics:
 <!-- developing principled methodologies towards building more trustworthy  -->
 <!-- AI models/systems/applications and more secure systems. -->
 <!-- developing novel software engineering techniques towards building more trustworthy AI or more secure systems and software. -->
 <!-- lie in the intersection of formal methods, software engineering, artificial intelligence (AI) and safety/security. Specifically, we aim to develop novel software engineering techniques (often from a formal methods perspective) towards building more trustworthy AI-based or safety-critical industrial systems or software. -->
 <!-- *provide certifiable (and ideally provable) reliability or security guarantees for practical intelligent or distributed systems* like autonomous driving car, industrial control system, blockchain system, etc. -->
 <!-- Specifically, we are working on the following existing research topics: -->
-The detailed research topics include:
-- Formal reasoning of system safety and security;
+- Formal modeling and reasoning of safety and security;
 - Testing, verification and repair of AI models or AI-enabled systems/applications;
 - AI safety, security and ethics, e.g., for LLMs, agents and embodied intelligence.
 
