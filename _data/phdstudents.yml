@@ -42,7 +42,7 @@
   number_educ: 3
   education1: B.E., Xi'an Jiaotong University
   education2: Visiting PhD student of Prof. Dong Jin Song at National University of Singapore
-  education3: NDSS 26<sup>1st author</sup>, TOSEM 24<sup>1st author</sup>
+  education3: NDSS 26<sup>1st author</sup>, WWW 26<sup>1st author</sup>, TOSEM 24<sup>1st author</sup>
 
 - name: Xuran Li
   photo: Xuran_Li.jpg
@@ -109,7 +109,7 @@
   info: PhD Student, 2025 fall
   number_educ: 2
   education1: B.E., Zhejiang University
-  education2: CAC 25<sup>1st author</sup>
+  education2: ASE 25<sup>2nd author</sup>, CAC 25<sup>1st author</sup>
   education3:
 
 - name: Yuchuan Fu
