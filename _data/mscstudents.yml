@@ -33,32 +33,32 @@
 #   education3: ICSE 25<sup>1st author</sup>, WWW 25<sup>co-1st author</sup>
   
 
-- name: Xiaohan Yuan
-  photo: xiaohan.jpg
-  info: Master student, 2023 fall
-  email: 
-  number_educ: 3
-  education1: B.E., Tongji University
-  education2: Intern at Alibaba Group
-  education3: ISSTA 25<sup>1st author</sup>, CAC 25<sup>2nd author</sup>, CAC 25<sup>3rd author</sup>, CSUR 26.
+# - name: Xiaohan Yuan
+#   photo: xiaohan.jpg
+#   info: Master student, 2023 fall
+#   email: 
+#   number_educ: 3
+#   education1: B.E., Tongji University
+#   education2: Intern at Alibaba Group
+#   education3: ISSTA 25<sup>1st author</sup>, CAC 25<sup>2nd author</sup>, CAC 25<sup>3rd author</sup>, CSUR 26.
 
 
-- name: Weifang Zhang
-  photo: weifang.jpg
-  info: Master student, 2023 fall
-  email: 
-  number_educ: 2
-  education1: B.E., Nankai University
-  education2: CAC 25<sup>1st author</sup>
+# - name: Weifang Zhang
+#   photo: weifang.jpg
+#   info: Master student, 2023 fall
+#   email: 
+#   number_educ: 2
+#   education1: B.E., Nankai University
+#   education2: CAC 25<sup>1st author</sup>
 
-- name: Xinyao Xu
-  photo: xinyao.jpg
-  info: Master student, 2023 fall
-  email: 
-  number_educ: 3
-  education1: B.E., Zhejiang University of Technology
-  education2: Intern at Ant Group
-  education3: WWW 25<sup>1st author</sup>
+# - name: Xinyao Xu
+#   photo: xinyao.jpg
+#   info: Master student, 2023 fall
+#   email: 
+#   number_educ: 3
+#   education1: B.E., Zhejiang University of Technology
+#   education2: Intern at Ant Group
+#   education3: WWW 25<sup>1st author</sup>
 
 
 - name: Songye Ma

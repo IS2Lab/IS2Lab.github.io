@@ -27,13 +27,13 @@
 #   education3: Visiting PhD student of Prof. Marta Kwiatkowska's group at University of Oxford
 
 
-- name: Huan Sun
-  photo: Huan_Sun.jpg
-  info: Co-supervised PhD Student, 2020 fall
-  number_educ: 3
-  education1: B.E., Hefei University of Technology
-  education2: Visiting PhD student of Prof. Phillipa Gardner's group at Imperial College London
-  education3: CCS 25<sup>1st author</sup>, 软件学报<sup>1st author</sup>, ICFEM 25<sup>1st author</sup>, CONFEST/FMICS 23<sup>1st author</sup>
+# - name: Huan Sun
+#   photo: Huan_Sun.jpg
+#   info: Co-supervised PhD Student, 2020 fall
+#   number_educ: 3
+#   education1: B.E., Hefei University of Technology
+#   education2: Visiting PhD student of Prof. Phillipa Gardner's group at Imperial College London
+#   education3: CCS 25<sup>1st author</sup>, 软件学报<sup>1st author</sup>, ICFEM 25<sup>1st author</sup>, CONFEST/FMICS 23<sup>1st author</sup>
 
 
 - name: Xiangxiang Chen

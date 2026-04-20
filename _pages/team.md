@@ -271,10 +271,14 @@ table th:nth-of-type(3) {
 
 | Who are they? | Role here | Where are they? |
 | :------------- |:-------------| :-----------|
+| Xiaohan Yuan | Master student 2023-2026, ISSTA 25<sup>1st author</sup>, TOSEM 25<sup>1st author</sup>, CAC 25<sup>2nd author</sup>, CAC 25<sup>3rd author</sup>, CSUR 26 | In Alibaba |
+| Xinyao Xu | Master student 2023-2026, WWW 25<sup>1st author</sup> | In 交通银行总部 |
+| Weifang Zhang | Master student 2023-2026, CAC 25<sup>1st author</sup> | In Industry |
 | Ziyu Mao | Master student 2022-2025, ICSE 25<sup>1st author</sup>, WWW 25<sup>Co-1st author</sup>, etc, intern at Ant Group | In NUS |
-| Jialuo Chen | Co-supervised PhD student 2020-2025, Exchange PhD student@Oxford, SP 22<sup>1st author</sup>, TOSEM 22<sup>1st author</sup>, ASE 24<sup>1st author</sup>, ISSTA 24<sup>1st author</sup>, 蚂蚁星等offer, etc | In Huawei |
-| Shunkai Zhu | Co-supervised PhD student 2019-2025, TSE 24<sup>1st author</sup>, TSE/TOSEM 25<sup>1st author</sup>, etc | In Industry |
-| Xiangshan Gao | Co-supervised PhD student 2019-2024, ISSTA 24<sup>1st author</sup>, TDSC 24/25<sup>1st author</sup>, etc | In Huawei |
+| Huan Sun | Co-supervised PhD student 2020-2025, Exchange PhD student@Imperial College London, CCS 25<sup>1st author</sup>, 软件学报<sup>1st author</sup>, ICFEM 25<sup>1st author</sup>, CONFEST/FMICS 23<sup>1st author</sup> | In Shanghai AI Lab |
+| Jialuo Chen | Co-supervised PhD student 2020-2025, Exchange PhD student@Oxford, SP 22<sup>1st author</sup>, TOSEM 22<sup>1st author</sup>, ASE 24<sup>1st author</sup>, ISSTA 24<sup>1st author</sup>, 蚂蚁星等offer, etc | In 蚂蚁金服 |
+| Shunkai Zhu | Co-supervised PhD student 2019-2025, TSE 24<sup>1st author</sup>, TSE/TOSEM 25<sup>1st author</sup>, etc | In 中国移动 |
+| Xiangshan Gao | Co-supervised PhD student 2019-2024, ISSTA 24<sup>1st author</sup>, TDSC 24/25<sup>1st author</sup>, etc | In 华为 |
 | Fan Zhou | Master student 2021-2023, intern at Meituan, multiple offers from various industry | In industry |
 | Huizhong Guo | Master student 2021-2023, intern at Alibaba, ISSTA 23<sup>1st author</sup> | PhD student at ZJU |
 | Ziyan Zhao | Visiting PhD student 2023| PhD student at ZJU |
