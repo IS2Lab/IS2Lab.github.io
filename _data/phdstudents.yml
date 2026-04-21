@@ -41,7 +41,7 @@
   info: PhD Student, 2021 fall
   number_educ: 3
   education1: B.E., Xi'an Jiaotong University
-  education2: Visiting PhD student of Prof. Dong Jin Song at National University of Singapore
+  education2: Intern at Ant Group , Visiting PhD student of Prof. Dong Jin Song at National University of Singapore
   education3: NDSS 26<sup>1st author</sup>, WWW 26<sup>1st author</sup>, TOSEM 24<sup>1st author</sup>
 
 - name: Xuran Li
@@ -49,7 +49,7 @@
   info: PhD Student, 2022 fall
   number_educ: 2
   education1: B.E., Tongji University
-  education2: ESWA<sup>1st author</sup>, CAC 25<sup>1st author</sup>
+  education2: Neural Networks<sup>1st author</sup>, ESWA<sup>1st author</sup>, CAC 25<sup>1st author</sup>
   education3: 
 
 - name: Xiaoxia Liu
@@ -57,8 +57,8 @@
   info: PhD Student, 2022 fall
   number_educ: 3
   education1: B.E., Jilin University
-  education2: Intern at Ant Group 
-  education3: CSUR 26<sup>1st author</sup>, TSE 25<sup>1st author</sup>, IST 25<sup>1st author</sup>, ISSTA 25
+  education2: Intern at Ant Group, Visiting PhD student of Prof. Liu Yang at Nanyang Technological University 
+  education3: CSUR 26<sup>1st author</sup>, TSE 25<sup>1st author</sup>, IST 25<sup>1st author</sup>, ISSTA 25, TSE 25, etc
 
 - name: Zihan Liu
   photo: zihan.jpg
@@ -74,15 +74,15 @@
   number_educ: 2
   education1: B.E., Shandong University
   education2: Msc, Shandong University
-  education3:
+  education3: Visiting PhD student of Prof. Dong Jin Song at National University of Singapore
 
 
 - name: Xinyuan An
   photo: anxinyuan.jpg
   info: PhD Student, 2024 fall
-  number_educ: 1
+  number_educ: 2
   education1: B.E., Zhejiang University
-  education2:
+  education2: CVPR 26<sup>1st author</sup>, ACL 26<sup>1st author</sup>
   education3:
 
 

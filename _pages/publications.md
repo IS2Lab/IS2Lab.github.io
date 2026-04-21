@@ -10,7 +10,7 @@ permalink: /publications/
 # Publications
 
 <br>
-Please refer to [this page](https://wang-jingyi.github.io/pubs/) for details, thanks.
+Please refer to [this page](https://wang-jingyi.github.io/pubs/) for details.
 <br>
 
 <!-- <br>

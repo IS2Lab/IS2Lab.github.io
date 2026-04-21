@@ -13,7 +13,7 @@ permalink: /
 <!-- lie in the intersection of formal methods, software engineering, artificial intelligence (AI) and safety/security. Specifically, we aim to develop novel software engineering techniques (often from a formal methods perspective) towards building more trustworthy AI-based or safety-critical industrial systems or software. -->
 <!-- *provide certifiable (and ideally provable) reliability or security guarantees for practical intelligent or distributed systems* like autonomous driving car, industrial control system, blockchain system, etc. -->
 <!-- Specifically, we are working on the following existing research topics: -->
-- Formal modeling and reasoning of safety and security;
+- Formal reasoning of security;
 - Testing, verification and repair of AI models or AI-enabled systems/applications;
 - AI safety, security and ethics, e.g., for LLMs, agents and embodied intelligence.
 
