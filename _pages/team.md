@@ -274,8 +274,8 @@ table th:nth-of-type(3) {
 | Xiaohan Yuan | Master student 2023-2026, ISSTA 25<sup>1st author</sup>, TOSEM 26<sup>1st author</sup>, CAC 25<sup>2nd author</sup>, CAC 25<sup>3rd author</sup>, CSUR 26 | 阿里巴巴 |
 | Xinyao Xu | Master student 2023-2026, WWW 25<sup>1st author</sup> | 交通银行总部 |
 | Weifang Zhang | Master student 2023-2026, CAC 25<sup>1st author</sup> | In Industry |
-| Ziyu Mao | Master student 2022-2025, ICSE 25<sup>1st author</sup>, WWW 25<sup>Co-1st author</sup>, etc, intern at Ant Group | In NUS |
-| Huan Sun | Co-supervised PhD student 2020-2025, Exchange PhD student@Imperial College London, CCS 25<sup>1st author</sup>, 软件学报<sup>1st author</sup>, ICFEM 25<sup>1st author</sup>, CONFEST/FMICS 23<sup>1st author</sup> | Shanghai AI Lab |
+| Ziyu Mao | Master student 2022-2025, ICSE 25<sup>1st author</sup>, WWW 25<sup>Co-1st author</sup>, etc, intern at Ant Group | NUS |
+| Huan Sun | Co-supervised PhD student 2020-2025, Exchange PhD student@Imperial College London, CCS 25<sup>1st author</sup>, 软件学报<sup>1st author</sup>, ICFEM 25<sup>1st author</sup>, CONFEST/FMICS 23<sup>1st author</sup> | 上海 AI Lab |
 | Jialuo Chen | Co-supervised PhD student 2020-2025, Exchange PhD student@Oxford, SP 22<sup>1st author</sup>, TOSEM 22<sup>1st author</sup>, ASE 24<sup>1st author</sup>, ISSTA 24<sup>1st author</sup>, 蚂蚁星等offer, etc | 蚂蚁金服 |
 | Shunkai Zhu | Co-supervised PhD student 2019-2025, TSE 24<sup>1st author</sup>, TSE/TOSEM 25<sup>1st author</sup>, etc | 中国移动 |
 | Xiangshan Gao | Co-supervised PhD student 2019-2024, ISSTA 24<sup>1st author</sup>, TDSC 24/25<sup>1st author</sup>, etc | 华为 |
