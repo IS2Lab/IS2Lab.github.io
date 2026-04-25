@@ -1,0 +1,54 @@
+# - name: Milan P Allan
+#   photo: Milan1.jpg
+#   info: Associate professor, started Jan 2015
+#   email: milan.allan@gmail.com
+#   number_educ: 5
+#   education1: Master ETHZ, Diplomarbeit with <a href="http://www.physik.uzh.ch/groups/osterwalder/">J Osterwalder</a>, University of Zurich
+#   education2: PhD St Andrews (while at Cornell University) with <a href="http://dpmc.unige.ch/gr_baumberger/index.html">Felix Baumberger</a> and <a href="http://davisgroup.lassp.cornell.edu/">JC Davis</a>
+#   education3: Postdoc Cornell
+#   education4: <a href="http://www.ethfellows.ethz.ch/">ETH fellow</a> at ETHZ with <a href="https://qudev.phys.ethz.ch">Andreas Wallraff</a>
+#   education5: <a href="https://www.universiteitleiden.nl/en/news/2017/07/milan-allan-wins-bryan-r.-coles-prize">Bryan R. Coles Prize 2017</a>
+
+# - name: Jianfeng (Jacky) Ge
+#   photo: Jacky.jpg
+#   info: Postdoc, started Oct 2019
+#   email: ge@Physics.LeidenUniv.nl
+#   number_educ: 3
+#   education1: Postdoc with <a href="http://hoffman.physics.harvard.edu">Jenny Hoffman</a>, Harvard University
+#   education2: PhD with <a href="https://www.physics.sjtu.edu.cn/en/people/1/jfJia">Jinfeng Jia</a>, Shanghai Jiao Tong University
+#   education3: B.S. East China University of Science and Technology
+
+- name: Jialuo Chen
+  photo: chenjialuo.jpg
+  info: Co-supervision with Ant Group
+  number_educ: 1
+  education1: B.E. and Ph.D., Zhejiang University
+  education2: ICSE 21<sup>1st student author</sup>, S&P 22<sup>1st student author</sup>, TOSEM 22<sup>1st author</sup>, ICSE Demo 23<sup>1st author</sup>, ISSTA 24<sup>1st author</sup>, ISSTA 24<sup>2nd author</sup>, ASE 24<sup>1st author</sup>, ISSTA 25, etc   
+  education3: Visiting PhD student of Prof. Marta Kwiatkowska's group at University of Oxford
+
+
+# - name: Huan Sun
+#   photo: Huan_Sun.jpg
+#   info: Co-supervised PhD Student, 2020 fall
+#   number_educ: 3
+#   education1: B.E., Hefei University of Technology
+#   education2: Visiting PhD student of Prof. Phillipa Gardner's group at Imperial College London
+#   education3: CCS 25<sup>1st author</sup>, 软件学报<sup>1st author</sup>, ICFEM 25<sup>1st author</sup>, CONFEST/FMICS 23<sup>1st author</sup>
+
+
+- name: Xicong Shen
+  photo: shenxicong.jpg
+  info: Co-supervision with Alibaba Group
+  number_educ: 1
+  education1: Ph.D., Zhejiang University
+  education2: 
+  education3: 
+
+- name: Hao Bu
+  photo: buhao.jpg
+  info: Co-supervision with Ant Group
+  number_educ: 1
+  education1: B.E. and Ph.D., Peking University
+  education2: 
+  education3: 
+
