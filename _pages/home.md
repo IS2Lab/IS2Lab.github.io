@@ -6,15 +6,15 @@ sitemap: false
 permalink: /
 ---
 
-**About** The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, [Zhejiang University](https://www.zju.edu.cn/english/), Hangzhou, China. Our lab's research focuses on ***formal trust assurance of complex intelligent systems integrating software, AI and control***. The detailed research topics include:
+**About** The *Intelligent System Security (IS2) Lab* is a research group led by [Prof. Jingyi Wang](https://wang-jingyi.github.io/) affiliated with the College of Control Science and Engineering, [Zhejiang University](https://www.zju.edu.cn/english/), Hangzhou, China. Our lab's research focuses on *** establishing formal trust for complex intelligent systems integrating software, AI and control ***. The detailed research topics include:
 <!-- developing principled methodologies towards building more trustworthy  -->
 <!-- AI models/systems/applications and more secure systems. -->
 <!-- developing novel software engineering techniques towards building more trustworthy AI or more secure systems and software. -->
 <!-- lie in the intersection of formal methods, software engineering, artificial intelligence (AI) and safety/security. Specifically, we aim to develop novel software engineering techniques (often from a formal methods perspective) towards building more trustworthy AI-based or safety-critical industrial systems or software. -->
 <!-- *provide certifiable (and ideally provable) reliability or security guarantees for practical intelligent or distributed systems* like autonomous driving car, industrial control system, blockchain system, etc. -->
 <!-- Specifically, we are working on the following existing research topics: -->
-- Formal reasoning of security;
-- Testing, verification and repair of AI models or AI-enabled systems/applications;
+- Formal reasoning of software/system security;
+- SE4AI, i.e., testing, verification and repair of AI models or AI-enabled systems/applications;
 - AI safety, security and ethics, e.g., for LLMs, agents and embodied intelligence.
 
 
