@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IS² Lab — Team</title>
+<meta name="description" content="Group members of the Intelligent System Security (IS2) Lab at Zhejiang University.">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="mark">IS<sup>2</sup></span><span><span class="bt">IS² Lab</span><span class="bs">Zhejiang University</span></span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="team.html" class="active" data-i18n="nav.team">Team</a>
+      <a href="research.html" data-i18n="nav.research">Research</a>
+      <a href="publications.html" data-i18n="nav.publications">Publications</a>
+      <a href="news.html" data-i18n="nav.news">News</a>
+      <a href="vacancies.html" data-i18n="nav.join">Join Us</a>
+    </nav>
+    <div class="nav-tools">
+      <button class="btn-ghost lang-btn" id="langBtn" aria-label="Switch language"><span class="lang-en on">EN</span><span class="sep">/</span><span class="lang-zh">中文</span></button>
+      <button class="btn-ghost" id="themeBtn" aria-label="Toggle theme"><span class="theme-ic">☾</span></button>
+      <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+<noscript><div class="noscript-note" data-i18n="noscript">This site uses JavaScript to load content and switch languages. Please enable JavaScript.</div></noscript>
+<section style="padding-top:52px;">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-kicker" data-i18n="team.kicker">// people</p>
+      <h1 class="sec-title" data-i18n="team.title">Group members</h1>
+      <p class="sec-sub" data-i18n="team.sub"></p>
+    </div>
+    <div id="team-mount"></div>
+  </div>
+</section>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><p class="lab">IS² Lab</p><p data-i18n="foot.tag">Establishing formal trust for intelligent systems.</p></div>
+      <div><h4 data-i18n="foot.explore">Explore</h4><ul>
+        <li><a href="team.html" data-i18n="nav.team">Team</a></li>
+        <li><a href="research.html" data-i18n="nav.research">Research</a></li>
+        <li><a href="publications.html" data-i18n="nav.publications">Publications</a></li>
+        <li><a href="news.html" data-i18n="nav.news">News</a></li>
+        <li><a href="vacancies.html" data-i18n="nav.join">Join Us</a></li>
+      </ul></div>
+      <div><h4 data-i18n="foot.contact">Contact</h4><ul>
+        <li><a href="mailto:wangjyee@gmail.com">wangjyee@gmail.com</a></li>
+        <li data-i18n="foot.addr">Yuquan Campus, Zhejiang University, 310027 Hangzhou, China</li>
+      </ul></div>
+    </div>
+    <div class="foot-base">
+      <span data-i18n="foot.partof">Part of the College of Control Science and Engineering, Zhejiang University.</span>
+      <span>© <span id="yr"></span> <span data-i18n="foot.rights">IS² Lab, Zhejiang University.</span></span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+<script>document.getElementById("yr").textContent=new Date().getFullYear();</script>
+</body>
+</html>
