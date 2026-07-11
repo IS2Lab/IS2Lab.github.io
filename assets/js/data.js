@@ -181,7 +181,7 @@ window.IS2_DATA = {
     { who: "Shunkai Zhu", role: { en: "Co-supervised PhD 2019-2025 · TSE 24, TSE/TOSEM 25", zh: "联合培养博士 2019-2025 · TSE 24、TSE/TOSEM 25" }, where: { en: "China Mobile", zh: "中国移动" } },
     { who: "Xiangshan Gao", role: { en: "Co-supervised PhD 2019-2024 · ISSTA 24, TDSC 24/25", zh: "联合培养博士 2019-2024 · ISSTA 24、TDSC 24/25" }, where: { en: "Huawei", zh: "华为" } },
     { who: "Fan Zhou", role: { en: "Master 2021-2023 · intern at Meituan", zh: "硕士 2021-2023 · 美团实习" }, where: { en: "Industry", zh: "企业界" } },
-    { who: "Huizhong Guo", role: { en: "Master 2021-2023 · intern at Alibaba; ISSTA 23 1st author", zh: "硕士 2021-2023 · 阿里巴巴实习；ISSTA 23 第一作者" }, where: { en: "PhD at ZJU", zh: "浙江大学博士生" } },
+    { who: "Huizhong Guo", role: { en: "Master 2021-2023 · intern at Alibaba; ISSTA 23 1st author", zh: "硕士 2021-2023 · 阿里巴巴实习；ISSTA 23 第一作者" }, where: { en: "PostDoc at NTU", zh: "南洋理工大学博士后" } },
     { who: "Ziyan Zhao", role: { en: "Visiting PhD 2023", zh: "访问博士生 2023" }, where: { en: "PhD at ZJU", zh: "浙江大学博士生" } },
     { who: "Yichun Gao", role: { en: "Research Assistant 2022 · IEEE Standard on NLP robustness", zh: "科研助理 2022 · 参与 IEEE NLP 鲁棒性标准" }, where: { en: "M.Sc. (full scholarship), McMaster University", zh: "麦克马斯特大学全奖硕士" } },
     { who: "Tinglan Peng", role: { en: "FYP student 2021 · IEEE S&P 2022 (3rd author)", zh: "毕业设计 2021 · IEEE S&P 2022 第三作者" }, where: { en: "Industry", zh: "企业界" } },
