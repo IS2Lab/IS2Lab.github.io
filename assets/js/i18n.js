@@ -35,7 +35,7 @@ window.IS2_I18N = {
     "stat1": "Research pillars",
     "stat2": "Papers at top SE/security venues",
     "stat3": "Distinguished / best-paper honors",
-    "stat5": "Major industrial partners",
+    "stat4": "Major industrial partners",
 
     "collab.h": "Collaborations",
     "collab.p": "We pursue research with practical relevance and impact, working closely with industrial partners such as Huawei, Alibaba, Ant Group, XiaodaoTech and UWinTech. We also actively collaborate with top universities including ETH Zürich, UC Berkeley, UIUC, the University of Manchester, the National University of Singapore and Singapore Management University.",
