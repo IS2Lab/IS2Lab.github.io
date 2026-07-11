@@ -13,7 +13,7 @@ window.IS2_I18N = {
     "hero.eyebrow": "intelligent system security lab · zhejiang university",
     "hero.title_pre": "Formal trust for ",
     "hero.title_hl": "intelligent systems",
-    "hero.lede": "The IS² Lab builds the science and tools to design, diagnose and repair complex systems that integrate software, AI and control, led by Prof. Jingyi Wang at the College of Control Science and Engineering, Zhejiang University.",
+    "hero.lede": "The IS² Lab builds the science and tools to design, diagnose and repair complex intelligent systems that integrate software, AI and control, led by Prof. Jingyi Wang at the College of Control Science and Engineering, Zhejiang University.",
     "hero.cta1": "Explore our research",
     "hero.cta2": "Meet the team",
     "pill.1": "Formal methods",
