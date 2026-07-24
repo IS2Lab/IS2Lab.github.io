@@ -1,104 +1,153 @@
-# IS² Lab Website (rebuilt)
+# IS² Lab Website
 
-A modern, bilingual (English / 中文) static site for the **Intelligent System Security (IS²) Lab**,
+A modern, bilingual (English / 中文) website for the **Intelligent System Security (IS²) Lab**,
 College of Control Science and Engineering, Zhejiang University.
 
-Pure HTML/CSS/JS — **no Jekyll build step**. GitHub Pages serves the files directly.
+**You update the site by editing markdown files in `content/`.**
+Push the change, and GitHub rebuilds and republishes the site automatically.
+
+---
+
+## Updating the website
+
+1. Open the file in `content/` that matches what you want to change (see the table below).
+2. Edit the text. Every item has an English (`en:`) and a Chinese (`zh:`) version.
+3. Commit and push — or just click **Edit** ✏️ on GitHub and press *Commit changes*.
+4. Wait about a minute. The site rebuilds and goes live on its own.
+
+| To change… | Edit this file |
+|---|---|
+| News and announcements | `content/news.md` |
+| Members, alumni | `content/team.md` |
+| Research pillars, highlight papers | `content/research.md` |
+| Funders and industry partners | `content/sponsors.md` |
+| Headings, buttons, page wording | `content/ui.md` |
+
+You never need to touch the HTML, CSS or JavaScript to change content.
+
+### Example: posting a news item
+
+Open `content/news.md` and copy the top block, then edit it:
+
+```yaml
+news:
+- date:
+    en: Jul 2026
+    zh: 2026 年 7 月
+  text:
+    en: Our paper has been accepted at ICSE 2027!
+    zh: 我们的论文被 ICSE 2027 接收！
+- date:                      # the previously newest item
+    en: Mar 2026
+```
+
+Newest goes at the top. Commit, and it appears on the home page and the news page.
+
+### Example: adding a member
+
+In `content/team.md`, under the right group (`faculty`, `postdocs`, `phd`, `master`, `ra`):
+
+```yaml
+phd:
+- name: New Student
+  role:
+    en: PhD Student · 2026 fall
+    zh: 博士生 · 2026 秋季入学
+  photo: images/teampic/newstudent.jpg
+  notes:
+    en:
+    - B.E., Some University
+    zh:
+    - 学士，某大学
+```
+
+Upload the photo to `images/teampic/` in the same commit.
+
+### A few rules
+
+- Keep the **indentation** exactly as in the surrounding entries (the format is indentation-sensitive).
+- Keep the field names on the left (`date:`, `text:`, `name:`…) unchanged; edit only the values.
+- If a value contains a colon followed by a space, wrap it in quotes: `en: "Verification: a primer"`.
+- If you break something, the build **fails safely** — the live site stays as it was, and the
+  Actions tab shows an error message naming the file and the field.
+
+---
+
+## How it works
+
+```
+content/*.md   ->   build.py   ->   assets/js/{i18n,data}.js   ->   the live site
+   you edit          automatic            generated                   published
+```
+
+`build.py` reads the markdown, checks it for mistakes, and regenerates the two JavaScript
+data files the pages read. The GitHub Action in `.github/workflows/deploy.yml` runs this on
+every push and publishes the result.
+
+The generated files carry a *"do not edit by hand"* header — any manual change to them is
+overwritten on the next build. Edit `content/` instead.
+
+### Building locally (optional)
+
+```bash
+pip install pyyaml
+python3 build.py
+python3 -m http.server 8000     # then open http://localhost:8000
+```
+
+---
+
+## First-time setup (once only)
+
+1. Copy everything in this folder into the root of your `is2lab.github.io` repo,
+   keeping your existing `images/` folder.
+2. Make sure the hidden **`.nojekyll`** file made it across.
+3. **Delete the old `CNAME` file.** Your repo has one pointing at `www.allanlab.org`
+   (left over from the template this site was forked from). If you keep it, GitHub will
+   try to serve the site from that wrong domain.
+4. In the repo: **Settings → Pages → Build and deployment → Source**, choose
+   **GitHub Actions**. This lets the workflow publish the site.
+5. Optionally delete the old Jekyll files (`_config.yml`, `_layouts/`, `_includes/`,
+   `_pages/`, `Gemfile`, `index.md`). They are already inert thanks to `.nojekyll`.
+6. Push. The Actions tab will show the build, and the site goes live.
 
 ---
 
 ## What's in here
 
 ```
-is2lab-site/
-├── .nojekyll              # tells GitHub Pages to skip Jekyll and serve files as-is
-├── index.html             # home
-├── team.html              # people (faculty / postdocs / PhD / master / RA / alumni)
-├── research.html          # research strengths (stat band + two track panels)
-├── publications.html      # links out to Prof. Wang's publication list
-├── news.html              # full news archive
-├── vacancies.html         # open positions / join us
-├── README.md
+├── .github/workflows/deploy.yml   # builds + publishes on every push
+├── build.py                       # content/*.md  ->  assets/js/*.js
+├── content/                       # <-- THE FILES YOU EDIT
+│   ├── news.md
+│   ├── team.md
+│   ├── research.md
+│   ├── sponsors.md
+│   └── ui.md
+├── .nojekyll                      # serve the files as-is, no Jekyll
+├── index.html  team.html  research.html
+├── publications.html  news.html  vacancies.html
 └── assets/
-    ├── css/styles.css      # whole design system + light/dark themes
+    ├── css/styles.css             # design system, light + dark themes
     └── js/
-        ├── i18n.js         # all static UI text, EN + ZH
-        ├── data.js         # team / news / research data, EN + ZH (single source of truth)
-        └── main.js         # language toggle, theme toggle, rendering, mobile nav
+        ├── i18n.js                # GENERATED from content/ui.md
+        ├── data.js                # GENERATED from the other content files
+        └── main.js                # language/theme toggles and rendering
 ```
 
-The site **reuses the `images/` folder already in your repo** — it is intentionally
-not duplicated here. Keep that folder where it is.
+The site reuses the `images/` folder already in your repo; it is not duplicated here.
+
+### Sponsor logos
+
+The Research page shows a **"Supported by"** strip. Until you add logo files it shows each
+sponsor's name as a text tile. Add the official logos to **`images/sponsors/`** using the
+filenames listed in `content/sponsors.md` (`nsfc.png`, `ccf.png`, `huawei.png`,
+`alibaba.png`, `ant-group.png`, `uwintech.png`) and they appear automatically.
+Transparent or white backgrounds work best; PNG or SVG are both fine.
 
 ---
 
-## How to deploy to is2lab.github.io
+## Language and theme
 
-1. **Back up** your current repo (or work on a branch) so you can roll back.
-2. Copy **everything in this folder** into the **root** of your `is2lab.github.io` repo,
-   alongside your existing `images/` folder.
-3. Make sure the hidden **`.nojekyll`** file made it across (it disables the old Jekyll build).
-4. Your old Jekyll files (`_config.yml`, `_layouts/`, `_includes/`, `_pages/`, `index.md`, `Gemfile`, …)
-   are now inert because of `.nojekyll`. You can **leave them or delete them** — deleting is cleaner.
-5. Commit and push. GitHub Pages will redeploy in a minute or two.
-
-### ⚠️ Important: the stale `CNAME` file
-Your current repo contains a `CNAME` file pointing to **`www.allanlab.org`** — a leftover from the
-AllanLab template this site was forked from. This project **deliberately does not include a CNAME**,
-so the site keeps serving at **is2lab.github.io**. If you copy files in without deleting the old
-`CNAME`, GitHub will keep trying to use that wrong custom domain. **Delete the old `CNAME` file**
-from the repo (unless you actually own a custom domain you want to point here).
-
----
-
-## Editing content
-
-Almost everything lives in two files:
-
-- **`assets/js/data.js`** — team members, the news archive, and the two research tracks.
-  Every entry has `{ en: "...", zh: "..." }`. Edit the text, add/remove items, done.
-- **`assets/js/i18n.js`** — the fixed UI wording (nav labels, headings, hero, footer…), EN + ZH.
-
-To add a team member, copy an existing object in the relevant array in `data.js` and update the
-`name`, `role`, and `img` (the `img` path should match a file in your `images/teampic/` folder).
-
-### Sponsor logos (Research page)
-
-The Research page ends with a **"Supported by"** strip. Until you add logo files it shows each
-sponsor's name as a clean text tile; drop the official logos into a new **`images/sponsors/`** folder
-in your repo and they'll appear automatically. Expected filenames (editable in `assets/js/data.js`
-under the `sponsors` array):
-
-```
-images/sponsors/nsfc.png
-images/sponsors/ccf.png
-images/sponsors/huawei.png
-images/sponsors/alibaba.png
-images/sponsors/ant-group.png
-images/sponsors/uwintech.png
-```
-
-Use logos with transparent or white backgrounds (the tiles are white). PNG or SVG both work — if you
-use SVG, just change the file extension in the `logo:` field. To add or remove a sponsor, edit that
-same `sponsors` array.
-
----
-
-## Language & theme toggles
-
-- The **EN / 中文** button in the nav switches languages instantly and remembers the choice
-  (stored locally in the browser).
-- The **light / dark** button switches theme and is likewise remembered.
-
----
-
-## Local preview
-
-From inside this folder:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open <http://localhost:8000>. (Open via a server, not by double-clicking the HTML file,
-so the browser will load the JS modules correctly.)
+The **EN / 中文** button switches language across the whole site, and the **☾** button
+switches light/dark. Both remember the visitor's choice in their browser.
