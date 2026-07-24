@@ -10,16 +10,16 @@ pillars:
     zh: 方向 01
   title:
     en: Formal Reasoning of Security
-    zh: 安全的形式化推理
+    zh: 形式化安全推理
   lede:
-    en: Machine-checked guarantees for the foundational software that safety-critical systems run on.
-    zh: 为安全攸关系统所依赖的基础软件提供机器可检验的保证。
+    en: Formal security guarantees for the foundational software that safety-critical systems run on.
+    zh: 为安全攸关系统所依赖的基础软件提供可证明安全保障。
   body:
     en: The software stack is the core driving force behind safety-critical industrial and autonomous systems. We
       formally model, verify, monitor and enforce correctness and security across foundational layers — OS kernels,
       compilers, security protocols, smart contracts and industrial control programs — increasingly aided by AI
       to scale formal methods to real-world systems.
-    zh: 软件栈是安全攸关的工业与自主系统的核心驱动力。我们对操作系统内核、编译器、安全协议、智能合约与工业控制程序等基础软件层进行形式化建模、验证、监测与性质强制，并越来越多地借助 AI 将形式化方法扩展到真实系统。
+    zh: 基础软件栈是安全攸关的工业与自主系统的核心驱动力。我们对操作系统内核、编译器、安全协议、智能合约与工业控制程序等基础软件层进行形式化建模、验证、监测与性质强制，并越来越多地借助 AI 将形式化方法扩展到真实系统。
   venues:
   - CCS 25
   - ICSE 25

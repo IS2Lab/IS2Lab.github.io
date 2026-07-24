@@ -23,17 +23,16 @@ ui:
     zh: 加入我们
   hero.eyebrow:
     en: intelligent system security lab · zhejiang university
-    zh: 智能系统安全实验室 · 浙江大学
+    zh: 智能系统综合安全实验室 · 浙江大学
   hero.title_pre:
-    en: 'Formal trust for '
+    en: 'Establishing formal trust for '
     zh: 为智能系统建立
   hero.title_hl:
     en: intelligent systems
     zh: 形式化信任
   hero.lede:
-    en: The IS² Lab builds the science and tools to verify, test and repair complex systems that integrate software,
-      AI and control — led by Prof. Jingyi Wang at the College of Control Science and Engineering, Zhejiang University.
-    zh: IS² 实验室致力于构建验证、测试与修复复杂智能系统（融合软件、人工智能与控制）的理论与工具，由浙江大学控制科学与工程学院王竟亦老师领导。
+    en: The IS² Lab builds the science and tools to design, verify and repair complex systems integrating software, AI and control - led by Prof. Jingyi Wang at the College of Control Science and Engineering, Zhejiang University.
+    zh: IS² 实验室致力于构建构建、验证与修复复杂智能系统（融合软件、人工智能与控制）的理论与工具，由浙江大学控制科学与工程学院王竟亦研究员领导。
   hero.cta1:
     en: Explore our research
     zh: 了解我们的研究
@@ -61,7 +60,7 @@ ui:
     zh: 我们的研究聚焦于为融合软件、人工智能与控制的复杂智能系统建立形式化可信保障。
   topic1.h:
     en: Formal reasoning of security
-    zh: 安全的形式化推理
+    zh: 形式化安全推理
   topic1.p:
     en: Formal reasoning of software and system security across foundational software layers.
     zh: 面向基础软件各层的软件与系统安全形式化推理。

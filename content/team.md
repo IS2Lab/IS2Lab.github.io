@@ -54,37 +54,11 @@ postdocs:
     zh:
     - 学士、博士，北京大学
 phd:
-- name: Xiangxiang Chen
-  role:
-    en: PhD Student · 2021 fall
-    zh: 博士生 · 2021 秋季入学
-  photo: images/teampic/Xiangxiang_Chen.jpg
-  notes:
-    en:
-    - B.E., Xi'an Jiaotong University
-    - Intern at Ant Group; Visiting PhD at NUS (Prof. Jin Song Dong)
-    - NDSS 26 1st author, WWW 26 1st author, TOSEM 24 1st author, TSE 23 4th author
-    zh:
-    - 学士，西安交通大学
-    - 蚂蚁集团实习；新加坡国立大学访问博士生（Jin Song Dong 教授）
-    - NDSS 26 第一作者，WWW 26 第一作者，TOSEM 24 第一作者，TSE 23 第四作者
-- name: Xuran Li
-  role:
-    en: PhD Student · 2022 fall
-    zh: 博士生 · 2022 秋季入学
-  photo: images/teampic/Xuran_Li.jpg
-  notes:
-    en:
-    - B.E., Tongji University
-    - Neural Networks 1st author, ESWA 1st author, CAC 25 1st author
-    zh:
-    - 学士，同济大学
-    - Neural Networks 第一作者，ESWA 第一作者，CAC 25 第一作者
 - name: Xiaoxia Liu
   role:
     en: PhD Student · 2022 fall
     zh: 博士生 · 2022 秋季入学
-  photo: images/teampic/Xiaoxia_Liu.jpg
+  photo: images/teampic/liuxiaoxia.jpg
   notes:
     en:
     - B.E., Jilin University
@@ -94,11 +68,23 @@ phd:
     - 学士，吉林大学
     - 蚂蚁集团实习；南洋理工大学访问博士生（Yang Liu 教授）
     - CSUR 26 第一作者，TSE 25 第一作者，IST 25 第一作者，ISSTA 25，TSE 25
+- name: Xuran Li
+  role:
+    en: PhD Student · 2022 fall
+    zh: 博士生 · 2022 秋季入学
+  photo: images/teampic/lixuran.jpg
+  notes:
+    en:
+    - B.E., Tongji University
+    - Neural Networks 1st author, ESWA 1st author, CAC 25 1st author
+    zh:
+    - 学士，同济大学
+    - Neural Networks 第一作者，ESWA 第一作者，CAC 25 第一作者
 - name: Zihan Liu
   role:
     en: PhD Student · 2023 fall
     zh: 博士生 · 2023 秋季入学
-  photo: images/teampic/zihan.jpg
+  photo: images/teampic/liuzihan.jpg
   notes:
     en:
     - B.E., Zhejiang University
@@ -110,7 +96,7 @@ phd:
   role:
     en: PhD Student · 2023 fall
     zh: 博士生 · 2023 秋季入学
-  photo: images/teampic/zhaoming.jpg
+  photo: images/teampic/miuzhaoming.jpg
   notes:
     en:
     - B.E., Shandong University
@@ -139,9 +125,11 @@ phd:
     en:
     - B.E., China University of Geosciences (Beijing)
     - M.Sc., Nanjing University of Science and Technology
+    - ISSRE 26 1st author
     zh:
     - 学士，中国地质大学（北京）
     - 硕士，南京理工大学
+    - ISSRE 26 第一作者
 - name: Xiaolin Ma
   role:
     en: PhD Student · 2025 fall
@@ -164,6 +152,26 @@ phd:
     - B.E., Xi'an Jiaotong University
     zh:
     - 学士，西安交通大学
+- name: Kaitong Jia
+  role:
+    en: PhD Student · 2026 fall
+    zh: 博士生 · 2026 秋季入学
+  photo: images/teampic/jiakaitong.jpg
+  notes:
+    en:
+    - B.E., South China University of Technology
+    zh:
+    - 学士，华南理工大学
+- name: Wei Chen
+  role:
+    en: PhD Student · 2026 fall
+    zh: 博士生 · 2026 秋季入学
+  photo: images/teampic/chenwei.jpg
+  notes:
+    en:
+    - B.E., Hangdian University
+    zh:
+    - 学士，杭州电子科技大学
 - name: Jianan Ma
   role:
     en: Exchange PhD (Hangzhou Dianzi Univ.) · 2023 fall
@@ -207,6 +215,17 @@ master:
     - B.E., Zhejiang University
     zh:
     - 学士，浙江大学
+- name: Jianing Sun
+  role:
+    en: Master Student · 2026 fall
+    zh: 硕士生 · 2026 秋季入学
+  photo: images/teampic/sunjianing.jpg
+  notes:
+    en:
+    - B.E., Hangdian University
+    zh:
+    - 学士，杭州电子科技大学
+
 ra:
 - name: Siyue Fu
   role:
@@ -220,7 +239,15 @@ ra:
     zh:
     - 学士，凯斯西储大学
     - 硕士，悉尼大学
+
 alumni:
+- name: Xiangxiang Chen
+  role:
+    en: PhD 2021-2026 · TOSEM 24, NDSS 26, WWW 26, etc
+    zh: 博士 2021-2026 · TOSEM 24, NDSS 26, WWW 26等
+  now:
+    en: Ant Group Special Talent Program
+    zh: 蚂蚁集团蚂蚁星
 - name: Xiaohan Yuan
   role:
     en: Master 2023-2026 · ISSTA 25, TOSEM 26, CAC 25, CSUR 26
@@ -261,8 +288,8 @@ alumni:
     en: Co-supervised PhD 2020-2025 · visiting Oxford; S&P 22, TOSEM 22, ASE 24, ISSTA 24
     zh: 联合培养博士 2020-2025 · 牛津大学访问；S&P 22、TOSEM 22、ASE 24、ISSTA 24
   now:
-    en: Ant Group
-    zh: 蚂蚁集团
+    en: Ant Group Special Talent Program
+    zh: 蚂蚁集团蚂蚁星
 - name: Shunkai Zhu
   role:
     en: Co-supervised PhD 2019-2025 · TSE 24, TSE/TOSEM 25
