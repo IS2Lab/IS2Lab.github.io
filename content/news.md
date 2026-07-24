@@ -6,7 +6,7 @@ news:
     en: Mar 2026
     zh: 2026 年 3 月
   text:
-    en: Prof. Wang will serve as PC of ICSE 2027, FSE 2027 and USENIX Security, consider submitting your work!
+    en: Prof. Wang will serve as PC of ICSE 2027, FSE 2027 and USENIX Security 2027, consider submitting your work!
     zh: 王老师将担任 ICSE 2027，FSE 2027 和 USENIX Security 2027 程序委员会委员，欢迎投稿！
 - date:
     en: Feb 2026
