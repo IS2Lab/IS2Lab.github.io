@@ -9,7 +9,7 @@ faculty:
 - name: Jingyi Wang
   role:
     en: Assistant Professor (Tenure Track)
-    zh: 助理教授（长聘教轨）
+    zh: 百人计划研究员，博士生导师（预聘-长聘教轨）
   photo: images/teampic/wangjingyi.jpg
   email: wangjyee@gmail.com
   homepage: https://wang-jingyi.github.io/
@@ -17,11 +17,11 @@ faculty:
     en:
     - B.E., Xi'an Jiaotong University, China
     - Ph.D., Singapore University of Technology and Design, supervised by Prof. Jun Sun
-    - Research Fellow, National University of Singapore, supervised by Prof. Jin Song Dong
+    - Research Fellow, National University of Singapore, with Prof. Jin Song Dong
     zh:
     - 学士，西安交通大学
     - 博士，新加坡科技设计大学，导师 Jun Sun 教授
-    - 研究员（Research Fellow），新加坡国立大学，导师 Jin Song Dong 教授
+    - 博士后，合作导师：新加坡国立大学，Jin Song Dong 教授
 postdocs:
 - name: Jialuo Chen
   role:
@@ -176,7 +176,7 @@ phd:
   role:
     en: Exchange PhD (Hangzhou Dianzi Univ.) · 2023 fall
     zh: 联合培养博士生（杭州电子科技大学）· 2023 秋季
-  photo: images/teampic/jianan.jpg
+  photo: images/teampic/majianan.jpg
   notes:
     en:
     - B.E., Hangzhou Dianzi University

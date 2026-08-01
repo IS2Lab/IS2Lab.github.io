@@ -31,6 +31,13 @@ pillars:
   - ICSE 18
   - FM 18
   highlights:
+  - venue: CCS 2025
+    title: Generalized Security-Preserving Refinement for Concurrent Systems
+    intro:
+      en: Extends refinement-based reasoning so that security properties are provably preserved as concurrent systems
+        are refined down toward their implementations.
+      zh: 推广基于精化的推理方法，使并发系统在向具体实现精化的过程中可证明地保持安全性质。
+    link: https://dl.acm.org/doi/10.1145/3719027.3765138
   - venue: ICSE 2025
     title: LLM-aided Automatic Modelling for Security Protocol Verification
     intro:
@@ -45,13 +52,6 @@ pillars:
         inside the Alipay super app, protecting millions of real users.
       zh: 工业级实践：将端到端形式化验证应用于支付宝超级 App 的去中心化身份系统，为数百万真实用户提供安全保障。
     link: https://ieeexplore.ieee.org/document/11334285
-  - venue: CCS 2025
-    title: Generalized Security-Preserving Refinement for Concurrent Systems
-    intro:
-      en: Extends refinement-based reasoning so that security properties are provably preserved as concurrent systems
-        are refined down toward their implementations.
-      zh: 推广基于精化的推理方法，使并发系统在向具体实现精化的过程中可证明地保持安全性质。
-    link: https://dl.acm.org/doi/10.1145/3719027.3765138
   - venue: WWW 2025
     title: Quantitative Runtime Monitoring of Ethereum Transaction Attacks
     intro:
@@ -106,13 +106,13 @@ pillars:
         a model's robustness, not merely its accuracy.
       zh: 提出面向鲁棒性的测试度量与用例生成方法，使测试不仅提升准确率，更可度量地增强模型鲁棒性。
     link: https://dl.acm.org/doi/10.1109/ICSE43902.2021.00038
-  - venue: ICSE 2024
-    title: 'VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks'
+  - venue: S&P 2022
+    title: Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models
     intro:
-      en: Repairs faulty neural networks by letting formal verification results guide the synthesis of the fix,
-        so the patched network ships with provable guarantees.
-      zh: 以形式化验证结果指导修复合成来修补缺陷神经网络，使修复后的网络具备可证明的保证。
-    link: https://dl.acm.org/doi/10.1145/3597503.3623332
+      en: A testing framework that fingerprints deep learning models to detect unauthorized copying, published at
+        IEEE S&P — a top-tier security venue.
+      zh: 一种对深度学习模型进行指纹测试、以检测未授权抄袭的框架，发表于顶级安全会议 IEEE S&P。
+    link: https://ieeexplore.ieee.org/document/9833747
   - venue: ISSTA 2025
     title: 'S-Eval: Automatic and Adaptive Test Generation for Safety Evaluation of LLMs'
     intro:
@@ -150,13 +150,13 @@ pillars:
       en: A unified and provable defense based on neural network verification against a range of attacks or safety violation of deep neural networks. 
       zh: 一种面向多种深度神经网络攻击或安全违反的深度神经网络可证明修复统一框架。
     link: https://dl.acm.org/doi/10.1145/3719027.3765057
-  - venue: S&P 2022
-    title: Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models
+  - venue: ICSE 2024
+    title: 'VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks'
     intro:
-      en: A testing framework that fingerprints deep learning models to detect unauthorized copying, published at
-        IEEE S&P — a top-tier security venue.
-      zh: 一种对深度学习模型进行指纹测试、以检测未授权抄袭的框架，发表于顶级安全会议 IEEE S&P。
-    link: https://ieeexplore.ieee.org/document/9833747
+      en: Repairs faulty neural networks by letting formal verification results guide the synthesis of the fix,
+        so the patched network ships with provable guarantees.
+      zh: 以形式化验证结果指导修复合成来修补缺陷神经网络，使修复后的网络具备可证明的保证。
+    link: https://dl.acm.org/doi/10.1145/3597503.3623332
   - venue: TDSC 2024
     title: 'VERIFI: Towards Verifiable Federated Unlearning'
     intro:

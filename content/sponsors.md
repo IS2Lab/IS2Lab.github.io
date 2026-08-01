@@ -7,6 +7,18 @@ sponsors:
   zh: 国家自然科学基金
   logo: images/sponsors/nsfc.png
   url: https://www.nsfc.gov.cn/
+- en: MOST
+  zh: 科技部
+  logo: images/sponsors/most.png
+  url: https://www.most.gov.cn/index.html
+- en: ZJKJT
+  zh: 浙江省科技厅
+  logo: images/sponsors/zjkjt.png
+  url: http://kjt.zj.gov.cn/
+- en: SKLICT
+  zh: 工业控制技术全国重点实验室
+  logo: images/sponsors/ccf.png
+  url: https://sklict.zju.edu.cn/
 - en: CCF
   zh: 中国计算机学会
   logo: images/sponsors/ccf.png
@@ -24,7 +36,7 @@ sponsors:
   logo: images/sponsors/ant-group.png
   url: https://www.antgroup.com/
 - en: UWinTech
-  zh: 优你科技
+  zh: 优稳自动化
   logo: images/sponsors/uwintech.png
   url: ''
 ---
