@@ -60,7 +60,7 @@ pillars:
       zh: 将定量运行时监控引入区块链，在攻击发生过程中而非事后检测针对以太坊交易的攻击。
     link: https://dl.acm.org/doi/abs/10.1145/3696410.3714682
   - venue: TSE 2023
-    title: K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs
+    title: 'K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs'
     intro:
       en: Defined the formal executable semantic for the ST language which is the most powerful language for PLC programming, which correctness is validated across commercialized compilers and used to uncover multipile bugs in opensource compilers.
       zh: 在K语义框架下定义了工业编程语言ST的形式化语义，在数个商用编译器中验证了其覆盖率和正确性，并发现了开源工业编译器的多个缺陷。
@@ -79,8 +79,8 @@ pillars:
   body:
     en: Emerging AI — deep neural networks and large language models, AI-based cyber-physical systems, and LLM agents
       — is mostly built on software, so its trustworthiness must be assured from a software-engineering perspective.
-      We build systematic testing, verification and repair frameworks that evaluate, locate and fix risks in AI
-      across robustness, fairness, copyright and safety.
+      We build systematic testing, verification and repair frameworks that evaluate, verify and fix AI
+      across different safety and ethical dimensions such as robustness, fairness, copyright and safety.
     zh: 新兴的人工智能——深度神经网络与大语言模型、基于 AI 的信息物理系统以及大模型智能体——大多构建于软件之上，因此必须从软件工程视角保障其可信性。我们构建系统化的测试、验证与修复框架，从鲁棒性、公平性、版权与安全等维度评估、定位并修复
       AI 中的风险。
   venues:
