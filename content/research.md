@@ -62,7 +62,7 @@ pillars:
   - venue: TSE 2023
     title: 'K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs'
     intro:
-      en: Defined the formal executable semantic for the ST language which is the most powerful language for PLC programming, which correctness is validated across commercialized compilers and used to uncover multipile bugs in opensource compilers.
+      en: Defined the formal executable semantic for the ST language which is the most powerful language for PLC programming, whose correctness is validated across commercialized compilers and used to uncover multipile bugs in opensource compilers.
       zh: 在K语义框架下定义了工业编程语言ST的形式化语义，在数个商用编译器中验证了其覆盖率和正确性，并发现了开源工业编译器的多个缺陷。
     link: https://dl.acm.org/doi/abs/10.1109/TSE.2023.3315292
   
