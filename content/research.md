@@ -147,7 +147,7 @@ pillars:
   - venue: CCS 2025
     title: Provable Repair of Deep Neural Networks through Pre-image Synthesis and Property Refinement
     intro:
-      en: A unified and provable defense against a range of attacks or safety violation of deep neural networks. 
+      en: A unified and provable defense based on neural network verification against a range of attacks or safety violation of deep neural networks. 
       zh: 一种面向多种深度神经网络攻击或安全违反的深度神经网络可证明修复统一框架。
     link: https://dl.acm.org/doi/10.1145/3719027.3765057
   - venue: S&P 2022
