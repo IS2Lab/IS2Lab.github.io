@@ -59,6 +59,13 @@ pillars:
         as they unfold rather than after the fact.
       zh: 将定量运行时监控引入区块链，在攻击发生过程中而非事后检测针对以太坊交易的攻击。
     link: https://dl.acm.org/doi/abs/10.1145/3696410.3714682
+  - venue: TSE 2023
+    title: K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs
+    intro:
+      en: Defined the formal executable semantic for the ST language which is the most powerful language for PLC programming, which correctness is validated across commercialized compilers and used to uncover multipile bugs in opensource compilers.
+      zh: 在K语义框架下定义了工业编程语言ST的形式化语义，在数个商用编译器中验证了其覆盖率和正确性，并发现了开源工业编译器的多个缺陷。
+    link: https://dl.acm.org/doi/abs/10.1109/TSE.2023.3315292
+  
 - colour: track-2
   tag:
     en: Pillar 02
@@ -84,9 +91,7 @@ pillars:
   - ICSE 22
   - ICSE 21
   - TSE 21
-  - TACAS 21
   - ICSE 20
-  - ASE 20
   - ICSE 19
   highlights:
   - venue: ICSE 2020
@@ -128,21 +133,23 @@ pillars:
     zh: 方向 03
   title:
     en: Formal Methods for AI Safety & Ethics
-    zh: 人工智能安全与伦理
+    zh: 基于形式化方法的人工智能安全与伦理
   lede:
-    en: Understanding and defending the safety of LLMs, agents and embodied intelligence.
-    zh: 认知并守护大模型、智能体与具身智能的安全。
+    en: Specifying, understanding and defending the safety and ethics of DNNs, LLMs, agents and embodied intelligence.
+    zh: 形式化定义、认知并守护深度神经网络、大模型、智能体与具身智能的安全和伦理。
   body:
     en: As large language models, agents and embodied intelligence enter the real world, new classes of risk emerge
       — backdoors, unauthorized model copying, unverifiable data removal and unsafe behavior. We study these threats and build the defenses with formal guarantees that let powerful AI be deployed responsibly.
     zh: 随着大语言模型、智能体与具身智能走向真实世界，后门攻击、未授权模型抄袭、无法验证的数据删除与不安全行为等新型风险随之而来。我们研究这些威胁，并构建防御、基准与保证，使强大的 AI 能够被负责任地部署。
   venues:
-  - S&P 22
+  - CCS 25
+  - ASE 25
+  - ICSE 25
   - NDSS 26
   - WWW 26
   - TDSC 24
-  - CSUR
-  - TOSEM 22
+  - TACAS 21
+  - ASE 20
   highlights:
   - venue: CCS 2025
     title: Provable Repair of Deep Neural Networks through Pre-image Synthesis and Property Refinement
@@ -150,12 +157,17 @@ pillars:
       en: A unified and provable defense based on neural network verification against a range of attacks or safety violation of deep neural networks. 
       zh: 一种面向多种深度神经网络攻击或安全违反的深度神经网络可证明修复统一框架。
     link: https://dl.acm.org/doi/10.1145/3719027.3765057
+  - venue: ASE 2025
+    title: 'Provable Fairness Repair for Deep Neural Networks'
+    intro:
+      en: Repairs individual discriminations with provable guarantees for deep neural networks with constraint solving.
+      zh: 运用约束求解技术指导可证明地修复陷神经网络的个体公平性缺陷。
+    link: https://dl.acm.org/doi/10.1145/3597503.3623332
   - venue: ICSE 2024
     title: 'VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks'
     intro:
-      en: Repairs faulty neural networks by letting formal verification results guide the synthesis of the fix,
-        so the patched network ships with provable guarantees.
-      zh: 以形式化验证结果指导修复合成来修补缺陷神经网络，使修复后的网络具备可证明的保证。
+      en: Repairs faulty neural networks by letting formal verification results guide the synthesis of the fix.
+      zh: 以形式化验证结果指导修复合成来修补缺陷神经网络。
     link: https://dl.acm.org/doi/10.1145/3597503.3623332
   - venue: TDSC 2024
     title: 'VERIFI: Towards Verifiable Federated Unlearning'
