@@ -127,15 +127,14 @@ pillars:
     en: Pillar 03
     zh: 方向 03
   title:
-    en: AI Safety, Security & Ethics
+    en: Formal Methods for AI Safety & Ethics
     zh: 人工智能安全与伦理
   lede:
     en: Understanding and defending the safety of LLMs, agents and embodied intelligence.
     zh: 认知并守护大模型、智能体与具身智能的安全。
   body:
     en: As large language models, agents and embodied intelligence enter the real world, new classes of risk emerge
-      — backdoors, unauthorized model copying, unverifiable data removal and unsafe behavior. We study these threats
-      and build the defenses, benchmarks and guarantees that let powerful AI be deployed responsibly.
+      — backdoors, unauthorized model copying, unverifiable data removal and unsafe behavior. We study these threats and build the defenses with formal guarantees that let powerful AI be deployed responsibly.
     zh: 随着大语言模型、智能体与具身智能走向真实世界，后门攻击、未授权模型抄袭、无法验证的数据删除与不安全行为等新型风险随之而来。我们研究这些威胁，并构建防御、基准与保证，使强大的 AI 能够被负责任地部署。
   venues:
   - S&P 22
@@ -145,6 +144,12 @@ pillars:
   - CSUR
   - TOSEM 22
   highlights:
+  - venue: CCS 2025
+    title: Provable Repair of Deep Neural Networks through Pre-image Synthesis and Property Refinement
+    intro:
+      en: A unified and provable defense against a range of attacks or safety violation of deep neural networks. 
+      zh: 一种面向多种深度神经网络攻击或安全违反的深度神经网络可证明修复统一框架。
+    link: https://dl.acm.org/doi/10.1145/3719027.3765057
   - venue: S&P 2022
     title: Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models
     intro:

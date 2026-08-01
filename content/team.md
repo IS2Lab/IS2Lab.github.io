@@ -306,8 +306,8 @@ alumni:
     zh: 华为
 - name: Fan Zhou
   role:
-    en: Master 2021-2023 · intern at Meituan
-    zh: 硕士 2021-2023 · 美团实习
+    en: Master 2021-2023
+    zh: 硕士 2021-2023
   now:
     en: Industry
     zh: 企业界
