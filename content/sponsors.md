@@ -33,10 +33,6 @@ sponsors:
   url: https://www.alibabagroup.com/
 - en: Ant Group
   zh: 蚂蚁集团
-  logo: images/sponsors/ant-group.png
+  logo: images/sponsors/ant.jpg
   url: https://www.antgroup.com/
-- en: UWinTech
-  zh: 优稳自动化
-  logo: images/sponsors/uwintech.png
-  url: ''
 ---
