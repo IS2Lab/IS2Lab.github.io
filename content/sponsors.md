@@ -17,7 +17,7 @@ sponsors:
   url: http://kjt.zj.gov.cn/
 - en: SKLICT
   zh: 工业控制技术全国重点实验室
-  logo: images/sponsors/ccf.png
+  logo: images/sponsors/sklict.png
   url: https://sklict.zju.edu.cn/
 - en: CCF
   zh: 中国计算机学会
