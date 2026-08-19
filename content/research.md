@@ -132,11 +132,11 @@ pillars:
     en: Pillar 03
     zh: 方向 03
   title:
-    en: Formal Methods for AI Safety & Ethics
-    zh: 基于形式化方法的人工智能安全与伦理
+    en: AI Safety & Ethics
+    zh: 人工智能安全与伦理
   lede:
     en: Specifying, understanding and defending the safety and ethics of DNNs, LLMs, agents and embodied intelligence.
-    zh: 形式化定义、认知并守护深度神经网络、大模型、智能体与具身智能的安全和伦理。
+    zh: 定义、认知并守护深度神经网络、大模型、智能体与具身智能的安全和伦理。
   body:
     en: As large language models, agents and embodied intelligence enter the real world, new classes of risk emerge
       — backdoors, unauthorized model copying, unverifiable data removal and unsafe behavior. We study these threats and build the defenses with formal guarantees that let powerful AI be deployed responsibly.

@@ -32,7 +32,7 @@ ui:
     zh: 形式化信任
   hero.lede:
     en: The IS² Lab builds the science and tools to design, verify and repair complex systems integrating software, AI and control, led by Prof. Jingyi Wang at the College of Control Science and Engineering, Zhejiang University.
-    zh: IS² 实验室致力于构建设计、验证与修复复杂智能系统（融合软件、人工智能与控制）的基础理论与工具，由浙江大学控制科学与工程学院王竟亦研究员领导。
+    zh: IS² 实验室致力于设计、验证与修复复杂智能系统（融合软件、人工智能与控制）的前沿基础理论与工具链研究，由浙江大学控制科学与工程学院王竟亦研究员领导。
   hero.cta1:
     en: Explore our research
     zh: 了解我们的研究
@@ -98,8 +98,8 @@ ui:
     en: Collaborations
     zh: 合作
   collab.p:
-    en: Our lab pursues research with practical relevance and impact, working closely with industrial partners such as Huawei, Alibaba, Ant Group and UWinTech. We also actively collaborate with top universities including ETH Zürich, UC Berkeley, UIUC, the University of Bristol, the National University of Singapore, Nanyang Technological University and Singapore Management University.
-    zh: 我们追求兼具实际意义与影响力的研究，与华为、阿里巴巴、蚂蚁集团等产业伙伴紧密合作，并与苏黎世联邦理工、加州大学伯克利分校、伊利诺伊大学香槟分校、布里斯托大学、新加坡国立大学、南洋理工大学、新加坡管理大学等国际顶尖高校积极开展合作。
+    en: Our lab pursues research with theoretical depth or practical impact, working closely with industrial partners such as Huawei, Alibaba, Ant Group and UWinTech. We also actively collaborate with top universities including ETH Zürich, UC Berkeley, UIUC, the University of Bristol, the National University of Singapore, Nanyang Technological University and Singapore Management University.
+    zh: 我们追求兼具理论深度与实际影响力的研究，与华为、阿里巴巴、蚂蚁集团等产业伙伴紧密合作，并与苏黎世联邦理工、加州大学伯克利分校、伊利诺伊大学香槟分校、布里斯托大学、新加坡国立大学、南洋理工大学、新加坡管理大学等国际顶尖高校积极开展合作。
   vac.h:
     en: Vacancies
     zh: 招聘
