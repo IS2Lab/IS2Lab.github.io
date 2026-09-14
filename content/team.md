@@ -226,6 +226,18 @@ master:
     zh:
     - 学士，杭州电子科技大学
 
+- name: Hang Zhang
+  role:
+    en: Master Student · 2026 fall
+    zh: 硕士生 · 2026 秋季入学
+  photo: images/teampic/zhanghang.jpg
+  notes:
+    en:
+    - B.E., Zhejiang University
+    zh:
+    - 学士，浙江大学
+
+
 ra:
 - name: Siyue Fu
   role:
