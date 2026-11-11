@@ -8,7 +8,7 @@ window.IS2_DATA = {
       "name": "Jingyi Wang",
       "role": {
         "en": "Assistant Professor (Tenure Track)",
-        "zh": "助理教授（长聘教轨）"
+        "zh": "百人计划研究员，博士生导师（预聘-长聘教轨）"
       },
       "email": "wangjyee@gmail.com",
       "homepage": "https://wang-jingyi.github.io/",
@@ -16,12 +16,12 @@ window.IS2_DATA = {
         "en": [
           "B.E., Xi'an Jiaotong University, China",
           "Ph.D., Singapore University of Technology and Design, supervised by Prof. Jun Sun",
-          "Research Fellow, National University of Singapore, supervised by Prof. Jin Song Dong"
+          "Research Fellow, National University of Singapore, with Prof. Jin Song Dong"
         ],
         "zh": [
           "学士，西安交通大学",
           "博士，新加坡科技设计大学，导师 Jun Sun 教授",
-          "研究员（Research Fellow），新加坡国立大学，导师 Jin Song Dong 教授"
+          "博士后，合作导师：新加坡国立大学，Jin Song Dong 教授"
         ]
       }
     }
@@ -78,45 +78,7 @@ window.IS2_DATA = {
   ],
   "phd": [
     {
-      "photo": "images/teampic/Xiangxiang_Chen.jpg",
-      "name": "Xiangxiang Chen",
-      "role": {
-        "en": "PhD Student · 2021 fall",
-        "zh": "博士生 · 2021 秋季入学"
-      },
-      "edu": {
-        "en": [
-          "B.E., Xi'an Jiaotong University",
-          "Intern at Ant Group; Visiting PhD at NUS (Prof. Jin Song Dong)",
-          "NDSS 26 1st author, WWW 26 1st author, TOSEM 24 1st author, TSE 23 4th author"
-        ],
-        "zh": [
-          "学士，西安交通大学",
-          "蚂蚁集团实习；新加坡国立大学访问博士生（Jin Song Dong 教授）",
-          "NDSS 26 第一作者，WWW 26 第一作者，TOSEM 24 第一作者，TSE 23 第四作者"
-        ]
-      }
-    },
-    {
-      "photo": "images/teampic/Xuran_Li.jpg",
-      "name": "Xuran Li",
-      "role": {
-        "en": "PhD Student · 2022 fall",
-        "zh": "博士生 · 2022 秋季入学"
-      },
-      "edu": {
-        "en": [
-          "B.E., Tongji University",
-          "Neural Networks 1st author, ESWA 1st author, CAC 25 1st author"
-        ],
-        "zh": [
-          "学士，同济大学",
-          "Neural Networks 第一作者，ESWA 第一作者，CAC 25 第一作者"
-        ]
-      }
-    },
-    {
-      "photo": "images/teampic/Xiaoxia_Liu.jpg",
+      "photo": "images/teampic/liuxiaoxia.jpg",
       "name": "Xiaoxia Liu",
       "role": {
         "en": "PhD Student · 2022 fall",
@@ -136,7 +98,25 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/zihan.jpg",
+      "photo": "images/teampic/lixuran.jpg",
+      "name": "Xuran Li",
+      "role": {
+        "en": "PhD Student · 2022 fall",
+        "zh": "博士生 · 2022 秋季入学"
+      },
+      "edu": {
+        "en": [
+          "B.E., Tongji University",
+          "Neural Networks 1st author, ESWA 1st author, CAC 25 1st author"
+        ],
+        "zh": [
+          "学士，同济大学",
+          "Neural Networks 第一作者，ESWA 第一作者，CAC 25 第一作者"
+        ]
+      }
+    },
+    {
+      "photo": "images/teampic/liuzihan.jpg",
       "name": "Zihan Liu",
       "role": {
         "en": "PhD Student · 2023 fall",
@@ -154,7 +134,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/zhaoming.jpg",
+      "photo": "images/teampic/miuzhaoming.jpg",
       "name": "Zhaoming Miao",
       "role": {
         "en": "PhD Student · 2023 fall",
@@ -199,11 +179,13 @@ window.IS2_DATA = {
       "edu": {
         "en": [
           "B.E., China University of Geosciences (Beijing)",
-          "M.Sc., Nanjing University of Science and Technology"
+          "M.Sc., Nanjing University of Science and Technology",
+          "ISSRE 26 1st author"
         ],
         "zh": [
           "学士，中国地质大学（北京）",
-          "硕士，南京理工大学"
+          "硕士，南京理工大学",
+          "ISSRE 26 第一作者"
         ]
       }
     },
@@ -242,7 +224,39 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/jianan.jpg",
+      "photo": "images/teampic/jiakaitong.jpg",
+      "name": "Kaitong Jia",
+      "role": {
+        "en": "PhD Student · 2026 fall",
+        "zh": "博士生 · 2026 秋季入学"
+      },
+      "edu": {
+        "en": [
+          "B.E., South China University of Technology"
+        ],
+        "zh": [
+          "学士，华南理工大学"
+        ]
+      }
+    },
+    {
+      "photo": "images/teampic/chenwei.jpg",
+      "name": "Wei Chen",
+      "role": {
+        "en": "PhD Student · 2026 fall",
+        "zh": "博士生 · 2026 秋季入学"
+      },
+      "edu": {
+        "en": [
+          "B.E., Hangdian University"
+        ],
+        "zh": [
+          "学士，杭州电子科技大学"
+        ]
+      }
+    },
+    {
+      "photo": "images/teampic/majianan.jpg",
       "name": "Jianan Ma",
       "role": {
         "en": "Exchange PhD (Hangzhou Dianzi Univ.) · 2023 fall",
@@ -308,6 +322,38 @@ window.IS2_DATA = {
           "学士，浙江大学"
         ]
       }
+    },
+    {
+      "photo": "images/teampic/sunjianing.jpg",
+      "name": "Jianing Sun",
+      "role": {
+        "en": "Master Student · 2026 fall",
+        "zh": "硕士生 · 2026 秋季入学"
+      },
+      "edu": {
+        "en": [
+          "B.E., Hangdian University"
+        ],
+        "zh": [
+          "学士，杭州电子科技大学"
+        ]
+      }
+    },
+    {
+      "photo": "images/teampic/zhanghang.jpg",
+      "name": "Hang Zhang",
+      "role": {
+        "en": "Master Student · 2026 fall",
+        "zh": "硕士生 · 2026 秋季入学"
+      },
+      "edu": {
+        "en": [
+          "B.E., Zhejiang University"
+        ],
+        "zh": [
+          "学士，浙江大学"
+        ]
+      }
     }
   ],
   "ra": [
@@ -331,6 +377,17 @@ window.IS2_DATA = {
     }
   ],
   "alumni": [
+    {
+      "who": "Xiangxiang Chen",
+      "role": {
+        "en": "PhD 2021-2026 · TOSEM 24, NDSS 26, WWW 26, etc",
+        "zh": "博士 2021-2026 · TOSEM 24, NDSS 26, WWW 26等"
+      },
+      "where": {
+        "en": "Ant Group Special Talent Program",
+        "zh": "蚂蚁集团蚂蚁星"
+      }
+    },
     {
       "who": "Xiaohan Yuan",
       "role": {
@@ -393,8 +450,8 @@ window.IS2_DATA = {
         "zh": "联合培养博士 2020-2025 · 牛津大学访问；S&P 22、TOSEM 22、ASE 24、ISSTA 24"
       },
       "where": {
-        "en": "Ant Group",
-        "zh": "蚂蚁集团"
+        "en": "Ant Group Special Talent Program",
+        "zh": "蚂蚁集团蚂蚁星"
       }
     },
     {
@@ -422,8 +479,8 @@ window.IS2_DATA = {
     {
       "who": "Fan Zhou",
       "role": {
-        "en": "Master 2021-2023 · intern at Meituan",
-        "zh": "硕士 2021-2023 · 美团实习"
+        "en": "Master 2021-2023",
+        "zh": "硕士 2021-2023"
       },
       "where": {
         "en": "Industry",
@@ -493,8 +550,8 @@ window.IS2_DATA = {
         "zh": "2026 年 3 月"
       },
       "t": {
-        "en": "Prof. Wang will serve as PC of ICSE 2027 and FSE 2027 — consider submitting your work!",
-        "zh": "王老师将担任 ICSE 2027 与 FSE 2027 程序委员会委员，欢迎投稿！"
+        "en": "Prof. Wang will serve as PC of ICSE 2027, FSE 2027 and USENIX Security 2027, consider submitting your work!",
+        "zh": "王老师将担任 ICSE 2027，FSE 2027 和 USENIX Security 2027 程序委员会委员，欢迎投稿！"
       }
     },
     {
@@ -503,8 +560,8 @@ window.IS2_DATA = {
         "zh": "2026 年 2 月"
       },
       "t": {
-        "en": "Prof. Wang will serve as PC chair of SETTA 2026 — consider submitting your work!",
-        "zh": "王老师将担任 SETTA 2026 程序委员会主席，欢迎投稿！"
+        "en": "Prof. Wang will serve as PC chair of SETTA 2026 and SAC-SVT 2027 — consider submitting your work!",
+        "zh": "王老师将担任 SETTA 2026 和 SAC-SVT 2027 程序委员会主席，欢迎投稿！"
       }
     },
     {
@@ -876,6 +933,24 @@ window.IS2_DATA = {
       "url": "https://www.nsfc.gov.cn/"
     },
     {
+      "en": "MOST",
+      "zh": "科技部",
+      "logo": "images/sponsors/most.png",
+      "url": "https://www.most.gov.cn/index.html"
+    },
+    {
+      "en": "ZJKJT",
+      "zh": "浙江省科技厅",
+      "logo": "images/sponsors/zjkjt.png",
+      "url": "http://kjt.zj.gov.cn/"
+    },
+    {
+      "en": "SKLICT",
+      "zh": "工业控制技术全国重点实验室",
+      "logo": "images/sponsors/sklict.png",
+      "url": "https://sklict.zju.edu.cn/"
+    },
+    {
       "en": "CCF",
       "zh": "中国计算机学会",
       "logo": "images/sponsors/ccf.png",
@@ -896,18 +971,14 @@ window.IS2_DATA = {
     {
       "en": "Ant Group",
       "zh": "蚂蚁集团",
-      "logo": "images/sponsors/ant-group.png",
+      "logo": "images/sponsors/ant.jpg",
       "url": "https://www.antgroup.com/"
-    },
-    {
-      "en": "UWinTech",
-      "zh": "优你科技",
-      "logo": "images/sponsors/uwintech.png",
-      "url": ""
     }
   ],
   "tracks": [
     {
+      "id": "formal-security",
+      "image": "",
       "cls": "track-1",
       "tag": {
         "en": "Pillar 01",
@@ -915,15 +986,15 @@ window.IS2_DATA = {
       },
       "title": {
         "en": "Formal Reasoning of Security",
-        "zh": "安全的形式化推理"
+        "zh": "形式化安全推理"
       },
       "lede": {
-        "en": "Machine-checked guarantees for the foundational software that safety-critical systems run on.",
-        "zh": "为安全攸关系统所依赖的基础软件提供机器可检验的保证。"
+        "en": "Formal security guarantees for the foundational software that safety-critical systems run on.",
+        "zh": "为安全攸关系统所依赖的基础软件提供可证明安全保障。"
       },
       "body": {
         "en": "The software stack is the core driving force behind safety-critical industrial and autonomous systems. We formally model, verify, monitor and enforce correctness and security across foundational layers — OS kernels, compilers, security protocols, smart contracts and industrial control programs — increasingly aided by AI to scale formal methods to real-world systems.",
-        "zh": "软件栈是安全攸关的工业与自主系统的核心驱动力。我们对操作系统内核、编译器、安全协议、智能合约与工业控制程序等基础软件层进行形式化建模、验证、监测与性质强制，并越来越多地借助 AI 将形式化方法扩展到真实系统。"
+        "zh": "基础软件栈是安全攸关的工业与自主系统的核心驱动力。我们对操作系统内核、编译器、安全协议、智能合约与工业控制程序等基础软件层进行形式化建模、验证、监测与性质强制，并越来越多地借助 AI 将形式化方法扩展到真实系统。"
       },
       "venues": [
         "CCS 25",
@@ -937,6 +1008,15 @@ window.IS2_DATA = {
         "FM 18"
       ],
       "highlights": [
+        {
+          "v": "CCS 2025",
+          "title": "Generalized Security-Preserving Refinement for Concurrent Systems",
+          "intro": {
+            "en": "Extends refinement-based reasoning so that security properties are provably preserved as concurrent systems are refined down toward their implementations.",
+            "zh": "推广基于精化的推理方法，使并发系统在向具体实现精化的过程中可证明地保持安全性质。"
+          },
+          "link": "https://dl.acm.org/doi/10.1145/3719027.3765138"
+        },
         {
           "v": "ICSE 2025",
           "title": "LLM-aided Automatic Modelling for Security Protocol Verification",
@@ -956,15 +1036,6 @@ window.IS2_DATA = {
           "link": "https://ieeexplore.ieee.org/document/11334285"
         },
         {
-          "v": "CCS 2025",
-          "title": "Generalized Security-Preserving Refinement for Concurrent Systems",
-          "intro": {
-            "en": "Extends refinement-based reasoning so that security properties are provably preserved as concurrent systems are refined down toward their implementations.",
-            "zh": "推广基于精化的推理方法，使并发系统在向具体实现精化的过程中可证明地保持安全性质。"
-          },
-          "link": "https://dl.acm.org/doi/10.1145/3719027.3765138"
-        },
-        {
           "v": "WWW 2025",
           "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
           "intro": {
@@ -972,10 +1043,21 @@ window.IS2_DATA = {
             "zh": "将定量运行时监控引入区块链，在攻击发生过程中而非事后检测针对以太坊交易的攻击。"
           },
           "link": "https://dl.acm.org/doi/abs/10.1145/3696410.3714682"
+        },
+        {
+          "v": "TSE 2023",
+          "title": "K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs",
+          "intro": {
+            "en": "Defined the formal executable semantic for the ST language which is the most powerful language for PLC programming, whose correctness is validated across commercialized compilers and used to uncover multipile bugs in opensource compilers.",
+            "zh": "在K语义框架下定义了工业编程语言ST的形式化语义，在数个商用编译器中验证了其覆盖率和正确性，并发现了开源工业编译器的多个缺陷。"
+          },
+          "link": "https://dl.acm.org/doi/abs/10.1109/TSE.2023.3315292"
         }
       ]
     },
     {
+      "id": "se4ai",
+      "image": "",
       "cls": "track-2",
       "tag": {
         "en": "Pillar 02",
@@ -990,7 +1072,7 @@ window.IS2_DATA = {
         "zh": "对 AI 模型与 AI 赋能系统进行测试、验证与修复。"
       },
       "body": {
-        "en": "Emerging AI — deep neural networks and large language models, AI-based cyber-physical systems, and LLM agents — is mostly built on software, so its trustworthiness must be assured from a software-engineering perspective. We build systematic testing, verification and repair frameworks that evaluate, locate and fix risks in AI across robustness, fairness, copyright and safety.",
+        "en": "Emerging AI — deep neural networks and large language models, AI-based cyber-physical systems, and LLM agents — is mostly built on software, so its trustworthiness must be assured from a software-engineering perspective. We build systematic testing, verification and repair frameworks that evaluate, verify and fix AI across different safety and ethical dimensions such as robustness, fairness, copyright and safety.",
         "zh": "新兴的人工智能——深度神经网络与大语言模型、基于 AI 的信息物理系统以及大模型智能体——大多构建于软件之上，因此必须从软件工程视角保障其可信性。我们构建系统化的测试、验证与修复框架，从鲁棒性、公平性、版权与安全等维度评估、定位并修复 AI 中的风险。"
       },
       "venues": [
@@ -1001,9 +1083,7 @@ window.IS2_DATA = {
         "ICSE 22",
         "ICSE 21",
         "TSE 21",
-        "TACAS 21",
         "ICSE 20",
-        "ASE 20",
         "ICSE 19"
       ],
       "highlights": [
@@ -1030,13 +1110,13 @@ window.IS2_DATA = {
           "link": "https://dl.acm.org/doi/10.1109/ICSE43902.2021.00038"
         },
         {
-          "v": "ICSE 2024",
-          "title": "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks",
+          "v": "S&P 2022",
+          "title": "Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models",
           "intro": {
-            "en": "Repairs faulty neural networks by letting formal verification results guide the synthesis of the fix, so the patched network ships with provable guarantees.",
-            "zh": "以形式化验证结果指导修复合成来修补缺陷神经网络，使修复后的网络具备可证明的保证。"
+            "en": "A testing framework that fingerprints deep learning models to detect unauthorized copying, published at IEEE S&P — a top-tier security venue.",
+            "zh": "一种对深度学习模型进行指纹测试、以检测未授权抄袭的框架，发表于顶级安全会议 IEEE S&P。"
           },
-          "link": "https://dl.acm.org/doi/10.1145/3597503.3623332"
+          "link": "https://ieeexplore.ieee.org/document/9833747"
         },
         {
           "v": "ISSTA 2025",
@@ -1052,40 +1132,62 @@ window.IS2_DATA = {
       ]
     },
     {
+      "id": "ai-safety",
+      "image": "",
       "cls": "track-3",
       "tag": {
         "en": "Pillar 03",
         "zh": "方向 03"
       },
       "title": {
-        "en": "AI Safety, Security & Ethics",
+        "en": "AI Safety & Ethics",
         "zh": "人工智能安全与伦理"
       },
       "lede": {
-        "en": "Understanding and defending the safety of LLMs, agents and embodied intelligence.",
-        "zh": "认知并守护大模型、智能体与具身智能的安全。"
+        "en": "Specifying, understanding and defending the safety and ethics of DNNs, LLMs, agents and embodied intelligence.",
+        "zh": "定义、认知并守护深度神经网络、大模型、智能体与具身智能的安全和伦理。"
       },
       "body": {
-        "en": "As large language models, agents and embodied intelligence enter the real world, new classes of risk emerge — backdoors, unauthorized model copying, unverifiable data removal and unsafe behavior. We study these threats and build the defenses, benchmarks and guarantees that let powerful AI be deployed responsibly.",
+        "en": "As large language models, agents and embodied intelligence enter the real world, new classes of risk emerge — backdoors, unauthorized model copying, unverifiable data removal and unsafe behavior. We study these threats and build the defenses with formal guarantees that let powerful AI be deployed responsibly.",
         "zh": "随着大语言模型、智能体与具身智能走向真实世界，后门攻击、未授权模型抄袭、无法验证的数据删除与不安全行为等新型风险随之而来。我们研究这些威胁，并构建防御、基准与保证，使强大的 AI 能够被负责任地部署。"
       },
       "venues": [
-        "S&P 22",
+        "CCS 25",
+        "ASE 25",
+        "ICSE 25",
         "NDSS 26",
         "WWW 26",
         "TDSC 24",
-        "CSUR",
-        "TOSEM 22"
+        "TACAS 21",
+        "ASE 20"
       ],
       "highlights": [
         {
-          "v": "S&P 2022",
-          "title": "Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models",
+          "v": "CCS 2025",
+          "title": "Provable Repair of Deep Neural Networks through Pre-image Synthesis and Property Refinement",
           "intro": {
-            "en": "A testing framework that fingerprints deep learning models to detect unauthorized copying, published at IEEE S&P — a top-tier security venue.",
-            "zh": "一种对深度学习模型进行指纹测试、以检测未授权抄袭的框架，发表于顶级安全会议 IEEE S&P。"
+            "en": "A unified and provable defense based on neural network verification against a range of attacks or safety violation of deep neural networks.",
+            "zh": "一种面向多种深度神经网络攻击或安全违反的深度神经网络可证明修复统一框架。"
           },
-          "link": "https://ieeexplore.ieee.org/document/9833747"
+          "link": "https://dl.acm.org/doi/10.1145/3719027.3765057"
+        },
+        {
+          "v": "ASE 2025",
+          "title": "Provable Fairness Repair for Deep Neural Networks",
+          "intro": {
+            "en": "Repairs individual discriminations with provable guarantees for deep neural networks with constraint solving.",
+            "zh": "运用约束求解技术指导可证明地修复陷神经网络的个体公平性缺陷。"
+          },
+          "link": "https://dl.acm.org/doi/10.1145/3597503.3623332"
+        },
+        {
+          "v": "ICSE 2024",
+          "title": "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks",
+          "intro": {
+            "en": "Repairs faulty neural networks by letting formal verification results guide the synthesis of the fix.",
+            "zh": "以形式化验证结果指导修复合成来修补缺陷神经网络。"
+          },
+          "link": "https://dl.acm.org/doi/10.1145/3597503.3623332"
         },
         {
           "v": "TDSC 2024",
@@ -1119,6 +1221,192 @@ window.IS2_DATA = {
           "link": "https://dl.acm.org/doi/10.1145/3774904.3792256"
         }
       ]
+    }
+  ],
+  "pubs": [
+    {
+      "key": "ndss2026roundingguided",
+      "title": "Rounding-Guided Backdoor Injection in Deep Learning Model Quantization",
+      "authors": "",
+      "venue": "NDSS 2026",
+      "full": "",
+      "year": 2026,
+      "pillars": [
+        "ai-safety"
+      ],
+      "url": "https://arxiv.org/abs/2510.09647"
+    },
+    {
+      "key": "www2026llmqua",
+      "title": "LLMQuA: Practical Backdoor Injection on Large Language Model Quantization",
+      "authors": "",
+      "venue": "WWW 2026",
+      "full": "",
+      "year": 2026,
+      "pillars": [
+        "ai-safety"
+      ],
+      "url": "https://dl.acm.org/doi/10.1145/3774904.3792256"
+    },
+    {
+      "key": "ccs2025generalized",
+      "title": "Generalized Security-Preserving Refinement for Concurrent Systems",
+      "authors": "",
+      "venue": "CCS 2025",
+      "full": "",
+      "year": 2025,
+      "pillars": [
+        "formal-security"
+      ],
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765138"
+    },
+    {
+      "key": "icse2025llmaided",
+      "title": "LLM-aided Automatic Modelling for Security Protocol Verification",
+      "authors": "",
+      "venue": "ICSE 2025",
+      "full": "",
+      "year": 2025,
+      "pillars": [
+        "formal-security"
+      ],
+      "url": "https://www.computer.org/csdl/proceedings-article/icse/2025/056900a734/251mHfUjxMk"
+    },
+    {
+      "key": "ase2025securing",
+      "title": "Securing Millions of Decentralized Identities in Alipay with End-to-End Formal Verification",
+      "authors": "",
+      "venue": "ASE 2025 · Industry",
+      "full": "",
+      "year": 2025,
+      "pillars": [
+        "formal-security"
+      ],
+      "url": "https://ieeexplore.ieee.org/document/11334285"
+    },
+    {
+      "key": "www2025quantitative",
+      "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
+      "authors": "",
+      "venue": "WWW 2025",
+      "full": "",
+      "year": 2025,
+      "pillars": [
+        "formal-security"
+      ],
+      "url": "https://dl.acm.org/doi/abs/10.1145/3696410.3714682"
+    },
+    {
+      "key": "issta2025seval",
+      "title": "S-Eval: Automatic and Adaptive Test Generation for Safety Evaluation of LLMs",
+      "authors": "",
+      "venue": "ISSTA 2025",
+      "full": "",
+      "year": 2025,
+      "pillars": [
+        "se4ai"
+      ],
+      "project": "https://s-eval.github.io/",
+      "code": "https://github.com/IS2Lab/S-Eval",
+      "url": "https://www.arxiv.org/abs/2405.14191"
+    },
+    {
+      "key": "ccs2025provable",
+      "title": "Provable Repair of Deep Neural Networks through Pre-image Synthesis and Property Refinement",
+      "authors": "",
+      "venue": "CCS 2025",
+      "full": "",
+      "year": 2025,
+      "pillars": [
+        "ai-safety"
+      ],
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765057"
+    },
+    {
+      "key": "ase2025provable",
+      "title": "Provable Fairness Repair for Deep Neural Networks",
+      "authors": "",
+      "venue": "ASE 2025",
+      "full": "",
+      "year": 2025,
+      "pillars": [
+        "ai-safety"
+      ],
+      "url": "https://dl.acm.org/doi/10.1145/3597503.3623332"
+    },
+    {
+      "key": "icse2024vere",
+      "title": "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks",
+      "authors": "",
+      "venue": "ICSE 2024",
+      "full": "",
+      "year": 2024,
+      "pillars": [
+        "ai-safety"
+      ],
+      "url": "https://dl.acm.org/doi/10.1145/3597503.3623332"
+    },
+    {
+      "key": "tdsc2024verifi",
+      "title": "VERIFI: Towards Verifiable Federated Unlearning",
+      "authors": "",
+      "venue": "TDSC 2024",
+      "full": "IEEE Transactions on Dependable and Secure Computing",
+      "year": 2024,
+      "pillars": [
+        "ai-safety"
+      ],
+      "award": "Best Paper Award Runner-up",
+      "url": "https://ieeexplore.ieee.org/document/10480645"
+    },
+    {
+      "key": "tse2023kst",
+      "title": "K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs",
+      "authors": "",
+      "venue": "TSE 2023",
+      "full": "IEEE Transactions on Software Engineering",
+      "year": 2023,
+      "pillars": [
+        "formal-security"
+      ],
+      "url": "https://dl.acm.org/doi/abs/10.1109/TSE.2023.3315292"
+    },
+    {
+      "key": "sp2022copy",
+      "title": "Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models",
+      "authors": "",
+      "venue": "S&P 2022",
+      "full": "",
+      "year": 2022,
+      "pillars": [
+        "se4ai"
+      ],
+      "url": "https://ieeexplore.ieee.org/document/9833747"
+    },
+    {
+      "key": "icse2021robot",
+      "title": "RobOT: Robustness-Oriented Testing for Deep Learning Systems",
+      "authors": "",
+      "venue": "ICSE 2021",
+      "full": "",
+      "year": 2021,
+      "pillars": [
+        "se4ai"
+      ],
+      "url": "https://dl.acm.org/doi/10.1109/ICSE43902.2021.00038"
+    },
+    {
+      "key": "icse2020whitebox",
+      "title": "White-box Fairness Testing through Adversarial Sampling",
+      "authors": "",
+      "venue": "ICSE 2020",
+      "full": "",
+      "year": 2020,
+      "pillars": [
+        "se4ai"
+      ],
+      "award": "ACM SIGSOFT Distinguished Paper · Research Highlights",
+      "url": "https://dl.acm.org/doi/10.1145/3377811.3380331"
     }
   ]
 };

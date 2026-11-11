@@ -2,9 +2,9 @@
 """
 IS2 Lab site builder.
 
-Reads the markdown files in content/ and regenerates:
+Reads the markdown files in content/ (and content/publications.bib) and regenerates:
     assets/js/i18n.js   (interface text)
-    assets/js/data.js   (people, news, research, sponsors)
+    assets/js/data.js   (people, news, research, sponsors, publications)
 
 Usage:
     python3 build.py
@@ -153,16 +153,24 @@ def build_news():
 
 # ---------------------------------------------------------------- research
 VALID_COLOURS = {"track-1", "track-2", "track-3"}
+SLUG = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 
 
 def build_research():
     pillars = load("research.md").get("pillars") or []
     rows = []
-    for pillar in pillars:
+    seen = set()
+    for index, pillar in enumerate(pillars):
         where = f"content/research.md → {pillar.get('tag', '?')}"
         colour = pillar.get("colour", "track-1")
         if colour not in VALID_COLOURS:
             sys.exit(f"ERROR in {where}: colour must be one of {sorted(VALID_COLOURS)}")
+        pid = str(pillar.get("id") or f"pillar-{index + 1}")
+        if not SLUG.match(pid):
+            sys.exit(f"ERROR in {where}: id '{pid}' may only use lower-case letters, digits and '-'")
+        if pid in seen:
+            sys.exit(f"ERROR in {where}: id '{pid}' is used twice")
+        seen.add(pid)
         highlights = []
         for paper in pillar.get("highlights") or []:
             spot = where + " → highlights"
@@ -178,6 +186,8 @@ def build_research():
                 entry["award"] = bilingual(paper["award"], spot, "award")
             highlights.append(entry)
         rows.append({
+            "id": pid,
+            "image": pillar.get("image") or "",
             "cls": colour,
             "tag": bilingual(need(pillar, "tag", where), where, "tag"),
             "title": bilingual(need(pillar, "title", where), where, "title"),
@@ -186,6 +196,152 @@ def build_research():
             "venues": pillar.get("venues") or [],
             "highlights": highlights,
         })
+    return rows
+
+
+# ------------------------------------------------------------ publications
+# content/publications.bib is ordinary BibTeX (export it from DBLP, Google
+# Scholar, Zotero…) plus a few optional fields the site understands:
+#   venue  = {CCS 2025}            short label shown on the site
+#   pillar = {ai-safety}           research-pillar id(s), comma-separated
+#   url    = {https://…}           paper link (falls back to doi)
+#   project= {https://…}           project page
+#   code   = {https://…}           code link
+#   slides = {https://…}           slides link
+#   award  = {Best Paper Award}    award badge
+LATEX_ACCENTS = {
+    '\\"a': "ä", '\\"o': "ö", '\\"u': "ü", '\\"A': "Ä", '\\"O': "Ö", '\\"U': "Ü",
+    "\\'e": "é", "\\'a": "á", "\\'i": "í", "\\'o": "ó", "\\'u": "ú", "\\'E": "É",
+    "\\`e": "è", "\\`a": "à", "\\^e": "ê", "\\^o": "ô", "\\~n": "ñ", "\\c c": "ç",
+    "\\c{c}": "ç", "\\ss": "ß", "\\o": "ø", "\\aa": "å",
+}
+
+
+def bib_entries(text):
+    """Yield (type, key, fields) for each @type{key, field = value, …} entry."""
+    i, n = 0, len(text)
+    while True:
+        at = text.find("@", i)
+        if at < 0:
+            return
+        brace = text.find("{", at)
+        if brace < 0:
+            return
+        kind = text[at + 1:brace].strip().lower()
+        # find the matching close brace of the entry
+        depth, j = 0, brace
+        while j < n:
+            if text[j] == "{":
+                depth += 1
+            elif text[j] == "}":
+                depth -= 1
+                if depth == 0:
+                    break
+            j += 1
+        body = text[brace + 1:j]
+        i = j + 1
+        if kind in ("comment", "preamble", "string"):
+            continue
+        key, _, rest = body.partition(",")
+        yield kind, key.strip(), bib_fields(rest)
+
+
+def bib_fields(body):
+    fields, i, n = {}, 0, len(body)
+    while i < n:
+        eq = body.find("=", i)
+        if eq < 0:
+            break
+        name = body[i:eq].strip().strip(",").strip().lower()
+        j = eq + 1
+        while j < n and body[j].isspace():
+            j += 1
+        if j < n and body[j] == "{":
+            depth, k = 0, j
+            while k < n:
+                if body[k] == "{":
+                    depth += 1
+                elif body[k] == "}":
+                    depth -= 1
+                    if depth == 0:
+                        break
+                k += 1
+            value, i = body[j + 1:k], k + 1
+        elif j < n and body[j] == '"':
+            k = body.find('"', j + 1)
+            value, i = body[j + 1:k], k + 1
+        else:
+            k = body.find(",", j)
+            k = n if k < 0 else k
+            value, i = body[j:k], k
+        comma = body.find(",", i)
+        i = n if comma < 0 else comma + 1
+        if name:
+            fields[name] = " ".join(value.split())
+    return fields
+
+
+def delatex(value):
+    for src, dst in LATEX_ACCENTS.items():
+        value = value.replace("{" + src + "}", dst).replace(src, dst)
+    value = value.replace("\\&", "&").replace("--", "–").replace("~", " ")
+    value = re.sub(r"\\[a-zA-Z]+\s*", "", value)
+    return value.replace("{", "").replace("}", "").strip()
+
+
+def bib_authors(value):
+    names = []
+    for raw in re.split(r"\s+and\s+", value):
+        raw = delatex(raw)
+        if raw.lower() == "others":
+            names.append("et al.")
+            continue
+        if "," in raw:
+            last, _, first = raw.partition(",")
+            raw = f"{first.strip()} {last.strip()}"
+        names.append(raw.strip())
+    return ", ".join(n for n in names if n)
+
+
+def build_publications(pillar_ids):
+    path = CONTENT / "publications.bib"
+    if not path.exists():
+        return []
+    rows = []
+    for order, (kind, key, f) in enumerate(bib_entries(path.read_text(encoding="utf-8"))):
+        where = f"content/publications.bib → {key or '?'}"
+        title = delatex(f.get("title", ""))
+        if not title:
+            sys.exit(f"ERROR in {where}: missing title")
+        year = re.sub(r"\D", "", f.get("year", ""))
+        if not year:
+            sys.exit(f"ERROR in {where}: missing year")
+        pillars = [p.strip() for p in f.get("pillar", "").split(",") if p.strip()]
+        for p in pillars:
+            if p not in pillar_ids:
+                sys.exit(f"ERROR in {where}: pillar '{p}' is not one of {sorted(pillar_ids)} "
+                         "(the ids in content/research.md)")
+        where_pub = delatex(f.get("booktitle") or f.get("journal") or "")
+        url = f.get("url") or (("https://doi.org/" + f["doi"]) if f.get("doi") else "")
+        row = {
+            "key": key,
+            "title": title,
+            "authors": bib_authors(f["author"]) if f.get("author") else "",
+            "venue": delatex(f.get("venue") or where_pub or ""),
+            "full": where_pub,
+            "year": int(year),
+            "pillars": pillars,
+            "_order": order,
+        }
+        for field in ("project", "code", "slides", "award"):
+            if f.get(field):
+                row[field] = delatex(f[field]) if field == "award" else f[field]
+        if url:
+            row["url"] = url
+        rows.append(row)
+    rows.sort(key=lambda r: (-r["year"], r["_order"]))
+    for r in rows:
+        del r["_order"]
     return rows
 
 
@@ -209,11 +365,13 @@ def main():
     news = build_news()
     pillars = build_research()
     sponsors = build_sponsors()
+    pubs = build_publications({p["id"] for p in pillars})
 
     data = dict(team)
     data["news"] = news
     data["sponsors"] = sponsors
     data["tracks"] = pillars
+    data["pubs"] = pubs
 
     JS.mkdir(parents=True, exist_ok=True)
     (JS / "i18n.js").write_text(
@@ -230,6 +388,7 @@ def main():
     print(f"  news items        : {len(news)}")
     print(f"  research pillars  : {len(pillars)}  ({papers} highlighted papers)")
     print(f"  sponsors          : {len(sponsors)}")
+    print(f"  publications      : {len(pubs)}")
 
 
 if __name__ == "__main__":

@@ -1,10 +1,14 @@
 <!-- RESEARCH PILLARS and their highlight papers.
+     'id' names the pillar's page (pillar.html?id=...) and is what 'pillar = {...}'
+     refers to in content/publications.bib. Lower-case letters, digits and '-' only.
+     'image' (optional) is a figure shown on the Research page, e.g. images/research/ai-safety.jpg
      'colour' must be track-1 (blue), track-2 (teal) or track-3 (violet).
      Each highlight can have: link, project, code, award — omit any you don't need. -->
 
 ---
 pillars:
-- colour: track-1
+- id: formal-security
+  colour: track-1
   tag:
     en: Pillar 01
     zh: 方向 01
@@ -66,7 +70,8 @@ pillars:
       zh: 在K语义框架下定义了工业编程语言ST的形式化语义，在数个商用编译器中验证了其覆盖率和正确性，并发现了开源工业编译器的多个缺陷。
     link: https://dl.acm.org/doi/abs/10.1109/TSE.2023.3315292
   
-- colour: track-2
+- id: se4ai
+  colour: track-2
   tag:
     en: Pillar 02
     zh: 方向 02
@@ -127,7 +132,8 @@ pillars:
     link: https://www.arxiv.org/abs/2405.14191
     project: https://s-eval.github.io/
     code: https://github.com/IS2Lab/S-Eval
-- colour: track-3
+- id: ai-safety
+  colour: track-3
   tag:
     en: Pillar 03
     zh: 方向 03

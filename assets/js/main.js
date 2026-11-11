@@ -1,5 +1,7 @@
 /* =========================================================
-   IS2 Lab — behaviour: i18n, theme, nav, dynamic rendering
+   IS2 Lab — behaviour: header/footer, i18n, theme, rendering
+   Content comes from assets/js/{i18n,data}.js, which build.py
+   generates from content/*.md and content/publications.bib.
    ========================================================= */
 (function () {
   "use strict";
@@ -8,200 +10,313 @@
   var THEME_KEY = "is2-theme";
   var dict = window.IS2_I18N || {};
   var DATA = window.IS2_DATA || {};
+  var CONTACT_EMAIL = "wangjyee@gmail.com";
+  var PUBS_HOMEPAGE = "https://wang-jingyi.github.io/pubs/";
 
-  function getLang() {
-    try { return localStorage.getItem(LANG_KEY) || "en"; } catch (e) { return "en"; }
+  function load(key) {
+    try { return localStorage.getItem(key); } catch (e) { return null; }
   }
-  function getTheme() {
-    try {
-      var t = localStorage.getItem(THEME_KEY);
-      if (t) return t;
-    } catch (e) {}
+  function save(key, value) {
+    try { localStorage.setItem(key, value); } catch (e) {}
+  }
+  function initialTheme() {
+    var saved = load(THEME_KEY);
+    if (saved) return saved;
     return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
   }
 
-  var lang = getLang();
+  var lang = load(LANG_KEY) === "zh" ? "zh" : "en";
+  var page = (document.body && document.body.getAttribute("data-page")) || "";
+  var params = new URLSearchParams(window.location.search);
 
   function t(key) {
-    var d = dict[lang] || dict.en;
-    return (d && d[key] != null) ? d[key] : ((dict.en && dict.en[key]) || key);
+    var d = dict[lang] || dict.en || {};
+    if (d[key] != null) return d[key];
+    return (dict.en && dict.en[key] != null) ? dict.en[key] : key;
   }
   function L(obj) {
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
-    return obj[lang] != null ? obj[lang] : obj.en;
+    return obj[lang] != null && obj[lang] !== "" ? obj[lang] : (obj.en || "");
+  }
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  function ext(url, label) {
+    return '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(label) + "</a>";
+  }
+  function mount(id, html) {
+    var el = document.getElementById(id);
+    if (el) el.innerHTML = html;
+    return el;
+  }
+  function track(id) {
+    var list = DATA.tracks || [];
+    for (var i = 0; i < list.length; i++) if (list[i].id === id) return list[i];
+    return null;
+  }
+  var SYMBOLS = { "track-1": "⊢", "track-2": "∀", "track-3": "⚑" };
+
+  /* ---------- shared header + footer ---------- */
+  function renderChrome() {
+    var links = [
+      ["research", "research.html", "nav.research"],
+      ["publications", "publications.html", "nav.publications"],
+      ["team", "team.html", "nav.team"],
+      ["news", "news.html", "nav.news"],
+      ["join", "vacancies.html", "nav.join"]
+    ];
+    var nav = links.map(function (l) {
+      var on = page === l[0] || (page === "pillar" && l[0] === "research");
+      return '<a href="' + l[1] + '"' + (on ? ' class="on" aria-current="page"' : "") + ">" + esc(t(l[2])) + "</a>";
+    }).join("");
+    var dark = document.documentElement.getAttribute("data-theme") === "dark";
+    mount("site-header",
+      '<div class="bar">' +
+        '<a class="brand" href="index.html">' +
+          '<span class="brand-mark">IS²</span>' +
+          '<span class="brand-text"><span class="brand-name">IS² Lab</span>' +
+          '<span class="brand-sub">' + esc(t("brand.sub")) + "</span></span>" +
+        "</a>" +
+        '<button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu">☰</button>' +
+        '<nav class="menu" id="menu" aria-label="Main">' + nav +
+          '<span class="tools">' +
+            '<button class="tool" id="langBtn" type="button" aria-label="Switch language">' + (lang === "en" ? "中文" : "EN") + "</button>" +
+            '<button class="tool" id="themeBtn" type="button" aria-label="Toggle dark mode">' + (dark ? "☀" : "☾") + "</button>" +
+          "</span>" +
+        "</nav>" +
+      "</div>");
+
+    mount("site-footer",
+      '<div class="bar foot-bar">' +
+        "<span>© " + new Date().getFullYear() + " " + esc(t("foot.rights")) + " " + esc(t("foot.partof")) + "</span>" +
+        "<span>" + esc(t("foot.addr")) + ' · <a href="mailto:' + CONTACT_EMAIL + '">' + CONTACT_EMAIL + "</a>" +
+        ' · <a href="https://github.com/IS2Lab" target="_blank" rel="noopener">GitHub</a></span>' +
+      "</div>");
+
+    var burger = document.getElementById("burger");
+    var menu = document.getElementById("menu");
+    if (burger && menu) burger.addEventListener("click", function () {
+      var open = menu.classList.toggle("open");
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    var langBtn = document.getElementById("langBtn");
+    if (langBtn) langBtn.addEventListener("click", function () {
+      lang = lang === "en" ? "zh" : "en";
+      save(LANG_KEY, lang);
+      renderAll();
+    });
+    var themeBtn = document.getElementById("themeBtn");
+    if (themeBtn) themeBtn.addEventListener("click", function () {
+      setTheme(dark ? "light" : "dark");
+      renderChrome();
+    });
   }
 
-  /* ---------- apply static translations ---------- */
+  /* ---------- static text ---------- */
   function applyStatic() {
-    document.documentElement.setAttribute("lang", lang);
-    var nodes = document.querySelectorAll("[data-i18n]");
-    nodes.forEach(function (el) { el.textContent = t(el.getAttribute("data-i18n")); });
-    var html = document.querySelectorAll("[data-i18n-html]");
-    html.forEach(function (el) { el.innerHTML = t(el.getAttribute("data-i18n-html")); });
-    var titleEl = document.querySelector("[data-i18n-title]");
-    // language button state
-    var ens = document.querySelectorAll(".lang-en");
-    var zhs = document.querySelectorAll(".lang-zh");
-    ens.forEach(function (e) { e.classList.toggle("on", lang === "en"); });
-    zhs.forEach(function (e) { e.classList.toggle("on", lang === "zh"); });
+    document.documentElement.setAttribute("lang", lang === "zh" ? "zh-CN" : "en");
+    document.querySelectorAll("[data-i18n]").forEach(function (el) { el.textContent = t(el.getAttribute("data-i18n")); });
+    document.querySelectorAll("[data-i18n-html]").forEach(function (el) { el.innerHTML = t(el.getAttribute("data-i18n-html")); });
   }
 
-  /* ---------- dynamic renderers ---------- */
-  function personCard(p, faculty) {
-    var li = (p.edu ? L(p.edu) : []).map(function (x) { return "<li>" + x + "</li>"; }).join("");
-    var extra = "";
-    if (faculty) {
-      if (p.homepage) extra += '<li><a href="' + p.homepage + '" target="_blank" rel="noopener">' + (lang === "zh" ? "个人主页" : "Homepage") + ' ↗</a></li>';
-      if (p.email) extra = '<div class="email"><a href="mailto:' + p.email + '">' + p.email + '</a></div>' + extra;
+  /* ---------- news ---------- */
+  function newsRow(n) {
+    return '<li class="news-row"><span class="news-date">' + esc(L(n.d)) + "</span>" +
+      '<span class="news-text">' + L(n.t) + "</span></li>";
+  }
+  function renderNews() {
+    var all = DATA.news || [];
+    mount("news-preview", all.slice(0, 8).map(newsRow).join(""));
+    mount("news-all", all.map(newsRow).join(""));
+  }
+
+  /* ---------- research ---------- */
+  function figure(tr) {
+    var sym = '<span class="fig-sym" aria-hidden="true">' + (SYMBOLS[tr.cls] || "◆") + "</span>";
+    var img = tr.image ? '<img src="' + esc(tr.image) + '" alt="" loading="lazy" onerror="this.remove()">' : "";
+    return '<span class="fig ' + tr.cls + '">' + sym + img + "</span>";
+  }
+  function renderTiles() {
+    mount("research-tiles", (DATA.tracks || []).map(function (tr) {
+      return '<a class="tile" href="pillar.html?id=' + encodeURIComponent(tr.id) + '">' + figure(tr) +
+        '<span class="tile-title">' + esc(L(tr.title)) + "</span>" +
+        '<span class="tile-text">' + esc(L(tr.lede)) + "</span></a>";
+    }).join(""));
+  }
+  function renderResearchList() {
+    mount("research-list", (DATA.tracks || []).map(function (tr) {
+      var href = "pillar.html?id=" + encodeURIComponent(tr.id);
+      return '<article class="area">' +
+        '<a class="area-fig" href="' + href + '" tabindex="-1" aria-hidden="true">' + figure(tr) + "</a>" +
+        '<div class="area-body">' +
+          '<h2><a href="' + href + '">' + esc(L(tr.title)) + "</a></h2>" +
+          '<p class="area-lede">' + esc(L(tr.lede)) + "</p>" +
+          "<p>" + esc(L(tr.body)) + "</p>" +
+          '<a class="more" href="' + href + '">' + esc(t("research.readmore")) + "</a>" +
+        "</div></article>";
+    }).join(""));
+  }
+
+  /* ---------- publication rows ---------- */
+  function pubLinks(p) {
+    var out = [];
+    if (p.url) out.push(ext(p.url, t("pub.paper")));
+    if (p.project) out.push(ext(p.project, t("pub.project")));
+    if (p.code) out.push(ext(p.code, t("pub.code")));
+    if (p.slides) out.push(ext(p.slides, t("pub.slides")));
+    return out.join("");
+  }
+  function pubRow(p) {
+    var title = p.url
+      ? '<a class="pub-title" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + "</a>"
+      : '<span class="pub-title">' + esc(p.title) + "</span>";
+    var award = p.award ? '<span class="award">' + esc(L(p.award)) + "</span>" : "";
+    return '<li class="pub">' + title +
+      (p.authors ? '<span class="pub-authors">' + esc(p.authors) + "</span>" : "") +
+      (p.intro ? '<span class="pub-intro">' + esc(p.intro) + "</span>" : "") +
+      '<span class="pub-meta"><em>' + esc(p.venue) + "</em>" + pubLinks(p) + award + "</span></li>";
+  }
+
+  /* ---------- pillar page ---------- */
+  function renderPillar() {
+    var el = document.getElementById("pillar-mount");
+    if (!el) return;
+    var tr = track(params.get("id"));
+    if (!tr) {
+      el.innerHTML = '<p class="crumb"><a href="research.html">' + esc(t("pillar.back")) + "</a></p><p>" + esc(t("pillar.notfound")) + "</p>";
+      return;
     }
-    var emailBlock = (faculty && p.email) ? '<div class="email"><a href="mailto:' + p.email + '">' + p.email + '</a></div>' : "";
-    var hp = (faculty && p.homepage) ? '<li><a href="' + p.homepage + '" target="_blank" rel="noopener">' + (lang === "zh" ? "个人主页 ↗" : "Homepage ↗") + '</a></li>' : "";
-    return '' +
-      '<div class="person' + (faculty ? ' faculty-card' : '') + '">' +
-        '<div class="ph"><img loading="lazy" src="' + p.photo + '" alt="' + p.name + '"></div>' +
-        '<div class="meta">' +
-          '<div class="nm">' + p.name + '</div>' +
-          '<div class="role">' + L(p.role) + '</div>' +
-          '<ul>' + li + hp + '</ul>' +
-          emailBlock +
-        '</div>' +
-      '</div>';
+    document.title = L(tr.title) + " — IS² Lab";
+    var hl = (tr.highlights || []).map(function (w) {
+      return pubRow({ title: w.title, url: w.link, project: w.project, code: w.code, venue: w.v, award: w.award, intro: L(w.intro) });
+    }).join("");
+    var venues = (tr.venues || []).length
+      ? '<p class="venues"><strong>' + esc(t("pillar.venues")) + ":</strong> " + tr.venues.map(esc).join(" · ") + "</p>" : "";
+    var count = (DATA.pubs || []).filter(function (p) { return (p.pillars || []).indexOf(tr.id) >= 0; }).length;
+    el.innerHTML =
+      '<p class="crumb"><a href="research.html">' + esc(t("pillar.back")) + "</a></p>" +
+      '<header class="pillar-head ' + tr.cls + '"><h1>' + esc(L(tr.title)) + "</h1>" +
+        '<p class="area-lede">' + esc(L(tr.lede)) + "</p><p>" + esc(L(tr.body)) + "</p>" + venues + "</header>" +
+      "<section><h2>" + esc(t("research.highlights")) + '</h2><ul class="pubs">' + hl + "</ul>" +
+      (count ? '<p><a class="more" href="publications.html?pillar=' + encodeURIComponent(tr.id) + '">' + esc(t("pillar.pubs")) + "</a></p>" : "") +
+      "</section>";
   }
 
+  /* ---------- publications page ---------- */
+  var pubFilter = params.get("pillar") || "all";
+  function renderPublications() {
+    var el = document.getElementById("pubs-mount");
+    if (!el) return;
+    var filters = [["all", t("pub.all")]]
+      .concat((DATA.tracks || []).map(function (tr) { return [tr.id, L(tr.title)]; }))
+      .concat([["awards", t("pub.awards")]]);
+    var chips = filters.map(function (f) {
+      var on = pubFilter === f[0];
+      return '<button type="button" class="chip' + (on ? " on" : "") + '" data-filter="' + esc(f[0]) + '" aria-pressed="' + on + '">' + esc(f[1]) + "</button>";
+    }).join("");
+    var list = (DATA.pubs || []).filter(function (p) {
+      if (pubFilter === "all") return true;
+      if (pubFilter === "awards") return !!p.award;
+      return (p.pillars || []).indexOf(pubFilter) >= 0;
+    });
+    var groups = [], cur = null;
+    list.forEach(function (p) {
+      if (!cur || cur.year !== p.year) { cur = { year: p.year, items: [] }; groups.push(cur); }
+      cur.items.push(p);
+    });
+    var body = groups.length ? groups.map(function (g) {
+      return '<section class="year"><h2>' + g.year + '</h2><ul class="pubs">' + g.items.map(pubRow).join("") + "</ul></section>";
+    }).join("") : '<p class="muted">' + esc(t("pub.empty")) + "</p>";
+    el.innerHTML = '<div class="chips" role="group" aria-label="Filter">' + chips + "</div>" + body;
+    el.querySelectorAll(".chip").forEach(function (b) {
+      b.addEventListener("click", function () {
+        pubFilter = b.getAttribute("data-filter");
+        var url = new URL(window.location.href);
+        if (pubFilter === "all") url.searchParams.delete("pillar"); else url.searchParams.set("pillar", pubFilter);
+        try { history.replaceState(null, "", url); } catch (e) {}
+        renderPublications();
+      });
+    });
+    var full = document.getElementById("pubs-full");
+    if (full) full.setAttribute("href", PUBS_HOMEPAGE);
+  }
+
+  /* ---------- people ---------- */
+  function person(p, lead) {
+    var notes = (p.edu ? L(p.edu) : []).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("");
+    var links = "";
+    if (lead && p.homepage) links += ext(p.homepage, lang === "zh" ? "个人主页" : "Homepage");
+    if (lead && p.email) links += '<a href="mailto:' + esc(p.email) + '">' + esc(p.email) + "</a>";
+    var initials = p.name.split(/\s+/).map(function (w) { return w.charAt(0); }).join("").slice(0, 2);
+    return '<div class="person' + (lead ? " lead" : "") + '">' +
+      '<div class="photo" data-initials="' + esc(initials) + '">' +
+        (p.photo ? '<img src="' + esc(p.photo) + '" alt="' + esc(p.name) + '" loading="lazy" onerror="this.remove()">' : "") +
+      "</div>" +
+      '<div class="person-meta"><span class="person-name">' + esc(p.name) + "</span>" +
+        '<span class="person-role">' + esc(L(p.role)) + "</span>" +
+        (notes ? "<ul>" + notes + "</ul>" : "") +
+        (links ? '<span class="person-links">' + links + "</span>" : "") +
+      "</div></div>";
+  }
   function renderTeam() {
-    var mount = document.getElementById("team-mount");
-    if (!mount) return;
-    function block(key, arr, faculty) {
+    var el = document.getElementById("team-mount");
+    if (!el) return;
+    function group(key, arr, lead) {
       if (!arr || !arr.length) return "";
-      var cards = arr.map(function (p) { return personCard(p, faculty); }).join("");
-      return '<div class="team-block">' +
-        '<h3>' + t(key) + ' <span class="cnt">' + arr.length + '</span></h3>' +
-        '<div class="people">' + cards + '</div></div>';
+      return '<section class="group"><h2>' + esc(t(key)) + "</h2>" +
+        '<div class="people' + (lead ? " people-lead" : "") + '">' +
+        arr.map(function (p) { return person(p, lead); }).join("") + "</div></section>";
     }
-    var alumniRows = (DATA.alumni || []).map(function (a) {
-      return '<tr><td class="who">' + a.who + '</td><td>' + L(a.role) + '</td><td class="where">' + L(a.where) + '</td></tr>';
+    var alumni = DATA.alumni || [];
+    var rows = alumni.map(function (a) {
+      return "<tr><td>" + esc(a.who) + "</td><td>" + esc(L(a.role)) + "</td><td>" + esc(L(a.where)) + "</td></tr>";
     }).join("");
-    var alumni = '<div class="team-block"><h3>' + t("team.alumni") + ' <span class="cnt">' + (DATA.alumni || []).length + '</span></h3>' +
-      '<div class="tablewrap"><table class="alumni"><thead><tr><th>' + t("alumni.who") + '</th><th>' + t("alumni.role") + '</th><th>' + t("alumni.where") + '</th></tr></thead><tbody>' +
-      alumniRows + '</tbody></table></div></div>';
-
-    mount.innerHTML =
-      block("team.faculty", DATA.faculty, true) +
-      block("team.postdocs", DATA.postdocs, false) +
-      block("team.phd", DATA.phd, false) +
-      block("team.master", DATA.master, false) +
-      block("team.ra", DATA.ra, false) +
-      alumni;
+    el.innerHTML =
+      group("team.faculty", DATA.faculty, true) +
+      group("team.postdocs", DATA.postdocs) +
+      group("team.phd", DATA.phd) +
+      group("team.master", DATA.master) +
+      group("team.ra", DATA.ra) +
+      (alumni.length ? '<section class="group"><h2>' + esc(t("team.alumni")) + "</h2>" +
+        '<div class="table-box"><table class="alumni"><thead><tr><th>' + esc(t("alumni.who")) + "</th><th>" +
+        esc(t("alumni.role")) + "</th><th>" + esc(t("alumni.where")) + "</th></tr></thead><tbody>" + rows +
+        "</tbody></table></div></section>" : "");
   }
 
-  function newsItem(n) {
-    return '<div class="news-item"><div class="news-date">' + L(n.d) + '</div>' +
-      '<div class="news-body"><em>' + L(n.t) + '</em></div></div>';
-  }
-
-  function renderNewsPreview() {
-    var mount = document.getElementById("news-preview");
-    if (!mount) return;
-    var items = (DATA.news || []).slice(0, 6).map(newsItem).join("");
-    mount.innerHTML = items;
-  }
-  function renderNewsAll() {
-    var mount = document.getElementById("news-all");
-    if (!mount) return;
-    mount.innerHTML = (DATA.news || []).map(newsItem).join("");
-  }
-
-  function renderResearch() {
-    var mount = document.getElementById("research-mount");
-    if (!mount) return;
-    function lk(url, label) { return '<a href="' + url + '" target="_blank" rel="noopener">' + label + ' ↗</a>'; }
-    var html = (DATA.tracks || []).map(function (tr) {
-      var venues = (tr.venues || []).map(function (v) { return '<span class="venue">' + v + '</span>'; }).join("");
-      var hs = (tr.highlights || []).map(function (w) {
-        var award = w.award ? '<span class="award">' + L(w.award) + '</span>' : "";
-        var primary = w.link || w.project || w.code || "";
-        var titleHtml = primary
-          ? '<a class="hl-title" href="' + primary + '" target="_blank" rel="noopener">' + w.title + ' <span class="hl-arrow">↗</span></a>'
-          : '<div class="hl-title">' + w.title + '</div>';
-        var links = [];
-        if (w.link && w.link !== primary) links.push(lk(w.link, lang === "zh" ? "论文" : "Paper"));
-        if (w.project) links.push(lk(w.project, lang === "zh" ? "项目主页" : "Project"));
-        if (w.code) links.push(lk(w.code, lang === "zh" ? "代码" : "Code"));
-        var linkRow = links.length ? '<div class="hl-links">' + links.join("") + '</div>' : "";
-        return '<div class="hl">' +
-          '<div class="hl-top"><span class="hl-venue">' + w.v + '</span>' + award + '</div>' +
-          titleHtml +
-          '<p class="hl-intro">' + L(w.intro) + '</p>' +
-          linkRow +
-        '</div>';
-      }).join("");
-      return '<div class="track ' + tr.cls + '">' +
-        '<div class="track-head">' +
-          '<div class="track-tag">' + L(tr.tag) + '</div>' +
-          '<h3>' + L(tr.title) + '</h3>' +
-          '<p class="track-quote">' + L(tr.lede) + '</p>' +
-        '</div>' +
-        '<div class="track-body"><p>' + L(tr.body) + '</p><div class="venues">' + venues + '</div></div>' +
-        '<div class="works"><h4>' + t("research.highlights") + '</h4><div class="hl-grid">' + hs + '</div></div>' +
-      '</div>';
-    }).join("");
-    mount.innerHTML = html;
-  }
-
+  /* ---------- sponsors ---------- */
   function renderSponsors() {
-    var mount = document.getElementById("sponsors-mount");
-    if (!mount) return;
-    mount.innerHTML = (DATA.sponsors || []).map(function (s) {
+    mount("sponsors-mount", (DATA.sponsors || []).map(function (s) {
       var label = L({ en: s.en, zh: s.zh });
-      var open = s.url ? '<a class="sponsor" href="' + s.url + '" target="_blank" rel="noopener">' : '<div class="sponsor">';
-      var close = s.url ? '</a>' : '</div>';
-      return open +
-        '<img class="sponsor-logo" src="' + s.logo + '" alt="' + label + '" loading="lazy" ' +
-          'onerror="this.style.display=\'none\';var n=this.nextElementSibling;if(n)n.style.display=\'flex\';">' +
-        '<span class="sponsor-name">' + label + '</span>' +
-        close;
-    }).join("");
+      var inner = (s.logo ? '<img src="' + esc(s.logo) + '" alt="' + esc(label) + '" loading="lazy" ' +
+        'onerror="this.parentNode.classList.add(\'no-logo\');this.remove()">' : "") +
+        '<span class="sponsor-name">' + esc(label) + "</span>";
+      var cls = "sponsor" + (s.logo ? "" : " no-logo");
+      return s.url
+        ? '<a class="' + cls + '" href="' + esc(s.url) + '" target="_blank" rel="noopener" title="' + esc(label) + '">' + inner + "</a>"
+        : '<span class="' + cls + '" title="' + esc(label) + '">' + inner + "</span>";
+    }).join(""));
   }
 
+  /* ---------- theme + init ---------- */
+  function setTheme(next, remember) {
+    document.documentElement.setAttribute("data-theme", next);
+    if (remember !== false) save(THEME_KEY, next);
+  }
   function renderAll() {
     applyStatic();
+    renderChrome();
+    renderNews();
+    renderTiles();
+    renderResearchList();
+    renderPillar();
+    renderPublications();
     renderTeam();
-    renderNewsPreview();
-    renderNewsAll();
-    renderResearch();
     renderSponsors();
   }
 
-  /* ---------- toggles ---------- */
-  function setLang(next) {
-    lang = next;
-    try { localStorage.setItem(LANG_KEY, lang); } catch (e) {}
-    renderAll();
-  }
-  function setTheme(next) {
-    document.documentElement.setAttribute("data-theme", next);
-    try { localStorage.setItem(THEME_KEY, next); } catch (e) {}
-    var ic = document.querySelector(".theme-ic");
-    if (ic) ic.textContent = next === "dark" ? "☀" : "☾";
-  }
-
-  /* ---------- init ---------- */
-  document.addEventListener("DOMContentLoaded", function () {
-    setTheme(getTheme());
-    renderAll();
-
-    var langBtn = document.getElementById("langBtn");
-    if (langBtn) langBtn.addEventListener("click", function () { setLang(lang === "en" ? "zh" : "en"); });
-
-    var themeBtn = document.getElementById("themeBtn");
-    if (themeBtn) themeBtn.addEventListener("click", function () {
-      var cur = document.documentElement.getAttribute("data-theme");
-      setTheme(cur === "dark" ? "light" : "dark");
-    });
-
-    var burger = document.getElementById("burger");
-    var links = document.getElementById("navLinks");
-    if (burger && links) burger.addEventListener("click", function () { links.classList.toggle("open"); });
-  });
+  setTheme(initialTheme(), false);
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", renderAll);
+  else renderAll();
 })();

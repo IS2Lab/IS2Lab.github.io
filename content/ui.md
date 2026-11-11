@@ -3,12 +3,6 @@
 
 ---
 ui:
-  nav.home:
-    en: Home
-    zh: 首页
-  nav.team:
-    en: Team
-    zh: 团队
   nav.research:
     en: Research
     zh: 研究
@@ -21,100 +15,15 @@ ui:
   nav.join:
     en: Join Us
     zh: 加入我们
-  hero.eyebrow:
-    en: intelligent system security lab · zhejiang university
-    zh: 智能系统综合安全实验室 · 浙江大学
-  hero.title_pre:
-    en: 'Establishing formal trust for '
-    zh: 为智能系统建立
-  hero.title_hl:
-    en: intelligent systems
-    zh: 形式化信任
-  hero.lede:
-    en: The IS² Lab builds the science and tools to design, verify and repair complex systems integrating software, AI and control, led by Prof. Jingyi Wang at the College of Control Science and Engineering, Zhejiang University.
-    zh: IS² 实验室致力于设计、验证与修复复杂智能系统（融合软件、人工智能与控制）的前沿基础理论与工具链研究，由浙江大学控制科学与工程学院王竟亦研究员领导。
-  hero.cta1:
-    en: Explore our research
-    zh: 了解我们的研究
-  hero.cta2:
-    en: Meet the team
-    zh: 认识团队成员
-  pill.1:
-    en: Formal methods
-    zh: 形式化方法
-  pill.2:
-    en: SE for AI
-    zh: 面向 AI 的软件工程
-  pill.3:
-    en: AI safety & ethics
-    zh: AI 安全与伦理
-  about.kicker:
-    en: // about
-    zh: // 关于
-  about.title:
-    en: What we work on
-    zh: 我们的研究方向
-  about.sub:
-    en: Our research focuses on establishing formal trust for complex intelligent systems integrating software,
-      AI and control.
-    zh: 我们的研究聚焦于为融合软件、人工智能与控制的复杂智能系统建立形式化可信保障。
-  topic1.h:
-    en: Formal reasoning of security
-    zh: 形式化安全推理
-  topic1.p:
-    en: Formal reasoning of software and system security across foundational software layers.
-    zh: 面向智能系统基础软件栈的形式化安全推理。
-  topic2.h:
-    en: SE4AI
-    zh: 面向 AI 模型、应用与系统的软件工程
-  topic2.p:
-    en: Testing, verification and repair of AI models and AI-enabled systems and applications.
-    zh: AI 模型及 AI 赋能系统与应用的测试、验证与修复。
-  topic3.h:
-    en: AI safety & ethics
-    zh: AI 安全与伦理
-  topic3.p:
-    en: Safety, security and ethics for LLMs, agents and embodied intelligence.
-    zh: 面向大语言模型、智能体与具身智能的安全与伦理。
-  stats.kicker:
-    en: // at a glance
-    zh: // 概览
-  stats.title:
-    en: Research at a glance
-    zh: 研究概览
-  stat1:
-    en: Research pillars
-    zh: 研究方向
-  stat2:
-    en: Papers at top SE/security venues
-    zh: 顶级软工/安全会议论文
-  stat3:
-    en: Distinguished / best-paper honors
-    zh: 杰出/最佳论文荣誉
-  stat4:
-    en: Major industrial partners
-    zh: 主要产业合作伙伴
   collab.h:
     en: Collaborations
     zh: 合作
   collab.p:
     en: Our lab pursues research with theoretical depth or practical impact, working closely with industrial partners such as Huawei, Alibaba, Ant Group and UWinTech. We also actively collaborate with top universities including ETH Zürich, UC Berkeley, UIUC, the University of Bristol, the National University of Singapore, Nanyang Technological University and Singapore Management University.
     zh: 我们追求兼具理论深度与实际影响力的研究，与华为、阿里巴巴、蚂蚁集团等产业伙伴紧密合作，并与苏黎世联邦理工、加州大学伯克利分校、伊利诺伊大学香槟分校、布里斯托大学、新加坡国立大学、南洋理工大学、新加坡管理大学等国际顶尖高校积极开展合作。
-  vac.h:
-    en: Vacancies
-    zh: 招聘
-  vac.p:
-    en: We are always looking for self-motivated postdocs, PhD/master students, research assistants and interns, with competitive packages, to join us at ZJU. Please contact Prof. Wang with your CV (and transcript for PhD/master applications). We welcome candidates from diverse backgrounds.
-    zh: 我们长期招收有热情、自驱力强的博士后、博士/硕士研究生、科研助理与实习生加入团队，并提供具有竞争力的待遇。请将简历（博士/硕士申请请附成绩单）发送给王老师。我们欢迎不同背景的申请者。
   vac.btn:
     en: Email Prof. Wang
     zh: 联系王老师
-  vac.see:
-    en: See open positions
-    zh: 查看在招岗位
-  vacpage.kicker:
-    en: // join us
-    zh: // 加入我们
   vacpage.title:
     en: Join the IS² Lab
     zh: 加入 IS² 实验室
@@ -189,21 +98,12 @@ ui:
     en: Email Prof. Jingyi Wang with your CV and a short note on your interests. PhD and master applicants should
       also attach a transcript. Tell us what excites you and what you would like to work on — we read every email.
     zh: 请将简历与一段关于研究兴趣的简短说明发送给王竟亦老师。博士与硕士申请者请附上成绩单。告诉我们你的情况和规划，我们会认真阅读每一封来信。
-  news.kicker:
-    en: // news
-    zh: // 新闻
   news.title:
     en: Latest news
     zh: 最新动态
-  news.all:
-    en: See all news
-    zh: 查看全部新闻
   news.allpage:
     en: All news
     zh: 全部新闻
-  team.kicker:
-    en: // people
-    zh: // 成员
   team.title:
     en: Group members
     zh: 团队成员
@@ -237,43 +137,21 @@ ui:
   alumni.where:
     en: Where now
     zh: 现去向
-  research.kicker:
-    en: // research
-    zh: // 研究
   research.title:
     en: Research
     zh: 研究
-  research.sub:
-    en: We are grateful to conduct research sponsored by NSFC, MOST, ZJKJT, SKLICT, CCF and multiple industrial partners including Huawei,
-      Alibaba Group and Ant Group. We currently focus on the following themes.
-    zh: 我们感谢国家自然科学基金委、国家科技部、浙江省科技厅、工业控制技术全国重点实验室、中国计算机学会以及华为、阿里巴巴、蚂蚁集团等众多产业伙伴对研究的支持。当前我们主要聚焦以下方向。
-  research.works:
-    en: Selected work
-    zh: 代表性工作
   research.highlights:
     en: Selected highlights
     zh: 代表性成果
   sponsors.h:
     en: Supported by
     zh: 支持单位与合作伙伴
-  research.more:
-    en: … and more.
-    zh: ……以及更多。
-  pub.kicker:
-    en: // publications
-    zh: // 论文
   pub.title:
     en: Publications
     zh: 论文发表
-  pub.lede:
-    en: A full, continuously updated list of our publications is maintained on Prof. Wang's homepage.
-    zh: 完整且持续更新的论文列表维护在王老师的个人主页上。
   pub.btn:
     en: View full publication list
     zh: 查看完整论文列表
-  pub.note:
-    en: Selected representative works are highlighted on the Research page.
-    zh: 部分代表性工作在「研究」页面重点展示。
   foot.tag:
     en: Establishing formal trust for intelligent systems.
     zh: 为智能系统建立形式化可信保障。
@@ -298,4 +176,64 @@ ui:
   noscript:
     en: This site uses JavaScript to load content and switch languages. Please enable JavaScript.
     zh: 本网站通过 JavaScript 加载内容并切换语言，请启用 JavaScript。
+  brand.sub:
+    en: Intelligent System Security Lab
+    zh: 智能系统综合安全实验室
+  nav.team:
+    en: People
+    zh: 成员
+  home.intro:
+    en: '<p>The <strong>Intelligent System Security (IS²) Lab</strong> is a research group in the College of Control Science and Engineering at <a href="https://www.zju.edu.cn/" target="_blank" rel="noopener">Zhejiang University</a>, led by <a href="team.html">Prof. Jingyi Wang</a>.</p><p>We build the science and tools to design, verify and repair complex systems that integrate software, AI and control: <a href="pillar.html?id=formal-security">formal reasoning about the security of foundational software</a>, <a href="pillar.html?id=se4ai">testing, verification and repair of AI models and AI-enabled systems</a>, and <a href="pillar.html?id=ai-safety">the safety and ethics of LLMs, agents and embodied intelligence</a>.</p><p>We work closely with Huawei, Alibaba and Ant Group, and collaborate with ETH Zürich, UC Berkeley, UIUC, NUS and others. We are <a href="vacancies.html"><strong>hiring</strong></a> postdocs, PhD and master students, research assistants and interns.</p>'
+    zh: <p><strong>智能系统综合安全实验室（IS² Lab）</strong>隶属于<a href="https://www.zju.edu.cn/" target="_blank" rel="noopener">浙江大学</a>控制科学与工程学院，由<a href="team.html">王竟亦研究员</a>领导。</p><p>我们致力于设计、验证与修复融合软件、人工智能与控制的复杂智能系统的基础理论与工具：<a href="pillar.html?id=formal-security">基础软件的形式化安全推理</a>、<a href="pillar.html?id=se4ai">AI 模型与 AI 赋能系统的测试、验证与修复</a>，以及<a href="pillar.html?id=ai-safety">大模型、智能体与具身智能的安全与伦理</a>。</p><p>我们与华为、阿里巴巴、蚂蚁集团紧密合作，并与苏黎世联邦理工、加州大学伯克利分校、伊利诺伊大学香槟分校、新加坡国立大学等高校开展合作。我们正在<a href="vacancies.html"><strong>招聘</strong></a>博士后、博士与硕士研究生、科研助理及实习生。</p>
+  home.research:
+    en: Research
+    zh: 研究方向
+  home.news:
+    en: News
+    zh: 新闻
+  home.morenews:
+    en: Older news →
+    zh: 更多新闻 →
+  research.sub:
+    en: We currently focus on three research pillars. Our work is supported by NSFC, MOST, ZJKJT, SKLICT, CCF and industrial partners including Huawei, Alibaba Group and Ant Group.
+    zh: 我们当前聚焦以下三个研究方向。研究工作得到国家自然科学基金委、国家科技部、浙江省科技厅、工业控制技术全国重点实验室、中国计算机学会以及华为、阿里巴巴、蚂蚁集团等产业伙伴的支持。
+  research.readmore:
+    en: Read more →
+    zh: 了解更多 →
+  pillar.back:
+    en: ← Research
+    zh: ← 研究
+  pillar.venues:
+    en: Selected venues
+    zh: 代表性发表
+  pillar.pubs:
+    en: All publications in this area →
+    zh: 该方向全部论文 →
+  pillar.notfound:
+    en: This research page does not exist.
+    zh: 该研究页面不存在。
+  pub.lede:
+    en: Selected publications, newest first. The complete, continuously updated list is on Prof. Wang's homepage.
+    zh: 代表性论文，按年份倒序排列。完整且持续更新的论文列表见王老师个人主页。
+  pub.all:
+    en: All
+    zh: 全部
+  pub.awards:
+    en: Awards
+    zh: 获奖
+  pub.paper:
+    en: Paper
+    zh: 论文
+  pub.code:
+    en: Code
+    zh: 代码
+  pub.slides:
+    en: Slides
+    zh: 幻灯片
+  pub.project:
+    en: Project
+    zh: 项目主页
+  pub.empty:
+    en: No publications match this filter.
+    zh: 没有符合筛选条件的论文。
 ---

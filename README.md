@@ -19,11 +19,35 @@ Push the change, and GitHub rebuilds and republishes the site automatically.
 |---|---|
 | News and announcements | `content/news.md` |
 | Members, alumni | `content/team.md` |
-| Research pillars, highlight papers | `content/research.md` |
+| Research pillars (each gets its own page), highlight papers | `content/research.md` |
+| Publications list | `content/publications.bib` |
 | Funders and industry partners | `content/sponsors.md` |
-| Headings, buttons, page wording | `content/ui.md` |
+| Home-page introduction, headings, buttons, page wording | `content/ui.md` |
+| Group photo on the home page | save it as `images/group.jpg` |
 
 You never need to touch the HTML, CSS or JavaScript to change content.
+
+### Example: adding publications
+
+`content/publications.bib` is plain BibTeX. Export entries from DBLP, Google Scholar or Zotero and
+paste them in. The site groups them by year automatically. Add any of these optional fields:
+
+```bibtex
+@inproceedings{chen2026rounding,
+  author = {Xiangxiang Chen and ... and Jingyi Wang},
+  title  = {Rounding-Guided Backdoor Injection in Deep Learning Model Quantization},
+  booktitle = {NDSS},
+  year   = {2026},
+  venue  = {NDSS 2026},          % short label shown on the site
+  pillar = {ai-safety},          % formal-security, se4ai and/or ai-safety (comma-separated)
+  url    = {https://arxiv.org/abs/2510.09647},
+  code   = {https://github.com/...},
+  award  = {Best Paper Award},   % shows an award badge; the "Awards" filter uses it
+}
+```
+
+The `pillar` values are the `id:` fields in `content/research.md`. Each pillar's page is
+`pillar.html?id=<id>`, and you can add a figure for it with `image: images/research/<name>.jpg`.
 
 ### Example: posting a news item
 
@@ -119,27 +143,28 @@ python3 -m http.server 8000     # then open http://localhost:8000
 ├── .github/workflows/deploy.yml   # builds + publishes on every push
 ├── build.py                       # content/*.md  ->  assets/js/*.js
 ├── content/                       # <-- THE FILES YOU EDIT
+│   ├── publications.bib
 │   ├── news.md
 │   ├── team.md
 │   ├── research.md
 │   ├── sponsors.md
 │   └── ui.md
 ├── .nojekyll                      # serve the files as-is, no Jekyll
-├── index.html  team.html  research.html
-├── publications.html  news.html  vacancies.html
+├── index.html  research.html  pillar.html   # pillar.html?id=<pillar id>
+├── publications.html  team.html  news.html  vacancies.html
 └── assets/
     ├── css/styles.css             # design system, light + dark themes
     └── js/
         ├── i18n.js                # GENERATED from content/ui.md
         ├── data.js                # GENERATED from the other content files
-        └── main.js                # language/theme toggles and rendering
+        └── main.js                # header/footer, language/theme toggles, rendering
 ```
 
 The site reuses the `images/` folder already in your repo; it is not duplicated here.
 
 ### Sponsor logos
 
-The Research page shows a **"Supported by"** strip. Until you add logo files it shows each
+The home and Research pages show a **"Supported by"** strip. Until you add logo files it shows each
 sponsor's name as a text tile. Add the official logos to **`images/sponsors/`** using the
 filenames listed in `content/sponsors.md` (`nsfc.png`, `ccf.png`, `huawei.png`,
 `alibaba.png`, `ant-group.png`, `uwintech.png`) and they appear automatically.
@@ -149,5 +174,5 @@ Transparent or white backgrounds work best; PNG or SVG are both fine.
 
 ## Language and theme
 
-The **EN / 中文** button switches language across the whole site, and the **☾** button
+The **中文 / EN** button in the header switches language across the whole site, and the **☾** button
 switches light/dark. Both remember the visitor's choice in their browser.
