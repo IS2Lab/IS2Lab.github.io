@@ -78,7 +78,7 @@ phd:
   role:
     en: PhD Student · 2026 fall
     zh: 博士生 · 2026 秋季入学
-  photo: images/teampic/newstudent.jpg
+  photo: images/people/newstudent.jpg
   notes:
     en:
     - B.E., Some University
@@ -86,7 +86,9 @@ phd:
     - 学士，某大学
 ```
 
-Upload the photo to `images/teampic/` in the same commit.
+Upload the photo to `images/people/` in the same commit. Use a square head-and-shoulders crop
+(about 500×500 px, face centred) so everyone appears at the same size; keep the full-size original
+in `images/teampic/` if you like.
 
 ### A few rules
 

@@ -1,6 +1,7 @@
 <!-- PEOPLE — current members and alumni.
      Add someone by copying an existing block and editing it.
-     'photo' points to an image in your images/teampic/ folder.
+     'photo' points to a square head-and-shoulders picture in images/people/ (about 500×500 px,
+     face centred). Full-size originals are kept in images/teampic/.
      'notes' are the bullet lines shown under each person.
      Groups: faculty, postdocs, phd, master, ra, alumni. -->
 
@@ -10,7 +11,7 @@ faculty:
   role:
     en: Assistant Professor (Tenure Track)
     zh: 百人计划研究员，博士生导师（预聘-长聘教轨）
-  photo: images/teampic/wangjingyi.jpg
+  photo: images/people/wangjingyi.jpg
   email: wangjyee@gmail.com
   homepage: https://wang-jingyi.github.io/
   notes:
@@ -27,7 +28,7 @@ postdocs:
   role:
     en: Co-supervision with Ant Group
     zh: 与蚂蚁集团联合培养
-  photo: images/teampic/chenjialuo.jpg
+  photo: images/people/chenjialuo.jpg
   notes:
     en:
     - B.E. and Ph.D., Zhejiang University
@@ -37,7 +38,7 @@ postdocs:
   role:
     en: Co-supervision with Alibaba Group
     zh: 与阿里巴巴集团联合培养
-  photo: images/teampic/shenxicong.jpg
+  photo: images/people/shenxicong.jpg
   notes:
     en:
     - Ph.D., Zhejiang University
@@ -47,7 +48,7 @@ postdocs:
   role:
     en: Co-supervision with Ant Group
     zh: 与蚂蚁集团联合培养
-  photo: images/teampic/buhao.jpg
+  photo: images/people/buhao.jpg
   notes:
     en:
     - B.E. and Ph.D., Peking University
@@ -58,7 +59,7 @@ phd:
   role:
     en: PhD Student · 2022 fall
     zh: 博士生 · 2022 秋季入学
-  photo: images/teampic/liuxiaoxia.jpg
+  photo: images/people/liuxiaoxia.jpg
   notes:
     en:
     - B.E., Jilin University
@@ -72,7 +73,7 @@ phd:
   role:
     en: PhD Student · 2022 fall
     zh: 博士生 · 2022 秋季入学
-  photo: images/teampic/lixuran.jpg
+  photo: images/people/lixuran.jpg
   notes:
     en:
     - B.E., Tongji University
@@ -84,7 +85,7 @@ phd:
   role:
     en: PhD Student · 2023 fall
     zh: 博士生 · 2023 秋季入学
-  photo: images/teampic/liuzihan.jpg
+  photo: images/people/liuzihan.jpg
   notes:
     en:
     - B.E., Zhejiang University
@@ -96,7 +97,7 @@ phd:
   role:
     en: PhD Student · 2023 fall
     zh: 博士生 · 2023 秋季入学
-  photo: images/teampic/miuzhaoming.jpg
+  photo: images/people/miuzhaoming.jpg
   notes:
     en:
     - B.E., Shandong University
@@ -108,7 +109,7 @@ phd:
   role:
     en: PhD Student · 2024 fall
     zh: 博士生 · 2024 秋季入学
-  photo: images/teampic/anxinyuan.jpg
+  photo: images/people/anxinyuan.jpg
   notes:
     en:
     - B.E., Zhejiang University
@@ -120,7 +121,7 @@ phd:
   role:
     en: PhD Student · 2024 fall
     zh: 博士生 · 2024 秋季入学
-  photo: images/teampic/liyitong.jpg
+  photo: images/people/liyitong.jpg
   notes:
     en:
     - B.E., China University of Geosciences (Beijing)
@@ -134,7 +135,7 @@ phd:
   role:
     en: PhD Student · 2025 fall
     zh: 博士生 · 2025 秋季入学
-  photo: images/teampic/maxiaolin.jpg
+  photo: images/people/maxiaolin.jpg
   notes:
     en:
     - B.E., Zhejiang University
@@ -146,7 +147,7 @@ phd:
   role:
     en: PhD Student · 2025 fall
     zh: 博士生 · 2025 秋季入学
-  photo: images/teampic/fuyuchuan.jpg
+  photo: images/people/fuyuchuan.jpg
   notes:
     en:
     - B.E., Xi'an Jiaotong University
@@ -156,7 +157,7 @@ phd:
   role:
     en: PhD Student · 2026 fall
     zh: 博士生 · 2026 秋季入学
-  photo: images/teampic/jiakaitong.jpg
+  photo: images/people/jiakaitong.jpg
   notes:
     en:
     - B.E., South China University of Technology
@@ -166,7 +167,7 @@ phd:
   role:
     en: PhD Student · 2026 fall
     zh: 博士生 · 2026 秋季入学
-  photo: images/teampic/chenwei.jpg
+  photo: images/people/chenwei.jpg
   notes:
     en:
     - B.E., Hangdian University
@@ -176,7 +177,7 @@ phd:
   role:
     en: Exchange PhD (Hangzhou Dianzi Univ.) · 2023 fall
     zh: 联合培养博士生（杭州电子科技大学）· 2023 秋季
-  photo: images/teampic/majianan.jpg
+  photo: images/people/majianan.jpg
   notes:
     en:
     - B.E., Hangzhou Dianzi University
@@ -189,7 +190,7 @@ master:
   role:
     en: Master Student · 2024 fall
     zh: 硕士生 · 2024 秋季入学
-  photo: images/teampic/masongye.jpg
+  photo: images/people/masongye.jpg
   notes:
     en:
     - B.E., Harbin Institute of Technology
@@ -199,7 +200,7 @@ master:
   role:
     en: Master Student · 2024 fall
     zh: 硕士生 · 2024 秋季入学
-  photo: images/teampic/linhaiqing.jpg
+  photo: images/people/linhaiqing.jpg
   notes:
     en:
     - B.E., Hohai University
@@ -209,7 +210,7 @@ master:
   role:
     en: Master Student · 2025 fall
     zh: 硕士生 · 2025 秋季入学
-  photo: images/teampic/wangminghe.jpg
+  photo: images/people/wangminghe.jpg
   notes:
     en:
     - B.E., Zhejiang University
@@ -219,7 +220,7 @@ master:
   role:
     en: Master Student · 2026 fall
     zh: 硕士生 · 2026 秋季入学
-  photo: images/teampic/sunjianing.jpg
+  photo: images/people/sunjianing.jpg
   notes:
     en:
     - B.E., Hangdian University
@@ -230,7 +231,7 @@ master:
   role:
     en: Master Student · 2026 fall
     zh: 硕士生 · 2026 秋季入学
-  photo: images/teampic/zhanghang.jpg
+  photo: images/people/zhanghang.jpg
   notes:
     en:
     - B.E., Zhejiang University
@@ -243,7 +244,7 @@ ra:
   role:
     en: Research Assistant
     zh: 科研助理
-  photo: images/teampic/fusiyue.jpg
+  photo: images/people/fusiyue.jpg
   notes:
     en:
     - B.Sc., Case Western Reserve University

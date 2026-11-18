@@ -4,7 +4,7 @@
 window.IS2_DATA = {
   "faculty": [
     {
-      "photo": "images/teampic/wangjingyi.jpg",
+      "photo": "images/people/wangjingyi.jpg",
       "name": "Jingyi Wang",
       "role": {
         "en": "Assistant Professor (Tenure Track)",
@@ -28,7 +28,7 @@ window.IS2_DATA = {
   ],
   "postdocs": [
     {
-      "photo": "images/teampic/chenjialuo.jpg",
+      "photo": "images/people/chenjialuo.jpg",
       "name": "Jialuo Chen",
       "role": {
         "en": "Co-supervision with Ant Group",
@@ -44,7 +44,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/shenxicong.jpg",
+      "photo": "images/people/shenxicong.jpg",
       "name": "Xicong Shen",
       "role": {
         "en": "Co-supervision with Alibaba Group",
@@ -60,7 +60,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/buhao.jpg",
+      "photo": "images/people/buhao.jpg",
       "name": "Hao Bu",
       "role": {
         "en": "Co-supervision with Ant Group",
@@ -78,7 +78,7 @@ window.IS2_DATA = {
   ],
   "phd": [
     {
-      "photo": "images/teampic/liuxiaoxia.jpg",
+      "photo": "images/people/liuxiaoxia.jpg",
       "name": "Xiaoxia Liu",
       "role": {
         "en": "PhD Student · 2022 fall",
@@ -98,7 +98,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/lixuran.jpg",
+      "photo": "images/people/lixuran.jpg",
       "name": "Xuran Li",
       "role": {
         "en": "PhD Student · 2022 fall",
@@ -116,7 +116,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/liuzihan.jpg",
+      "photo": "images/people/liuzihan.jpg",
       "name": "Zihan Liu",
       "role": {
         "en": "PhD Student · 2023 fall",
@@ -134,7 +134,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/miuzhaoming.jpg",
+      "photo": "images/people/miuzhaoming.jpg",
       "name": "Zhaoming Miao",
       "role": {
         "en": "PhD Student · 2023 fall",
@@ -152,7 +152,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/anxinyuan.jpg",
+      "photo": "images/people/anxinyuan.jpg",
       "name": "Xinyuan An",
       "role": {
         "en": "PhD Student · 2024 fall",
@@ -170,7 +170,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/liyitong.jpg",
+      "photo": "images/people/liyitong.jpg",
       "name": "Yitong Li",
       "role": {
         "en": "PhD Student · 2024 fall",
@@ -190,7 +190,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/maxiaolin.jpg",
+      "photo": "images/people/maxiaolin.jpg",
       "name": "Xiaolin Ma",
       "role": {
         "en": "PhD Student · 2025 fall",
@@ -208,7 +208,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/fuyuchuan.jpg",
+      "photo": "images/people/fuyuchuan.jpg",
       "name": "Yuchuan Fu",
       "role": {
         "en": "PhD Student · 2025 fall",
@@ -224,7 +224,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/jiakaitong.jpg",
+      "photo": "images/people/jiakaitong.jpg",
       "name": "Kaitong Jia",
       "role": {
         "en": "PhD Student · 2026 fall",
@@ -240,7 +240,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/chenwei.jpg",
+      "photo": "images/people/chenwei.jpg",
       "name": "Wei Chen",
       "role": {
         "en": "PhD Student · 2026 fall",
@@ -256,7 +256,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/majianan.jpg",
+      "photo": "images/people/majianan.jpg",
       "name": "Jianan Ma",
       "role": {
         "en": "Exchange PhD (Hangzhou Dianzi Univ.) · 2023 fall",
@@ -276,7 +276,7 @@ window.IS2_DATA = {
   ],
   "master": [
     {
-      "photo": "images/teampic/masongye.jpg",
+      "photo": "images/people/masongye.jpg",
       "name": "Songye Ma",
       "role": {
         "en": "Master Student · 2024 fall",
@@ -292,7 +292,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/linhaiqing.jpg",
+      "photo": "images/people/linhaiqing.jpg",
       "name": "Haiqing Lin",
       "role": {
         "en": "Master Student · 2024 fall",
@@ -308,7 +308,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/wangminghe.jpg",
+      "photo": "images/people/wangminghe.jpg",
       "name": "Minghe Wang",
       "role": {
         "en": "Master Student · 2025 fall",
@@ -324,7 +324,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/sunjianing.jpg",
+      "photo": "images/people/sunjianing.jpg",
       "name": "Jianing Sun",
       "role": {
         "en": "Master Student · 2026 fall",
@@ -340,7 +340,7 @@ window.IS2_DATA = {
       }
     },
     {
-      "photo": "images/teampic/zhanghang.jpg",
+      "photo": "images/people/zhanghang.jpg",
       "name": "Hang Zhang",
       "role": {
         "en": "Master Student · 2026 fall",
@@ -358,7 +358,7 @@ window.IS2_DATA = {
   ],
   "ra": [
     {
-      "photo": "images/teampic/fusiyue.jpg",
+      "photo": "images/people/fusiyue.jpg",
       "name": "Siyue Fu",
       "role": {
         "en": "Research Assistant",
