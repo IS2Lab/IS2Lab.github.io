@@ -19,8 +19,9 @@ Push the change, and GitHub rebuilds and republishes the site automatically.
 |---|---|
 | News and announcements | `content/news.md` |
 | Members, alumni | `content/team.md` |
-| Research pillars (each gets its own page), highlight papers | `content/research.md` |
+| Research areas (OS kernels, industrial control software, AI systems; each gets its own page), highlight papers, topics | `content/research.md` |
 | Publications list | `content/publications.bib` |
+| "Problems we work on" picture cards, grouped by research area | `content/impact.md` (pictures in `images/impact/`) |
 | Funders and industry partners | `content/sponsors.md` |
 | Home-page introduction, headings, buttons, page wording | `content/ui.md` |
 | Group photo on the home page | save it as `images/group.jpg` |
@@ -39,7 +40,7 @@ paste them in. The site groups them by year automatically. Add any of these opti
   booktitle = {NDSS},
   year   = {2026},
   venue  = {NDSS 2026},          % short label shown on the site
-  pillar = {ai-safety},          % formal-security, se4ai and/or ai-safety (comma-separated)
+  pillar = {ai},                 % kernel, control and/or ai (comma-separated)
   url    = {https://arxiv.org/abs/2510.09647},
   code   = {https://github.com/...},
   award  = {Best Paper Award},   % shows an award badge; the "Awards" filter uses it
@@ -144,6 +145,7 @@ python3 -m http.server 8000     # then open http://localhost:8000
 ├── build.py                       # content/*.md  ->  assets/js/*.js
 ├── content/                       # <-- THE FILES YOU EDIT
 │   ├── publications.bib
+│   ├── impact.md
 │   ├── news.md
 │   ├── team.md
 │   ├── research.md

@@ -7,7 +7,7 @@
 <meta name="description" content="The Intelligent System Security (IS2) Lab at Zhejiang University, led by Prof. Jingyi Wang, establishes formal trust for complex intelligent systems integrating software, AI and control.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body data-page="home">
@@ -19,13 +19,20 @@
 <main class="page">
   <section class="intro">
     <div class="intro-text" data-i18n-html="home.intro"></div>
-    <!-- Group photo: save it as images/group.jpg (it is hidden until the file exists). -->
-    <figure class="intro-fig"><img src="images/group.jpg" alt="IS² Lab group photo" onerror="this.parentNode.remove()"></figure>
   </section>
+
+  <!-- Group photo: save it as images/group.jpg (it stays hidden until the file exists). -->
+  <figure class="group-photo"><img src="images/group.jpg" alt="IS² Lab group photo" onerror="this.parentNode.remove()"></figure>
 
   <section>
     <h2 data-i18n="home.research">Research</h2>
     <div class="tiles" id="research-tiles"></div>
+  </section>
+
+  <section>
+    <h2 data-i18n="home.impact">Problems we work on</h2>
+    <p class="section-sub" data-i18n="home.impact.sub"></p>
+    <div class="layer-cols" id="impact-mount"></div>
   </section>
 
   <section>

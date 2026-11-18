@@ -56,7 +56,7 @@
     for (var i = 0; i < list.length; i++) if (list[i].id === id) return list[i];
     return null;
   }
-  var SYMBOLS = { "track-1": "⊢", "track-2": "∀", "track-3": "⚑" };
+  var SYMBOLS = { "track-1": "⊢", "track-2": "⟳", "track-3": "∀" };
 
   /* ---------- shared header + footer ---------- */
   function renderChrome() {
@@ -133,26 +133,60 @@
   }
 
   /* ---------- research ---------- */
-  function figure(tr) {
-    var sym = '<span class="fig-sym" aria-hidden="true">' + (SYMBOLS[tr.cls] || "◆") + "</span>";
+  /* small square icon beside a pillar's title; shows the pillar's image if one is set */
+  function icon(tr) {
+    var sym = '<span aria-hidden="true">' + (SYMBOLS[tr.cls] || "◆") + "</span>";
     var img = tr.image ? '<img src="' + esc(tr.image) + '" alt="" loading="lazy" onerror="this.remove()">' : "";
-    return '<span class="fig ' + tr.cls + '">' + sym + img + "</span>";
+    return '<span class="ico ' + tr.cls + '">' + sym + img + "</span>";
   }
   function renderTiles() {
     mount("research-tiles", (DATA.tracks || []).map(function (tr) {
-      return '<a class="tile" href="pillar.html?id=' + encodeURIComponent(tr.id) + '">' + figure(tr) +
-        '<span class="tile-title">' + esc(L(tr.title)) + "</span>" +
-        '<span class="tile-text">' + esc(L(tr.lede)) + "</span></a>";
+      return '<a class="tile" href="pillar.html?id=' + encodeURIComponent(tr.id) + '">' + icon(tr) +
+        '<span class="tile-body"><span class="tile-title">' + esc(L(tr.title)) + "</span>" +
+        '<span class="tile-text">' + esc(L(tr.lede)) + "</span></span></a>";
     }).join(""));
+  }
+  function topics(tr) {
+    var list = L(tr.topics) || [];
+    if (!list.length) return "";
+    return '<ul class="topics">' + list.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>";
+  }
+  function card(c) {
+    var img = c.image ? '<img src="' + esc(c.image) + '" alt="" loading="lazy">' : "";
+    var title = esc(L(c.title));
+    if (c.link) {
+      var external = /^https?:/.test(c.link);
+      title = '<a href="' + esc(c.link) + '"' + (external ? ' target="_blank" rel="noopener"' : "") + ">" + title + "</a>";
+    }
+    return '<article class="card">' + (img ? '<div class="card-img">' + img + "</div>" : "") +
+      '<div class="card-body"><h3>' + title + "</h3>" +
+      "<p>" + esc(L(c.problem)) + "</p>" +
+      (L(c.impact) ? '<p class="card-impact"><strong>' + esc(t("impact.label")) + "</strong> " + esc(L(c.impact)) + "</p>" : "") +
+      "</div></article>";
+  }
+  /* problem cards, grouped under the software layer they belong to */
+  function renderImpact() {
+    var cards = DATA.impact || [];
+    var groups = (DATA.tracks || []).map(function (tr) {
+      return { tr: tr, items: cards.filter(function (c) { return c.layer === tr.id; }) };
+    });
+    var loose = cards.filter(function (c) { return !track(c.layer); });
+    var html = groups.filter(function (g) { return g.items.length; }).map(function (g) {
+      return '<div class="layer-group">' +
+        '<h3 class="layer-label"><a href="pillar.html?id=' + encodeURIComponent(g.tr.id) + '">' + icon(g.tr) +
+        "<span>" + esc(L(g.tr.title)) + "</span></a></h3>" +
+        '<div class="cards">' + g.items.map(card).join("") + "</div></div>";
+    }).join("");
+    if (loose.length) html += '<div class="layer-group"><div class="cards">' + loose.map(card).join("") + "</div></div>";
+    mount("impact-mount", html);
   }
   function renderResearchList() {
     mount("research-list", (DATA.tracks || []).map(function (tr) {
       var href = "pillar.html?id=" + encodeURIComponent(tr.id);
-      return '<article class="area">' +
-        '<a class="area-fig" href="' + href + '" tabindex="-1" aria-hidden="true">' + figure(tr) + "</a>" +
+      return '<article class="area">' + icon(tr) +
         '<div class="area-body">' +
           '<h2><a href="' + href + '">' + esc(L(tr.title)) + "</a></h2>" +
-          '<p class="area-lede">' + esc(L(tr.lede)) + "</p>" +
+          '<p class="area-lede">' + esc(L(tr.lede)) + "</p>" + topics(tr) +
           "<p>" + esc(L(tr.body)) + "</p>" +
           '<a class="more" href="' + href + '">' + esc(t("research.readmore")) + "</a>" +
         "</div></article>";
@@ -198,7 +232,7 @@
     el.innerHTML =
       '<p class="crumb"><a href="research.html">' + esc(t("pillar.back")) + "</a></p>" +
       '<header class="pillar-head ' + tr.cls + '"><h1>' + esc(L(tr.title)) + "</h1>" +
-        '<p class="area-lede">' + esc(L(tr.lede)) + "</p><p>" + esc(L(tr.body)) + "</p>" + venues + "</header>" +
+        '<p class="area-lede">' + esc(L(tr.lede)) + "</p>" + topics(tr) + "<p>" + esc(L(tr.body)) + "</p>" + venues + "</header>" +
       "<section><h2>" + esc(t("research.highlights")) + '</h2><ul class="pubs">' + hl + "</ul>" +
       (count ? '<p><a class="more" href="publications.html?pillar=' + encodeURIComponent(tr.id) + '">' + esc(t("pillar.pubs")) + "</a></p>" : "") +
       "</section>";
@@ -309,6 +343,7 @@
     renderChrome();
     renderNews();
     renderTiles();
+    renderImpact();
     renderResearchList();
     renderPillar();
     renderPublications();

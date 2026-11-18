@@ -194,7 +194,31 @@ def build_research():
             "lede": bilingual(pillar.get("lede", ""), where, "lede"),
             "body": bilingual(pillar.get("body", ""), where, "body"),
             "venues": pillar.get("venues") or [],
+            "topics": bilingual_list(pillar.get("topics") or [], where, "topics"),
             "highlights": highlights,
+        })
+    return rows
+
+
+# ------------------------------------------------------------------ impact
+def build_impact(pillar_ids):
+    path = CONTENT / "impact.md"
+    if not path.exists():
+        return []
+    rows = []
+    for item in load("impact.md").get("impact") or []:
+        where = "content/impact.md"
+        layer = item.get("layer") or ""
+        if layer and layer not in pillar_ids:
+            sys.exit(f"ERROR in {where}: layer '{layer}' is not one of {sorted(pillar_ids)} "
+                     "(the ids in content/research.md)")
+        rows.append({
+            "layer": layer,
+            "image": item.get("image") or "",
+            "title": bilingual(need(item, "title", where), where, "title"),
+            "problem": bilingual(item.get("problem", ""), where, "problem"),
+            "impact": bilingual(item.get("impact", ""), where, "impact"),
+            "link": item.get("link") or "",
         })
     return rows
 
@@ -372,6 +396,8 @@ def main():
     data["sponsors"] = sponsors
     data["tracks"] = pillars
     data["pubs"] = pubs
+    impact = build_impact({p["id"] for p in pillars})
+    data["impact"] = impact
 
     JS.mkdir(parents=True, exist_ok=True)
     (JS / "i18n.js").write_text(
@@ -389,6 +415,7 @@ def main():
     print(f"  research pillars  : {len(pillars)}  ({papers} highlighted papers)")
     print(f"  sponsors          : {len(sponsors)}")
     print(f"  publications      : {len(pubs)}")
+    print(f"  impact cards      : {len(impact)}")
 
 
 if __name__ == "__main__":

@@ -1,118 +1,192 @@
-% PUBLICATIONS — ordinary BibTeX. Newest years are listed first on the site automatically.
+% PUBLICATIONS — ordinary BibTeX. The site lists them newest year first and lets visitors filter by layer.
 %
-% Easiest update: export BibTeX from DBLP / Google Scholar / Zotero and paste the entries here.
-% Then add any of these optional fields the site understands:
-%   venue  = {CCS 2025}                 short label shown on the site (else booktitle/journal)
-%   pillar = {ai-safety}                research pillar id(s) from content/research.md, comma-separated:
-%                                       formal-security, se4ai, ai-safety
-%   url    = {https://...}              paper link (falls back to doi = {...})
-%   project= {https://...}              project page
-%   code   = {https://...}              code link
-%   slides = {https://...}              slides link
-%   award  = {Best Paper Award}         award badge
+% To update: export BibTeX from DBLP / Google Scholar / Zotero and paste the entries here
+% (or replace an entry below with its full export, keeping the extra fields).
+% Optional fields the site understands:
+%   venue  = {CCS 2025}                short label shown on the site (else booktitle/journal)
+%   pillar = {ai}                      research-area id(s) from content/research.md, comma-separated:
+%                                      kernel, control, ai   (leave out for papers outside these areas)
+%   url    = {https://...}             paper link (falls back to doi = {...})
+%   project= {https://...}             project page
+%   code   = {https://...}             code link
+%   slides = {https://...}             slides link
+%   award  = {Best Paper Award}        award badge
 %
-% The entries below were seeded from the highlight papers in content/research.md.
-% They have no author lists yet — paste the real BibTeX (with authors) over them.
+% Seeded from https://wang-jingyi.github.io/pubs/ (titles, venues, years and awards).
+% Author lists are not filled in yet — paste the real BibTeX over these entries to add them.
 
+
+@article{jos2026hybrid,
+  title     = {Hybrid Refinement Logic},
+  journal   = {Journal of Software},
+  year      = {2026},
+  venue     = {JoS 2026},
+  pillar    = {control},
+}
+
+@inproceedings{ase2026sound,
+  title     = {Sound and Efficient Statistical Model Checking for Probabilities and Bounded Rewards},
+  booktitle = {ASE},
+  year      = {2026},
+  venue     = {ASE 2026},
+}
+
+@inproceedings{issre2026synthesis,
+  title     = {Synthesis of Sensor Deception Attacks against Security for Timed Supervisory Control Systems},
+  booktitle = {ISSRE},
+  year      = {2026},
+  venue     = {ISSRE 2026},
+  pillar    = {control},
+}
+
+@article{csur2026prompting,
+  title     = {Prompting Frameworks for Large Language Models: A Survey},
+  journal   = {ACM Computing Surveys},
+  year      = {2026},
+  venue     = {CSUR 2026},
+  pillar    = {ai},
+  award     = {AGI Summit Best Paper Award},
+}
+
+@article{tse2026agents,
+  title     = {Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2026},
+  venue     = {TSE 2026},
+  pillar    = {control,ai},
+}
+
+@article{tosem2026s,
+  title     = {S-Eval: Towards Automated Safety Evaluation with Enhancement for Large Language Models},
+  journal   = {ACM Transactions on Software Engineering and Methodology},
+  year      = {2026},
+  venue     = {TOSEM 2026},
+  pillar    = {ai},
+}
+
+@inproceedings{ndss2026rounding,
+  title     = {Rounding-Guided Backdoor Injection in Deep Learning Model Quantization},
+  booktitle = {NDSS},
+  year      = {2026},
+  venue     = {NDSS 2026},
+  pillar    = {ai},
+  url       = {https://arxiv.org/abs/2510.09647},
+}
+
+@inproceedings{www2026llmqua,
+  title     = {LLMQuA: Practical Backdoor Injection on Large Language Model Quantization},
+  booktitle = {The Web Conference},
+  year      = {2026},
+  venue     = {WWW 2026},
+  pillar    = {ai},
+  url       = {https://dl.acm.org/doi/10.1145/3774904.3792256},
+}
+
+@article{tosem2026empirical,
+  title     = {An Empirical Study of Sample Selection Strategies for Large Language Model Repair in Detoxification},
+  journal   = {ACM Transactions on Software Engineering and Methodology},
+  year      = {2026},
+  venue     = {TOSEM 2026},
+  pillar    = {ai},
+}
+
+@article{neural2026prune,
+  title     = {PRUNE: A Patching Based Repair Framework for Certifiable and Privacy-Robust Unlearning of Neural Networks},
+  journal   = {Neural Networks},
+  year      = {2026},
+  venue     = {Neural Networks 2026},
+  pillar    = {ai},
+}
 
 @inproceedings{ccs2025generalized,
   title     = {Generalized Security-Preserving Refinement for Concurrent Systems},
+  booktitle = {ACM CCS},
   year      = {2025},
   venue     = {CCS 2025},
-  pillar    = {formal-security},
+  pillar    = {kernel},
   url       = {https://dl.acm.org/doi/10.1145/3719027.3765138},
 }
 
-@inproceedings{icse2025llmaided,
+@inproceedings{ccs2025provable,
+  title     = {Provable Repair of Deep Neural Network Defects through Pre-image Synthesis and Property Refinement},
+  booktitle = {ACM CCS},
+  year      = {2025},
+  venue     = {CCS 2025},
+  pillar    = {ai},
+  url       = {https://dl.acm.org/doi/10.1145/3719027.3765057},
+}
+
+@inproceedings{icse2025llm,
   title     = {LLM-aided Automatic Modelling for Security Protocol Verification},
+  booktitle = {ICSE},
   year      = {2025},
   venue     = {ICSE 2025},
-  pillar    = {formal-security},
   url       = {https://www.computer.org/csdl/proceedings-article/icse/2025/056900a734/251mHfUjxMk},
 }
 
-@inproceedings{ase2025securing,
-  title     = {Securing Millions of Decentralized Identities in Alipay with End-to-End Formal Verification},
+@inproceedings{ase2025provable,
+  title     = {Provable Fairness Repair for Deep Neural Networks},
+  booktitle = {ASE},
   year      = {2025},
-  venue     = {ASE 2025 · Industry},
-  pillar    = {formal-security},
+  venue     = {ASE 2025},
+  pillar    = {ai},
+}
+
+@inproceedings{ase2025securing,
+  title     = {Securing Millions of Decentralized Identities in Alipay Super App with End-to-End Formal Verification},
+  booktitle = {ASE},
+  year      = {2025},
+  venue     = {ASE 2025 · Industry Showcase},
   url       = {https://ieeexplore.ieee.org/document/11334285},
 }
 
 @inproceedings{www2025quantitative,
   title     = {Quantitative Runtime Monitoring of Ethereum Transaction Attacks},
+  booktitle = {The Web Conference},
   year      = {2025},
   venue     = {WWW 2025},
-  pillar    = {formal-security},
   url       = {https://dl.acm.org/doi/abs/10.1145/3696410.3714682},
 }
 
-@article{tse2023kst,
-  title     = {K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs},
-  journal   = {IEEE Transactions on Software Engineering},
-  year      = {2023},
-  venue     = {TSE 2023},
-  pillar    = {formal-security},
-  url       = {https://dl.acm.org/doi/abs/10.1109/TSE.2023.3315292},
-}
-
-@inproceedings{icse2020whitebox,
-  title     = {White-box Fairness Testing through Adversarial Sampling},
-  year      = {2020},
-  venue     = {ICSE 2020},
-  pillar    = {se4ai},
-  url       = {https://dl.acm.org/doi/10.1145/3377811.3380331},
-  award     = {ACM SIGSOFT Distinguished Paper · Research Highlights},
-}
-
-@inproceedings{icse2021robot,
-  title     = {RobOT: Robustness-Oriented Testing for Deep Learning Systems},
-  year      = {2021},
-  venue     = {ICSE 2021},
-  pillar    = {se4ai},
-  url       = {https://dl.acm.org/doi/10.1109/ICSE43902.2021.00038},
-}
-
-@inproceedings{sp2022copy,
-  title     = {Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models},
-  year      = {2022},
-  venue     = {S&P 2022},
-  pillar    = {se4ai},
-  url       = {https://ieeexplore.ieee.org/document/9833747},
-}
-
-@inproceedings{issta2025seval,
-  title     = {S-Eval: Automatic and Adaptive Test Generation for Safety Evaluation of LLMs},
+@inproceedings{issta2025s,
+  title     = {S-Eval: Automatic and Adaptive Test Generation for Benchmarking Safety Evaluation of Large Language Models},
+  booktitle = {ISSTA},
   year      = {2025},
   venue     = {ISSTA 2025},
-  pillar    = {se4ai},
+  pillar    = {ai},
   url       = {https://www.arxiv.org/abs/2405.14191},
   project   = {https://s-eval.github.io/},
   code      = {https://github.com/IS2Lab/S-Eval},
 }
 
-@inproceedings{ccs2025provable,
-  title     = {Provable Repair of Deep Neural Networks through Pre-image Synthesis and Property Refinement},
+@inproceedings{icse2025patch,
+  title     = {Patch Synthesis for Property Repair of Deep Neural Networks},
+  booktitle = {ICSE},
   year      = {2025},
-  venue     = {CCS 2025},
-  pillar    = {ai-safety},
-  url       = {https://dl.acm.org/doi/10.1145/3719027.3765057},
+  venue     = {ICSE 2025},
+  pillar    = {ai},
 }
 
-@inproceedings{ase2025provable,
-  title     = {Provable Fairness Repair for Deep Neural Networks},
+@article{tse2025efficient,
+  title     = {Efficient Function Orchestration for Large Language Models},
+  journal   = {IEEE Transactions on Software Engineering},
   year      = {2025},
-  venue     = {ASE 2025},
-  pillar    = {ai-safety},
-  url       = {https://dl.acm.org/doi/10.1145/3597503.3623332},
+  venue     = {TSE 2025},
+  pillar    = {ai},
 }
 
-@inproceedings{icse2024vere,
-  title     = {VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks},
-  year      = {2024},
-  venue     = {ICSE 2024},
-  pillar    = {ai-safety},
-  url       = {https://dl.acm.org/doi/10.1145/3597503.3623332},
+@article{tse2025optse,
+  title     = {OPTSE: Towards Optimal Symbolic Execution},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2025},
+  venue     = {TSE 2025},
+}
+
+@article{tosem2025integrating,
+  title     = {Integrating Path Selection for Symbolic Execution and Variable Selection for Constraint Solving},
+  journal   = {ACM Transactions on Software Engineering and Methodology},
+  year      = {2025},
+  venue     = {TOSEM 2025},
 }
 
 @article{tdsc2024verifi,
@@ -120,23 +194,278 @@
   journal   = {IEEE Transactions on Dependable and Secure Computing},
   year      = {2024},
   venue     = {TDSC 2024},
-  pillar    = {ai-safety},
+  pillar    = {ai},
   url       = {https://ieeexplore.ieee.org/document/10480645},
   award     = {Best Paper Award Runner-up},
 }
 
-@inproceedings{ndss2026roundingguided,
-  title     = {Rounding-Guided Backdoor Injection in Deep Learning Model Quantization},
-  year      = {2026},
-  venue     = {NDSS 2026},
-  pillar    = {ai-safety},
-  url       = {https://arxiv.org/abs/2510.09647},
+@article{tosem2024scuzer,
+  title     = {Scuzer: A Scheduling Optimization Fuzzer for TVM},
+  journal   = {ACM Transactions on Software Engineering and Methodology},
+  year      = {2024},
+  venue     = {TOSEM 2024},
 }
 
-@inproceedings{www2026llmqua,
-  title     = {LLMQuA: Practical Backdoor Injection on Large Language Model Quantization},
-  year      = {2026},
-  venue     = {WWW 2026},
-  pillar    = {ai-safety},
-  url       = {https://dl.acm.org/doi/10.1145/3774904.3792256},
+@inproceedings{icse2024vere,
+  title     = {VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks},
+  booktitle = {ICSE},
+  year      = {2024},
+  venue     = {ICSE 2024},
+  pillar    = {ai},
+  url       = {https://dl.acm.org/doi/10.1145/3597503.3623332},
+}
+
+@inproceedings{issta2024teda,
+  title     = {TeDA: A Testing Framework for Data Usage Auditing in Deep Learning Model Development},
+  booktitle = {ISSTA},
+  year      = {2024},
+  venue     = {ISSTA 2024},
+  pillar    = {ai},
+}
+
+@inproceedings{issta2024isolation,
+  title     = {Isolation-based Debugging for Neural Networks},
+  booktitle = {ISSTA},
+  year      = {2024},
+  venue     = {ISSTA 2024},
+  pillar    = {ai},
+}
+
+@inproceedings{issta2024interpretability,
+  title     = {Interpretability based Neural Network Repair},
+  booktitle = {ISSTA},
+  year      = {2024},
+  venue     = {ISSTA 2024},
+  pillar    = {ai},
+}
+
+@inproceedings{ase2024fast,
+  title     = {FAST: Boosting Uncertainty-based Test Prioritization Methods for Neural Networks via Feature Selection},
+  booktitle = {ASE},
+  year      = {2024},
+  venue     = {ASE 2024},
+  pillar    = {ai},
+}
+
+@article{tse2024better,
+  title     = {Better Pay Attention Whilst Fuzzing},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2024},
+  venue     = {TSE 2024},
+}
+
+@article{tosem2024attack,
+  title     = {Attack as Detection: Using Adversarial Attack Methods to Detect Abnormal Examples},
+  journal   = {ACM Transactions on Software Engineering and Methodology},
+  year      = {2024},
+  venue     = {TOSEM 2024},
+  pillar    = {ai},
+}
+
+@article{ral2024boosting,
+  title     = {Boosting Adversarial Training in Safety-critical Systems through Boundary Data Selection},
+  journal   = {IEEE Robotics and Automation Letters},
+  year      = {2024},
+  venue     = {RA-L 2024},
+  pillar    = {ai,control},
+}
+
+@inproceedings{ccs2023hodor,
+  title     = {HODOR: Shrinking Attack Surface on Node.js via System Call Limitation},
+  booktitle = {ACM CCS},
+  year      = {2023},
+  venue     = {CCS 2023},
+}
+
+@article{tse2023k,
+  title     = {K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2023},
+  venue     = {TSE 2023},
+  pillar    = {control},
+  url       = {https://dl.acm.org/doi/abs/10.1109/TSE.2023.3315292},
+}
+
+@inproceedings{issta2023fairrec,
+  title     = {FairRec: Fairness Testing for Deep Recommender Systems},
+  booktitle = {ISSTA},
+  year      = {2023},
+  venue     = {ISSTA 2023},
+  pillar    = {ai},
+}
+
+@article{tosem2023testsgd,
+  title     = {TestSGD: Interpretable Testing of Neural Networks Against Subtle Group Discrimination},
+  journal   = {ACM Transactions on Software Engineering and Methodology},
+  year      = {2023},
+  venue     = {TOSEM 2023},
+  pillar    = {ai},
+}
+
+@inproceedings{fmics2023applying,
+  title     = {Applying Rely-guarantee Reasoning on Concurrent Memory Management and Mailbox in μC/OS-II: A Case Study},
+  booktitle = {FMICS},
+  year      = {2023},
+  venue     = {FMICS 2023},
+}
+
+@misc{black2023hodor,
+  title     = {HODOR: Reducing Attack Surface on Node.js via System Call Limitation},
+  howpublished = {Black Hat Europe},
+  year      = {2023},
+  venue     = {Black Hat Europe 2023},
+}
+
+@inproceedings{sp2022copy,
+  title     = {Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models},
+  booktitle = {IEEE S&P},
+  year      = {2022},
+  venue     = {S&P 2022},
+  pillar    = {ai},
+  url       = {https://ieeexplore.ieee.org/document/9833747},
+}
+
+@article{tosem2022quote,
+  title     = {QuoTe: Quality-oriented Testing for Deep Learning Systems},
+  journal   = {ACM Transactions on Software Engineering and Methodology},
+  year      = {2022},
+  venue     = {TOSEM 2022},
+  pillar    = {ai},
+}
+
+@inproceedings{icse2022neuronfair,
+  title     = {NeuronFair: Interpretable White-Box Fairness Testing through Biased Neuron Identification},
+  booktitle = {ICSE},
+  year      = {2022},
+  venue     = {ICSE 2022},
+  pillar    = {ai},
+}
+
+@article{fitee2022automatic,
+  title     = {Automatic Protocol Reverse-engineering for Industrial Control Systems with Dynamic Taint Analysis},
+  journal   = {Frontiers of Information Technology & Electronic Engineering},
+  year      = {2022},
+  venue     = {FITEE 2022},
+  pillar    = {control},
+  award     = {Spotlight Paper},
+}
+
+@inproceedings{icse2021robot,
+  title     = {RobOT: Robustness-Oriented Testing for Deep Learning Systems},
+  booktitle = {ICSE},
+  year      = {2021},
+  venue     = {ICSE 2021},
+  pillar    = {ai},
+  url       = {https://dl.acm.org/doi/10.1109/ICSE43902.2021.00038},
+}
+
+@article{tse2021automatic,
+  title     = {Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2021},
+  venue     = {TSE 2021},
+  pillar    = {ai},
+}
+
+@inproceedings{issta2021attack,
+  title     = {Attack as Defense: Characterizing Adversarial Examples using Robustness},
+  booktitle = {ISSTA},
+  year      = {2021},
+  venue     = {ISSTA 2021},
+  pillar    = {ai},
+}
+
+@inproceedings{tacas2021improving,
+  title     = {Improving Neural Network Verification through Spurious Region Guided Refinement},
+  booktitle = {TACAS},
+  year      = {2021},
+  venue     = {TACAS 2021},
+  pillar    = {ai},
+}
+
+@article{ijcip2021adversarial,
+  title     = {Adversarial Attacks and Mitigation for Anomaly Detectors of Cyber-Physical Systems},
+  journal   = {International Journal of Critical Infrastructure Protection},
+  year      = {2021},
+  venue     = {IJCIP 2021},
+  pillar    = {control},
+}
+
+@inproceedings{icse2020white,
+  title     = {White-box Fairness Testing through Adversarial Sampling},
+  booktitle = {ICSE},
+  year      = {2020},
+  venue     = {ICSE 2020},
+  pillar    = {ai},
+  url       = {https://dl.acm.org/doi/10.1145/3377811.3380331},
+  award     = {ACM SIGSOFT Distinguished Paper · Research Highlights},
+}
+
+@inproceedings{ase2020towards,
+  title     = {Towards Interpreting Recurrent Neural Network through Probabilistic Abstraction},
+  booktitle = {ASE},
+  year      = {2020},
+  venue     = {ASE 2020},
+  pillar    = {ai},
+}
+
+@inproceedings{icse2019adversarial,
+  title     = {Adversarial Sample Detection for Deep Neural Networks through Model Mutation Testing},
+  booktitle = {ICSE},
+  year      = {2019},
+  venue     = {ICSE 2019},
+  pillar    = {ai},
+}
+
+@article{tse2019automatically,
+  title     = {Automatically 'Verifying' Discrete-Time Complex Systems through Learning, Abstraction and Refinement},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2019},
+  venue     = {TSE · ASE 2019 journal-first},
+  pillar    = {control},
+}
+
+@inproceedings{fm2018towards,
+  title     = {Towards 'Verifying' a Water Treatment System},
+  booktitle = {FM},
+  year      = {2018},
+  venue     = {FM 2018},
+  pillar    = {control},
+}
+
+@inproceedings{icse2018towards,
+  title     = {Towards Optimal Concolic Testing},
+  booktitle = {ICSE},
+  year      = {2018},
+  venue     = {ICSE 2018},
+  award     = {ACM SIGSOFT Distinguished Paper},
+}
+
+@inproceedings{dsn2018importance,
+  title     = {Importance Sampling of Interval Markov Chains},
+  booktitle = {DSN},
+  year      = {2018},
+  venue     = {DSN 2018},
+}
+
+@inproceedings{fase2017should,
+  title     = {Should We Learn Probabilistic Models for Model Checking? A New Approach and an Empirical Study},
+  booktitle = {FASE},
+  year      = {2017},
+  venue     = {FASE 2017},
+}
+
+@inproceedings{icfem2017improving,
+  title     = {Improving Probability Estimation through Active Probabilistic Model Learning},
+  booktitle = {ICFEM},
+  year      = {2017},
+  venue     = {ICFEM 2017},
+}
+
+@inproceedings{fm2016towards,
+  title     = {Towards Concolic Testing for Hybrid Systems},
+  booktitle = {FM},
+  year      = {2016},
+  venue     = {FM 2016},
+  pillar    = {control},
 }

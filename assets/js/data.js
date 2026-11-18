@@ -977,36 +977,42 @@ window.IS2_DATA = {
   ],
   "tracks": [
     {
-      "id": "formal-security",
+      "id": "kernel",
       "image": "",
       "cls": "track-1",
       "tag": {
-        "en": "Pillar 01",
-        "zh": "方向 01"
+        "en": "OS kernels",
+        "zh": "操作系统内核"
       },
       "title": {
-        "en": "Formal Reasoning of Security",
-        "zh": "形式化安全推理"
+        "en": "OS Kernels",
+        "zh": "操作系统内核"
       },
       "lede": {
-        "en": "Formal security guarantees for the foundational software that safety-critical systems run on.",
-        "zh": "为安全攸关系统所依赖的基础软件提供可证明安全保障。"
+        "en": "Verifying that security properties of operating-system kernels hold all the way down to their concurrent implementation.",
+        "zh": "验证操作系统内核的安全性质能够一直保持到其并发实现。"
       },
       "body": {
-        "en": "The software stack is the core driving force behind safety-critical industrial and autonomous systems. We formally model, verify, monitor and enforce correctness and security across foundational layers — OS kernels, compilers, security protocols, smart contracts and industrial control programs — increasingly aided by AI to scale formal methods to real-world systems.",
-        "zh": "基础软件栈是安全攸关的工业与自主系统的核心驱动力。我们对操作系统内核、编译器、安全协议、智能合约与工业控制程序等基础软件层进行形式化建模、验证、监测与性质强制，并越来越多地借助 AI 将形式化方法扩展到真实系统。"
+        "en": "Every controller and every AI system ultimately runs on an operating-system kernel, so a security flaw there undermines everything above it. Kernels are concurrent, and a security property proved for an abstract design can silently break as the design is refined into an implementation. We develop security-preserving refinement, which guarantees that security properties of concurrent systems are preserved from an abstract specification down to the implementation.",
+        "zh": "所有控制器与 AI 系统最终都运行在操作系统内核之上，内核中的安全缺陷会动摇其上的一切。内核是并发的，在抽象设计上证明的安全性质可能在逐步精化为实现的过程中悄然失效。我们发展保安全精化理论，保证并发系统的安全性质从抽象规约一直保持到实现。"
       },
       "venues": [
-        "CCS 25",
-        "ICSE 25",
-        "WWW 25",
-        "ASE 25",
-        "TSE 23",
-        "CCS 23",
-        "TSE 21",
-        "ICSE 18",
-        "FM 18"
+        "CCS 25"
       ],
+      "topics": {
+        "en": [
+          "Security properties of kernels",
+          "Security-preserving refinement",
+          "Concurrent systems",
+          "Information-flow security"
+        ],
+        "zh": [
+          "内核安全性质",
+          "保安全精化",
+          "并发系统",
+          "信息流安全"
+        ]
+      },
       "highlights": [
         {
           "v": "CCS 2025",
@@ -1016,34 +1022,57 @@ window.IS2_DATA = {
             "zh": "推广基于精化的推理方法，使并发系统在向具体实现精化的过程中可证明地保持安全性质。"
           },
           "link": "https://dl.acm.org/doi/10.1145/3719027.3765138"
-        },
-        {
-          "v": "ICSE 2025",
-          "title": "LLM-aided Automatic Modelling for Security Protocol Verification",
-          "intro": {
-            "en": "Uses large language models to automatically construct the formal models that protocol verification normally demands by hand, lowering the expertise barrier to machine-checked security-protocol analysis.",
-            "zh": "借助大语言模型自动构建协议验证通常需要手工完成的形式化模型，降低了机器可检验协议分析的建模门槛。"
-          },
-          "link": "https://www.computer.org/csdl/proceedings-article/icse/2025/056900a734/251mHfUjxMk"
-        },
-        {
-          "v": "ASE 2025 · Industry",
-          "title": "Securing Millions of Decentralized Identities in Alipay with End-to-End Formal Verification",
-          "intro": {
-            "en": "An industry-scale deployment applying end-to-end formal verification to the decentralized-identity system inside the Alipay super app, protecting millions of real users.",
-            "zh": "工业级实践：将端到端形式化验证应用于支付宝超级 App 的去中心化身份系统，为数百万真实用户提供安全保障。"
-          },
-          "link": "https://ieeexplore.ieee.org/document/11334285"
-        },
-        {
-          "v": "WWW 2025",
-          "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
-          "intro": {
-            "en": "Brings quantitative runtime monitoring to blockchain, detecting attacks against Ethereum transactions as they unfold rather than after the fact.",
-            "zh": "将定量运行时监控引入区块链，在攻击发生过程中而非事后检测针对以太坊交易的攻击。"
-          },
-          "link": "https://dl.acm.org/doi/abs/10.1145/3696410.3714682"
-        },
+        }
+      ]
+    },
+    {
+      "id": "control",
+      "image": "",
+      "cls": "track-2",
+      "tag": {
+        "en": "Industrial control software",
+        "zh": "工业控制软件"
+      },
+      "title": {
+        "en": "Industrial Control Software",
+        "zh": "工业控制软件"
+      },
+      "lede": {
+        "en": "Proving that the software steering physical processes — PLC programs, supervisory controllers and cyber-physical systems — is safe and secure.",
+        "zh": "证明驱动物理过程的软件——PLC 程序、监督控制器与信息物理系统——是安全、可靠的。"
+      },
+      "body": {
+        "en": "Industrial control software connects computation to power grids, factories and water plants, where a bug or an attack has physical consequences, so a control program is only safe with respect to the physical process it controls. We give control languages formal executable semantics, prove PLC programs and physical processes safe together with hybrid refinement logic, generate control code that is verified in a closed loop (including with LLM agents), formally synthesize attacks on supervisory control so they can be defended against, and verify complex cyber-physical systems.",
+        "zh": "工业控制软件将计算与电网、工厂、水处理厂相连，其中的缺陷或攻击会带来真实的物理后果，因此控制程序是否安全取决于它所控制的物理过程。我们为控制语言建立形式化可执行语义，以混成精化逻辑将 PLC 程序与物理过程共同证明安全，生成经闭环验证的控制代码（包括借助大模型智能体），形式化合成针对监督控制的攻击以便防御，并验证复杂信息物理系统。"
+      },
+      "venues": [
+        "TSE 26",
+        "ISSRE 26",
+        "JoS 26",
+        "TSE 23",
+        "FITEE 22",
+        "FM 18",
+        "FM 16"
+      ],
+      "topics": {
+        "en": [
+          "PLC languages & semantics",
+          "Hybrid refinement logic",
+          "PLC program + physical process verification",
+          "Verified control-code generation",
+          "Supervisory control & sensor attacks",
+          "Cyber-physical systems"
+        ],
+        "zh": [
+          "PLC 语言与语义",
+          "混成精化逻辑",
+          "PLC 程序与物理过程联合验证",
+          "可验证的控制代码生成",
+          "监督控制与传感器攻击",
+          "信息物理系统"
+        ]
+      },
+      "highlights": [
         {
           "v": "TSE 2023",
           "title": "K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs",
@@ -1052,133 +1081,109 @@ window.IS2_DATA = {
             "zh": "在K语义框架下定义了工业编程语言ST的形式化语义，在数个商用编译器中验证了其覆盖率和正确性，并发现了开源工业编译器的多个缺陷。"
           },
           "link": "https://dl.acm.org/doi/abs/10.1109/TSE.2023.3315292"
-        }
-      ]
-    },
-    {
-      "id": "se4ai",
-      "image": "",
-      "cls": "track-2",
-      "tag": {
-        "en": "Pillar 02",
-        "zh": "方向 02"
-      },
-      "title": {
-        "en": "Software Engineering for AI (SE4AI)",
-        "zh": "面向人工智能的软件工程（SE4AI）"
-      },
-      "lede": {
-        "en": "Testing, verifying and repairing AI models and AI-enabled systems.",
-        "zh": "对 AI 模型与 AI 赋能系统进行测试、验证与修复。"
-      },
-      "body": {
-        "en": "Emerging AI — deep neural networks and large language models, AI-based cyber-physical systems, and LLM agents — is mostly built on software, so its trustworthiness must be assured from a software-engineering perspective. We build systematic testing, verification and repair frameworks that evaluate, verify and fix AI across different safety and ethical dimensions such as robustness, fairness, copyright and safety.",
-        "zh": "新兴的人工智能——深度神经网络与大语言模型、基于 AI 的信息物理系统以及大模型智能体——大多构建于软件之上，因此必须从软件工程视角保障其可信性。我们构建系统化的测试、验证与修复框架，从鲁棒性、公平性、版权与安全等维度评估、定位并修复 AI 中的风险。"
-      },
-      "venues": [
-        "ISSTA 25",
-        "ICSE 24",
-        "ISSTA 24",
-        "TOSEM 24",
-        "ICSE 22",
-        "ICSE 21",
-        "TSE 21",
-        "ICSE 20",
-        "ICSE 19"
-      ],
-      "highlights": [
+        },
         {
-          "v": "ICSE 2020",
-          "title": "White-box Fairness Testing through Adversarial Sampling",
+          "v": "JoS 2026",
+          "title": "Hybrid Refinement Logic",
           "intro": {
-            "en": "A white-box technique that uses adversarial sampling to surface individual-discrimination defects in neural networks — a foundational result in fairness testing.",
-            "zh": "一种通过对抗采样揭示神经网络中个体歧视缺陷的白盒方法，是公平性测试领域的奠基性成果。"
-          },
-          "link": "https://dl.acm.org/doi/10.1145/3377811.3380331",
-          "award": {
-            "en": "ACM SIGSOFT Distinguished Paper · Research Highlights",
-            "zh": "ACM SIGSOFT 杰出论文奖 · Research Highlights"
+            "en": "A refinement logic for hybrid systems that lets a PLC program and the continuous physical process it controls be reasoned about, and proved safe, together.",
+            "zh": "一种面向混成系统的精化逻辑，使 PLC 程序与其所控制的连续物理过程能够被统一推理并共同证明安全。"
           }
         },
         {
-          "v": "ICSE 2021",
-          "title": "RobOT: Robustness-Oriented Testing for Deep Learning Systems",
+          "v": "TSE 2026",
+          "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
           "intro": {
-            "en": "Defines robustness-oriented test metrics and generation so that the tests you run measurably strengthen a model's robustness, not merely its accuracy.",
-            "zh": "提出面向鲁棒性的测试度量与用例生成方法，使测试不仅提升准确率，更可度量地增强模型鲁棒性。"
-          },
-          "link": "https://dl.acm.org/doi/10.1109/ICSE43902.2021.00038"
+            "en": "LLM-based agents that generate PLC code and close the loop with formal verification, so that generated control code comes with guarantees rather than just plausibility.",
+            "zh": "基于大模型的智能体自动生成 PLC 代码，并以形式化验证构成闭环，使生成的控制代码具备可验证的保证。"
+          }
         },
         {
-          "v": "S&P 2022",
-          "title": "Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models",
+          "v": "ISSRE 2026",
+          "title": "Synthesis of Sensor Deception Attacks against Security for Timed Supervisory Control Systems",
           "intro": {
-            "en": "A testing framework that fingerprints deep learning models to detect unauthorized copying, published at IEEE S&P — a top-tier security venue.",
-            "zh": "一种对深度学习模型进行指纹测试、以检测未授权抄袭的框架，发表于顶级安全会议 IEEE S&P。"
-          },
-          "link": "https://ieeexplore.ieee.org/document/9833747"
+            "en": "Formally synthesizes the sensor-deception attacks a timed supervisory control system is exposed to, so they can be understood and defended against.",
+            "zh": "对带时间约束的监督控制系统所面临的传感器欺骗攻击进行形式化合成，以便理解并防御此类攻击。"
+          }
         },
         {
-          "v": "ISSTA 2025",
-          "title": "S-Eval: Automatic and Adaptive Test Generation for Safety Evaluation of LLMs",
+          "v": "FITEE 2022",
+          "title": "Automatic Protocol Reverse-engineering for Industrial Control Systems with Dynamic Taint Analysis",
           "intro": {
-            "en": "An automatic, adaptive test-generation framework that builds large-scale benchmarks for evaluating LLM safety — released with an open dataset and a public leaderboard.",
-            "zh": "一种自动且自适应的测试生成框架，为大语言模型安全评估构建大规模基准，并开放数据集与公开排行榜。"
+            "en": "Recovers the formats of proprietary industrial control protocols automatically with dynamic taint analysis.",
+            "zh": "利用动态污点分析自动恢复私有工业控制协议的报文格式。"
           },
-          "link": "https://www.arxiv.org/abs/2405.14191",
-          "project": "https://s-eval.github.io/",
-          "code": "https://github.com/IS2Lab/S-Eval"
+          "award": {
+            "en": "Spotlight Paper",
+            "zh": "Spotlight 论文"
+          }
+        },
+        {
+          "v": "FM 2018",
+          "title": "Towards 'Verifying' a Water Treatment System",
+          "intro": {
+            "en": "A case study in verifying a real water treatment testbed — a step towards verifying complex cyber-physical systems in practice.",
+            "zh": "以真实水处理测试平台为对象的验证案例研究，推动复杂信息物理系统验证走向实践。"
+          }
         }
       ]
     },
     {
-      "id": "ai-safety",
+      "id": "ai",
       "image": "",
       "cls": "track-3",
       "tag": {
-        "en": "Pillar 03",
-        "zh": "方向 03"
+        "en": "AI systems",
+        "zh": "AI 系统"
       },
       "title": {
-        "en": "AI Safety & Ethics",
-        "zh": "人工智能安全与伦理"
+        "en": "AI Systems",
+        "zh": "AI 系统"
       },
       "lede": {
-        "en": "Specifying, understanding and defending the safety and ethics of DNNs, LLMs, agents and embodied intelligence.",
-        "zh": "定义、认知并守护深度神经网络、大模型、智能体与具身智能的安全和伦理。"
+        "en": "Reasoning formally about the safety and security of AI models, LLMs and agents — and repairing them with guarantees.",
+        "zh": "对 AI 模型、大语言模型与智能体的安全性进行形式化推理，并以可证明的保证修复其缺陷。"
       },
       "body": {
-        "en": "As large language models, agents and embodied intelligence enter the real world, new classes of risk emerge — backdoors, unauthorized model copying, unverifiable data removal and unsafe behavior. We study these threats and build the defenses with formal guarantees that let powerful AI be deployed responsibly.",
-        "zh": "随着大语言模型、智能体与具身智能走向真实世界，后门攻击、未授权模型抄袭、无法验证的数据删除与不安全行为等新型风险随之而来。我们研究这些威胁，并构建防御、基准与保证，使强大的 AI 能够被负责任地部署。"
+        "en": "Neural networks, large language models and agents increasingly make the decisions in intelligent systems. We verify their safety properties and repair defects with provable guarantees, test them systematically for robustness, fairness and safety, and study the security threats they face — backdoors hidden by quantization, stolen models and data that should have been forgotten.",
+        "zh": "神经网络、大语言模型与智能体正日益承担智能系统中的决策。我们验证其安全性质并以可证明的保证修复缺陷，系统化地测试其鲁棒性、公平性与安全性，并研究它们面临的安全威胁——经量化隐藏的后门、被窃取的模型，以及本应被遗忘的数据。"
       },
       "venues": [
-        "CCS 25",
-        "ASE 25",
-        "ICSE 25",
         "NDSS 26",
         "WWW 26",
+        "CCS 25",
+        "ISSTA 25",
+        "ICSE 25",
+        "ICSE 24",
         "TDSC 24",
-        "TACAS 21",
-        "ASE 20"
+        "S&P 22",
+        "ICSE 20"
       ],
+      "topics": {
+        "en": [
+          "Verification & provable repair",
+          "Robustness & fairness testing",
+          "LLM safety evaluation",
+          "Backdoors",
+          "Model copyright & unlearning"
+        ],
+        "zh": [
+          "验证与可证明修复",
+          "鲁棒性与公平性测试",
+          "大模型安全评测",
+          "后门",
+          "模型版权与遗忘"
+        ]
+      },
       "highlights": [
         {
           "v": "CCS 2025",
-          "title": "Provable Repair of Deep Neural Networks through Pre-image Synthesis and Property Refinement",
+          "title": "Provable Repair of Deep Neural Network Defects through Pre-image Synthesis and Property Refinement",
           "intro": {
             "en": "A unified and provable defense based on neural network verification against a range of attacks or safety violation of deep neural networks.",
             "zh": "一种面向多种深度神经网络攻击或安全违反的深度神经网络可证明修复统一框架。"
           },
           "link": "https://dl.acm.org/doi/10.1145/3719027.3765057"
-        },
-        {
-          "v": "ASE 2025",
-          "title": "Provable Fairness Repair for Deep Neural Networks",
-          "intro": {
-            "en": "Repairs individual discriminations with provable guarantees for deep neural networks with constraint solving.",
-            "zh": "运用约束求解技术指导可证明地修复陷神经网络的个体公平性缺陷。"
-          },
-          "link": "https://dl.acm.org/doi/10.1145/3597503.3623332"
         },
         {
           "v": "ICSE 2024",
@@ -1188,6 +1193,35 @@ window.IS2_DATA = {
             "zh": "以形式化验证结果指导修复合成来修补缺陷神经网络。"
           },
           "link": "https://dl.acm.org/doi/10.1145/3597503.3623332"
+        },
+        {
+          "v": "ISSTA 2025",
+          "title": "S-Eval: Automatic and Adaptive Test Generation for Benchmarking Safety Evaluation of Large Language Models",
+          "intro": {
+            "en": "An automatic, adaptive test-generation framework that builds large-scale benchmarks for evaluating LLM safety — released with an open dataset and a public leaderboard.",
+            "zh": "一种自动且自适应的测试生成框架，为大语言模型安全评估构建大规模基准，并开放数据集与公开排行榜。"
+          },
+          "link": "https://www.arxiv.org/abs/2405.14191",
+          "project": "https://s-eval.github.io/",
+          "code": "https://github.com/IS2Lab/S-Eval"
+        },
+        {
+          "v": "NDSS 2026",
+          "title": "Rounding-Guided Backdoor Injection in Deep Learning Model Quantization",
+          "intro": {
+            "en": "Reveals a new attack surface: backdoors that stay dormant in a full-precision model and activate only after quantization rounding — exposing real risks in on-device model deployment.",
+            "zh": "揭示一种全新攻击面：后门在全精度模型中保持休眠，仅在量化舍入后被激活，暴露端侧模型部署的真实风险。"
+          },
+          "link": "https://arxiv.org/abs/2510.09647"
+        },
+        {
+          "v": "S&P 2022",
+          "title": "Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models",
+          "intro": {
+            "en": "A testing framework that fingerprints deep learning models to detect unauthorized copying, published at IEEE S&P — a top-tier security venue.",
+            "zh": "一种对深度学习模型进行指纹测试、以检测未授权抄袭的框架，发表于顶级安全会议 IEEE S&P。"
+          },
+          "link": "https://ieeexplore.ieee.org/document/9833747"
         },
         {
           "v": "TDSC 2024",
@@ -1203,36 +1237,97 @@ window.IS2_DATA = {
           }
         },
         {
-          "v": "NDSS 2026",
-          "title": "Rounding-Guided Backdoor Injection in Deep Learning Model Quantization",
+          "v": "ICSE 2020",
+          "title": "White-box Fairness Testing through Adversarial Sampling",
           "intro": {
-            "en": "Reveals a new attack surface: backdoors that stay dormant in a full-precision model and activate only after quantization rounding — exposing real risks in on-device model deployment.",
-            "zh": "揭示一种全新攻击面：后门在全精度模型中保持休眠，仅在量化舍入后被激活，暴露端侧模型部署的真实风险。"
+            "en": "A white-box technique that uses adversarial sampling to surface individual-discrimination defects in neural networks — a foundational result in fairness testing.",
+            "zh": "一种通过对抗采样揭示神经网络中个体歧视缺陷的白盒方法，是公平性测试领域的奠基性成果。"
           },
-          "link": "https://arxiv.org/abs/2510.09647"
-        },
-        {
-          "v": "WWW 2026",
-          "title": "LLMQuA: Practical Backdoor Injection on Large Language Model Quantization",
-          "intro": {
-            "en": "Extends quantization backdoor attacks to large language models, showing the threat is practical at LLM scale and motivating defenses for quantized deployments.",
-            "zh": "将量化后门攻击拓展至大语言模型，证明该威胁在大模型规模下切实可行，并促使针对量化部署的防御。"
-          },
-          "link": "https://dl.acm.org/doi/10.1145/3774904.3792256"
+          "link": "https://dl.acm.org/doi/10.1145/3377811.3380331",
+          "award": {
+            "en": "ACM SIGSOFT Distinguished Paper · Research Highlights",
+            "zh": "ACM SIGSOFT 杰出论文奖 · Research Highlights"
+          }
         }
       ]
     }
   ],
   "pubs": [
     {
-      "key": "ndss2026roundingguided",
+      "key": "jos2026hybrid",
+      "title": "Hybrid Refinement Logic",
+      "authors": "",
+      "venue": "JoS 2026",
+      "full": "Journal of Software",
+      "year": 2026,
+      "pillars": [
+        "control"
+      ]
+    },
+    {
+      "key": "ase2026sound",
+      "title": "Sound and Efficient Statistical Model Checking for Probabilities and Bounded Rewards",
+      "authors": "",
+      "venue": "ASE 2026",
+      "full": "ASE",
+      "year": 2026,
+      "pillars": []
+    },
+    {
+      "key": "issre2026synthesis",
+      "title": "Synthesis of Sensor Deception Attacks against Security for Timed Supervisory Control Systems",
+      "authors": "",
+      "venue": "ISSRE 2026",
+      "full": "ISSRE",
+      "year": 2026,
+      "pillars": [
+        "control"
+      ]
+    },
+    {
+      "key": "csur2026prompting",
+      "title": "Prompting Frameworks for Large Language Models: A Survey",
+      "authors": "",
+      "venue": "CSUR 2026",
+      "full": "ACM Computing Surveys",
+      "year": 2026,
+      "pillars": [
+        "ai"
+      ],
+      "award": "AGI Summit Best Paper Award"
+    },
+    {
+      "key": "tse2026agents",
+      "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+      "authors": "",
+      "venue": "TSE 2026",
+      "full": "IEEE Transactions on Software Engineering",
+      "year": 2026,
+      "pillars": [
+        "control",
+        "ai"
+      ]
+    },
+    {
+      "key": "tosem2026s",
+      "title": "S-Eval: Towards Automated Safety Evaluation with Enhancement for Large Language Models",
+      "authors": "",
+      "venue": "TOSEM 2026",
+      "full": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2026,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "ndss2026rounding",
       "title": "Rounding-Guided Backdoor Injection in Deep Learning Model Quantization",
       "authors": "",
       "venue": "NDSS 2026",
-      "full": "",
+      "full": "NDSS",
       "year": 2026,
       "pillars": [
-        "ai-safety"
+        "ai"
       ],
       "url": "https://arxiv.org/abs/2510.09647"
     },
@@ -1241,47 +1336,88 @@ window.IS2_DATA = {
       "title": "LLMQuA: Practical Backdoor Injection on Large Language Model Quantization",
       "authors": "",
       "venue": "WWW 2026",
-      "full": "",
+      "full": "The Web Conference",
       "year": 2026,
       "pillars": [
-        "ai-safety"
+        "ai"
       ],
       "url": "https://dl.acm.org/doi/10.1145/3774904.3792256"
+    },
+    {
+      "key": "tosem2026empirical",
+      "title": "An Empirical Study of Sample Selection Strategies for Large Language Model Repair in Detoxification",
+      "authors": "",
+      "venue": "TOSEM 2026",
+      "full": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2026,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "neural2026prune",
+      "title": "PRUNE: A Patching Based Repair Framework for Certifiable and Privacy-Robust Unlearning of Neural Networks",
+      "authors": "",
+      "venue": "Neural Networks 2026",
+      "full": "Neural Networks",
+      "year": 2026,
+      "pillars": [
+        "ai"
+      ]
     },
     {
       "key": "ccs2025generalized",
       "title": "Generalized Security-Preserving Refinement for Concurrent Systems",
       "authors": "",
       "venue": "CCS 2025",
-      "full": "",
+      "full": "ACM CCS",
       "year": 2025,
       "pillars": [
-        "formal-security"
+        "kernel"
       ],
       "url": "https://dl.acm.org/doi/10.1145/3719027.3765138"
     },
     {
-      "key": "icse2025llmaided",
+      "key": "ccs2025provable",
+      "title": "Provable Repair of Deep Neural Network Defects through Pre-image Synthesis and Property Refinement",
+      "authors": "",
+      "venue": "CCS 2025",
+      "full": "ACM CCS",
+      "year": 2025,
+      "pillars": [
+        "ai"
+      ],
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765057"
+    },
+    {
+      "key": "icse2025llm",
       "title": "LLM-aided Automatic Modelling for Security Protocol Verification",
       "authors": "",
       "venue": "ICSE 2025",
-      "full": "",
+      "full": "ICSE",
       "year": 2025,
-      "pillars": [
-        "formal-security"
-      ],
+      "pillars": [],
       "url": "https://www.computer.org/csdl/proceedings-article/icse/2025/056900a734/251mHfUjxMk"
     },
     {
-      "key": "ase2025securing",
-      "title": "Securing Millions of Decentralized Identities in Alipay with End-to-End Formal Verification",
+      "key": "ase2025provable",
+      "title": "Provable Fairness Repair for Deep Neural Networks",
       "authors": "",
-      "venue": "ASE 2025 · Industry",
-      "full": "",
+      "venue": "ASE 2025",
+      "full": "ASE",
       "year": 2025,
       "pillars": [
-        "formal-security"
-      ],
+        "ai"
+      ]
+    },
+    {
+      "key": "ase2025securing",
+      "title": "Securing Millions of Decentralized Identities in Alipay Super App with End-to-End Formal Verification",
+      "authors": "",
+      "venue": "ASE 2025 · Industry Showcase",
+      "full": "ASE",
+      "year": 2025,
+      "pillars": [],
       "url": "https://ieeexplore.ieee.org/document/11334285"
     },
     {
@@ -1289,62 +1425,64 @@ window.IS2_DATA = {
       "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
       "authors": "",
       "venue": "WWW 2025",
-      "full": "",
+      "full": "The Web Conference",
       "year": 2025,
-      "pillars": [
-        "formal-security"
-      ],
+      "pillars": [],
       "url": "https://dl.acm.org/doi/abs/10.1145/3696410.3714682"
     },
     {
-      "key": "issta2025seval",
-      "title": "S-Eval: Automatic and Adaptive Test Generation for Safety Evaluation of LLMs",
+      "key": "issta2025s",
+      "title": "S-Eval: Automatic and Adaptive Test Generation for Benchmarking Safety Evaluation of Large Language Models",
       "authors": "",
       "venue": "ISSTA 2025",
-      "full": "",
+      "full": "ISSTA",
       "year": 2025,
       "pillars": [
-        "se4ai"
+        "ai"
       ],
       "project": "https://s-eval.github.io/",
       "code": "https://github.com/IS2Lab/S-Eval",
       "url": "https://www.arxiv.org/abs/2405.14191"
     },
     {
-      "key": "ccs2025provable",
-      "title": "Provable Repair of Deep Neural Networks through Pre-image Synthesis and Property Refinement",
+      "key": "icse2025patch",
+      "title": "Patch Synthesis for Property Repair of Deep Neural Networks",
       "authors": "",
-      "venue": "CCS 2025",
-      "full": "",
+      "venue": "ICSE 2025",
+      "full": "ICSE",
       "year": 2025,
       "pillars": [
-        "ai-safety"
-      ],
-      "url": "https://dl.acm.org/doi/10.1145/3719027.3765057"
+        "ai"
+      ]
     },
     {
-      "key": "ase2025provable",
-      "title": "Provable Fairness Repair for Deep Neural Networks",
+      "key": "tse2025efficient",
+      "title": "Efficient Function Orchestration for Large Language Models",
       "authors": "",
-      "venue": "ASE 2025",
-      "full": "",
+      "venue": "TSE 2025",
+      "full": "IEEE Transactions on Software Engineering",
       "year": 2025,
       "pillars": [
-        "ai-safety"
-      ],
-      "url": "https://dl.acm.org/doi/10.1145/3597503.3623332"
+        "ai"
+      ]
     },
     {
-      "key": "icse2024vere",
-      "title": "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks",
+      "key": "tse2025optse",
+      "title": "OPTSE: Towards Optimal Symbolic Execution",
       "authors": "",
-      "venue": "ICSE 2024",
-      "full": "",
-      "year": 2024,
-      "pillars": [
-        "ai-safety"
-      ],
-      "url": "https://dl.acm.org/doi/10.1145/3597503.3623332"
+      "venue": "TSE 2025",
+      "full": "IEEE Transactions on Software Engineering",
+      "year": 2025,
+      "pillars": []
+    },
+    {
+      "key": "tosem2025integrating",
+      "title": "Integrating Path Selection for Symbolic Execution and Variable Selection for Constraint Solving",
+      "authors": "",
+      "venue": "TOSEM 2025",
+      "full": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2025,
+      "pillars": []
     },
     {
       "key": "tdsc2024verifi",
@@ -1354,59 +1492,428 @@ window.IS2_DATA = {
       "full": "IEEE Transactions on Dependable and Secure Computing",
       "year": 2024,
       "pillars": [
-        "ai-safety"
+        "ai"
       ],
       "award": "Best Paper Award Runner-up",
       "url": "https://ieeexplore.ieee.org/document/10480645"
     },
     {
-      "key": "tse2023kst",
+      "key": "tosem2024scuzer",
+      "title": "Scuzer: A Scheduling Optimization Fuzzer for TVM",
+      "authors": "",
+      "venue": "TOSEM 2024",
+      "full": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2024,
+      "pillars": []
+    },
+    {
+      "key": "icse2024vere",
+      "title": "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks",
+      "authors": "",
+      "venue": "ICSE 2024",
+      "full": "ICSE",
+      "year": 2024,
+      "pillars": [
+        "ai"
+      ],
+      "url": "https://dl.acm.org/doi/10.1145/3597503.3623332"
+    },
+    {
+      "key": "issta2024teda",
+      "title": "TeDA: A Testing Framework for Data Usage Auditing in Deep Learning Model Development",
+      "authors": "",
+      "venue": "ISSTA 2024",
+      "full": "ISSTA",
+      "year": 2024,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "issta2024isolation",
+      "title": "Isolation-based Debugging for Neural Networks",
+      "authors": "",
+      "venue": "ISSTA 2024",
+      "full": "ISSTA",
+      "year": 2024,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "issta2024interpretability",
+      "title": "Interpretability based Neural Network Repair",
+      "authors": "",
+      "venue": "ISSTA 2024",
+      "full": "ISSTA",
+      "year": 2024,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "ase2024fast",
+      "title": "FAST: Boosting Uncertainty-based Test Prioritization Methods for Neural Networks via Feature Selection",
+      "authors": "",
+      "venue": "ASE 2024",
+      "full": "ASE",
+      "year": 2024,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "tse2024better",
+      "title": "Better Pay Attention Whilst Fuzzing",
+      "authors": "",
+      "venue": "TSE 2024",
+      "full": "IEEE Transactions on Software Engineering",
+      "year": 2024,
+      "pillars": []
+    },
+    {
+      "key": "tosem2024attack",
+      "title": "Attack as Detection: Using Adversarial Attack Methods to Detect Abnormal Examples",
+      "authors": "",
+      "venue": "TOSEM 2024",
+      "full": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2024,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "ral2024boosting",
+      "title": "Boosting Adversarial Training in Safety-critical Systems through Boundary Data Selection",
+      "authors": "",
+      "venue": "RA-L 2024",
+      "full": "IEEE Robotics and Automation Letters",
+      "year": 2024,
+      "pillars": [
+        "ai",
+        "control"
+      ]
+    },
+    {
+      "key": "ccs2023hodor",
+      "title": "HODOR: Shrinking Attack Surface on Node.js via System Call Limitation",
+      "authors": "",
+      "venue": "CCS 2023",
+      "full": "ACM CCS",
+      "year": 2023,
+      "pillars": []
+    },
+    {
+      "key": "tse2023k",
       "title": "K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs",
       "authors": "",
       "venue": "TSE 2023",
       "full": "IEEE Transactions on Software Engineering",
       "year": 2023,
       "pillars": [
-        "formal-security"
+        "control"
       ],
       "url": "https://dl.acm.org/doi/abs/10.1109/TSE.2023.3315292"
+    },
+    {
+      "key": "issta2023fairrec",
+      "title": "FairRec: Fairness Testing for Deep Recommender Systems",
+      "authors": "",
+      "venue": "ISSTA 2023",
+      "full": "ISSTA",
+      "year": 2023,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "tosem2023testsgd",
+      "title": "TestSGD: Interpretable Testing of Neural Networks Against Subtle Group Discrimination",
+      "authors": "",
+      "venue": "TOSEM 2023",
+      "full": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2023,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "fmics2023applying",
+      "title": "Applying Rely-guarantee Reasoning on Concurrent Memory Management and Mailbox in μC/OS-II: A Case Study",
+      "authors": "",
+      "venue": "FMICS 2023",
+      "full": "FMICS",
+      "year": 2023,
+      "pillars": []
+    },
+    {
+      "key": "black2023hodor",
+      "title": "HODOR: Reducing Attack Surface on Node.js via System Call Limitation",
+      "authors": "",
+      "venue": "Black Hat Europe 2023",
+      "full": "",
+      "year": 2023,
+      "pillars": []
     },
     {
       "key": "sp2022copy",
       "title": "Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models",
       "authors": "",
       "venue": "S&P 2022",
-      "full": "",
+      "full": "IEEE S&P",
       "year": 2022,
       "pillars": [
-        "se4ai"
+        "ai"
       ],
       "url": "https://ieeexplore.ieee.org/document/9833747"
+    },
+    {
+      "key": "tosem2022quote",
+      "title": "QuoTe: Quality-oriented Testing for Deep Learning Systems",
+      "authors": "",
+      "venue": "TOSEM 2022",
+      "full": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2022,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "icse2022neuronfair",
+      "title": "NeuronFair: Interpretable White-Box Fairness Testing through Biased Neuron Identification",
+      "authors": "",
+      "venue": "ICSE 2022",
+      "full": "ICSE",
+      "year": 2022,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "fitee2022automatic",
+      "title": "Automatic Protocol Reverse-engineering for Industrial Control Systems with Dynamic Taint Analysis",
+      "authors": "",
+      "venue": "FITEE 2022",
+      "full": "Frontiers of Information Technology & Electronic Engineering",
+      "year": 2022,
+      "pillars": [
+        "control"
+      ],
+      "award": "Spotlight Paper"
     },
     {
       "key": "icse2021robot",
       "title": "RobOT: Robustness-Oriented Testing for Deep Learning Systems",
       "authors": "",
       "venue": "ICSE 2021",
-      "full": "",
+      "full": "ICSE",
       "year": 2021,
       "pillars": [
-        "se4ai"
+        "ai"
       ],
       "url": "https://dl.acm.org/doi/10.1109/ICSE43902.2021.00038"
     },
     {
-      "key": "icse2020whitebox",
+      "key": "tse2021automatic",
+      "title": "Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling",
+      "authors": "",
+      "venue": "TSE 2021",
+      "full": "IEEE Transactions on Software Engineering",
+      "year": 2021,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "issta2021attack",
+      "title": "Attack as Defense: Characterizing Adversarial Examples using Robustness",
+      "authors": "",
+      "venue": "ISSTA 2021",
+      "full": "ISSTA",
+      "year": 2021,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "tacas2021improving",
+      "title": "Improving Neural Network Verification through Spurious Region Guided Refinement",
+      "authors": "",
+      "venue": "TACAS 2021",
+      "full": "TACAS",
+      "year": 2021,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "ijcip2021adversarial",
+      "title": "Adversarial Attacks and Mitigation for Anomaly Detectors of Cyber-Physical Systems",
+      "authors": "",
+      "venue": "IJCIP 2021",
+      "full": "International Journal of Critical Infrastructure Protection",
+      "year": 2021,
+      "pillars": [
+        "control"
+      ]
+    },
+    {
+      "key": "icse2020white",
       "title": "White-box Fairness Testing through Adversarial Sampling",
       "authors": "",
       "venue": "ICSE 2020",
-      "full": "",
+      "full": "ICSE",
       "year": 2020,
       "pillars": [
-        "se4ai"
+        "ai"
       ],
       "award": "ACM SIGSOFT Distinguished Paper · Research Highlights",
       "url": "https://dl.acm.org/doi/10.1145/3377811.3380331"
+    },
+    {
+      "key": "ase2020towards",
+      "title": "Towards Interpreting Recurrent Neural Network through Probabilistic Abstraction",
+      "authors": "",
+      "venue": "ASE 2020",
+      "full": "ASE",
+      "year": 2020,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "icse2019adversarial",
+      "title": "Adversarial Sample Detection for Deep Neural Networks through Model Mutation Testing",
+      "authors": "",
+      "venue": "ICSE 2019",
+      "full": "ICSE",
+      "year": 2019,
+      "pillars": [
+        "ai"
+      ]
+    },
+    {
+      "key": "tse2019automatically",
+      "title": "Automatically 'Verifying' Discrete-Time Complex Systems through Learning, Abstraction and Refinement",
+      "authors": "",
+      "venue": "TSE · ASE 2019 journal-first",
+      "full": "IEEE Transactions on Software Engineering",
+      "year": 2019,
+      "pillars": [
+        "control"
+      ]
+    },
+    {
+      "key": "fm2018towards",
+      "title": "Towards 'Verifying' a Water Treatment System",
+      "authors": "",
+      "venue": "FM 2018",
+      "full": "FM",
+      "year": 2018,
+      "pillars": [
+        "control"
+      ]
+    },
+    {
+      "key": "icse2018towards",
+      "title": "Towards Optimal Concolic Testing",
+      "authors": "",
+      "venue": "ICSE 2018",
+      "full": "ICSE",
+      "year": 2018,
+      "pillars": [],
+      "award": "ACM SIGSOFT Distinguished Paper"
+    },
+    {
+      "key": "dsn2018importance",
+      "title": "Importance Sampling of Interval Markov Chains",
+      "authors": "",
+      "venue": "DSN 2018",
+      "full": "DSN",
+      "year": 2018,
+      "pillars": []
+    },
+    {
+      "key": "fase2017should",
+      "title": "Should We Learn Probabilistic Models for Model Checking? A New Approach and an Empirical Study",
+      "authors": "",
+      "venue": "FASE 2017",
+      "full": "FASE",
+      "year": 2017,
+      "pillars": []
+    },
+    {
+      "key": "icfem2017improving",
+      "title": "Improving Probability Estimation through Active Probabilistic Model Learning",
+      "authors": "",
+      "venue": "ICFEM 2017",
+      "full": "ICFEM",
+      "year": 2017,
+      "pillars": []
+    },
+    {
+      "key": "fm2016towards",
+      "title": "Towards Concolic Testing for Hybrid Systems",
+      "authors": "",
+      "venue": "FM 2016",
+      "full": "FM",
+      "year": 2016,
+      "pillars": [
+        "control"
+      ]
+    }
+  ],
+  "impact": [
+    {
+      "layer": "kernel",
+      "image": "images/impact/os-security.svg",
+      "title": {
+        "en": "Security of OS kernels",
+        "zh": "操作系统内核的安全"
+      },
+      "problem": {
+        "en": "Every controller and AI system runs on an OS kernel. Its concurrent components interleave in more ways than any test can cover, and a security property shown for an abstract design can silently break as the design is refined into an implementation.",
+        "zh": "所有控制器与 AI 系统都运行在操作系统内核之上。其并发组件的交错执行远超任何测试所能覆盖，在抽象设计上成立的安全性质也可能在逐步精化为实现的过程中悄然失效。"
+      },
+      "impact": {
+        "en": "Security-preserving refinement, which guarantees that security properties proved on an abstract model still hold in its concurrent implementation (CCS 2025).",
+        "zh": "保安全精化，保证在抽象模型上证明的安全性质在其并发实现中依然成立（CCS 2025）。"
+      },
+      "link": "pillar.html?id=kernel"
+    },
+    {
+      "layer": "control",
+      "image": "images/impact/plc-plant.svg",
+      "title": {
+        "en": "Verifying PLC programs together with the physical process",
+        "zh": "PLC 程序与物理过程的联合验证"
+      },
+      "problem": {
+        "en": "A PLC program is only safe with respect to the plant it controls. Code that looks correct in isolation can still overflow a tank or drive a machine past its limits, and finding out on real equipment is costly and dangerous.",
+        "zh": "PLC 程序是否安全，取决于它所控制的物理对象。单独看来正确的代码，仍可能让水箱溢出或让设备越过安全边界，而在真实设备上发现这些问题代价高昂且危险。"
+      },
+      "impact": {
+        "en": "Hybrid refinement logic (JoS 2026), which proves PLC programs and the physical processes they control safe together, built on K-ST, our formal executable semantics of Structured Text (TSE 2023).",
+        "zh": "混成精化逻辑（JoS 2026）将 PLC 程序与其所控制的物理过程共同证明安全，其基础是我们为 ST 语言建立的形式化可执行语义 K-ST（TSE 2023）。"
+      },
+      "link": "pillar.html?id=control"
+    },
+    {
+      "layer": "ai",
+      "image": "images/impact/ai-spectrum.svg",
+      "title": {
+        "en": "Trustworthy AI, from neural networks to LLMs and agents",
+        "zh": "可信 AI：从神经网络到大模型与智能体"
+      },
+      "problem": {
+        "en": "AI now ranges from neural networks in cars and control loops to LLMs and autonomous agents that act on users' behalf. Each can fail in ways that ordinary testing misses, and finding a defect is not the same as fixing it.",
+        "zh": "AI 已从汽车与控制回路中的神经网络，扩展到代表用户行动的大语言模型与自主智能体。它们都可能以常规测试难以发现的方式出错，而发现缺陷并不等于修复缺陷。"
+      },
+      "impact": {
+        "en": "A line of work from systematic testing to provable repair. Robustness and fairness testing (ICSE 2020 Distinguished Paper, ICSE 2021) and LLM safety evaluation (S-Eval, ISSTA 2025) find the defects; verification-guided and provable repair fixes them with guarantees (ICSE 2024, CCS 2025).",
+        "zh": "一条从系统化测试到可证明修复的研究主线：鲁棒性与公平性测试（ICSE 2020 杰出论文、ICSE 2021）与大模型安全评测（S-Eval，ISSTA 2025）负责发现缺陷；以验证为导向的可证明修复则以形式化保证修复缺陷（ICSE 2024、CCS 2025）。"
+      },
+      "link": "pillar.html?id=ai"
     }
   ]
 };

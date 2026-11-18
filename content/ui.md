@@ -183,8 +183,8 @@ ui:
     en: People
     zh: 成员
   home.intro:
-    en: '<p>The <strong>Intelligent System Security (IS²) Lab</strong> is a research group in the College of Control Science and Engineering at <a href="https://www.zju.edu.cn/" target="_blank" rel="noopener">Zhejiang University</a>, led by <a href="team.html">Prof. Jingyi Wang</a>.</p><p>We build the science and tools to design, verify and repair complex systems that integrate software, AI and control: <a href="pillar.html?id=formal-security">formal reasoning about the security of foundational software</a>, <a href="pillar.html?id=se4ai">testing, verification and repair of AI models and AI-enabled systems</a>, and <a href="pillar.html?id=ai-safety">the safety and ethics of LLMs, agents and embodied intelligence</a>.</p><p>We work closely with Huawei, Alibaba and Ant Group, and collaborate with ETH Zürich, UC Berkeley, UIUC, NUS and others. We are <a href="vacancies.html"><strong>hiring</strong></a> postdocs, PhD and master students, research assistants and interns.</p>'
-    zh: <p><strong>智能系统综合安全实验室（IS² Lab）</strong>隶属于<a href="https://www.zju.edu.cn/" target="_blank" rel="noopener">浙江大学</a>控制科学与工程学院，由<a href="team.html">王竟亦研究员</a>领导。</p><p>我们致力于设计、验证与修复融合软件、人工智能与控制的复杂智能系统的基础理论与工具：<a href="pillar.html?id=formal-security">基础软件的形式化安全推理</a>、<a href="pillar.html?id=se4ai">AI 模型与 AI 赋能系统的测试、验证与修复</a>，以及<a href="pillar.html?id=ai-safety">大模型、智能体与具身智能的安全与伦理</a>。</p><p>我们与华为、阿里巴巴、蚂蚁集团紧密合作，并与苏黎世联邦理工、加州大学伯克利分校、伊利诺伊大学香槟分校、新加坡国立大学等高校开展合作。我们正在<a href="vacancies.html"><strong>招聘</strong></a>博士后、博士与硕士研究生、科研助理及实习生。</p>
+    en: '<p>The <strong>Intelligent System Security (IS²) Lab</strong> is a research group in the College of Control Science and Engineering at <a href="https://www.zju.edu.cn/" target="_blank" rel="noopener">Zhejiang University</a>, led by <a href="team.html">Prof. Jingyi Wang</a>.</p><p>We work on <strong>formal reasoning of system safety and security</strong>: using formal methods to prove, not just test, that critical systems behave safely and securely. We focus on three kinds of system: <a href="pillar.html?id=kernel">operating-system kernels</a>, <a href="pillar.html?id=control">industrial control software</a>, and <a href="pillar.html?id=ai">AI systems</a> from neural networks to LLMs and agents.</p><p>We work closely with Huawei, Alibaba and Ant Group, and collaborate with ETH Zürich, UC Berkeley, UIUC, NUS and others. We are <a href="vacancies.html"><strong>hiring</strong></a> postdocs, PhD and master students, research assistants and interns.</p>'
+    zh: <p><strong>智能系统综合安全实验室（IS² Lab）</strong>隶属于<a href="https://www.zju.edu.cn/" target="_blank" rel="noopener">浙江大学</a>控制科学与工程学院，由<a href="team.html">王竟亦研究员</a>领导。</p><p>我们的研究方向是<strong>系统安全的形式化推理</strong>：运用形式化方法证明（而不仅是测试）关键系统的安全性与可靠性。我们聚焦三类系统：<a href="pillar.html?id=kernel">操作系统内核</a>、<a href="pillar.html?id=control">工业控制软件</a>，以及从神经网络到大模型与智能体的 <a href="pillar.html?id=ai">AI 系统</a>。</p><p>我们与华为、阿里巴巴、蚂蚁集团紧密合作，并与苏黎世联邦理工、加州大学伯克利分校、伊利诺伊大学香槟分校、新加坡国立大学等高校开展合作。我们正在<a href="vacancies.html"><strong>招聘</strong></a>博士后、博士与硕士研究生、科研助理及实习生。</p>
   home.research:
     en: Research
     zh: 研究方向
@@ -195,8 +195,8 @@ ui:
     en: Older news →
     zh: 更多新闻 →
   research.sub:
-    en: We currently focus on three research pillars. Our work is supported by NSFC, MOST, ZJKJT, SKLICT, CCF and industrial partners including Huawei, Alibaba Group and Ant Group.
-    zh: 我们当前聚焦以下三个研究方向。研究工作得到国家自然科学基金委、国家科技部、浙江省科技厅、工业控制技术全国重点实验室、中国计算机学会以及华为、阿里巴巴、蚂蚁集团等产业伙伴的支持。
+    en: 'Our research is formal reasoning of system safety and security. We apply it to three kinds of system that today''s intelligent systems are built from: operating-system kernels, industrial control software and AI systems. Our work is supported by NSFC, MOST, ZJKJT, SKLICT, CCF and industrial partners including Huawei, Alibaba Group and Ant Group.'
+    zh: 我们的研究方向是系统安全的形式化推理，并将其应用于构成当今智能系统的三类系统：操作系统内核、工业控制软件与 AI 系统。研究工作得到国家自然科学基金委、国家科技部、浙江省科技厅、工业控制技术全国重点实验室、中国计算机学会以及华为、阿里巴巴、蚂蚁集团等产业伙伴的支持。
   research.readmore:
     en: Read more →
     zh: 了解更多 →
@@ -213,8 +213,8 @@ ui:
     en: This research page does not exist.
     zh: 该研究页面不存在。
   pub.lede:
-    en: Selected publications, newest first. The complete, continuously updated list is on Prof. Wang's homepage.
-    zh: 代表性论文，按年份倒序排列。完整且持续更新的论文列表见王老师个人主页。
+    en: Our publications, newest first — filter them by research area or by award. A continuously updated list is also kept on Prof. Wang's homepage.
+    zh: 我们的论文，按年份倒序排列，可按研究方向或获奖情况筛选。持续更新的列表亦见王老师个人主页。
   pub.all:
     en: All
     zh: 全部
@@ -236,4 +236,19 @@ ui:
   pub.empty:
     en: No publications match this filter.
     zh: 没有符合筛选条件的论文。
+  home.impact:
+    en: Problems we work on
+    zh: 我们关注的问题
+  home.impact.sub:
+    en: Some of the real-world problems behind our research, and what our work has changed.
+    zh: 我们研究背后的一些现实问题，以及我们的工作带来的改变。
+  impact.label:
+    en: 'Our work:'
+    zh: 我们的工作：
+  research.method.h:
+    en: 'Our methodology: formal reasoning'
+    zh: 方法论：形式化推理
+  research.method.p:
+    en: '<p>In all three areas we start from formal methods: formal semantics and specification, refinement and program logics such as rely-guarantee reasoning, model checking (including probabilistic and statistical model checking) and verification. Where proof alone does not scale, we combine it with systematic testing and runtime monitoring, and increasingly use LLMs to automate formal modelling and verification.</p><p>Some of our work advances these methods directly, for example sound and efficient statistical model checking (ASE 2026), hybrid refinement logic (JoS 2026), importance sampling of interval Markov chains (DSN 2018) and learning probabilistic models for model checking (FASE 2017).</p>'
+    zh: <p>在三个方向上，我们都以形式化方法为出发点：形式语义与规约、精化与 rely-guarantee 等程序逻辑、模型检测（包括概率与统计模型检测）以及形式化验证。在单靠证明难以扩展之处，我们将其与系统化测试和运行时监控相结合，并越来越多地借助大语言模型自动完成形式化建模与验证。</p><p>我们也有工作直接推进这些方法本身，例如可靠高效的统计模型检测（ASE 2026）、混成精化逻辑（JoS 2026）、区间马尔可夫链的重要性采样（DSN 2018），以及面向模型检测的概率模型学习（FASE 2017）。</p>
 ---
