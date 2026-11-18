@@ -243,8 +243,8 @@ ui:
     en: Some of the real-world problems behind our research, and what our work has changed.
     zh: 我们研究背后的一些现实问题，以及我们的工作带来的改变。
   impact.label:
-    en: 'Our work:'
-    zh: 我们的工作：
+    en: 'Our representative work:'
+    zh: 我们的代表性工作：
   research.method.h:
     en: 'Our methodology: formal reasoning'
     zh: 方法论：形式化推理

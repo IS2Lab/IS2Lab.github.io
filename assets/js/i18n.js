@@ -80,7 +80,7 @@ window.IS2_I18N = {
     "pub.empty": "No publications match this filter.",
     "home.impact": "Problems we work on",
     "home.impact.sub": "Some of the real-world problems behind our research, and what our work has changed.",
-    "impact.label": "Our work:",
+    "impact.label": "Our representative work:",
     "research.method.h": "Our methodology: formal reasoning",
     "research.method.p": "<p>In all three areas we start from formal methods: formal semantics and specification, refinement and program logics such as rely-guarantee reasoning, model checking (including probabilistic and statistical model checking) and verification. Where proof alone does not scale, we combine it with systematic testing and runtime monitoring, and increasingly use LLMs to automate formal modelling and verification.</p><p>Some of our work advances these methods directly, for example sound and efficient statistical model checking (ASE 2026), hybrid refinement logic (JoS 2026), importance sampling of interval Markov chains (DSN 2018) and learning probabilistic models for model checking (FASE 2017).</p>"
   },
@@ -162,7 +162,7 @@ window.IS2_I18N = {
     "pub.empty": "没有符合筛选条件的论文。",
     "home.impact": "我们关注的问题",
     "home.impact.sub": "我们研究背后的一些现实问题，以及我们的工作带来的改变。",
-    "impact.label": "我们的工作：",
+    "impact.label": "我们的代表性工作：",
     "research.method.h": "方法论：形式化推理",
     "research.method.p": "<p>在三个方向上，我们都以形式化方法为出发点：形式语义与规约、精化与 rely-guarantee 等程序逻辑、模型检测（包括概率与统计模型检测）以及形式化验证。在单靠证明难以扩展之处，我们将其与系统化测试和运行时监控相结合，并越来越多地借助大语言模型自动完成形式化建模与验证。</p><p>我们也有工作直接推进这些方法本身，例如可靠高效的统计模型检测（ASE 2026）、混成精化逻辑（JoS 2026）、区间马尔可夫链的重要性采样（DSN 2018），以及面向模型检测的概率模型学习（FASE 2017）。</p>"
   }

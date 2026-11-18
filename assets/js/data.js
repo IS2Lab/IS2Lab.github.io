@@ -993,24 +993,30 @@ window.IS2_DATA = {
         "zh": "验证操作系统内核的安全性质能够一直保持到其并发实现。"
       },
       "body": {
-        "en": "Every controller and every AI system ultimately runs on an operating-system kernel, so a security flaw there undermines everything above it. Kernels are concurrent, and a security property proved for an abstract design can silently break as the design is refined into an implementation. We develop security-preserving refinement, which guarantees that security properties of concurrent systems are preserved from an abstract specification down to the implementation.",
-        "zh": "所有控制器与 AI 系统最终都运行在操作系统内核之上，内核中的安全缺陷会动摇其上的一切。内核是并发的，在抽象设计上证明的安全性质可能在逐步精化为实现的过程中悄然失效。我们发展保安全精化理论，保证并发系统的安全性质从抽象规约一直保持到实现。"
+        "en": "The OS kernel is the trusted foundation that isolates applications and enforces security policies; if it fails, nothing running above it can be trusted. Kernels are concurrent, and a security property proved for an abstract design can silently break as the design is refined into an implementation. We develop security-preserving refinement, which guarantees that security properties of concurrent systems are preserved from an abstract specification down to the implementation. We also apply rely-guarantee reasoning to verify the concurrent components of real-time OS kernels, and complement proof with fuzzing that exposes asynchronous concurrency bugs in the Linux kernel.",
+        "zh": "操作系统内核是隔离应用、执行安全策略的可信基础；一旦内核失守，其上运行的一切都无从可信。内核是并发的，在抽象设计上证明的安全性质可能在逐步精化为实现的过程中悄然失效。我们发展保安全精化理论，保证并发系统的安全性质从抽象规约一直保持到实现。我们还运用 rely-guarantee 推理验证实时操作系统内核的并发组件，并以模糊测试作为证明的补充，发现 Linux 内核中的异步并发缺陷。"
       },
       "venues": [
-        "CCS 25"
+        "CCS 25",
+        "TIFS 26",
+        "FMICS 23"
       ],
       "topics": {
         "en": [
           "Security properties of kernels",
           "Security-preserving refinement",
           "Concurrent systems",
-          "Information-flow security"
+          "Rely-guarantee reasoning for RTOS kernels",
+          "Information-flow security",
+          "Linux kernel concurrency bugs"
         ],
         "zh": [
           "内核安全性质",
           "保安全精化",
           "并发系统",
-          "信息流安全"
+          "面向实时内核的 rely-guarantee 推理",
+          "信息流安全",
+          "Linux 内核并发缺陷"
         ]
       },
       "highlights": [
@@ -1022,6 +1028,24 @@ window.IS2_DATA = {
             "zh": "推广基于精化的推理方法，使并发系统在向具体实现精化的过程中可证明地保持安全性质。"
           },
           "link": "https://dl.acm.org/doi/10.1145/3719027.3765138"
+        },
+        {
+          "v": "FMICS 2023",
+          "title": "Applying Rely-Guarantee Reasoning on Concurrent Memory Management and Mailbox in μC/OS-II: A Case Study",
+          "intro": {
+            "en": "Applies rely-guarantee reasoning to verify concurrent components of the μC/OS-II real-time kernel, a step towards verifying real-time OS kernels compositionally.",
+            "zh": "运用 rely-guarantee 推理验证 μC/OS-II 实时内核中的并发组件，为组合式验证实时操作系统内核迈出一步。"
+          },
+          "link": "https://doi.org/10.1007/978-3-031-43681-9_13"
+        },
+        {
+          "v": "IEEE TIFS 2026",
+          "title": "ASFuzz: Detecting Linux Kernel Asynchronous Concurrency Bugs via Asynchronous Shadow Fuzzing",
+          "intro": {
+            "en": "A fuzzing approach that exposes asynchronous concurrency bugs in the Linux kernel, which arise when asynchronous kernel execution interleaves with ordinary code paths.",
+            "zh": "一种模糊测试方法，用于发现 Linux 内核中由异步执行与常规代码路径交错引发的异步并发缺陷。"
+          },
+          "link": "https://doi.org/10.1109/TIFS.2026.3725562"
         }
       ]
     },
@@ -1287,26 +1311,28 @@ window.IS2_DATA = {
     {
       "key": "csur2026prompting",
       "title": "Prompting Frameworks for Large Language Models: A Survey",
-      "authors": "",
+      "authors": "Xiaoxia Liu, Jingyi Wang, Xiaohan Yuan, Jun Sun, Guoliang Dong, Peng Di, Wenhai Wang, Dongxia Wang",
       "venue": "CSUR 2026",
       "full": "ACM Computing Surveys",
       "year": 2026,
       "pillars": [
         "ai"
       ],
-      "award": "AGI Summit Best Paper Award"
+      "award": "AGI Summit Best Paper Award",
+      "url": "https://doi.org/10.1145/3789253"
     },
     {
       "key": "tse2026agents",
       "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
-      "authors": "",
+      "authors": "Zihan Liu, Ruinan Zeng, Dongxia Wang, Gengyun Peng, Xiaoxia Liu, Qiang Liu, Peiyu Liu, Wenhai Wang, Jingyi Wang",
       "venue": "TSE 2026",
       "full": "IEEE Transactions on Software Engineering",
       "year": 2026,
       "pillars": [
         "control",
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1109/TSE.2026.3667895"
     },
     {
       "key": "tosem2026s",
@@ -1322,7 +1348,7 @@ window.IS2_DATA = {
     {
       "key": "ndss2026rounding",
       "title": "Rounding-Guided Backdoor Injection in Deep Learning Model Quantization",
-      "authors": "",
+      "authors": "Xiangxiang Chen, Peixin Zhang, Jun Sun, Wenhai Wang, Jingyi Wang",
       "venue": "NDSS 2026",
       "full": "NDSS",
       "year": 2026,
@@ -1334,7 +1360,7 @@ window.IS2_DATA = {
     {
       "key": "www2026llmqua",
       "title": "LLMQuA: Practical Backdoor Injection on Large Language Model Quantization",
-      "authors": "",
+      "authors": "Xiangxiang Chen, Peixin Zhang, Jun Sun, Jin Song Dong, Wenhai Wang, Jingyi Wang",
       "venue": "WWW 2026",
       "full": "The Web Conference",
       "year": 2026,
@@ -1357,18 +1383,31 @@ window.IS2_DATA = {
     {
       "key": "neural2026prune",
       "title": "PRUNE: A Patching Based Repair Framework for Certifiable and Privacy-Robust Unlearning of Neural Networks",
-      "authors": "",
+      "authors": "Xuran Li, Jingyi Wang, Xiaohan Yuan, Peixin Zhang",
       "venue": "Neural Networks 2026",
       "full": "Neural Networks",
       "year": 2026,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1016/j.neunet.2026.108897"
+    },
+    {
+      "key": "tifs2026asfuzz",
+      "title": "ASFuzz: Detecting Linux Kernel Asynchronous Concurrency Bugs via Asynchronous Shadow Fuzzing",
+      "authors": "Jianzhou Zhao, Yangyang Geng, Jingyi Wang, Yuqi Chen, Haowen Chen, Yunfeng Wang, Qiang Wei",
+      "venue": "IEEE TIFS 2026",
+      "full": "IEEE Transactions on Information Forensics and Security",
+      "year": 2026,
+      "pillars": [
+        "kernel"
+      ],
+      "url": "https://doi.org/10.1109/TIFS.2026.3725562"
     },
     {
       "key": "ccs2025generalized",
       "title": "Generalized Security-Preserving Refinement for Concurrent Systems",
-      "authors": "",
+      "authors": "Huan Sun, David Sanán, Jingyi Wang, Yongwang Zhao, Jun Sun, Wenhai Wang",
       "venue": "CCS 2025",
       "full": "ACM CCS",
       "year": 2025,
@@ -1380,7 +1419,7 @@ window.IS2_DATA = {
     {
       "key": "ccs2025provable",
       "title": "Provable Repair of Deep Neural Network Defects through Pre-image Synthesis and Property Refinement",
-      "authors": "",
+      "authors": "Jianan Ma, Jingyi Wang, Qi Xuan, Zhen Wang",
       "venue": "CCS 2025",
       "full": "ACM CCS",
       "year": 2025,
@@ -1392,7 +1431,7 @@ window.IS2_DATA = {
     {
       "key": "icse2025llm",
       "title": "LLM-aided Automatic Modelling for Security Protocol Verification",
-      "authors": "",
+      "authors": "Ziyu Mao, Jingyi Wang, Jun Sun, Shengchao Qin, Jiawen Xiong",
       "venue": "ICSE 2025",
       "full": "ICSE",
       "year": 2025,
@@ -1402,18 +1441,19 @@ window.IS2_DATA = {
     {
       "key": "ase2025provable",
       "title": "Provable Fairness Repair for Deep Neural Networks",
-      "authors": "",
+      "authors": "Jianan Ma, Jingyi Wang, Qi Xuan, Zhen Wang",
       "venue": "ASE 2025",
       "full": "ASE",
       "year": 2025,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1109/ASE63991.2025.00049"
     },
     {
       "key": "ase2025securing",
       "title": "Securing Millions of Decentralized Identities in Alipay Super App with End-to-End Formal Verification",
-      "authors": "",
+      "authors": "Ziyu Mao, Xiaolin Ma, Lin Huang, Huan Yang, Wu Zhang, Weichao Sun, Yongtao Wang, Jingling Xue, Jingyi Wang",
       "venue": "ASE 2025 · Industry Showcase",
       "full": "ASE",
       "year": 2025,
@@ -1423,7 +1463,7 @@ window.IS2_DATA = {
     {
       "key": "www2025quantitative",
       "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
-      "authors": "",
+      "authors": "Xinyao Xu, Ziyu Mao, Jianzhong Su, Xingwei Lin, David A. Basin, Jun Sun, Jingyi Wang",
       "venue": "WWW 2025",
       "full": "The Web Conference",
       "year": 2025,
@@ -1433,7 +1473,7 @@ window.IS2_DATA = {
     {
       "key": "issta2025s",
       "title": "S-Eval: Automatic and Adaptive Test Generation for Benchmarking Safety Evaluation of Large Language Models",
-      "authors": "",
+      "authors": "Xiaohan Yuan, Jinfeng Li, Dongxia Wang, Yuefeng Chen, Xiaofeng Mao, Longtao Huang, Jialuo Chen, Hui Xue, Xiaoxia Liu, Wenhai Wang, Kui Ren, Jingyi Wang",
       "venue": "ISSTA 2025",
       "full": "ISSTA",
       "year": 2025,
@@ -1447,47 +1487,51 @@ window.IS2_DATA = {
     {
       "key": "icse2025patch",
       "title": "Patch Synthesis for Property Repair of Deep Neural Networks",
-      "authors": "",
+      "authors": "Zhiming Chi, Jianan Ma, Pengfei Yang, Cheng-Chao Huang, Renjue Li, Jingyi Wang, Xiaowei Huang, Lijun Zhang",
       "venue": "ICSE 2025",
       "full": "ICSE",
       "year": 2025,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1109/ICSE55347.2025.00181"
     },
     {
       "key": "tse2025efficient",
       "title": "Efficient Function Orchestration for Large Language Models",
-      "authors": "",
+      "authors": "Xiaoxia Liu, Peng Di, Cong Li, Jun Sun, Jingyi Wang",
       "venue": "TSE 2025",
       "full": "IEEE Transactions on Software Engineering",
       "year": 2025,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1109/TSE.2025.3619112"
     },
     {
       "key": "tse2025optse",
       "title": "OPTSE: Towards Optimal Symbolic Execution",
-      "authors": "",
+      "authors": "Shunkai Zhu, Jun Sun, Jingyi Wang, Xingwei Lin, Peng Cheng",
       "venue": "TSE 2025",
       "full": "IEEE Transactions on Software Engineering",
       "year": 2025,
-      "pillars": []
+      "pillars": [],
+      "url": "https://doi.org/10.1109/TSE.2025.3564666"
     },
     {
       "key": "tosem2025integrating",
       "title": "Integrating Path Selection for Symbolic Execution and Variable Selection for Constraint Solving",
-      "authors": "",
+      "authors": "Shunkai Zhu, Jun Sun, Jingyi Wang, Zhenbang Chen, Peng Cheng",
       "venue": "TOSEM 2025",
       "full": "ACM Transactions on Software Engineering and Methodology",
       "year": 2025,
-      "pillars": []
+      "pillars": [],
+      "url": "https://doi.org/10.1145/3735552"
     },
     {
       "key": "tdsc2024verifi",
       "title": "VERIFI: Towards Verifiable Federated Unlearning",
-      "authors": "",
+      "authors": "Xiangshan Gao, Xingjun Ma, Jingyi Wang, Youcheng Sun, Bo Li, Shouling Ji, Peng Cheng, Jiming Chen",
       "venue": "TDSC 2024",
       "full": "IEEE Transactions on Dependable and Secure Computing",
       "year": 2024,
@@ -1500,16 +1544,17 @@ window.IS2_DATA = {
     {
       "key": "tosem2024scuzer",
       "title": "Scuzer: A Scheduling Optimization Fuzzer for TVM",
-      "authors": "",
+      "authors": "Xiangxiang Chen, Xingwei Lin, Jingyi Wang, Jun Sun, Jiashui Wang, Wenhai Wang",
       "venue": "TOSEM 2024",
       "full": "ACM Transactions on Software Engineering and Methodology",
       "year": 2024,
-      "pillars": []
+      "pillars": [],
+      "url": "https://doi.org/10.1145/3705308"
     },
     {
       "key": "icse2024vere",
       "title": "VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks",
-      "authors": "",
+      "authors": "Jianan Ma, Pengfei Yang, Jingyi Wang, Youcheng Sun, Cheng-Chao Huang, Zhen Wang",
       "venue": "ICSE 2024",
       "full": "ICSE",
       "year": 2024,
@@ -1521,92 +1566,100 @@ window.IS2_DATA = {
     {
       "key": "issta2024teda",
       "title": "TeDA: A Testing Framework for Data Usage Auditing in Deep Learning Model Development",
-      "authors": "",
+      "authors": "Xiangshan Gao, Jialuo Chen, Jingyi Wang, Jie Shi, Peng Cheng, Jiming Chen",
       "venue": "ISSTA 2024",
       "full": "ISSTA",
       "year": 2024,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3650212.3680375"
     },
     {
       "key": "issta2024isolation",
       "title": "Isolation-based Debugging for Neural Networks",
-      "authors": "",
+      "authors": "Jialuo Chen, Jingyi Wang, Youcheng Sun, Peng Cheng, Jiming Chen",
       "venue": "ISSTA 2024",
       "full": "ISSTA",
       "year": 2024,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3650212.3652132"
     },
     {
       "key": "issta2024interpretability",
       "title": "Interpretability based Neural Network Repair",
-      "authors": "",
+      "authors": "Zuohui Chen, Jun Zhou, Youcheng Sun, Jingyi Wang, Qi Xuan, Xiaoniu Yang",
       "venue": "ISSTA 2024",
       "full": "ISSTA",
       "year": 2024,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3650212.3680330"
     },
     {
       "key": "ase2024fast",
       "title": "FAST: Boosting Uncertainty-based Test Prioritization Methods for Neural Networks via Feature Selection",
-      "authors": "",
+      "authors": "Jialuo Chen, Jingyi Wang, Xiyue Zhang, Youcheng Sun, Marta Kwiatkowska, Jiming Chen, Peng Cheng",
       "venue": "ASE 2024",
       "full": "ASE",
       "year": 2024,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3691620.3695472"
     },
     {
       "key": "tse2024better",
       "title": "Better Pay Attention Whilst Fuzzing",
-      "authors": "",
+      "authors": "Shunkai Zhu, Jingyi Wang, Jun Sun, Jie Yang, Xingwei Lin, Tian Wang, Liyi Zhang, Peng Cheng",
       "venue": "TSE 2024",
       "full": "IEEE Transactions on Software Engineering",
       "year": 2024,
-      "pillars": []
+      "pillars": [],
+      "url": "https://doi.org/10.1109/TSE.2023.3338129"
     },
     {
       "key": "tosem2024attack",
       "title": "Attack as Detection: Using Adversarial Attack Methods to Detect Abnormal Examples",
-      "authors": "",
+      "authors": "Zhe Zhao, Guangke Chen, Tong Liu, Taishan Li, Fu Song, Jingyi Wang, Jun Sun",
       "venue": "TOSEM 2024",
       "full": "ACM Transactions on Software Engineering and Methodology",
       "year": 2024,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3631977"
     },
     {
       "key": "ral2024boosting",
       "title": "Boosting Adversarial Training in Safety-critical Systems through Boundary Data Selection",
-      "authors": "",
+      "authors": "Yifan Jia, Christopher M. Poskitt, Peixin Zhang, Jingyi Wang, Jun Sun, Sudipta Chattopadhyay",
       "venue": "RA-L 2024",
       "full": "IEEE Robotics and Automation Letters",
       "year": 2024,
       "pillars": [
         "ai",
         "control"
-      ]
+      ],
+      "url": "https://doi.org/10.1109/LRA.2023.3327934"
     },
     {
       "key": "ccs2023hodor",
       "title": "HODOR: Shrinking Attack Surface on Node.js via System Call Limitation",
-      "authors": "",
+      "authors": "Wenya Wang, Xingwei Lin, Jingyi Wang, Wang Gao, Dawu Gu, Wei Lv, Jiashui Wang",
       "venue": "CCS 2023",
       "full": "ACM CCS",
       "year": 2023,
-      "pillars": []
+      "pillars": [],
+      "url": "https://doi.org/10.1145/3576915.3616609"
     },
     {
       "key": "tse2023k",
       "title": "K-ST: A Formal Executable Semantics of the Structured Text Language for PLCs",
-      "authors": "",
+      "authors": "Kun Wang, Jingyi Wang, Christopher M. Poskitt, Xiangxiang Chen, Jun Sun, Peng Cheng",
       "venue": "TSE 2023",
       "full": "IEEE Transactions on Software Engineering",
       "year": 2023,
@@ -1618,38 +1671,43 @@ window.IS2_DATA = {
     {
       "key": "issta2023fairrec",
       "title": "FairRec: Fairness Testing for Deep Recommender Systems",
-      "authors": "",
+      "authors": "Huizhong Guo, Jinfeng Li, Jingyi Wang, Xiangyu Liu, Dongxia Wang, Zehong Hu, Rong Zhang, Hui Xue",
       "venue": "ISSTA 2023",
       "full": "ISSTA",
       "year": 2023,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3597926.3598058"
     },
     {
       "key": "tosem2023testsgd",
       "title": "TestSGD: Interpretable Testing of Neural Networks Against Subtle Group Discrimination",
-      "authors": "",
+      "authors": "Mengdi Zhang, Jun Sun, Jingyi Wang, Bing Sun",
       "venue": "TOSEM 2023",
       "full": "ACM Transactions on Software Engineering and Methodology",
       "year": 2023,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3591869"
     },
     {
       "key": "fmics2023applying",
       "title": "Applying Rely-guarantee Reasoning on Concurrent Memory Management and Mailbox in μC/OS-II: A Case Study",
-      "authors": "",
+      "authors": "Huan Sun, Ziyu Mao, Jingyi Wang, Ziyan Zhao, Wenhai Wang",
       "venue": "FMICS 2023",
       "full": "FMICS",
       "year": 2023,
-      "pillars": []
+      "pillars": [
+        "kernel"
+      ],
+      "url": "https://doi.org/10.1007/978-3-031-43681-9_13"
     },
     {
       "key": "black2023hodor",
       "title": "HODOR: Reducing Attack Surface on Node.js via System Call Limitation",
-      "authors": "",
+      "authors": "Wenya Wang, Xingwei Lin, Jingyi Wang, Wang Gao, Dawu Gu, Wei Lv, Jiashui Wang",
       "venue": "Black Hat Europe 2023",
       "full": "",
       "year": 2023,
@@ -1658,7 +1716,7 @@ window.IS2_DATA = {
     {
       "key": "sp2022copy",
       "title": "Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models",
-      "authors": "",
+      "authors": "Jialuo Chen, Jingyi Wang, Tinglan Peng, Youcheng Sun, Peng Cheng, Shouling Ji, Xingjun Ma, Bo Li, Dawn Song",
       "venue": "S&P 2022",
       "full": "IEEE S&P",
       "year": 2022,
@@ -1670,41 +1728,44 @@ window.IS2_DATA = {
     {
       "key": "tosem2022quote",
       "title": "QuoTe: Quality-oriented Testing for Deep Learning Systems",
-      "authors": "",
+      "authors": "Jialuo Chen, Jingyi Wang, Xingjun Ma, Youcheng Sun, Jun Sun, Peixin Zhang, Peng Cheng",
       "venue": "TOSEM 2022",
       "full": "ACM Transactions on Software Engineering and Methodology",
       "year": 2022,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3582573"
     },
     {
       "key": "icse2022neuronfair",
       "title": "NeuronFair: Interpretable White-Box Fairness Testing through Biased Neuron Identification",
-      "authors": "",
+      "authors": "Haibin Zheng, Zhiqing Chen, Tianyu Du, Xuhong Zhang, Yao Cheng, Shouling Ji, Jingyi Wang, Yue Yu, Jinyin Chen",
       "venue": "ICSE 2022",
       "full": "ICSE",
       "year": 2022,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3510003.3510123"
     },
     {
       "key": "fitee2022automatic",
       "title": "Automatic Protocol Reverse-engineering for Industrial Control Systems with Dynamic Taint Analysis",
-      "authors": "",
+      "authors": "Rongkuan Ma, Hao Zheng, Jingyi Wang, Mufeng Wang, Qiang Wei, Qingxian Wang",
       "venue": "FITEE 2022",
       "full": "Frontiers of Information Technology & Electronic Engineering",
       "year": 2022,
       "pillars": [
         "control"
       ],
-      "award": "Spotlight Paper"
+      "award": "Spotlight Paper",
+      "url": "https://doi.org/10.1631/FITEE.2000709"
     },
     {
       "key": "icse2021robot",
       "title": "RobOT: Robustness-Oriented Testing for Deep Learning Systems",
-      "authors": "",
+      "authors": "Jingyi Wang, Jialuo Chen, Youcheng Sun, Xingjun Ma, Dongxia Wang, Jun Sun, Peng Cheng",
       "venue": "ICSE 2021",
       "full": "ICSE",
       "year": 2021,
@@ -1716,51 +1777,55 @@ window.IS2_DATA = {
     {
       "key": "tse2021automatic",
       "title": "Automatic Fairness Testing of Neural Classifiers through Adversarial Sampling",
-      "authors": "",
+      "authors": "Peixin Zhang, Jingyi Wang, Jun Sun, Xinyu Wang, Guoliang Dong, Xingen Wang, Ting Dai, Jin Song Dong",
       "venue": "TSE 2021",
       "full": "IEEE Transactions on Software Engineering",
       "year": 2021,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1109/TSE.2021.3101478"
     },
     {
       "key": "issta2021attack",
       "title": "Attack as Defense: Characterizing Adversarial Examples using Robustness",
-      "authors": "",
+      "authors": "Zhe Zhao, Guangke Chen, Jingyi Wang, Yiwei Yang, Fu Song, Jun Sun",
       "venue": "ISSTA 2021",
       "full": "ISSTA",
       "year": 2021,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3460319.3464822"
     },
     {
       "key": "tacas2021improving",
       "title": "Improving Neural Network Verification through Spurious Region Guided Refinement",
-      "authors": "",
+      "authors": "Pengfei Yang, Renjue Li, Jianlin Li, Cheng-Chao Huang, Jingyi Wang, Jun Sun, Bai Xue, Lijun Zhang",
       "venue": "TACAS 2021",
       "full": "TACAS",
       "year": 2021,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1007/978-3-030-72016-2_21"
     },
     {
       "key": "ijcip2021adversarial",
       "title": "Adversarial Attacks and Mitigation for Anomaly Detectors of Cyber-Physical Systems",
-      "authors": "",
+      "authors": "Yifan Jia, Jingyi Wang, Christopher M. Poskitt, Sudipta Chattopadhyay, Jun Sun, Yuqi Chen",
       "venue": "IJCIP 2021",
       "full": "International Journal of Critical Infrastructure Protection",
       "year": 2021,
       "pillars": [
         "control"
-      ]
+      ],
+      "url": "https://doi.org/10.1016/j.ijcip.2021.100452"
     },
     {
       "key": "icse2020white",
       "title": "White-box Fairness Testing through Adversarial Sampling",
-      "authors": "",
+      "authors": "Peixin Zhang, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jin Song Dong, Ting Dai",
       "venue": "ICSE 2020",
       "full": "ICSE",
       "year": 2020,
@@ -1773,94 +1838,103 @@ window.IS2_DATA = {
     {
       "key": "ase2020towards",
       "title": "Towards Interpreting Recurrent Neural Network through Probabilistic Abstraction",
-      "authors": "",
+      "authors": "Guoliang Dong, Jingyi Wang, Jun Sun, Yang Zhang, Xinyu Wang, Ting Dai, Jin Song Dong, Xingen Wang",
       "venue": "ASE 2020",
       "full": "ASE",
       "year": 2020,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1145/3324884.3416592"
     },
     {
       "key": "icse2019adversarial",
       "title": "Adversarial Sample Detection for Deep Neural Networks through Model Mutation Testing",
-      "authors": "",
+      "authors": "Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, Peixin Zhang",
       "venue": "ICSE 2019",
       "full": "ICSE",
       "year": 2019,
       "pillars": [
         "ai"
-      ]
+      ],
+      "url": "https://doi.org/10.1109/ICSE.2019.00126"
     },
     {
       "key": "tse2019automatically",
       "title": "Automatically 'Verifying' Discrete-Time Complex Systems through Learning, Abstraction and Refinement",
-      "authors": "",
+      "authors": "Jingyi Wang, Jun Sun, Shengchao Qin, Cyrille Jégourel",
       "venue": "TSE · ASE 2019 journal-first",
       "full": "IEEE Transactions on Software Engineering",
       "year": 2019,
       "pillars": [
         "control"
-      ]
+      ],
+      "url": "https://doi.org/10.1109/TSE.2018.2886898"
     },
     {
       "key": "fm2018towards",
       "title": "Towards 'Verifying' a Water Treatment System",
-      "authors": "",
+      "authors": "Jingyi Wang, Jun Sun, Yifan Jia, Shengchao Qin, Zhiwu Xu",
       "venue": "FM 2018",
       "full": "FM",
       "year": 2018,
       "pillars": [
         "control"
-      ]
+      ],
+      "url": "https://doi.org/10.1007/978-3-319-95582-7_5"
     },
     {
       "key": "icse2018towards",
       "title": "Towards Optimal Concolic Testing",
-      "authors": "",
+      "authors": "Xinyu Wang, Jun Sun, Zhenbang Chen, Peixin Zhang, Jingyi Wang, Yun Lin",
       "venue": "ICSE 2018",
       "full": "ICSE",
       "year": 2018,
       "pillars": [],
-      "award": "ACM SIGSOFT Distinguished Paper"
+      "award": "ACM SIGSOFT Distinguished Paper",
+      "url": "https://doi.org/10.1145/3180155.3180177"
     },
     {
       "key": "dsn2018importance",
       "title": "Importance Sampling of Interval Markov Chains",
-      "authors": "",
+      "authors": "Cyrille Jégourel, Jingyi Wang, Jun Sun",
       "venue": "DSN 2018",
       "full": "DSN",
       "year": 2018,
-      "pillars": []
+      "pillars": [],
+      "url": "https://doi.org/10.1109/DSN.2018.00040"
     },
     {
       "key": "fase2017should",
       "title": "Should We Learn Probabilistic Models for Model Checking? A New Approach and an Empirical Study",
-      "authors": "",
+      "authors": "Jingyi Wang, Jun Sun, Qixia Yuan, Jun Pang",
       "venue": "FASE 2017",
       "full": "FASE",
       "year": 2017,
-      "pillars": []
+      "pillars": [],
+      "url": "https://doi.org/10.1007/978-3-662-54494-5_1"
     },
     {
       "key": "icfem2017improving",
       "title": "Improving Probability Estimation through Active Probabilistic Model Learning",
-      "authors": "",
+      "authors": "Jingyi Wang, Xiaohong Chen, Jun Sun, Shengchao Qin",
       "venue": "ICFEM 2017",
       "full": "ICFEM",
       "year": 2017,
-      "pillars": []
+      "pillars": [],
+      "url": "https://doi.org/10.1007/978-3-319-68690-5_23"
     },
     {
       "key": "fm2016towards",
       "title": "Towards Concolic Testing for Hybrid Systems",
-      "authors": "",
+      "authors": "Pingfan Kong, Yi Li, Xiaohong Chen, Jun Sun, Meng Sun, Jingyi Wang",
       "venue": "FM 2016",
       "full": "FM",
       "year": 2016,
       "pillars": [
         "control"
-      ]
+      ],
+      "url": "https://doi.org/10.1007/978-3-319-48989-6_28"
     }
   ],
   "impact": [
@@ -1872,12 +1946,12 @@ window.IS2_DATA = {
         "zh": "操作系统内核的安全"
       },
       "problem": {
-        "en": "Every controller and AI system runs on an OS kernel. Its concurrent components interleave in more ways than any test can cover, and a security property shown for an abstract design can silently break as the design is refined into an implementation.",
-        "zh": "所有控制器与 AI 系统都运行在操作系统内核之上。其并发组件的交错执行远超任何测试所能覆盖，在抽象设计上成立的安全性质也可能在逐步精化为实现的过程中悄然失效。"
+        "en": "The OS kernel is the trusted foundation that isolates applications and enforces security policies; if it fails, nothing running above it can be trusted. Its concurrent components interleave in more ways than any test can cover, and a security property shown for an abstract design can silently break as the design is refined into an implementation.",
+        "zh": "操作系统内核是隔离应用、执行安全策略的可信基础；一旦内核失守，其上运行的一切都无从可信。其并发组件的交错执行远超任何测试所能覆盖，在抽象设计上成立的安全性质也可能在逐步精化为实现的过程中悄然失效。"
       },
       "impact": {
-        "en": "Security-preserving refinement, which guarantees that security properties proved on an abstract model still hold in its concurrent implementation (CCS 2025).",
-        "zh": "保安全精化，保证在抽象模型上证明的安全性质在其并发实现中依然成立（CCS 2025）。"
+        "en": "Security-preserving refinement, which guarantees that security properties proved on an abstract model still hold in its concurrent implementation (CCS 2025); rely-guarantee verification of a real-time OS kernel (μC/OS-II, FMICS 2023); and ASFuzz, which exposes asynchronous concurrency bugs in the Linux kernel (IEEE TIFS 2026).",
+        "zh": "保安全精化，保证在抽象模型上证明的安全性质在其并发实现中依然成立（CCS 2025）；实时操作系统内核的 rely-guarantee 验证（μC/OS-II，FMICS 2023）；以及发现 Linux 内核异步并发缺陷的 ASFuzz（IEEE TIFS 2026）。"
       },
       "link": "pillar.html?id=kernel"
     },

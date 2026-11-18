@@ -12,6 +12,9 @@
   var DATA = window.IS2_DATA || {};
   var CONTACT_EMAIL = "wangjyee@gmail.com";
   var PUBS_HOMEPAGE = "https://wang-jingyi.github.io/pubs/";
+  // Author lists are kept in content/publications.bib but not shown on the site.
+  // Set to true to show them under each paper title.
+  var SHOW_AUTHORS = false;
 
   function load(key) {
     try { return localStorage.getItem(key); } catch (e) { return null; }
@@ -208,7 +211,7 @@
       : '<span class="pub-title">' + esc(p.title) + "</span>";
     var award = p.award ? '<span class="award">' + esc(L(p.award)) + "</span>" : "";
     return '<li class="pub">' + title +
-      (p.authors ? '<span class="pub-authors">' + esc(p.authors) + "</span>" : "") +
+      (SHOW_AUTHORS && p.authors ? '<span class="pub-authors">' + esc(p.authors) + "</span>" : "") +
       (p.intro ? '<span class="pub-intro">' + esc(p.intro) + "</span>" : "") +
       '<span class="pub-meta"><em>' + esc(p.venue) + "</em>" + pubLinks(p) + award + "</span></li>";
   }

@@ -12,14 +12,17 @@ impact:
     en: Security of OS kernels
     zh: 操作系统内核的安全
   problem:
-    en: Every controller and AI system runs on an OS kernel. Its concurrent components interleave in more ways than
-      any test can cover, and a security property shown for an abstract design can silently break as the design
-      is refined into an implementation.
-    zh: 所有控制器与 AI 系统都运行在操作系统内核之上。其并发组件的交错执行远超任何测试所能覆盖，在抽象设计上成立的安全性质也可能在逐步精化为实现的过程中悄然失效。
+    en: The OS kernel is the trusted foundation that isolates applications and enforces security policies; if it
+      fails, nothing running above it can be trusted. Its concurrent components interleave in more ways than any
+      test can cover, and a security property shown for an abstract design can silently break as the design is refined
+      into an implementation.
+    zh: 操作系统内核是隔离应用、执行安全策略的可信基础；一旦内核失守，其上运行的一切都无从可信。其并发组件的交错执行远超任何测试所能覆盖，在抽象设计上成立的安全性质也可能在逐步精化为实现的过程中悄然失效。
   impact:
     en: Security-preserving refinement, which guarantees that security properties proved on an abstract model still
-      hold in its concurrent implementation (CCS 2025).
-    zh: 保安全精化，保证在抽象模型上证明的安全性质在其并发实现中依然成立（CCS 2025）。
+      hold in its concurrent implementation (CCS 2025); rely-guarantee verification of a real-time OS kernel (μC/OS-II,
+      FMICS 2023); and ASFuzz, which exposes asynchronous concurrency bugs in the Linux kernel (IEEE TIFS 2026).
+    zh: 保安全精化，保证在抽象模型上证明的安全性质在其并发实现中依然成立（CCS 2025）；实时操作系统内核的 rely-guarantee 验证（μC/OS-II，FMICS 2023）；以及发现 Linux 内核异步并发缺陷的
+      ASFuzz（IEEE TIFS 2026）。
   link: pillar.html?id=kernel
 - layer: control
   image: images/impact/plc-plant.svg

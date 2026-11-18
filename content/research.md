@@ -23,25 +23,34 @@ pillars:
       implementation.
     zh: 验证操作系统内核的安全性质能够一直保持到其并发实现。
   body:
-    en: Every controller and every AI system ultimately runs on an operating-system kernel, so a security flaw there
-      undermines everything above it. Kernels are concurrent, and a security property proved for an abstract design
-      can silently break as the design is refined into an implementation. We develop security-preserving refinement,
-      which guarantees that security properties of concurrent systems are preserved from an abstract specification
-      down to the implementation.
-    zh: 所有控制器与 AI 系统最终都运行在操作系统内核之上，内核中的安全缺陷会动摇其上的一切。内核是并发的，在抽象设计上证明的安全性质可能在逐步精化为实现的过程中悄然失效。我们发展保安全精化理论，保证并发系统的安全性质从抽象规约一直保持到实现。
+    en: The OS kernel is the trusted foundation that isolates applications and enforces security policies; if it
+      fails, nothing running above it can be trusted. Kernels are concurrent, and a security property proved for
+      an abstract design can silently break as the design is refined into an implementation. We develop security-preserving
+      refinement, which guarantees that security properties of concurrent systems are preserved from an abstract
+      specification down to the implementation. We also apply rely-guarantee reasoning to verify the concurrent
+      components of real-time OS kernels, and complement proof with fuzzing that exposes asynchronous concurrency
+      bugs in the Linux kernel.
+    zh: 操作系统内核是隔离应用、执行安全策略的可信基础；一旦内核失守，其上运行的一切都无从可信。内核是并发的，在抽象设计上证明的安全性质可能在逐步精化为实现的过程中悄然失效。我们发展保安全精化理论，保证并发系统的安全性质从抽象规约一直保持到实现。我们还运用
+      rely-guarantee 推理验证实时操作系统内核的并发组件，并以模糊测试作为证明的补充，发现 Linux 内核中的异步并发缺陷。
   topics:
     en:
     - Security properties of kernels
     - Security-preserving refinement
     - Concurrent systems
+    - Rely-guarantee reasoning for RTOS kernels
     - Information-flow security
+    - Linux kernel concurrency bugs
     zh:
     - 内核安全性质
     - 保安全精化
     - 并发系统
+    - 面向实时内核的 rely-guarantee 推理
     - 信息流安全
+    - Linux 内核并发缺陷
   venues:
   - CCS 25
+  - TIFS 26
+  - FMICS 23
   highlights:
   - venue: CCS 2025
     title: Generalized Security-Preserving Refinement for Concurrent Systems
@@ -50,6 +59,20 @@ pillars:
         are refined down toward their implementations.
       zh: 推广基于精化的推理方法，使并发系统在向具体实现精化的过程中可证明地保持安全性质。
     link: https://dl.acm.org/doi/10.1145/3719027.3765138
+  - venue: FMICS 2023
+    title: 'Applying Rely-Guarantee Reasoning on Concurrent Memory Management and Mailbox in μC/OS-II: A Case Study'
+    intro:
+      en: Applies rely-guarantee reasoning to verify concurrent components of the μC/OS-II real-time kernel, a step
+        towards verifying real-time OS kernels compositionally.
+      zh: 运用 rely-guarantee 推理验证 μC/OS-II 实时内核中的并发组件，为组合式验证实时操作系统内核迈出一步。
+    link: https://doi.org/10.1007/978-3-031-43681-9_13
+  - venue: IEEE TIFS 2026
+    title: 'ASFuzz: Detecting Linux Kernel Asynchronous Concurrency Bugs via Asynchronous Shadow Fuzzing'
+    intro:
+      en: A fuzzing approach that exposes asynchronous concurrency bugs in the Linux kernel, which arise when asynchronous
+        kernel execution interleaves with ordinary code paths.
+      zh: 一种模糊测试方法，用于发现 Linux 内核中由异步执行与常规代码路径交错引发的异步并发缺陷。
+    link: https://doi.org/10.1109/TIFS.2026.3725562
 - id: control
   colour: track-2
   tag:
